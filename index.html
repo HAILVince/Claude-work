@@ -3,12 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tisztítlak — Tisztítógép bérlés Kecskeméten</title>
-<meta name="description" content="Tisztítógép bérlés Kecskeméten. Kárpit-, szőnyeg- és autókárpit-tisztító gépek házhoz szállítva, 5 perces betanítással. Kanapé, szőnyeg, matrac, autóülés — pár óra alatt újra tiszta.">
-<meta name="theme-color" content="#0B3D64">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<title>Tisztítlak Kecskemét</title>
+<meta name="description" content="Tisztítógép bérlés Kecskeméten. Profi Kärcher kárpit- és szőnyegtisztító házhoz szállítva, öt perc betanítással. Nem dörzsöl — kiszívja a koszt a szövet mélyéről.">
+<meta name="theme-color" content="#0A3255">
+<link rel="preload" href="assets/fonts/archivo-400-900-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
@@ -16,437 +15,334 @@
 
 <a class="skip" href="#fo">Ugrás a tartalomra</a>
 
-<!-- ============ HEADER ============ -->
-<header class="hdr" id="hdr">
-  <div class="wrap hdr__in">
-    <a class="logo" href="#fo" aria-label="Tisztítlak főoldal">
-      <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
-        <circle cx="16" cy="16" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
-        <path d="M16 5c5 6 7.5 9.3 7.5 12.4A7.5 7.5 0 0 1 16 25" fill="#29ABE2"/>
-      </svg>
-      <span class="logo__txt">Tisztít<span class="logo__accent">lak</span></span>
-    </a>
+<header class="hd" id="hd">
+  <div class="wrap hd__in">
+    <a class="mark" href="#fo">Tisztítlak<span>®</span></a>
 
     <nav class="nav" aria-label="Főmenü">
+      <a href="#kulonbseg">A különbség</a>
       <a href="#gepek">Gépek</a>
-      <a href="#folyamat">Hogyan működik</a>
-      <a href="#szallitas">Szállítás</a>
+      <a href="#menete">A bérlés menete</a>
+      <a href="#kiszallitas">Kiszállítás</a>
       <a href="#dijak">Díjak</a>
       <a href="#gyik">GYIK</a>
     </nav>
 
-    <div class="hdr__act">
-      <a class="tel" href="tel:+36000000000">+36 00 000 0000</a>
-      <a class="btn btn--sm" href="#kapcsolat">Gépet bérelek</a>
-    </div>
+    <a class="hd__tel" href="tel:+36000000000">+36 00 000 0000</a>
 
-    <button class="burger" id="burger" aria-label="Menü megnyitása" aria-expanded="false" aria-controls="mmenu">
+    <button class="burger" id="burger" aria-label="Menü megnyitása" aria-expanded="false" aria-controls="mm">
       <span></span><span></span>
     </button>
   </div>
 </header>
 
-<!-- ============ MOBILE MENU ============ -->
-<div class="mmenu" id="mmenu" hidden>
+<div class="mm" id="mm" hidden>
   <nav aria-label="Mobil menü">
+    <a href="#kulonbseg">A különbség</a>
     <a href="#gepek">Gépek</a>
-    <a href="#folyamat">Hogyan működik</a>
-    <a href="#szallitas">Szállítás</a>
+    <a href="#menete">A bérlés menete</a>
+    <a href="#kiszallitas">Kiszállítás</a>
     <a href="#dijak">Díjak</a>
     <a href="#gyik">GYIK</a>
     <a href="#kapcsolat">Kapcsolat</a>
   </nav>
-  <a class="btn btn--light" href="tel:+36000000000">+36 00 000 0000</a>
+  <a class="mm__tel" href="tel:+36000000000">+36 00 000 0000</a>
 </div>
 
 <main id="fo">
 
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero__art" aria-hidden="true">
-    <svg viewBox="0 0 640 640" preserveAspectRatio="xMidYMid meet">
-      <circle cx="380" cy="300" r="230" fill="#E8F5FC"/>
-      <path d="M380 70c110 132 165 205 165 273a165 165 0 0 1-330 0c0-68 55-141 165-273z" fill="#29ABE2"/>
-      <circle cx="380" cy="300" r="290" fill="none" stroke="#0B3D64" stroke-width="1.5" opacity=".28"/>
-      <path d="M150 300a230 230 0 0 1 230-230" fill="none" stroke="#0B3D64" stroke-width="10" stroke-linecap="round"/>
-      <circle cx="146" cy="470" r="34" fill="#0B3D64"/>
-      <circle cx="574" cy="126" r="13" fill="#0B3D64"/>
-      <path d="M318 268a86 86 0 0 0-42 62" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".9"/>
-      <circle cx="300" cy="352" r="7" fill="#fff" opacity=".9"/>
-    </svg>
-  </div>
-
-  <div class="wrap hero__in">
-    <p class="eyebrow reveal">Kecskemét és környéke</p>
-    <h1 class="reveal">Kanapé, szőnyeg,<br>autókárpit —<br><span class="accent">újra tiszta.</span></h1>
-    <p class="lead reveal">Profi tisztítógépet bérelhetsz nálunk Kecskeméten. Kiszállítjuk a címedre,
-      öt percben megmutatjuk a használatát, a bérlés végén pedig érte jövünk.</p>
-    <div class="hero__cta reveal">
-      <a class="btn" href="#kapcsolat">Gépet bérelek</a>
-      <a class="link" href="#folyamat">Hogyan működik<span class="link__ar">→</span></a>
-    </div>
-    <p class="hero__seo reveal">Tisztítógép bérlés Kecskeméten — kárpittisztító, szőnyegtisztító és autókárpit-tisztító gépek.</p>
-  </div>
-</section>
-
-<!-- ============ TRUST STRIP (flat, hairline-separated) ============ -->
-<section class="strip">
-  <div class="wrap strip__in">
-    <p><span>Házhoz szállítjuk</span>Kecskeméten és a környező településeken</p>
-    <p><span>5 perc betanítás</span>Megmutatjuk, hogyan használd — nincs meglepetés</p>
-    <p><span>Profi gépek</span>Nem dörzsöl: kiszívja a szennyeződést</p>
-    <p><span>Rugalmas időpont</span>Reggel 5:30–8:00 és délután 16:00–18:00</p>
-  </div>
-</section>
-
-<!-- ============ GÉPEK ============ -->
-<section class="sec" id="gepek">
-  <div class="wrap">
-    <div class="sec__hd reveal">
-      <p class="eyebrow">Bérelhető gépek</p>
-      <h2>Válaszd ki, mire van szükséged</h2>
-      <p class="sec__lead">Minden gép tisztítószerrel, tartozékokkal és rövid betanítással érkezik.
-        Ha nem tudod, melyik kell, hívj — segítünk kiválasztani.</p>
-    </div>
-
-    <ol class="machines">
-      <li class="mach reveal">
-        <span class="mach__no">01</span>
-        <div class="mach__ico" aria-hidden="true">
-          <svg viewBox="0 0 80 80">
-            <rect x="16" y="22" width="48" height="26" rx="7" fill="none" stroke="#0B3D64" stroke-width="3"/>
-            <rect x="8" y="40" width="64" height="20" rx="7" fill="#29ABE2"/>
-            <path d="M16 60v7M64 60v7" stroke="#0B3D64" stroke-width="3" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="mach__body">
-          <h3>Kárpittisztító gép</h3>
-          <p>Kanapé, fotel, szék, matrac és autóülés mélytisztítására. Beáztatja, majd ki is szívja
-            a szennyeződést a szövetből — nem csak a felszínt dörzsöli át.</p>
-          <p class="mach__meta"><span>Kanapé</span><span>Fotel</span><span>Matrac</span><span>Szék</span></p>
-        </div>
-      </li>
-
-      <li class="mach reveal">
-        <span class="mach__no">02</span>
-        <div class="mach__ico" aria-hidden="true">
-          <svg viewBox="0 0 80 80">
-            <rect x="14" y="16" width="52" height="40" fill="#E8F5FC" stroke="#0B3D64" stroke-width="3"/>
-            <path d="M27 16v40M40 16v40M53 16v40" stroke="#29ABE2" stroke-width="3"/>
-            <path d="M20 58v6M30 58v6M40 58v6M50 58v6M60 58v6" stroke="#0B3D64" stroke-width="3" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="mach__body">
-          <h3>Szőnyegtisztító gép</h3>
-          <p>Nagy felületű szőnyegekhez, padlószőnyeghez és futókhoz. Gyorsan végigmegy a szobán,
-            és a felszívott víz megmutatja, mennyi kosz volt benne.</p>
-          <p class="mach__meta"><span>Szőnyeg</span><span>Padlószőnyeg</span><span>Futó</span><span>Iroda</span></p>
-        </div>
-      </li>
-
-      <li class="mach reveal">
-        <span class="mach__no">03</span>
-        <div class="mach__ico" aria-hidden="true">
-          <svg viewBox="0 0 80 80">
-            <path d="M11 51V41a4 4 0 0 1 2.6-3.8L21 34l6.4-10.6A6 6 0 0 1 32.5 20h15a6 6 0 0 1 5.1 2.9L59 34l7.4 3.2A4 4 0 0 1 69 41v10z" fill="none" stroke="#0B3D64" stroke-width="3" stroke-linejoin="round"/>
-            <path d="M26 34l4.8-8a2 2 0 0 1 1.7-1h15a2 2 0 0 1 1.7 1l4.8 8z" fill="#29ABE2"/>
-            <path d="M11 51h7M31 51h18M62 51h7" stroke="#0B3D64" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="24" cy="53" r="7" fill="none" stroke="#0B3D64" stroke-width="3"/>
-            <circle cx="56" cy="53" r="7" fill="none" stroke="#0B3D64" stroke-width="3"/>
-          </svg>
-        </div>
-        <div class="mach__body">
-          <h3>Autókárpit mélytisztító</h3>
-          <p>Ülés, ajtókárpit, csomagtér és az autó szőnyege. Kiváló használt autó eladása előtt,
-            vagy ha kiborult valami a hátsó ülésen.</p>
-          <p class="mach__meta"><span>Ülés</span><span>Ajtókárpit</span><span>Csomagtér</span><span>Szőnyeg</span></p>
-        </div>
-      </li>
-
-      <li class="mach reveal">
-        <span class="mach__no">04</span>
-        <div class="mach__ico" aria-hidden="true">
-          <svg viewBox="0 0 80 80">
-            <path d="M12 10h44v44H12z" fill="none" stroke="#0B3D64" stroke-width="3"/>
-            <path d="M12 10h22v22H12z" fill="#E8F5FC"/>
-            <path d="M34 10v44M12 32h44" stroke="#0B3D64" stroke-width="3"/>
-            <path d="M58 44l3.6 9.4L71 57l-9.4 3.6L58 70l-3.6-9.4L45 57l9.4-3.6z" fill="#29ABE2"/>
-          </svg>
-        </div>
-        <div class="mach__body">
-          <h3>Ablak- és üvegtisztító</h3>
-          <p>Ablak, üvegajtó, tükör, zuhanykabin és csempe — csíkmentesen, létrázás és
-            vödrös bajlódás nélkül.</p>
-          <p class="mach__meta"><span>Ablak</span><span>Üvegajtó</span><span>Tükör</span><span>Zuhanykabin</span></p>
-        </div>
-      </li>
-
-      <li class="mach reveal">
-        <span class="mach__no">05</span>
-        <div class="mach__ico" aria-hidden="true">
-          <svg viewBox="0 0 80 80">
-            <rect x="14" y="30" width="36" height="34" rx="7" fill="#E8F5FC" stroke="#0B3D64" stroke-width="3"/>
-            <path d="M14 41h36" stroke="#0B3D64" stroke-width="3"/>
-            <circle cx="32" cy="53" r="7" fill="#29ABE2"/>
-            <path d="M50 40c14 1 15-13 10-21" fill="none" stroke="#0B3D64" stroke-width="3" stroke-linecap="round"/>
-            <path d="M58 21l7-9" stroke="#29ABE2" stroke-width="6" stroke-linecap="round"/>
-            <path d="M20 64v5M44 64v5" stroke="#0B3D64" stroke-width="3" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="mach__body">
-          <h3>Felújítás utáni takarítógép</h3>
-          <p>Finom por, csiszolási törmelék és építkezés utáni kosz felszívására — oda is,
-            ahol egy hagyományos porszívó feladná.</p>
-          <p class="mach__meta"><span>Finom por</span><span>Törmelék</span><span>Nedves-száraz</span></p>
-        </div>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<!-- ============ FOLYAMAT ============ -->
-<section class="sec sec--grey" id="folyamat">
-  <div class="wrap">
-    <div class="sec__hd reveal">
-      <p class="eyebrow">Hogyan működik</p>
-      <h2>Három lépés, egy telefonhívás</h2>
-    </div>
-
-    <ol class="steps">
-      <li class="step reveal">
-        <span class="step__no">1</span>
-        <h3>Egyeztetünk</h3>
-        <p>Felhívsz vagy írsz. Megbeszéljük, mit szeretnél tisztítani, kiválasztjuk a megfelelő
-          gépet, és leegyeztetjük az időpontot.</p>
-      </li>
-      <li class="step reveal">
-        <span class="step__no">2</span>
-        <h3>Kivisszük és megmutatjuk</h3>
-        <p>A gépet az egyeztetett címre szállítjuk, öt percben megmutatjuk a használatát,
-          a kölcsönzési szerződést pedig a helyszínen aláírjuk.</p>
-      </li>
-      <li class="step reveal">
-        <span class="step__no">3</span>
-        <h3>Érte jövünk</h3>
-        <p>A bérleti idő végén egyeztetett időpontban visszamegyünk a gépért. Neked
-          semmit nem kell cipelned.</p>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<!-- ============ MIRE JÓ (abstract grid, hairlines only) ============ -->
-<section class="sec" id="mirejo">
-  <div class="wrap">
-    <div class="sec__hd reveal">
-      <p class="eyebrow">Mire jó</p>
-      <h2>Amit egy hétvége alatt<br>rendbe tehetsz</h2>
-    </div>
-
-    <ul class="uses">
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="12" width="28" height="16" rx="5" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="5" y="24" width="38" height="13" rx="5" fill="#29ABE2"/><path d="M11 37v5M37 37v5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Kanapé és fotel</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="9" width="32" height="25" fill="#E8F5FC" stroke="currentColor" stroke-width="2.5"/><path d="M16 9v25M24 9v25M32 9v25" stroke="#29ABE2" stroke-width="2.5"/><path d="M11 36v5M18 36v5M24 36v5M30 36v5M37 36v5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Szőnyeg</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="15" width="38" height="20" rx="6" fill="#E8F5FC" stroke="currentColor" stroke-width="2.5"/><rect x="10" y="20" width="14" height="9" rx="3.5" fill="#29ABE2"/><path d="M10 35v5M38 35v5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Matrac</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 32v-7a3 3 0 0 1 2-2.8l4.6-1.7 4-7A4.5 4.5 0 0 1 19.5 11h9a4.5 4.5 0 0 1 3.9 2.5l4 7 4.6 1.7A3 3 0 0 1 43 25v7z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M14.5 20.5l3.4-5.3a1.6 1.6 0 0 1 1.3-.7h9.6a1.6 1.6 0 0 1 1.3.7l3.4 5.3z" fill="#29ABE2"/><path d="M5 32h4M18 32h12M39 32h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="14" cy="33.5" r="4.5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="34" cy="33.5" r="4.5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg><span>Autókárpit</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="27" height="27" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="6" y="6" width="13.5" height="13.5" fill="#E8F5FC"/><path d="M19.5 6v27M6 19.5h27" stroke="currentColor" stroke-width="2.5"/><path d="M36 27l2 5.2 5.2 2-5.2 2-2 5.2-2-5.2-5.2-2 5.2-2z" fill="#29ABE2"/></svg><span>Ablak és üveg</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5v9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M12 14h24l-5 9H17z" fill="#29ABE2"/><path d="M12 14h24l-5 9H17z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M17 29v5M24 29v8M31 29v5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>Zuhanykabin</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="8" width="26" height="11" rx="3.5" fill="#29ABE2" stroke="currentColor" stroke-width="2.5"/><path d="M31 13.5h5a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3H26a3 3 0 0 0-3 3v2.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><rect x="19" y="28" width="8" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg><span>Felújítás után</span></li>
-      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M16 25V12a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v13" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="12" y="25" width="24" height="9" rx="3.5" fill="#29ABE2"/><path d="M24 34v7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M15 44l9-3.5 9 3.5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Iroda és rendelő</span></li>
-    </ul>
-  </div>
-</section>
-
-<!-- ============ SZÁLLÍTÁS (flat navy block) ============ -->
-<section class="deliv" id="szallitas">
-  <div class="deliv__art" aria-hidden="true">
-    <svg viewBox="0 0 400 400" preserveAspectRatio="xMaxYMin slice">
-      <circle cx="400" cy="0" r="150" fill="none" stroke="#29ABE2" stroke-width="1.5" opacity=".5"/>
-      <circle cx="400" cy="0" r="240" fill="none" stroke="#29ABE2" stroke-width="1.5" opacity=".32"/>
-      <circle cx="400" cy="0" r="330" fill="none" stroke="#29ABE2" stroke-width="1.5" opacity=".2"/>
-      <path d="M210 0A190 190 0 0 0 400 190" fill="none" stroke="#29ABE2" stroke-width="12" stroke-linecap="round"/>
-      <circle cx="330" cy="72" r="22" fill="#29ABE2"/>
-    </svg>
-  </div>
-  <div class="wrap deliv__in">
-    <div class="deliv__hd reveal">
-      <p class="eyebrow eyebrow--light">Kiszállítás</p>
-      <h2>Odavisszük, és érte is jövünk</h2>
-      <p>A gépet nem kell sehova elmenned. Megbeszéljük az időpontot, kivisszük a címedre,
-        és a bérlés végén visszamegyünk érte.</p>
-    </div>
-
-    <dl class="deliv__list">
-      <div class="reveal">
-        <dt>Kecskemét belterület</dt>
-        <dd class="deliv__price">1 000 Ft</dd>
-        <dd class="deliv__note">Oda- és visszaszállítás</dd>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__mark" aria-hidden="true"></div>
+    <div class="wrap hero__in">
+      <p class="lbl lbl--on-dark">Tisztítógép bérlés — Kecskemét</p>
+      <h1>Kärcher gép.<br>A nappalidban.<br><em>Reggel fél hatkor.</em></h1>
+      <p class="hero__lead">Bérelj profi kárpit- és szőnyegtisztítót. Kiszállítjuk a címedre,
+        öt percben megmutatjuk a használatát, a bérlés végén pedig érte jövünk.</p>
+      <div class="hero__act">
+        <a class="btn" href="#kapcsolat">Gépet bérelek</a>
+        <a class="ghost" href="#menete">A bérlés menete</a>
       </div>
-      <div class="reveal">
-        <dt>Környező települések</dt>
-        <dd class="deliv__price">2 000 Ft</dd>
-        <dd class="deliv__note">Kadafalva, Ballószög, Hetényegyháza, Helvécia, Katonatelep</dd>
-      </div>
-      <div class="reveal">
-        <dt>Szállítási idősávok</dt>
-        <dd class="deliv__price">5:30–8:00</dd>
-        <dd class="deliv__note">és délután 16:00–18:00 között</dd>
-      </div>
+    </div>
+  </section>
+
+  <!-- ============ DATA STRIP ============ -->
+  <section class="strip">
+    <dl class="wrap strip__in">
+      <div><dt>Kiszállítás</dt><dd>5:30–8:00 · 16:00–18:00</dd></div>
+      <div><dt>Kecskemét</dt><dd>1 000 Ft</dd></div>
+      <div><dt>Környező települések</dt><dd>2 000 Ft</dd></div>
+      <div><dt>Betanítás</dt><dd>5 perc, a helyszínen</dd></div>
     </dl>
-  </div>
-</section>
+  </section>
 
-<!-- ============ DÍJAK ============ -->
-<section class="sec" id="dijak">
-  <div class="wrap">
-    <div class="sec__hd reveal">
-      <p class="eyebrow">Díjak</p>
-      <h2>Átlátható árak, meglepetés nélkül</h2>
-      <p class="sec__lead">A bérleti díj a géptől és a bérlés hosszától függ. Mondd el, mit szeretnél
-        tisztítani, és azonnal megmondjuk, mennyibe kerül.</p>
+  <!-- ============ A KÜLÖNBSÉG ============ -->
+  <section class="sec" id="kulonbseg">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <p class="lbl">A különbség</p>
+          <h2 class="xl">Nem dörzsöl.<br>Kiszívja.</h2>
+        </div>
+        <div class="split__body">
+          <p>A gép befújja a tisztítószert a szövet mélyére, majd erős szívással kihúzza
+            belőle a koszt, a port és a szagot. Nem a felszínt kapja el — azt viszi ki,
+            ami a szálak között évek óta gyűlik.</p>
+          <p>Ezért lesz a kanapé nemcsak tisztább, hanem szagtalan is. És ezért látszik
+            a szennyvíztartályban, hogy pontosan mennyi jött ki belőle.</p>
+        </div>
+      </div>
+
+      <figure class="field">
+        <canvas id="fieldCanvas" aria-hidden="true"></canvas>
+        <figcaption>
+          <span>Szövet, bérlés előtt</span>
+          <span>Szövet, bérlés után</span>
+        </figcaption>
+      </figure>
     </div>
+  </section>
 
-    <!-- ÁRAK: cseréld le a valós bérleti díjakra -->
-    <table class="rates reveal">
-      <caption class="vh">Bérleti és szállítási díjak</caption>
-      <tbody>
-        <tr><th scope="row">Kárpittisztító gép</th><td>Napi díj</td><td class="rates__v">Kérj ajánlatot</td></tr>
-        <tr><th scope="row">Szőnyegtisztító gép</th><td>Napi díj</td><td class="rates__v">Kérj ajánlatot</td></tr>
-        <tr><th scope="row">Autókárpit mélytisztító</th><td>Napi díj</td><td class="rates__v">Kérj ajánlatot</td></tr>
-        <tr><th scope="row">Ablak- és üvegtisztító</th><td>Napi díj</td><td class="rates__v">Kérj ajánlatot</td></tr>
-        <tr><th scope="row">Kiszállítás — Kecskemét</th><td>Oda-vissza</td><td class="rates__v rates__v--num">1 000 Ft</td></tr>
-        <tr><th scope="row">Kiszállítás — környék</th><td>Oda-vissza</td><td class="rates__v rates__v--num">2 000 Ft</td></tr>
-      </tbody>
-    </table>
+  <!-- ============ GÉPEK ============ -->
+  <section class="sec sec--paper" id="gepek">
+    <div class="wrap">
+      <div class="hd2">
+        <p class="lbl">Bérelhető gépek</p>
+        <h2>Négy gép,<br>négy feladat</h2>
+      </div>
 
-    <p class="rates__cta reveal">
-      <a class="btn" href="#kapcsolat">Kérek árajánlatot</a>
-      <a class="link" href="tel:+36000000000">vagy hívj: +36 00 000 0000<span class="link__ar">→</span></a>
-    </p>
-  </div>
-</section>
+      <div class="machines">
+        <article class="m">
+          <h3>Kárpit- és szőnyegtisztító</h3>
+          <div class="m__b">
+            <p>A ház körüli nagy darabokhoz: kanapé, fotel, szék, matrac, szőnyeg és
+              padlószőnyeg. Ez az a gép, amiért a legtöbben telefonálnak.</p>
+            <p class="m__t">Kanapé <i>·</i> Fotel <i>·</i> Matrac <i>·</i> Szőnyeg <i>·</i> Padlószőnyeg</p>
+          </div>
+        </article>
 
-<!-- ============ GYIK ============ -->
-<section class="sec sec--grey" id="gyik">
-  <div class="wrap wrap--narrow">
-    <div class="sec__hd reveal">
-      <p class="eyebrow">GYIK</p>
-      <h2>Gyakori kérdések</h2>
+        <article class="m">
+          <h3>Autókárpit mélytisztító</h3>
+          <div class="m__b">
+            <p>Ülés, ajtókárpit, csomagtér és az autó szőnyege. Használt autó eladása
+              előtt a leggyorsabban megtérülő pár óra.</p>
+            <p class="m__t">Ülés <i>·</i> Ajtókárpit <i>·</i> Csomagtér <i>·</i> Autószőnyeg</p>
+          </div>
+        </article>
+
+        <article class="m">
+          <h3>Ablak- és üvegtisztító</h3>
+          <div class="m__b">
+            <p>Ablak, üvegajtó, tükör, zuhanykabin és csempe — csíkmentesen, létrázás
+              és vödrös bajlódás nélkül.</p>
+            <p class="m__t">Ablak <i>·</i> Üvegajtó <i>·</i> Tükör <i>·</i> Zuhanykabin <i>·</i> Csempe</p>
+          </div>
+        </article>
+
+        <article class="m">
+          <h3>Felújítás utáni takarítógép</h3>
+          <div class="m__b">
+            <p>Finom por, csiszolási törmelék és építkezés utáni kosz felszívására —
+              oda is, ahol egy hagyományos porszívó feladná.</p>
+            <p class="m__t">Finom por <i>·</i> Csiszolási törmelék <i>·</i> Nedves-száraz</p>
+          </div>
+        </article>
+      </div>
     </div>
+  </section>
 
-    <div class="faq">
-      <details class="reveal">
-        <summary>Kell hozzá tisztítószer, vagy azt is adjátok?</summary>
-        <p>A géphez tartozó tisztítószert és a szükséges tartozékokat is hozzuk. Nem kell
-          semmit beszerezned a bérlés előtt.</p>
-      </details>
-      <details class="reveal">
-        <summary>Mennyi ideig bérelhetem a gépet?</summary>
-        <p>A legtöbben egy fél napot vagy egy napot kérnek — egy átlagos kanapé és két szőnyeg
-          bőven belefér. Hosszabb bérlés is megoldható, csak jelezd előre.</p>
-      </details>
-      <details class="reveal">
-        <summary>Nehéz használni? Mi van, ha elrontom?</summary>
-        <p>Nem nehéz. Átadáskor öt percben végigvesszük a gépet, és leírást is hagyunk nálad.
-          Ha menet közben elakadsz, hívj nyugodtan.</p>
-      </details>
-      <details class="reveal">
-        <summary>Mit kell tennem a gép visszaadása előtt?</summary>
-        <p>Csak annyit, hogy a szennyvíztartályt ürítsd ki. A tisztítást és a karbantartást
-          mi végezzük minden bérlés után.</p>
-      </details>
-      <details class="reveal">
-        <summary>Hova szállítotok ki?</summary>
-        <p>Kecskemét egész területére, valamint Kadafalvára, Ballószögre, Hetényegyházára,
-          Helvéciára és Katonatelepre. Ha ezeken kívül laksz, kérdezz rá — igyekszünk megoldani.</p>
-      </details>
-      <details class="reveal">
-        <summary>Mikor tudjátok kihozni a gépet?</summary>
-        <p>Reggel 5:30 és 8:00, illetve délután 16:00 és 18:00 között szállítunk, hogy ne kelljen
-          miattunk szabadságot kivenned.</p>
-      </details>
+  <!-- ============ A BÉRLÉS MENETE ============ -->
+  <section class="sec" id="menete">
+    <div class="wrap">
+      <div class="hd2">
+        <p class="lbl">A bérlés menete</p>
+        <h2>Három lépés,<br>egy telefonhívás</h2>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <span class="steps__n">1</span>
+          <h3>Egyeztetünk</h3>
+          <p>Felhívsz vagy írsz. Megbeszéljük, mit szeretnél tisztítani, kiválasztjuk
+            a gépet, és leegyeztetjük az időpontot.</p>
+        </li>
+        <li>
+          <span class="steps__n">2</span>
+          <h3>Kivisszük és megmutatjuk</h3>
+          <p>A gépet az egyeztetett címre szállítjuk, öt percben megmutatjuk a
+            használatát, a kölcsönzési szerződést a helyszínen aláírjuk.</p>
+        </li>
+        <li>
+          <span class="steps__n">3</span>
+          <h3>Érte jövünk</h3>
+          <p>A bérleti idő végén egyeztetett időpontban visszamegyünk a gépért.
+            Neked semmit nem kell cipelned.</p>
+        </li>
+      </ol>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ============ KAPCSOLAT ============ -->
-<section class="cta" id="kapcsolat">
-  <div class="wrap cta__in">
-    <div class="cta__txt reveal">
-      <p class="eyebrow">Kapcsolat</p>
-      <h2>Mondd el, mit tisztítanál<br>— a többit intézzük.</h2>
+  <!-- ============ MIRE JÓ — typographic field ============ -->
+  <section class="sec sec--paper" id="mirejo">
+    <div class="wrap">
+      <div class="hd2">
+        <p class="lbl">Mire jó</p>
+        <h2>Amit egy hétvége alatt<br>rendbe tehetsz</h2>
+      </div>
+      <ul class="terms">
+        <li>kanapé</li><li>fotel</li><li>matrac</li><li>szőnyeg</li><li>padlószőnyeg</li>
+        <li>futó</li><li>autóülés</li><li>ajtókárpit</li><li>csomagtér</li><li>ablak</li>
+        <li>üvegajtó</li><li>tükör</li><li>zuhanykabin</li><li>csempe</li><li>finom por</li>
+        <li>törmelék</li><li>iroda</li><li>rendelő</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ KISZÁLLÍTÁS ============ -->
+  <section class="deliv" id="kiszallitas">
+    <div class="wrap">
+      <div class="hd2 hd2--dark">
+        <p class="lbl lbl--on-dark">Kiszállítás</p>
+        <h2>Odavisszük,<br>és érte is jövünk</h2>
+        <p class="deliv__lead">A gépet nem kell sehova elmenned. Megbeszéljük az időpontot,
+          kivisszük a címedre, és a bérlés végén visszamegyünk érte.</p>
+      </div>
+
+      <dl class="zones">
+        <div>
+          <dt>Kecskemét belterület</dt>
+          <dd class="zones__v">1 000 Ft</dd>
+          <dd class="zones__n">Oda- és visszaszállítás</dd>
+        </div>
+        <div>
+          <dt>Környező települések</dt>
+          <dd class="zones__v">2 000 Ft</dd>
+          <dd class="zones__n">Kadafalva, Ballószög, Hetényegyháza, Helvécia, Katonatelep</dd>
+        </div>
+        <div>
+          <dt>Szállítási idősávok</dt>
+          <dd class="zones__v">5:30–8:00</dd>
+          <dd class="zones__n">és délután 16:00–18:00 között</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ DÍJAK ============ -->
+  <!-- ÁRAK: a bérleti díjak helyére írd be a valós összegeket -->
+  <section class="sec" id="dijak">
+    <div class="wrap">
+      <div class="hd2">
+        <p class="lbl">Díjak</p>
+        <h2>Átlátható árak,<br>meglepetés nélkül</h2>
+        <p class="hd2__lead">A bérleti díj a géptől és a bérlés hosszától függ. Mondd el,
+          mit szeretnél tisztítani, és azonnal megmondjuk, mennyibe kerül.</p>
+      </div>
+
+      <table class="rates">
+        <caption class="vh">Bérleti és szállítási díjak</caption>
+        <tbody>
+          <tr><th scope="row">Kárpit- és szőnyegtisztító</th><td>Napi díj</td><td>Kérj ajánlatot</td></tr>
+          <tr><th scope="row">Autókárpit mélytisztító</th><td>Napi díj</td><td>Kérj ajánlatot</td></tr>
+          <tr><th scope="row">Ablak- és üvegtisztító</th><td>Napi díj</td><td>Kérj ajánlatot</td></tr>
+          <tr><th scope="row">Felújítás utáni takarítógép</th><td>Napi díj</td><td>Kérj ajánlatot</td></tr>
+          <tr><th scope="row">Kiszállítás — Kecskemét</th><td>Oda-vissza</td><td class="num">1 000 Ft</td></tr>
+          <tr><th scope="row">Kiszállítás — környék</th><td>Oda-vissza</td><td class="num">2 000 Ft</td></tr>
+        </tbody>
+      </table>
+
+      <p class="rates__cta">
+        <a class="btn btn--dark" href="#kapcsolat">Kérek árajánlatot</a>
+        <a class="ghost ghost--dark" href="tel:+36000000000">vagy hívj: +36 00 000 0000</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ GYIK ============ -->
+  <section class="sec sec--paper" id="gyik">
+    <div class="wrap">
+      <div class="split split--faq">
+        <div>
+          <p class="lbl">GYIK</p>
+          <h2>Gyakori<br>kérdések</h2>
+          <p class="faq__aside">Nem találod a választ? Hívj bátran — általában pár órán
+            belül visszajelzünk.</p>
+          <a class="ghost ghost--dark" href="tel:+36000000000">+36 00 000 0000</a>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Kell hozzá tisztítószer, vagy azt is adjátok?</summary>
+            <p>A géphez tartozó tisztítószert és a szükséges tartozékokat is hozzuk.
+              Nem kell semmit beszerezned a bérlés előtt.</p>
+          </details>
+          <details>
+            <summary>Mennyi ideig bérelhetem a gépet?</summary>
+            <p>A legtöbben fél vagy egy napot kérnek — egy átlagos kanapé és két szőnyeg
+              bőven belefér. Hosszabb bérlés is megoldható, csak jelezd előre.</p>
+          </details>
+          <details>
+            <summary>Nehéz használni? Mi van, ha elrontom?</summary>
+            <p>Nem nehéz. Átadáskor öt percben végigvesszük a gépet, és leírást is
+              hagyunk nálad. Ha menet közben elakadsz, hívj nyugodtan.</p>
+          </details>
+          <details>
+            <summary>Mit kell tennem a gép visszaadása előtt?</summary>
+            <p>Csak annyit, hogy a szennyvíztartályt ürítsd ki. A tisztítást és a
+              karbantartást minden bérlés után mi végezzük.</p>
+          </details>
+          <details>
+            <summary>Hova szállítotok ki?</summary>
+            <p>Kecskemét egész területére, valamint Kadafalvára, Ballószögre,
+              Hetényegyházára, Helvéciára és Katonatelepre. Ha ezeken kívül laksz,
+              kérdezz rá — igyekszünk megoldani.</p>
+          </details>
+          <details>
+            <summary>Mikor tudjátok kihozni a gépet?</summary>
+            <p>Reggel 5:30 és 8:00, illetve délután 16:00 és 18:00 között szállítunk,
+              hogy ne kelljen miattunk szabadságot kivenned.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KAPCSOLAT ============ -->
+  <!-- KAPCSOLAT: cseréld le a valós telefonszámra és e-mail címre -->
+  <section class="cta" id="kapcsolat">
+    <div class="wrap">
+      <p class="lbl lbl--on-cyan">Kapcsolat</p>
+      <h2 class="cta__h">Mondd el, mit tisztítanál<br>— a többit intézzük.</h2>
       <p class="cta__lead">Hívj minket, vagy írj egy üzenetet. Általában pár órán belül
         visszajelzünk, és megbeszéljük az időpontot.</p>
-    </div>
 
-    <!-- KAPCSOLAT: cseréld le a valós telefonszámra és e-mail címre -->
-    <ul class="contact reveal">
-      <li>
-        <span class="contact__lbl">Telefon</span>
-        <a class="contact__val" href="tel:+36000000000">+36 00 000 0000</a>
-      </li>
-      <li>
-        <span class="contact__lbl">E-mail</span>
-        <a class="contact__val" href="mailto:info@tisztitlakkecskemet.hu">info@tisztitlakkecskemet.hu</a>
-      </li>
-      <li>
-        <span class="contact__lbl">Szolgáltatási terület</span>
-        <span class="contact__val contact__val--plain">Kecskemét és környéke</span>
-      </li>
-      <li>
-        <span class="contact__lbl">Kiszállítás</span>
-        <span class="contact__val contact__val--plain">5:30–8:00 · 16:00–18:00</span>
-      </li>
-    </ul>
-  </div>
-
-  <div class="wrap">
-    <div class="cta__art" aria-hidden="true">
-      <svg viewBox="0 0 1200 160" preserveAspectRatio="xMidYMid meet">
-        <circle cx="80" cy="98" r="70" fill="none" stroke="#0B3D64" stroke-width="1.5" opacity=".3"/>
-        <path d="M80 20c31 37 46 58 46 78a46 46 0 0 1-92 0c0-20 15-41 46-78z" fill="#29ABE2"/>
-        <path d="M61 88a28 28 0 0 0-13 21" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-        <path d="M14 98A66 66 0 0 1 80 32" fill="none" stroke="#0B3D64" stroke-width="7" stroke-linecap="round"/>
-        <path d="M168 98h1010" stroke="#0B3D64" stroke-width="1.5" opacity=".3"/>
-        <circle cx="232" cy="98" r="12" fill="#0B3D64"/>
-        <circle cx="332" cy="98" r="24" fill="none" stroke="#29ABE2" stroke-width="6"/>
-        <path d="M440 74a24 24 0 0 1 0 48z" fill="#0B3D64"/>
-        <circle cx="530" cy="98" r="6" fill="#29ABE2"/>
-        <circle cx="960" cy="98" r="20" fill="#29ABE2"/>
-        <circle cx="1090" cy="98" r="56" fill="none" stroke="#0B3D64" stroke-width="1.5" opacity=".3"/>
-        <path d="M1090 42a56 56 0 0 1 56 56" fill="none" stroke="#0B3D64" stroke-width="7" stroke-linecap="round"/>
-      </svg>
+      <dl class="cta__list">
+        <div><dt>Telefon</dt><dd><a href="tel:+36000000000">+36 00 000 0000</a></dd></div>
+        <div><dt>E-mail</dt><dd><a href="mailto:info@tisztitlakkecskemet.hu">info@tisztitlakkecskemet.hu</a></dd></div>
+        <div><dt>Szolgáltatási terület</dt><dd>Kecskemét és környéke</dd></div>
+        <div><dt>Kiszállítás</dt><dd>5:30–8:00 · 16:00–18:00</dd></div>
+      </dl>
     </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
-<!-- ============ FOOTER ============ -->
-<footer class="ftr">
-  <div class="wrap ftr__in">
-    <div class="ftr__brand">
-      <a class="logo logo--ftr" href="#fo">
-        <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
-          <circle cx="16" cy="16" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
-          <path d="M16 5c5 6 7.5 9.3 7.5 12.4A7.5 7.5 0 0 1 16 25" fill="#29ABE2"/>
-        </svg>
-        <span class="logo__txt">Tisztít<span class="logo__accent">lak</span></span>
-      </a>
+<footer class="ft">
+  <div class="wrap ft__in">
+    <div>
+      <a class="mark mark--ft" href="#fo">Tisztítlak<span>®</span></a>
       <p>Tisztítógép bérlés Kecskeméten — kárpit, szőnyeg, autókárpit, ablak és
         felújítás utáni takarítás.</p>
     </div>
-
-    <nav class="ftr__nav" aria-label="Lábléc menü">
+    <nav class="ft__nav" aria-label="Lábléc menü">
+      <a href="#kulonbseg">A különbség</a>
       <a href="#gepek">Gépek</a>
-      <a href="#folyamat">Hogyan működik</a>
-      <a href="#szallitas">Szállítás</a>
+      <a href="#menete">A bérlés menete</a>
+      <a href="#kiszallitas">Kiszállítás</a>
       <a href="#dijak">Díjak</a>
-      <a href="#gyik">GYIK</a>
       <a href="#kapcsolat">Kapcsolat</a>
     </nav>
   </div>
-
-  <div class="wrap ftr__btm">
+  <div class="wrap ft__btm">
     <p>© 2026 Tisztítlak Kecskemét</p>
     <p>Kecskemét · Kadafalva · Ballószög · Hetényegyháza · Helvécia · Katonatelep</p>
   </div>

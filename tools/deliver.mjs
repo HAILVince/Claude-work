@@ -2,9 +2,15 @@
    - desktop ships as one continuous capture at 0.9x  (1296 x ~7950)
    - mobile is too long for that, so it ships folded into two columns        */
 import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
-import { unlinkSync } from 'node:fs';
+import { unlinkSync, writeFileSync } from 'node:fs';
 
 const B = 'http://127.0.0.1:8181/index.html';
+writeFileSync('screenshots/_sheet.html',
+  '<!DOCTYPE html><meta charset="utf-8"><style>html,body{margin:0;background:#fff}' +
+  'body{padding:26px;display:flex;gap:30px;align-items:flex-start}' +
+  'img{width:390px;display:block;border:1px solid #D2DFE8}</style>' +
+  '<img src="_c1.png"><img src="_c2.png">');
+
 const br = await chromium.launch();
 
 const open = async (w, h, d, m) => {
@@ -46,5 +52,5 @@ let half;
   await p.screenshot({ path:'screenshots/mobile-full.png', fullPage:true });
   await c.close();
 }
-unlinkSync('screenshots/_c1.png'); unlinkSync('screenshots/_c2.png');
+['_c1.png','_c2.png','_sheet.html'].forEach(f => unlinkSync('screenshots/' + f));
 await br.close();
