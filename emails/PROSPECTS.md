@@ -15,6 +15,7 @@ base64 through the mail or Drive tools is not workable.
 
 | Business | Contact | Email | Owed | Draft |
 |---|---|---|---|---|
+| **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
 | **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Resend with the images attached** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
 | Heit Torma | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + quote (attach PNGs) | ✅ in Gmail |
@@ -96,8 +97,8 @@ cleanly, or refer them on. Your call, not mine.
 
 | Business | Contact | Email | Asked for |
 |---|---|---|---|
-| **Dr. Nagy Levente Ákos**, ügyvéd (Debrecen) | 4024 Debrecen, Petőfi tér 18. 1/7 · +36 70 337 0361 | drnagyleventeakos@gmail.com | demo **+ ár + SEO** |
-| **Gazdi-Ker Kft.** | — | sziminet@gmail.com | demo **+ ár** |
+| **Dr. Nagy Levente Ákos**, ügyvéd (Debrecen) | 4024 Debrecen, Petőfi tér 18. 1/7 · +36 70 337 0361 | drnagyleventeakos@gmail.com | demo **+ ár + SEO** — ✅ **elküldve** 21 Sept 14:33 |
+| **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | demo **+ ár** — ✅ demó kész, draft a Gmailben |
 
 Dr. Nagy asked three things in two messages: *"Hogyan tudná web oldalamat
 fejleszteni? Mennyibe kerülne ez, és ezzel mennyivel jobb találatot tudnék
@@ -113,6 +114,29 @@ number.
 Gazdi-Ker: *"egy ideje már gondolkodtunk rajta, hogy jó ötlet lenne egy saját
 weboldal. Ha tudna küldeni egy mintát… Illetve, árat is szeretnénk"* — they have
 only a Facebook page today.
+
+### Gazdi-Ker — what the demo is built on, and what it quotes
+
+The contact signs **Szilágyi Imre**. Gazdabolt, háztartási bolt és lottózó at
+Kisléta, Debreceni u. 3.; phone +36 70 318 6360; open all seven days
+(H–P 7:30–17:00, Szo 7:30–13:00, V 9:00–12:00). Everything on the page comes
+from their own Facebook page, down to the slogan *„Gazdi-Ker… A Nyerő Hely!”*.
+
+**Quoted 80 000 Ft**, the standard figure — the lawyer got the +20–40k uplift,
+a village shop does not. One-off, no monthly fee, free hosting, the .hu domain
+named as the only recurring cost.
+
+Two things the reply deliberately admits rather than papers over:
+
+- The **specific products inside each category are guesses** about a gazdabolt.
+  The draft asks Imre to correct them outright, which is also the cheapest way
+  to get him engaged with the page.
+- **No photos on the page at all.** Same rule as Vamos: no stock imagery on a
+  page about a real business. The draft asks for theirs.
+
+The draft also asks which spelling is official — their Facebook uses both
+**Gazdi-Ker** and **Gazdi-ker** — and whether the PB-gázpalack swap really runs,
+since the page gives it its own block.
 
 ## 🚨 The list is sending people other companies' websites
 

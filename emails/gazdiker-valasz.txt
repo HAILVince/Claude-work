@@ -1,0 +1,74 @@
+Címzett: sziminet@gmail.com
+Tárgy:   Re: Weboldal a Gazdi-Kernek
+Válasz erre az üzenetre: 1a0c3eeb5bcb3477 (Szilágyi Imre, 2026-09-21 12:26)
+Csatolmány: desktop-full.png, mobile-full.png
+---------------------------------------------------------------
+
+Kedves Szilágyi Imre!
+
+Köszönöm a visszajelzést. Elkészítettem a mintát, csatoltam két képet: az
+egyik az oldal számítógépen, a másik mobilon. (A mobilos kép két hasábba van
+tördelve, hogy elférjen egyetlen képen — élesben ez egy folyamatos oldal.)
+
+A Facebook-oldalukról dolgoztam, így minden, ami rajta van, az Önöké: a
+cím, a telefonszám, a nyitvatartás, a hét kategória a bemutatkozásukból, és
+a "Gazdi-Ker... a nyerő hely" is.
+
+Három dolgot tartottam szem előtt:
+
+Mikor van nyitva. Ez az, amiért a legtöbben rákeresnek egy boltra. Az oldal
+tetején mindig ott van, hogy éppen nyitva vannak-e, és meddig — ez magától
+frissül, nem kell hozzányúlni. A vasárnap délelőtti nyitvatartás külön ki
+van emelve, mert ez olyasmi, amiről a környéken nem mindenki tud.
+
+Egy érintés és csörög a telefon. Mobilon a legfontosabb gomb a hívás. Aki
+azt keresi, van-e gázpalack vagy egy bizonyos táp, az egy mozdulattal
+elérje Önöket. Aki inkább ír, annak van egy rövid űrlap: az üzenet erre az
+e-mail-címre érkezik, nem kell sehová belépni miatta.
+
+Hogy megtalálják a Google-ben. A Facebook-oldal a keresőben nem mindig jön
+elő, és sokan nem is használják. Az oldal úgy van felépítve, hogy a
+"gazdabolt Kisléta", "PB-gázpalack Kisléta" és hasonló keresésekre
+esélyesebb legyen — a cím, a nyitvatartás és a telefonszám gépi formában is
+rajta van, ezt olvassa ki a Google a találatok alá.
+
+Az ár
+
+Ez az oldal, ahogy a képeken látja, 80 000 Ft. Egyszeri összeg, nincs havi
+díj. Nincs mögötte rendszer, amit frissítgetni kellene, és a tárhely
+ingyenes. Az egyetlen visszatérő költség a .hu domain éves díja, ami néhány
+ezer forint, és közvetlenül a szolgáltatónál fizetendő — a bekötést és az
+élesítést én intézem.
+
+Amihez a segítségét kérem
+
+A kategóriák a Facebook-oldalukról valók, de a bennük felsorolt konkrét
+termékek az én tippjeim egy gazdaboltról. Olvassa át őket, és húzza ki
+vagy írja át bátran, ami nem stimmel — például hogy milyen tápot tartanak,
+van-e kimért kiszerelés, vagy mi az, amit sokan keresnek és kimaradt.
+
+Néhány kérdés, amire a véglegesítéshez szükségem lenne:
+
+1. Van olyan fotójuk a boltról vagy a polcokról, amit kitehetünk? Most
+   szándékosan nincs kép az oldalon: nem akartam idegen fotókat betenni egy
+   olyan oldalra, ami Önökről szól.
+2. A nyitvatartás stimmel még? A Facebookon H-P 7:30-17:00, Szo 7:30-13:00,
+   V 9:00-12:00 szerepel.
+3. A PB-gázpalack cseréjének külön blokkot csináltam, mert erre sokan
+   rákeresnek. Jól gondolom, hogy ez Önöknél tényleg megy?
+4. A bolt nevét "Gazdi-Ker" alakban írtam. A Facebookon hol így, hol
+   "Gazdi-ker" szerepel — melyik a hivatalos?
+5. Van már domainjük, vagy nézzek utána, hogy mi szabad? (A gazdiker.hu
+   lenne a kézenfekvő.)
+
+A szövegek egyelőre az én javaslataim. Írja át őket nyugodtan úgy, ahogy
+Önök mondanák — vagy mondja el pár mondatban, és megfogalmazom.
+
+Ha valami nem tetszik benne, azt is mondja meg bátran, pont azért demó,
+hogy alakítsuk.
+
+Várom a visszajelzését!
+
+Üdvözlettel:
+Nagy-Toma Vince
+Axióma Webfejlesztés
