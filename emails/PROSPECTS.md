@@ -92,6 +92,35 @@ cleanly, or refer them on. Your call, not mine.
   He asked for two weeks on 20 Sept → **follow up ~4 October.**
 - **Fejlesztőpagony** — auto-reply only, ball is in their court
 
+## Declined — no reply needed, no draft written
+
+Only write a draft where the thread actually needs one. These do not:
+
+- **Trendibox** (Csapó Levente) — "Az oldal reszponzív, fejlesztés van tervben,
+  de saját magam fogom menedzselni. Köszi a megkeresést, de nem élek vele."
+- **Veres Műsorszervező Iroda** (Veres Viktor, Miskolc) — closing the office.
+- **Nailah / Salacz Veronika** — automatic out-of-office reply, not a response.
+- Earlier declines: Zombor Zsuzsanna, Lobotka Pál, Czunyi Fanni, A Hangtalanokért,
+  Szokoli Bernadett, Tápiósági Kft, Fény Garázs, Hospice Tatabánya, LaserWarzone,
+  PanPan Dogsport, Hári Anikó, Szabó Éva, Ízműhely, Csiszár-Molnár Edina, Gödér
+  Beatrix, Kecskeméti Kalapos, Mészáros Zoli, Allbringa, Sarokház, Kövesdi
+  Krisztina, A+A Építész (site declined; marketing answered separately).
+
+## ⚠️ The "not mobile-friendly" claim is misfiring
+
+Four prospects have now pushed back on the same line in the outreach:
+
+- **Csapó Levente** (Trendibox): "Az oldal reszponzív"
+- **Zombor Zsuzsanna**: "az oldalam reszponzív és tökéletes jó"
+- **Szokoli Bernadett**: "Sajnálom, hogy saját készítésű weboldalam nem nyerte el
+  a tetszését. Az oldal reszponzív…" — clearly offended
+- **Fény Garázs**: "a honlap jelenlegi céljaimnak megfelel… jelenleg nálam gyors"
+
+The automated viewport/responsiveness check is producing false positives, and
+opening with a wrong criticism of someone's own work is the fastest way to lose
+them. Worth verifying the check before the next batch, or softening the claim to
+a question rather than a statement.
+
 ## Do not contact again
 
 - **info@szantomonikatsmt.com** — Szántó Mónika explicitly asked to be removed
