@@ -1,45 +1,56 @@
 # Prospect state — 2026-09-21
 
-201 outreach emails sent. 48 replies. Below is every reply that needs action.
+201 outreach emails sent, 48 replies. Status below is by **last message in the
+thread**, not by who replied — most threads you had already answered.
 
-## Demo requested — build these
+## Waiting on you right now
 
-| Business | Contact | Email | Asked for | Notes |
+| Business | Contact | Email | Owed | Draft |
 |---|---|---|---|---|
-| Hobby Kutyasuli, Lajosmizse | Gattyán Gábor, iskolavezető | hobbykutyasulilajosmizse@gmail.com | demo + ár | Corrected us: school is in Lajosmizse, not Tiszakécske |
-| Panoráma Kutyanapközi | Kovácsné Katona Eszter | panoramakutyanapkozi@gmail.com | demo + ár | |
-| Kelemen Ház Étterem és Panzió, Makó | Kovács Bálintné, gazdasági vez. | v8kelemen2010@gmail.com | demo | Has kelemenhaz.hu. Tel +3620/775-2798 |
-| Varázshegy TSMT, Szeged | — | tsmtszeged@gmail.com | demo | "Kíváncsian várjuk!" |
-| Magyar Művészekért Alapítvány | Kucsera | kucsera@gmail.com | demo | "OK küld, megnézzük." |
-| Colosseum Gym | — | colosseumgym32@gmail.com | — | "Érdekelhet." Warm, not an explicit demo request |
-| Integra Diagnosztika | — | integra.diagnosztika@gmail.com | — | Domain already reserved, open to working together |
+| Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
+| Tetőmosás-tetőfelújítás | Kulanda Norbert | kulanda.norbert@gmail.com | Your phone number | ✅ in Gmail |
+| Péter Úr Redőnység | — | peterur.redonyseg@gmail.com | Your phone number | ✅ in Gmail |
+| MSP | — | msp.modernsolutionsprovider@gmail.com | Which site we meant | ✅ in Gmail |
 
-## Needs a reply, not a demo
+## Demos still to build
 
-| Who | Email | What they want |
-|---|---|---|
-| Tetőmosás-tetőfelújítás | kulanda.norbert@gmail.com | Phone number, wants to call |
-| Péter Úr Redőnység | peterur.redonyseg@gmail.com | Phone number. Reads email once a week |
-| Ildikó (tánc) | tahminahastanc@gmail.com | Wants a call, gave 30/2529959. Says budget is tight |
-| Testdoki | info.testdoki@gmail.com | Asked what specifically could be improved |
-| MSP | msp.modernsolutionsprovider@gmail.com | Asked which of their sites we meant |
-| Culinary Institute of Europe | job@culinaryinstituteofeurope.com | Asked the price. Planning a new project, said ~2 weeks |
-| Takács | takacsz72@gmail.com | Engaged, agrees the site is weak |
-| Fejlesztőpagony | fejlesztopagony@gmail.com | Said they will reply soon |
+| Business | Contact | Email | Asked for |
+|---|---|---|---|
+| Hobby Kutyasuli, Lajosmizse | Gattyán Gábor, iskolavezető | hobbykutyasulilajosmizse@gmail.com | demo + ár |
+| Varázshegy TSMT, Szeged | — | tsmtszeged@gmail.com | demo |
 
-## Closed
+## Already handled — no action
 
-Tisztítlak Kölcsönző (Tóbi Bence) — demo and pricing sent 2026-09-21 07:11.
+- **Tisztítlak Kölcsönző** (Tóbi Bence) — demo + pricing sent 21 Sept 07:11
+- **Kelemen Ház Étterem és Panzió**, Makó — demo sent 20 Sept 13:47
+- **Panoráma Kutyanapközi** — demo sent 20 Sept 14:17
+- **Magyar Művészekért Alapítvány** — demo sent 20 Sept 13:30
+- **Colosseum Gym** — demo sent 20 Sept 17:01
+- **Vamos Tattoo** (Vámos Norbert) — demo built, draft waiting in Gmail
+- **Testdoki**, **Takács**, **Ildikó** (tahminahastanc) — answered
+- **Culinary Institute of Europe** (Béky Endre) — quoted 400k/650k/900k.
+  He asked for two weeks on 20 Sept → **follow up ~4 October.**
+- **Fejlesztőpagony** — auto-reply only, ball is in their court
 
 ## Do not contact again
 
 - **info@szantomonikatsmt.com** — Szántó Mónika explicitly asked to be removed
-  from the list ("töröljön a levelezőlistáról"). Under GDPR an objection to
-  direct marketing must be honoured. Suppress this address permanently.
+  ("töröljön a levelezőlistáról"). That is a formal objection to direct
+  marketing under GDPR and must be honoured. Suppress permanently.
 
-## Worth investigating
+## Worth fixing before the next batch
 
 - **bethie.stilus@gmail.com** replied twice saying they receive messages that
-  appear to be addressed to other businesses. Suggests addresses in the list
-  are mismatched to business names — worth checking before the next batch,
-  since sending the wrong company's name to someone reads as spam.
+  look addressed to other businesses. **MSP** also had to ask which of their
+  sites we meant. Both point at the same thing: names and addresses in the list
+  are not reliably matched. Greeting someone with the wrong company name is the
+  quickest route to a spam complaint.
+- Watch the typos. The Tisztítlak reply went out with "Kedves Tisztillak",
+  "ugényelt" and "adatvédlem". At 200 emails a day, a typo in the greeting is
+  the one people notice.
+
+## Pricing
+
+Small static site: 60–120k Ft, typically ~80k. Quote only when asked.
+Hourly for extras: 10 000 Ft. Larger builds (shop, multi-language) quoted
+separately — see the Culinary Institute thread for the 400k/650k/900k tiers.
