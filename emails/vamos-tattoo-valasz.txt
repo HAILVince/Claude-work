@@ -1,0 +1,68 @@
+Címzett: tattoo.vamos@gmail.com
+Tárgy:   Re: Együttműködési lehetőség - Weboldal készítés
+Csatolmány: desktop-full.png, mobile-full.png
+---------------------------------------------------------------
+
+Szia Norbert,
+
+köszönöm a gyors választ! Amit írtál, abból egyértelmű volt, mit szeretnél,
+így rögtön neki tudtam állni: elkészítettem egy demót pontosan azzal a
+felépítéssel, amit kértél.
+
+Két képet csatoltam — az egyik az oldal számítógépen, a másik mobilon.
+(A mobilos kép két hasábba van tördelve, hogy elférjen egy képen: élesben
+ez egyetlen, folyamatos oldal.)
+
+Amit kértél, és ahogy megoldottam:
+
+Egy landing oldal. Egy oldal, egy görgetés, a végén az időpontkéréssel.
+
+Ne igényeljen nagy karbantartást. Az oldal statikus: nincs mögötte rendszer,
+adatbázis vagy bejelentkezés. Nincs mit frissítgetni és nincs mit feltörni,
+évekig elvan magától.
+
+Hogy megismerjenek. Egy rövid bemutatkozás első személyben, a neveddel
+aláírva.
+
+A fontos infók. Korhatár, foglaló, árazás, mire figyelj az alkalom előtt,
+higiénia, utókezelés.
+
+Pár munkád. Galéria hat képnek, köztük egy kiemelt, nagyobb hellyel.
+
+Bejelentkező űrlap. Ez a lényeg: az érdeklődő megadja a nevét, az
+elérhetőségét, az ötletét, a méretet, a testrészt és hogy mikorra szeretné,
+a kérés pedig egyenesen ide, a tattoo.vamos@gmail.com címedre érkezik.
+Nincs admin felület, nincs külön rendszer, amibe be kellene lépned. Úgy jön,
+mint bármelyik másik e-mail.
+
+Amihez a segítséged kérem:
+
+A galériában most szándékosan üres helyek vannak, nem a te munkáid. Nem
+akartam idegen képeket betenni egy olyan oldalra, ami rólad szól. Ha küldesz
+hat fotót négyzetes kivágásban, azonnal a helyükre teszem.
+
+A "Rólam" és a "Tudnivalók" szövege egyelőre az én javaslatom. Olvasd át, és
+írd át bátran úgy, ahogy te mondanád — vagy mondd el pár mondatban, és
+megfogalmazom helyetted.
+
+És néhány kérdés, amire a véglegesítéshez szükségem lenne:
+
+1. Mi az a domain, amit már megvettél?
+2. Van fix címed és nyitvatartásod, amit kitehetünk az oldalra?
+3. Piercinget is csinálsz? A Facebook oldaladon szerepel, de nem akartam a
+   te nevedben kitalálni.
+4. A korhatár, a foglaló és az árazás, amit beírtam, stimmel nálad?
+
+Ha mehetünk tovább: küldd a képeket és a válaszokat, én pedig véglegesítem
+az oldalt. Utána már csak a domain bekötése és az élesítés van hátra, ezt is
+én intézem, neked nem kell vele foglalkoznod. A részleteket menet közben
+megbeszéljük.
+
+Ha valami nem tetszik benne, azt is nyugodtan mondd — pont azért demó, hogy
+alakítsuk.
+
+Várom a visszajelzésed!
+
+Üdv,
+Nagy-Toma Vince
+axiomaweb.hu
