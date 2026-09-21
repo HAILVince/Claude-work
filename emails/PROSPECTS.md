@@ -26,9 +26,16 @@ base64 through the mail or Drive tools is not workable.
 | Péter Úr Redőnység | — | peterur.redonyseg@gmail.com | Your phone number | ✅ in Gmail |
 | MSP | — | msp.modernsolutionsprovider@gmail.com | Which site we meant | ✅ in Gmail |
 
-**Four drafts contain `[IDE ÍRD A TELEFONSZÁMOD]`** — Zen szalon, Tetőmosás,
-Péter Úr Redőnység and Völgyesi Tanya. Four separate people have now asked for
-your phone number in one morning; it is worth putting it in your signature.
+**No phone numbers anywhere.** Vince does not want to hand one out, so every
+draft routes people to e-mail with a plain reason ("telefonon nehezen vagyok
+elérhető, e-mailben gyorsan válaszolok"). Each one compensates by asking for
+everything needed in a single reply, so the thread does not become ten round
+trips — this matters most for Péter Úr Redőnység, who reads e-mail once a week.
+
+**Recreate drafts, never update them.** `update_draft` detaches a draft from its
+thread: it returned a fresh threadId, which would have sent the reply as a brand
+new conversation instead of a reply. Delete and re-create with
+`replyToMessageId` instead.
 
 ## Demos still to build
 
