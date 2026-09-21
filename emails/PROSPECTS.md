@@ -16,8 +16,43 @@ thread**, not by who replied — most threads you had already answered.
 
 | Business | Contact | Email | Asked for |
 |---|---|---|---|
+| Heit Torma, Létavértes / Pocsaj | Heit Lóránd Levente, +36 70 362 4566 | heit.lorand@gmail.com | demo + ár |
 | Hobby Kutyasuli, Lajosmizse | Gattyán Gábor, iskolavezető | hobbykutyasulilajosmizse@gmail.com | demo + ár |
 | Varázshegy TSMT, Szeged | — | tsmtszeged@gmail.com | demo |
+
+### Heit Torma — notes before quoting
+
+Family horseradish grower and processor. Cultivation in Létavértes (the home of
+Hungarian horseradish), processing plant in Pocsaj, family recipes since 2012.
+Products: natúr ecetes torma, torma almával, torma mézzel. Lactose-, gluten- and
+dye-free, vegan-suitable. Horseradish is a hungarikum. Also retailed through
+Termelői Kosár, nekedterem.hu, groenk.hu and Öreghegyi Kézműves Hús.
+
+Two things to get right:
+
+1. **We wrote to the wrong business.** The outreach addressed "Heit Pince" and
+   referenced heit.hu — the *winery*. He replied signing with heittorma.hu, the
+   *horseradish* business. Build the demo for Heit Torma, and do not mention the
+   winery.
+2. **heittorma.hu has /termek/ product pages.** If it has a working cart, this is
+   not an 80k presentation site. Quote the 60–120k range for a presentation site
+   explicitly, and ask separately whether online ordering is needed — if it is,
+   price it like the Culinary Institute job, not like a landing page.
+
+## Needs a decision from you
+
+**A+A Építész Stúdió** (a2epiteszinfo@gmail.com) — Hegedüs-Jankovits Anett and
+Szugfill-Banai Andrea. They turned the website down in August, but are asking for
+marketing instead, and have now spelled out what they want:
+
+- SEO for their existing site
+- Growing their Instagram and Facebook reach
+- Creating and managing ads
+- A partnership strategy with contractors and estate agents
+- Affordable — they say marketing agencies quoted them unaffordable 6-month deals
+
+You already told them marketing is not what you do. Either take it on, decline
+cleanly, or refer them on. Your call, not mine.
 
 ## Already handled — no action
 
