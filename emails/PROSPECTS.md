@@ -3,14 +3,32 @@
 201 outreach emails sent, 48 replies. Status below is by **last message in the
 thread**, not by who replied — most threads you had already answered.
 
+## ⚠️ Attachments keep getting forgotten
+
+The Vamos email went out **without the two screenshots**, and Norbert wrote back:
+*"szerintem lemaradtak a kepek"*. A fix draft is in Gmail. Every demo draft
+references attached images — **attach the PNGs before sending, every time.**
+I cannot attach them myself: the files are ~1 MB each and inlining them as
+base64 through the mail or Drive tools is not workable.
+
 ## Waiting on you right now
 
 | Business | Contact | Email | Owed | Draft |
 |---|---|---|---|---|
+| **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Resend with the images attached** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
+| Heit Torma | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + quote (attach PNGs) | ✅ in Gmail |
+| A+A Építész Stúdió | Hegedüs-Jankovits Anett | a2epiteszinfo@gmail.com | Marketing — declined, offered technical SEO | ✅ in Gmail |
+| Pizza Eater, Tatabánya | — | csakpizza2020@gmail.com | Asked if you build webshops too | ✅ in Gmail |
+| Völgyesi Tanya | Völgyesiné Mózes Melinda, 06 30 604 5424 | volgyesitanya@gmail.com | Wants a call, limited budget | ✅ in Gmail |
+| Zen szalon csontkovács | Gál Robi | galrobika@gmail.com | Your phone number | ✅ in Gmail |
 | Tetőmosás-tetőfelújítás | Kulanda Norbert | kulanda.norbert@gmail.com | Your phone number | ✅ in Gmail |
 | Péter Úr Redőnység | — | peterur.redonyseg@gmail.com | Your phone number | ✅ in Gmail |
 | MSP | — | msp.modernsolutionsprovider@gmail.com | Which site we meant | ✅ in Gmail |
+
+**Four drafts contain `[IDE ÍRD A TELEFONSZÁMOD]`** — Zen szalon, Tetőmosás,
+Péter Úr Redőnység and Völgyesi Tanya. Four separate people have now asked for
+your phone number in one morning; it is worth putting it in your signature.
 
 ## Demos still to build
 
