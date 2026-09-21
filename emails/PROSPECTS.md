@@ -92,6 +92,43 @@ cleanly, or refer them on. Your call, not mine.
   He asked for two weeks on 20 Sept → **follow up ~4 October.**
 - **Fejlesztőpagony** — auto-reply only, ball is in their court
 
+## New demo requests — 21 Sept afternoon
+
+| Business | Contact | Email | Asked for |
+|---|---|---|---|
+| **Dr. Nagy Levente Ákos**, ügyvéd (Debrecen) | 4024 Debrecen, Petőfi tér 18. 1/7 · +36 70 337 0361 | drnagyleventeakos@gmail.com | demo **+ ár + SEO** |
+| **Gazdi-Ker Kft.** | — | sziminet@gmail.com | demo **+ ár** |
+
+Dr. Nagy asked three things in two messages: *"Hogyan tudná web oldalamat
+fejleszteni? Mennyibe kerülne ez, és ezzel mennyivel jobb találatot tudnék
+elérni?"* then *"a demo oldalra kíváncsi lennék, hogy eldönthessem, hogy
+szeretném-e ezt a szolgáltatást."* Current site: drnagyleventeakosugyved.hu
+
+**Careful with the ranking question.** No one can promise a specific search
+improvement, and a lawyer will spot a vague or inflated claim faster than most.
+Say what actually changes (speed, mobile, titles, structured data, Google
+Business Profile) and that ranking follows from those, rather than naming a
+number.
+
+Gazdi-Ker: *"egy ideje már gondolkodtunk rajta, hogy jó ötlet lenne egy saját
+weboldal. Ha tudna küldeni egy mintát… Illetve, árat is szeretnénk"* — they have
+only a Facebook page today.
+
+## 🚨 The list is sending people other companies' websites
+
+This got worse today. Two more prospects replied to say the site named in the
+e-mail is not theirs:
+
+- **Horváth László** (villanyszerelő): *"Nekem van modern saját, ez a link nem az
+  enyém!!"* — the double exclamation is the tone
+- **Feketéné Tündi** (Tündesign): *"a weboldal, amit említ, nem az én
+  vállalkozásomhoz tartozik"*
+
+Together with **Bethie Stílus** (twice) and **MSP**, that is five people telling
+you the same thing. Criticising a website that belongs to someone else is worse
+than sending nothing: it proves the mail was untargeted. Worth fixing the
+business-to-URL matching before the next batch.
+
 ## Declined — no reply needed, no draft written
 
 Only write a draft where the thread actually needs one. These do not:
@@ -100,6 +137,10 @@ Only write a draft where the thread actually needs one. These do not:
   de saját magam fogom menedzselni. Köszi a megkeresést, de nem élek vele."
 - **Veres Műsorszervező Iroda** (Veres Viktor, Miskolc) — closing the office.
 - **Nailah / Salacz Veronika** — automatic out-of-office reply, not a response.
+- **Kiss-Car Karosszéria** — "nem szeretnék új fejlesztéseket"
+- **Wash and Wiggle Kutyakozmetika** (Horváth Vanessza) — happy with Salonic for
+  now, said she will flag it if that changes. Worth a note to revisit, not a reply.
+- **Császár Margaréta** — the site is being built inside the family
 - Earlier declines: Zombor Zsuzsanna, Lobotka Pál, Czunyi Fanni, A Hangtalanokért,
   Szokoli Bernadett, Tápiósági Kft, Fény Garázs, Hospice Tatabánya, LaserWarzone,
   PanPan Dogsport, Hári Anikó, Szabó Éva, Ízműhely, Csiszár-Molnár Edina, Gödér
