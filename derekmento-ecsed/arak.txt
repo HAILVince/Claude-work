@@ -1,0 +1,25 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Kezelés neve | 9 000 Ft
+#   Csoportcím:     ## Kezelések
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Kezelések
+Első alkalom — állapotfelmérés és kezelés (60 perc) | 12 000 Ft
+További kezelés (45 perc) | 9 000 Ft
+Rövid utókezelés, kontroll (30 perc) | 6 000 Ft
+> Az első alkalom azért hosszabb, mert a kezelés előtt végigbeszéljük,
+> mi fáj, mióta, és mi az, ami rontja vagy enyhíti.
+
+## Bérlet
+5 alkalmas bérlet | 40 000 Ft
+> A bérlet a váltástól számított fél évig használható fel.
+
+## Egyéb tudnivalók
+Lemondás | legkésőbb 24 órával előtte
+Fizetés | készpénzben, a helyszínen

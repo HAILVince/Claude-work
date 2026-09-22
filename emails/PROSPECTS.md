@@ -13,8 +13,8 @@ you are at the top.
 
 ## Waiting on you right now — 14 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Only the first
-one needs attachments.**
+All of these are written and sitting on their own threads. **Two need
+attachments** (both demos): Család és Terápia and DerékMentő.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
@@ -22,7 +22,7 @@ one needs attachments.**
 | **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop igen, 400k-tól · **natív app nem** · 7 kérdés | — |
 | **Matyisák Pincészet** | — | Előbb demó, utána üljünk le · 6 kérdés | — |
 | **Kozák Ádám E.V.** | Kozák Ádám | Megcsinálom · 7 kérdés a demóhoz | — |
-| **Derékmentő**, Écsed | Sebestyén Tamás | Mi kerülne az oldalra · 5 kérdés | — |
+| **DerékMentő**, Ecséd | Sebestyén Tamás | **Demo + 90 000 Ft**, 7 dolgot kér javítani | **2 PNG** |
 | **Heit Torma** | Heit Lóránd Levente | **Webshop vagy bemutatkozó?** — ez dönti el az árat | — |
 | **Kati Szalon**, Makó | Széll Kati | 60–120k, tipikusan 80k · demó felajánlva | — |
 | **RABER Tire Shop** | Csoba László | Bocsánat a sablonos megszólításért · árak · 1 kérdés | — |
@@ -37,6 +37,26 @@ Still open, no draft written: **Hobby Kutyasuli** (demo + ár),
 **Varázshegy TSMT** (demo), **Integra Diagnosztika** (ár, 19 Sept óta áll).
 Already answered, ball in their court: **A+A Építész**, **Völgyesi Tanya**,
 **Zen szalon**, **Tetőmosás**, **Péter Úr Redőnység**.
+
+### DerékMentő — built on four facts
+
+There is no website and search turns up nothing for DerékMentő, Ecséd or
+Sebestyén Tamás. The page rests on the business name, the town, his name and
+his e-mail; **every complaint, step, price, FAQ answer and the whole
+contraindication list is a proposal**, and the reply says so in the second
+paragraph.
+
+The section worth keeping whatever else changes is **"Amivel nem hozzám kell
+jönni"**: straight-to-a-doctor red flags (numbness, weakness, loss of bladder
+or bowel control, pain after a fall, fever, night pain), ask-your-doctor-first
+conditions, bring your imaging, and a plain statement that he does not
+diagnose and does not prescribe. It costs him a few bookings and is the only
+thing on any of these pages that could prevent real harm. **He has to confirm
+the list** — the reply asks him to.
+
+No phone number on the page, because none is known. The reply asks for it and
+says the call button is the first thing to add: for someone in pain on a
+phone it will outperform the form.
 
 ### Two drafts to read before sending
 
