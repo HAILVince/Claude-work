@@ -51,16 +51,22 @@ változtatás a véglegesítés után **10 000 Ft/óra**.
   **Önálló Vamos-jel (ikon) nincs**, csak a szókép, ami favicon méretben
   olvashatatlan; a „v" betűt javasoltuk neki ikonnak.
 - `assets/gallery/` — hét munkafotó. **Egy kiemelt, nagyobb helyre kerül**;
-  melyik legyen, megkérdezve.
+  melyik legyen, ránk bízta.
+- `assets/studio-src/` — a három műtermi fotó, ahogy megérkezett. Ebből a
+  kettő kerül az oldalra (`assets/studio/`): a bárszéken ülő, pulóveres a
+  heróba (ezt ő is javasolta, és a saját szóképe van a mellkasán), a mosolygós
+  közeli portré a bemutatkozás mellé, fej-váll kivágásban. A harmadik, álló
+  képet nem használjuk.
 
 ## Amire még vár a munka
 
-1. Műtermi kép róla.
-2. Google-profil / értékelések linkje.
-3. Videó, ha lesz.
-4. Melyik galériakép legyen a kiemelt.
-5. **Megerősítés a korrekciós űrlapról**: ugyanaz a bejelentkező űrlap egy
-   „korrekciót jelzek" jelölőnégyzettel, és akkor kötelező fotót feltölteni.
+1. Videó, ha lesz.
+2. Melyik galériakép legyen a kiemelt (ránk bízta, de a jelenlegi választás
+   megerősíthető).
+3. **Két-három értékelés szó szerint**, ha szeretné, hogy idézetként is
+   kikerüljenek — a helye elő van készítve a Vélemények szakaszban.
+4. A Google-profil „olvasó" linkje, ha a mostani (értékelésíró) link mellé
+   egy „értékelések megnyitása" gomb is kell.
 
 ## Ami nélkül nem indul a munka
 
@@ -71,7 +77,31 @@ változtatás a véglegesítés után **10 000 Ft/óra**.
    levél felajánlja az alternatívát is: ha nem akarja kiadni, elég, ha ő írja
    át a két névszervert, amit küldünk.
 
-## Állapot — 2026-09-22
+## Állapot — 2026-09-22 (második kör, Norbert visszajelzése után)
+
+Norbert visszajelzése alapján bekerült:
+
+- **Műtermi kép a heróba** (`assets/studio/norbert-hero.jpg`, 1200×1600) — a
+  bárszéken ülő, pulóveres kép, ahogy ő javasolta. A világos háttér a fekete
+  heróban világító panelként ül, ezért nem kapott keretet.
+- **Portré a bemutatkozás mellé** (`assets/studio/norbert-portre.jpg`,
+  800×1000) — a mosolygós közeli, fej-váll kivágásban. A kivágás szándékos: a
+  pólófelirat („I listen and I definitely judge") így nem kerül az oldalra.
+- **Google-értékelések** — a Vélemények szakasz mostantól egy valódi panel az
+  „Értékelést írok" gombbal, ami az általa küldött linkre mutat
+  (`https://g.page/r/CZ-XETu7AiRvEAE/review`). Idézeteknek előkészített,
+  kikommentelt blokk vár a HTML-ben.
+- **Favicon** (`assets/favicon.svg`) — a szóképből kivágott **„v" betű**,
+  kontúrra vektorizálva, csontszínnel tintafekete lapon. Ez a saját
+  betűtípusának a betűje, nem utánrajzolás: a `vamos-wordmark-black.png`
+  0–185 × 87–310 pixeles részéből származik.
+- **Űrlap** — a „korrekciót jelzek" pipa mostantól **kikapcsolja** a testrész
+  és a méret mezőt (a meglévő tetoválásból látszik mindkettő), és marad a
+  fotó, a leírás és az időpont. Új, csak tájékoztató pipa: **„Ez lesz az első
+  tetoválásom"** — nem változtat a kötelező mezőkön, csak jelzi Norbertnek,
+  hogy több magyarázat kell. A két pipa kizárja egymást.
+
+## Állapot — 2026-09-22 (első változat)
 
 **Az oldal első változata elkészült**, privát artifact-linken nézhető meg
 (csak Vince fér hozzá, amíg meg nem osztja). A fizetés, a Gmail-pár és a

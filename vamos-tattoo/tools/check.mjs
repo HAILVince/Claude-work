@@ -47,16 +47,35 @@ for (const w of [360, 390, 414, 480, 560, 620, 768, 860, 1000, 1180, 1280, 1440]
   is('confirmation shown', await page.isVisible('#ok'), true);
   is('form cleared', await page.inputValue('#f-nev'), '');
 
+  await page.check('#f-elso');
+  is('first tattoo shows its note', await page.isVisible('#note-elso'), true);
+  is('first tattoo changes nothing else', await page.isDisabled('#f-meret'), false);
+
   await page.check('#f-korr');
   is('correction relabels the idea field', await page.textContent('label[for="f-otlet"]'), 'Mit javítanál rajta?');
   is('photo becomes required', await page.textContent('#opt-kep'), '(kötelező)');
+  is('correction switches off the placement', await page.isDisabled('#f-hol'), true);
+  is('correction switches off the size', await page.isDisabled('#f-meret'), true);
+  is('switched-off fields are marked', await page.$eval('#f-meret', el => el.closest('.fld').classList.contains('off')), true);
+  is('correction shows its note', await page.isVisible('#note-korr'), true);
+  is('correction clears first tattoo', await page.isChecked('#f-elso'), false);
+  is('correction locks first tattoo', await page.isDisabled('#f-elso'), true);
+  is('first-tattoo note goes away', await page.isVisible('#note-elso'), false);
+
   await page.fill('#f-nev', 'Teszt Anna');
   await page.fill('#f-el', 'anna@example.com');
   await page.fill('#f-otlet', 'A bal szélén kifakult egy vonal.');
-  await page.fill('#f-hol', 'bal alkar');
   await page.click('#f button[type=submit]');
   is('correction without a photo is blocked', (await page.$$('.fld.bad')).length, 1);
+  is('placement is not demanded for a correction', await page.$eval('#f-hol', el => el.closest('.fld').classList.contains('bad')), false);
   is('size is not demanded for a correction', await page.$eval('#f-meret', el => el.closest('.fld').classList.contains('bad')), false);
+
+  await page.uncheck('#f-korr');
+  is('unticking gives the placement back', await page.isDisabled('#f-hol'), false);
+  is('unticking gives the size back', await page.isDisabled('#f-meret'), false);
+  is('unticking unlocks first tattoo', await page.isDisabled('#f-elso'), false);
+  is('the note goes away', await page.isVisible('#note-korr'), false);
+  is('the idea field is relabelled back', await page.textContent('label[for="f-otlet"]'), 'Mi az elképzelésed?');
   await ctx.close();
 }
 
