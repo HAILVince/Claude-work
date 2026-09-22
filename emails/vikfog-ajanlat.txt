@@ -36,7 +36,8 @@ tárhelyen. Csinálsz ott egy fiókot, én megadom neked a hozzáférést, és
 onnantól a böngésződből nyitod meg a fájlt, átírod a számot, rákattintasz
 a mentésre. Pár perc, és az oldalon már az új ár látszik. Nem kell hozzá
 program, nem kell hozzá fejlesztő, és nem kell megvárnod, hogy valaki
-ráérjen. Átadáskor egyszer végigcsináljuk együtt, utána megy magától.
+ráérjen. Átadáskor kapsz hozzá egy rövid, lépésről lépésre leírást —
+négy-öt kattintás az egész.
 
 És legyek őszinte egy dologban: karbantartást nem vállalok. Pont ezért
 építem így. Nem akarom, hogy fél év múlva megint ott legyél, hogy egy szám

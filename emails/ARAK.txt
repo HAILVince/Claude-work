@@ -36,7 +36,9 @@ Egy sora nagyjából így néz ki:
 
     Púderes szemöldök | 65 000 Ft
 
-Átadáskor egyszer végigmutatod neki, utána a sajátja.
+Átadáskor kap hozzá egy rövid, lépésről lépésre írásos leírást, és ennyi.
+Oktatást, közös végigkattintgatást, telefonos segítséget ne ajánlj — a
+leírás a dokumentáció, onnantól az övé.
 
 Ezt nyugodtan mondd el annak is, akit pont a kiszolgáltatottság zavart a
 régi fejlesztőjénél — nekik ez az érv, nem a dizájn. De ne csúszz át
