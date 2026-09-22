@@ -4,7 +4,7 @@
 import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
 import { unlinkSync, writeFileSync } from 'node:fs';
 
-const B = 'http://127.0.0.1:8182/index.html';
+const B = 'http://127.0.0.1:8192/index.html';
 writeFileSync('screenshots/_sheet.html',
   '<!DOCTYPE html><meta charset="utf-8"><style>html,body{margin:0;background:#fff}' +
   'body{padding:26px;display:flex;gap:30px;align-items:flex-start}' +
@@ -47,7 +47,7 @@ let half;
   const W = PAD*2 + COL*2 + GAP + 4;
   const c = await br.newContext({ viewport:{ width:W, height:half + PAD*2 + 2 }, deviceScaleFactor:1.4 });
   const p = await c.newPage();
-  await p.goto(`http://127.0.0.1:8182/screenshots/_sheet.html`, { waitUntil:'networkidle' });
+  await p.goto(`http://127.0.0.1:8192/screenshots/_sheet.html`, { waitUntil:'networkidle' });
   await p.waitForTimeout(300);
   await p.screenshot({ path:'screenshots/mobile-full.png', fullPage:true });
   await c.close();

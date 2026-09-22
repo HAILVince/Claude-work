@@ -71,6 +71,25 @@ változtatás a véglegesítés után **10 000 Ft/óra**.
    levél felajánlja az alternatívát is: ha nem akarja kiadni, elég, ha ő írja
    át a két névszervert, amit küldünk.
 
+## Állapot — 2026-09-22
+
+**Az oldal első változata elkészült**, privát artifact-linken nézhető meg
+(csak Vince fér hozzá, amíg meg nem osztja). A fizetés, a Gmail-pár és a
+Hostinger-belépés még nem érkezett meg, tehát a domain és az éles tárhely
+felé még nem indult semmi — ez csak a lap.
+
+Ami rajta van: az ő teljes szövege szó szerint, a hét fotó webre
+újrakódolva (8,7 MB → 1,2 MB), a szókép a fejlécben és a heróban, az
+Inkness logó a krémnél, a hosszú tudnivalók saját szakaszban tapadó
+tartalomjegyzékkel, és az időpontfoglaló űrlap.
+
+Ami hely van fenntartva: a **műtermi kép** a heróban (keretes slot), és a
+**Google-értékelések** szakasza.
+
+Az űrlap logikája: a „korrekciót jelzek" jelölőnégyzet átírja a kérdést
+(„Mit javítanál rajta?"), a fotót kötelezővé teszi, és elengedi a méretet —
+egy korrekcióhoz nincs értelme cm-t kérni.
+
 ## Amit a szövege miatt meg kell építeni
 
 - Az űrlapnak **fájlfeltöltést** kell tudnia (inspirációs képek, illetve a

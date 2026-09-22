@@ -1,0 +1,80 @@
+/* Overflow sweep and form behaviour. The form is what the page exists for. */
+import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
+const URL = 'http://127.0.0.1:8192/index.html';
+const br = await chromium.launch();
+let bad = 0;
+const is = (n, got, want) => { const o = got === want; if (!o) bad++;
+  console.log(`${o ? 'ok  ' : 'FAIL'} ${n.padEnd(46)} ${o ? got : `got ${JSON.stringify(got)} want ${JSON.stringify(want)}`}`); };
+
+for (const w of [360, 390, 414, 480, 560, 620, 768, 860, 1000, 1180, 1280, 1440]) {
+  const ctx = await br.newContext({ viewport: { width: w, height: 900 }, isMobile: w < 860 });
+  const page = await ctx.newPage();
+  await page.goto(URL, { waitUntil: 'networkidle' });
+  const over = await page.evaluate(w => {
+    const out = [];
+    for (const el of document.querySelectorAll('body *')) {
+      if (el.classList.contains('skip')) continue;
+      const r = el.getBoundingClientRect();
+      if (r.width && (r.right > w + 1 || r.left < -1)) out.push(el.className || el.tagName);
+    }
+    return out;
+  }, w);
+  const scroll = await page.evaluate(() => document.documentElement.scrollWidth);
+  is(`width ${w}`, over.length === 0 && scroll <= w, true);
+  if (over.length) console.log('      overflowing:', [...new Set(over)].slice(0, 6));
+  await ctx.close();
+}
+
+{
+  const ctx = await br.newContext({ viewport: { width: 1280, height: 900 } });
+  const page = await ctx.newPage();
+  await page.goto(URL, { waitUntil: 'networkidle' });
+  await page.click('#f button[type=submit]');
+  is('empty submit flags five fields', (await page.$$('.fld.bad')).length, 5);
+
+  await page.fill('#f-nev', 'Teszt Anna');
+  await page.fill('#f-el', 'abc');
+  await page.fill('#f-otlet', 'Egy finom vonalas kolibri.');
+  await page.fill('#f-hol', 'bal alkar');
+  await page.fill('#f-meret', 'kicsi');
+  await page.click('#f button[type=submit]');
+  is('garbage contact and wordy size rejected', (await page.$$('.fld.bad')).length, 2);
+
+  await page.fill('#f-el', '06 30 123 4567');
+  await page.fill('#f-meret', '10 cm');
+  await page.click('#f button[type=submit]');
+  is('phone and cm accepted', (await page.$$('.fld.bad')).length, 0);
+  is('confirmation shown', await page.isVisible('#ok'), true);
+  is('form cleared', await page.inputValue('#f-nev'), '');
+
+  await page.check('#f-korr');
+  is('correction relabels the idea field', await page.textContent('label[for="f-otlet"]'), 'Mit javítanál rajta?');
+  is('photo becomes required', await page.textContent('#opt-kep'), '(kötelező)');
+  await page.fill('#f-nev', 'Teszt Anna');
+  await page.fill('#f-el', 'anna@example.com');
+  await page.fill('#f-otlet', 'A bal szélén kifakult egy vonal.');
+  await page.fill('#f-hol', 'bal alkar');
+  await page.click('#f button[type=submit]');
+  is('correction without a photo is blocked', (await page.$$('.fld.bad')).length, 1);
+  is('size is not demanded for a correction', await page.$eval('#f-meret', el => el.closest('.fld').classList.contains('bad')), false);
+  await ctx.close();
+}
+
+{
+  const ctx = await br.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const page = await ctx.newPage();
+  await page.goto(URL, { waitUntil: 'networkidle' });
+  is('menu starts closed', await page.isVisible('.nav'), false);
+  await page.click('.burger');
+  is('burger opens it', await page.isVisible('.nav'), true);
+  await page.click('.nav a[href="#munkaim"]');
+  is('closes on link tap', await page.isVisible('.nav'), false);
+  await page.click('.burger');
+  await page.keyboard.press('Escape');
+  is('closes on Escape', await page.isVisible('.nav'), false);
+  await ctx.close();
+}
+
+await br.close();
+console.log(bad ? `\n${bad} FAILED` : '\nall clean');
+process.exit(bad ? 1 : 0);

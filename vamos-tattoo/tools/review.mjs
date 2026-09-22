@@ -10,7 +10,7 @@ const ctx = await browser.newContext({
   isMobile: MOB, hasTouch: MOB, reducedMotion: 'reduce', colorScheme: 'light',
 });
 const page = await ctx.newPage();
-await page.goto('http://127.0.0.1:8182/index.html', { waitUntil: 'networkidle' });
+await page.goto('http://127.0.0.1:8192/index.html', { waitUntil: 'networkidle' });
 await page.evaluate(() => document.fonts.ready);
 await page.waitForTimeout(300);
 const H = await page.evaluate(() => document.documentElement.scrollHeight);
