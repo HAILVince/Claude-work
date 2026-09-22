@@ -15,12 +15,18 @@ payment, cancellation, preparation, aftercare, correction), four logo files
 and seven work photos. All of it is in `vamos-tattoo/content/` and
 `vamos-tattoo/assets/`; the brief is `vamos-tattoo/content/BRIEF.md`.
 
-**A draft is in Gmail** telling him payment is **45 000 Ft now, 45 000 Ft at
-launch**, giving the account number, and asking for the one thing that
-blocks the start: a (new) Gmail address to build the access on. It also asks
-for his studio photo, the Inkness logo, the Google reviews link, which
-gallery image should be the featured one, and confirmation of how the
-correction checkbox should work.
+**A draft is in Gmail** naming the three things that start the work:
+**45 000 Ft now** (45 000 Ft at launch, account number given), a **new Gmail
+address and its password**, and the **Hostinger login** so the domain can move
+to Cloudflare — with the nameserver route offered as an alternative if he
+would rather not hand over the account. It also asks for his studio photo,
+the Google reviews link, which gallery image should be featured, and
+confirmation of how the correction checkbox should work.
+
+**Careful with the logos.** The teal circle is **Inkness Tattoo Care**, not
+Vamos — it is the aftercare brand he asked to have placed next to the cream.
+Vamos's own logo is the handwritten wordmark, and there is **no standalone
+mark**, so the browser-tab icon needs deriving from the "v".
 
 **Two things in his copy need more than the previous demos had:** the form
 must take **file uploads** (inspiration images, and a sharp photo for a

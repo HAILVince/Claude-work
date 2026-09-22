@@ -43,22 +43,33 @@ változtatás a véglegesítés után **10 000 Ft/óra**.
   bemutatkozás, stílus, mit nem vállal, korhatár, foglalás és fizetés,
   módosítás és lemondás, érkezés, felkészülés, az alkalom, utókezelés,
   korrekció. Ez a mérvadó szöveg, nem a demó javaslatai.
-- `assets/brand/` — négy logófájl: türkiz jel, fehér jel, fehér és fekete
-  szókép.
+- `assets/brand/` — négy logófájl, **de nem mind az övé**:
+  `vamos-wordmark-black.png` és `vamos-wordmark-white.png` a Vamos Tattoo
+  kézírásos szóképe, `inkness-logo-teal.png` és `inkness-logo-white.png`
+  pedig az **Inkness Tattoo Care** logója, amit a szövegében az utókezelő
+  krémhez kért. A türkiz kör tehát nem a Vamos jele — ezt elsőre elnéztem.
+  **Önálló Vamos-jel (ikon) nincs**, csak a szókép, ami favicon méretben
+  olvashatatlan; a „v" betűt javasoltuk neki ikonnak.
 - `assets/gallery/` — hét munkafotó. **Egy kiemelt, nagyobb helyre kerül**;
   melyik legyen, megkérdezve.
 
 ## Amire még vár a munka
 
 1. Műtermi kép róla.
-2. **Inkness logó** — a szövegben ő jelölte („ide inkness logo"), de a
-   küldött fájlok között nincs.
-3. Google-profil / értékelések linkje.
-4. Videó, ha lesz.
-5. Melyik galériakép legyen a kiemelt.
-6. A Gmail-cím a hozzáféréshez.
-7. **Megerősítés a korrekciós űrlapról**: ugyanaz a bejelentkező űrlap egy
+2. Google-profil / értékelések linkje.
+3. Videó, ha lesz.
+4. Melyik galériakép legyen a kiemelt.
+5. **Megerősítés a korrekciós űrlapról**: ugyanaz a bejelentkező űrlap egy
    „korrekciót jelzek" jelölőnégyzettel, és akkor kötelező fotót feltölteni.
+
+## Ami nélkül nem indul a munka
+
+1. **A 45 000 Ft első részlet.**
+2. **Gmail-cím és jelszó** — új fiók, erre épül a hozzáférés, és ez lesz az
+   oldal postafiókja.
+3. **Hostinger-belépés**, hogy a domain átvihető legyen Cloudflare-re. A
+   levél felajánlja az alternatívát is: ha nem akarja kiadni, elég, ha ő írja
+   át a két névszervert, amit küldünk.
 
 ## Amit a szövege miatt meg kell építeni
 
