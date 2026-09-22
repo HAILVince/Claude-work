@@ -1,0 +1,26 @@
+# Vamos Tattoo — vélemények
+#
+# Ebbe a fájlba kerülnek a Google-értékelések, amiket az oldal a Vélemények
+# szakaszban megjelenít. A weboldal ezt a fájlt olvassa be, tehát elég ezt
+# átírni — a HTML-hez nem kell hozzányúlni.
+#
+# Egy értékelés így néz ki:
+#
+#   ## Név | Mikor | Hány csillag
+#   Az értékelés szövege. Lehet több sorban is,
+#   a következő ## kezdetű sorig tart.
+#
+# A „Mikor" és a „Hány csillag" elhagyható; csillagból alapból 5 jár.
+# A # jellel kezdődő sorok megjegyzések, azokat az oldal átugorja.
+#
+# FONTOS: ide csak valódi, a Google-profilról átmásolt értékelés kerüljön.
+# Ha ez a fájl üres, a Vélemények szakaszban csak az „Értékelj" gomb látszik,
+# tehát nem lesz tőle hibás az oldal.
+#
+# Példa (a # jeleket kell levenni az elejéről, és a szöveget lecserélni):
+#
+# ## Kiss Anna | 2026. augusztus | 5
+# Ide jön az, amit a vendég a Google-ra írt, szó szerint.
+#
+# ## Nagy Péter | 2026. július
+# A következő értékelés szövege.

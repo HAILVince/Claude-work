@@ -30,6 +30,10 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* A `display` bárhol felülírná a böngésző [hidden] szabályát, és a script
+   több helyen a hidden kapcsolóval mutat és rejt. Egy helyen eldöntjük. */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
@@ -241,26 +245,62 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* ---------- reviews ---------- */
 
+.rev-top { display: flex; flex-wrap: wrap; gap: 20px 32px; align-items: flex-end; max-width: none; }
+.rev-top > div { max-width: 46ch; }
+.rev-cta { margin: 0 0 0 auto; }
+
+/* A sáv vízszintesen görgethető, ujjal és nyíllal is. A kártyák egy
+   rácsban, egymás mellett — a görgetés tapad, hogy ne álljon meg félúton
+   egy elvágott kártyán. */
+.rev-box { margin-bottom: clamp(28px, 4vw, 44px); }
+.rev-rail { display: flex; align-items: stretch; gap: 12px; }
+
+.revs {
+  flex: 1 1 auto; min-width: 0;
+  display: grid; grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 340px);
+  gap: 14px; overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory; scroll-padding-inline: 0;
+  scrollbar-width: none; padding-bottom: 2px;
+}
+.revs::-webkit-scrollbar { display: none; }
+.revs:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+
+.rev-q {
+  scroll-snap-align: start; margin: 0;
+  background: var(--paper); border: 1px solid var(--line);
+  padding: clamp(22px, 2.6vw, 30px);
+  display: flex; flex-direction: column; gap: 14px;
+}
+.rev-q p { margin: 0; font-size: 17px; color: var(--ink-2); }
+.rev-q .rev-st { font-size: 13px; letter-spacing: .26em; color: var(--ink); }
+/* The names line up along the bottom whatever the quotes do above them. */
+.rev-q cite {
+  font-style: normal; margin-top: auto; padding-top: 4px;
+  font-family: var(--f-d); font-size: 11px; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3);
+}
+
+.rev-nav {
+  flex: 0 0 auto; width: 46px; align-self: center;
+  aspect-ratio: 1; display: grid; place-items: center;
+  font-size: 17px; line-height: 1; cursor: pointer;
+  background: transparent; border: 1px solid var(--line); color: var(--ink);
+  transition: background .18s ease, color .18s ease, border-color .18s ease;
+}
+.rev-nav:hover { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.rev-nav[disabled] { opacity: .3; cursor: default; background: transparent; border-color: var(--line); color: var(--ink); }
+
 .rev {
   background: var(--paper); border: 1px solid var(--line);
   padding: clamp(26px, 3.5vw, 44px);
   display: grid; gap: clamp(22px, 3vw, 40px);
   grid-template-columns: 1fr auto; align-items: center;
 }
-.rev-st { font-size: 15px; letter-spacing: .3em; color: var(--ink); margin-bottom: 12px; }
-.rev-h { font-family: var(--f-d); font-size: 19px; font-weight: 600; margin-bottom: 10px; }
+.rev .rev-st { font-size: 15px; letter-spacing: .3em; color: var(--ink); margin-bottom: 12px; }
+.rev-hd { font-family: var(--f-d); font-size: 19px; font-weight: 600; margin-bottom: 10px; }
 .rev-x { color: var(--ink-2); font-size: 16.5px; max-width: 52ch; margin: 0; }
 .rev-b { margin: 0; }
-
-/* Quotes, once his own reviews are in. */
-.revs { display: grid; gap: 1px; grid-template-columns: repeat(3, 1fr); margin-top: 1px; background: var(--line); }
-.rev-q { margin: 0; background: var(--paper); padding: clamp(22px, 2.6vw, 30px); border: 1px solid var(--line); }
-.rev-q p { font-size: 17px; color: var(--ink-2); }
-.rev-q cite {
-  display: block; margin-top: 14px; font-style: normal;
-  font-family: var(--f-d); font-size: 11px; font-weight: 600;
-  letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3);
-}
 
 /* ---------- form ---------- */
 
@@ -319,7 +359,21 @@ img { max-width: 100%; height: auto; display: block; }
 .fld.bad .err { display: block; }
 .fld.bad input[type="text"], .fld.bad textarea { border-color: #E5907F; }
 .form-ok { margin: 0; padding: 14px 16px; font-size: 16px; background: #1D1D1D; border: 1px solid var(--line-w); color: var(--on-ink); }
+.form-bad { margin: 0; padding: 14px 16px; font-size: 16px; background: #241816; border: 1px solid #6B3A31; color: #E5907F; }
+.form-bad a { color: inherit; }
 .form-note { margin: 0; font-size: 14px; color: var(--on-ink-2); }
+
+/* Sending state: the button says what is happening, and cannot be pressed
+   twice into a double message. */
+.form button[type="submit"][disabled] { opacity: .55; cursor: progress; }
+
+/* The honeypot has to be there for a bot and invisible to everyone else.
+   Clipped to nothing rather than display:none, which bots skip, and rather
+   than a negative offset, which counts as the page overflowing. */
+.hp {
+  position: absolute; width: 1px; height: 1px; margin: 0;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
 
 /* ---------- footer ---------- */
 
@@ -373,7 +427,6 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-p { max-width: 340px; }
   .two { grid-template-columns: 1fr; }
   .rev { grid-template-columns: 1fr; justify-items: start; }
-  .revs { grid-template-columns: 1fr; }
   .form-in { grid-template-columns: 1fr; }
   .flow { grid-template-columns: repeat(2, 1fr); }
   .fl { padding-right: 24px; }
@@ -414,6 +467,9 @@ img { max-width: 100%; height: auto; display: block; }
   .fl + .fl { padding-left: 0; }
   .fl:nth-child(n+3) { border-top: 1px solid var(--line); }
   .inkness { flex-direction: column; align-items: flex-start; gap: 16px; }
+  /* On a phone the thumb is the control, so the arrows only take up room. */
+  .rev-nav { display: none; }
+  .rev-cta { margin-left: 0; }
   .row { grid-template-columns: 1fr; }
   .tud-ix ol { grid-template-columns: 1fr; }
   .gal { grid-template-columns: 1fr; }

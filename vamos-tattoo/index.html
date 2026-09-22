@@ -483,15 +483,41 @@
 
   <section id="velemenyek" class="sec">
     <div class="wrap">
-      <header class="sec-h">
-        <p class="eyebrow">Vélemények</p>
-        <h2>Amit a vendégeim írtak</h2>
+      <header class="sec-h rev-top">
+        <div>
+          <p class="eyebrow">Vélemények</p>
+          <h2>Amit a vendégeim írtak</h2>
+          <p class="sec-l" id="rev-count" hidden></p>
+        </div>
+        <p class="rev-cta">
+          <a class="btn btn-l" href="https://g.page/r/CZ-XETu7AiRvEAE/review"
+             target="_blank" rel="noopener">Értékelj</a>
+        </p>
       </header>
+    </div>
 
-      <div class="rev">
+    <!-- A kártyák a velemenyek.txt fájlból töltődnek be. Amíg az a fájl üres,
+         ez a sáv rejtve marad, és csak az alatta lévő panel látszik. -->
+    <div class="rev-box" id="rev-box" hidden>
+      <div class="wrap rev-rail">
+        <button class="rev-nav" type="button" data-dir="-1" aria-label="Előző vélemények">
+          <span aria-hidden="true">←</span>
+        </button>
+        <div class="revs" id="revs" tabindex="0" role="group"
+             aria-label="Vélemények — vízszintesen görgethető"></div>
+        <button class="rev-nav" type="button" data-dir="1" aria-label="További vélemények">
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Ez a panel akkor áll ott, amikor még nincs egy értékelés sem: a
+         szakasz akkor sem lesz üres. Ha a sáv megtelik, a script elrejti. -->
+    <div class="wrap">
+      <div class="rev" id="rev-panel">
         <div class="rev-t">
           <p class="rev-st" aria-hidden="true">★★★★★</p>
-          <p class="rev-h">Értékelések a Google-on</p>
+          <p class="rev-hd">Értékelések a Google-on</p>
           <p class="rev-x">
             A rólam szóló véleményeket a Google-profilomon találod. Ha nálam
             készült a tetoválásod, néhány mondat sokat segít azoknak, akik még
@@ -500,18 +526,10 @@
         </div>
         <p class="rev-b">
           <a class="btn btn-l" href="https://g.page/r/CZ-XETu7AiRvEAE/review"
-             target="_blank" rel="noopener">Értékelést írok</a>
+             target="_blank" rel="noopener">Értékelj a Google-on</a>
         </p>
       </div>
 
-      <!-- Ha Norbert küld 2–3 értékelést szó szerint, ide kerülnek idézetként:
-      <div class="revs">
-        <blockquote class="rev-q">
-          <p>Az értékelés szövege.</p>
-          <cite>Keresztnév · 2026</cite>
-        </blockquote>
-      </div>
-      -->
 
     </div>
   </section>
@@ -532,7 +550,10 @@
         </p>
       </div>
 
-      <form class="form" id="f" novalidate>
+      <!-- A küldést a functions/api/foglalas.js végzi. Ha a tárhely nem
+           Cloudflare Pages lesz, elég ezt az egy action címet átírni. -->
+      <form class="form" id="f" action="/api/foglalas" method="post"
+            enctype="multipart/form-data" novalidate>
         <div class="fld">
           <label for="f-nev">Neved</label>
           <input id="f-nev" name="nev" type="text" autocomplete="name">
@@ -596,7 +617,15 @@
           <p class="err" data-for="f-kep"></p>
         </div>
 
-        <button class="btn btn-l btn-w btn-full" type="submit">Elküldöm</button>
+        <!-- Mézesbödön: ember nem látja és nem is éri el tabbal, a kitöltő
+             űrlapkitöltő botokat viszont kiszűri. -->
+        <p class="hp" aria-hidden="true">
+          <label for="f-web">Ezt hagyd üresen</label>
+          <input id="f-web" name="weboldal" type="text" tabindex="-1" autocomplete="off">
+        </p>
+
+        <button class="btn btn-l btn-w btn-full" type="submit" id="send">Elküldöm</button>
+        <p class="form-bad" id="sendbad" hidden></p>
         <p class="form-ok" id="ok" hidden>
           Köszönöm, megkaptam! Az üzenetek feldolgozása 2–3 napot is igénybe
           vehet, utána jelentkezem a megadott elérhetőségen.
