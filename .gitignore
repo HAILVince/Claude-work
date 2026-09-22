@@ -3,3 +3,5 @@ node_modules/
 
 # átadásra csomagolt zipek — a forrás a repóban van
 *.zip
+
+dist/

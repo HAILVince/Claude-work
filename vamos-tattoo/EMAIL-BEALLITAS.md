@@ -14,14 +14,28 @@ tartani — nincs szerver, nincs PHP-frissítés, nincs plugin.
 
 ### 1. Az oldal felmegy Cloudflare Pages-re
 
-Cloudflare irányítópult → **Workers & Pages** → **Create** → **Pages** →
-*Connect to Git*, és rá kell mutatni erre a repóra, a `vamos-tattoo` mappára.
+Cloudflare irányítópult → **Workers & Pages** → **Create application** →
+**Pages** → *Connect to Git*, és rá kell mutatni erre a repóra.
 
-- Build command: **nincs** (üresen kell hagyni)
-- Build output directory: `/` (a `vamos-tattoo` mappa gyökere)
+A build beállításai — **ezt a hármat pontosan így**:
 
-A `functions/` mappát a Cloudflare magától megtalálja, és a benne lévő
-fájlból lesz a `/api/foglalas` végpont. Semmit nem kell beállítani hozzá.
+| Mező | Érték |
+| --- | --- |
+| Root directory | `vamos-tattoo` |
+| Build command | `node tools/build.mjs` |
+| Build output directory | `dist` |
+
+**Miért van build, ha egyszer statikus az oldal?** Mert a repóban a weboldal
+mellett ott van a `content/BRIEF.md` is, benne a megbízás árával és a
+fizetési bontással, meg a képernyőképek és a szerszámok. Ha a mappa egy az
+egyben kimenne, ezek mind letölthetők lennének a domainről. A
+`tools/build.mjs` ezért összerak egy `dist` könyvtárat, amiben csak az van,
+ami a látogatóé: a HTML-ek, a CSS, a script, a `velemenyek.txt` és az
+`assets` (az eredeti, vágatlan fotók nélkül). 25 fájl, 2,1 MB.
+
+A `functions/` mappa szándékosan nincs a `dist`-ben: azt a Cloudflare a
+projekt gyökeréből olvassa, és abból lesz a `/api/foglalas` végpont.
+Beállítani nem kell hozzá semmit.
 
 ### 2. Resend-fiók
 
@@ -36,7 +50,9 @@ mint a Google-fiók.
 - **API Keys** → *Create API key*, `Sending access` jogosultsággal. A kulcsot
   egyszer mutatja meg, tedd el.
 
-Ingyenes keret: 3 000 levél/hó, napi 100. Ide ez sok.
+Ingyenes keret: **3 000 levél/hó, de napi 100**, és egy igazolt domain. Ide
+ez bőven elég — a napi korlát az, ami egyáltalán szóba jöhet, de ahhoz napi
+száz jelentkezés kellene.
 
 ### 3. A három beállítás a Cloudflare-en
 

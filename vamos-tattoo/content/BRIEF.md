@@ -50,7 +50,8 @@ változtatás a véglegesítés után **10 000 Ft/óra**.
   krémhez kért. A türkiz kör tehát nem a Vamos jele — ezt elsőre elnéztem.
   **Önálló Vamos-jel (ikon) nincs**, csak a szókép, ami favicon méretben
   olvashatatlan; a „v" betűt javasoltuk neki ikonnak.
-- `assets/gallery/` — hét munkafotó. **Egy kiemelt, nagyobb helyre kerül**;
+- `assets/gallery-src/` — a hét munkafotó eredetiben (a webre kicsinyített
+  változatuk az `assets/gallery-web/`). **Egy kiemelt, nagyobb helyre kerül**;
   melyik legyen, ránk bízta.
 - `assets/studio-src/` — a három műtermi fotó, ahogy megérkezett. Ebből a
   kettő kerül az oldalra (`assets/studio/`): a bárszéken ülő, pulóveres a

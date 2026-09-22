@@ -1,6 +1,6 @@
 /* Overflow sweep and form behaviour. The form is what the page exists for. */
 import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
-const URL = 'http://127.0.0.1:8192/index.html';
+const URL = process.env.SITE_URL || 'http://127.0.0.1:8192/index.html';
 const br = await chromium.launch();
 let bad = 0;
 const is = (n, got, want) => { const o = got === want; if (!o) bad++;
