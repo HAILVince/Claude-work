@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# átadásra csomagolt zipek — a forrás a repóban van
+*.zip
