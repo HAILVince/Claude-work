@@ -1,13 +1,19 @@
-# Prospect state — 2026-09-21
+# Prospect state — 2026-09-22
 
 201 outreach emails sent, 48 replies. Status below is by **last message in the
 thread**, not by who replied — most threads you had already answered.
 
-## ⚠️ Attachments keep getting forgotten
+## 🎉 Won
 
-The Vamos email went out **without the two screenshots**, and Norbert wrote back:
-*"szerintem lemaradtak a kepek"*. A fix draft is in Gmail. Every demo draft
-references attached images — **attach the PNGs before sending, every time.**
+- **Vamos Tattoo** (Vámos Norbert, tattoo.vamos@gmail.com) — **megbízva.**
+  Demo built, the resend with the images attached landed it.
+
+## ⚠️ Attach the PNGs before sending
+
+Every demo draft references attached images, and the Vamos mail went out
+without them once — Norbert had to write back *"szerintem lemaradtak a kepek"*.
+It cost a round trip on a deal that then closed, so the rule stands:
+**attach the PNGs before sending, every time.** Live right now for Gazdi-Ker.
 I cannot attach them myself: the files are ~1 MB each and inlining them as
 base64 through the mail or Drive tools is not workable.
 
@@ -17,7 +23,6 @@ base64 through the mail or Drive tools is not workable.
 |---|---|---|---|---|
 | **Sminktetoválás Tatabánya** | Fogarasi Viki | fogvik@gmail.com | **Ajánlat — no attachment needed, send as is** | ✅ in Gmail |
 | **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
-| **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Megbízva** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
 | Heit Torma | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + quote (attach PNGs) | ✅ in Gmail |
 | A+A Építész Stúdió | Hegedüs-Jankovits Anett | a2epiteszinfo@gmail.com | Marketing — declined, offered technical SEO | ✅ in Gmail |
@@ -88,7 +93,6 @@ cleanly, or refer them on. Your call, not mine.
 - **Panoráma Kutyanapközi** — demo sent 20 Sept 14:17
 - **Magyar Művészekért Alapítvány** — demo sent 20 Sept 13:30
 - **Colosseum Gym** — demo sent 20 Sept 17:01
-- **Vamos Tattoo** (Vámos Norbert) — demo built, draft waiting in Gmail
 - **Testdoki**, **Takács**, **Ildikó** (tahminahastanc) — answered
 - **Culinary Institute of Europe** (Béky Endre) — quoted 400k/650k/900k.
   He asked for two weeks on 20 Sept → **follow up ~4 October.**
@@ -149,10 +153,12 @@ Illetve az oldal sem tetszik már annyira."* She asked for a rough price.
 
 She is not leaving her old site because of the design. She is leaving because
 **she could not get her own price list changed once a year.** So the offer leads
-with that, not with features: price-list updates are free for the life of the
-site, the files are hers, and the domain stays in her name so anyone can take
-over. Repeating the dependency that burned her — with a friendlier developer —
-is the one way to lose this one.
+with that, not with features — but it answers it by removing the dependency, not
+by promising to be a more responsive version of it. **No maintenance is offered,
+and the letter says so outright.** The price list is a plain text file she edits
+herself in the browser on GitHub, and the page loads from it; her files, her
+domain, anyone can take over. See ARAK.txt, which now carries this as the
+standing rule for every quote.
 
 **Quoted 90 000 Ft** — Vince's call, above the usual 80k — with the 60–120k
 range named so the number has a context. No demo built yet:
@@ -235,3 +241,8 @@ a question rather than a statement.
 Small static site: 60–120k Ft, typically ~80k. Quote only when asked.
 Hourly for extras: 10 000 Ft. Larger builds (shop, multi-language) quoted
 separately — see the Culinary Institute thread for the 400k/650k/900k tiers.
+
+**Never offer maintenance** — not in any wording, not as a favour, not as
+"free for the life of the site". Content that changes goes into a plain text
+file the client edits themselves on GitHub, and the page loads from it. Full
+wording and the caveats are in ARAK.txt.

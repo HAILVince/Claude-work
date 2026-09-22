@@ -15,3 +15,36 @@ Tegező változat:
 Az ár attól függ, mit szeretnél: általában 60 és 120 ezer között mozog, a
 legtöbb oldal 80 körül jön ki. Írd le, mire gondolsz, és mondok rá pontos
 összeget.
+
+
+KARBANTARTÁST NEM VÁLLALUNK
+===========================
+
+Ezt soha ne ígérd, semmilyen formában — se "szólj és megcsinálom", se
+"évi egy frissítés belefér", se "ingyenes, ameddig az oldal él". Egyszeri
+munka, egyszeri díj, utána az oldal a megrendelőé.
+
+Amit a változó tartalom helyett kínálunk:
+
+Az árlista (vagy bármi más, ami rendszeresen változik) nem a HTML-be
+épül bele, hanem külön szöveges fájlba kerül, és az oldal abból tölti be.
+A fájl a GitHubon van, ott, ahol az oldal is. A megrendelő kap egy
+hozzáférést, és a böngészőből szerkeszti: megnyitja a fájlt, átírja a
+számot, menti, pár percen belül él. Nem kell program, nem kell fejlesztő.
+
+Egy sora nagyjából így néz ki:
+
+    Púderes szemöldök | 65 000 Ft
+
+Átadáskor egyszer végigmutatod neki, utána a sajátja.
+
+Ezt nyugodtan mondd el annak is, akit pont a kiszolgáltatottság zavart a
+régi fejlesztőjénél — nekik ez az érv, nem a dizájn. De ne csúszz át
+ígérgetésbe: a "nem vállalok karbantartást" mondatot ki kell mondani,
+nem elkenni.
+
+Amit tudni kell róla, mielőtt ígéred:
+- kell hozzá egy (ingyenes) GitHub-fiók a megrendelőnek
+- az oldalnak GitHubon kell laknia (ez egyben az ingyenes tárhely is)
+- ha elrontja a fájl formátumát, az oldal ne omoljon össze: a betöltő
+  kódnak hibatűrőnek kell lennie

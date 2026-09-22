@@ -6,9 +6,11 @@ Csatolmány: nincs — demó még nem készült, az ő anyagaira vár
 ---------------------------------------------------------------
 Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
 A sminktetovalastatabanya.hu azért nem üzemel, mert a tárhely állt le —
-a domain megvan (Vince erősítette meg). A levél ezért csak a domain
-kezelőfelületéhez való hozzáférést kérdezi, lejáratot nem.
+a domain megvan (Vince erősítette meg).
 Ár: 90 000 Ft (Vince döntése, a szokásos 80 helyett).
+KARBANTARTÁST NEM VÁLLALUNK. Az árlista egy külön szöveges fájl, amit
+a megrendelő maga szerkeszt a GitHub webes felületén; az oldal onnan
+tölti be. Ez a levél fő ígérete — nem az, hogy Vince frissítget.
 Tegező — az eredeti megkeresés is az volt, és ő is így válaszolt.
 ---------------------------------------------------------------
 
@@ -22,24 +24,36 @@ tudtad frissíttetni — évi egyszer kellett volna, és még az sem ment. Ez
 nem apróság: ha egy oldalt nem tudsz karbantartani, előbb-utóbb rossz árak
 vannak kint, az pedig rosszabb, mintha semmi nem lenne.
 
-Ezért az ajánlatomban ez az első pont.
+Ezért az ajánlatom ezzel kezdődik.
 
-Az árlista a tiéd. Ha változik egy ár, írsz egy e-mailt, és aznap vagy
-másnap fent van. Nem extra, nem óradíjas, benne van — ameddig az oldal él.
-Évi egy frissítés tíz perc, azért pénzt kérni nevetséges lenne.
+Az árakat magad írod át. Az árlista nem az oldal kódjában lesz elrejtve,
+hanem egy külön, egyszerű szöveges fájlban. Egy sora nagyjából így néz ki:
 
-És hogy ne csak ígéret legyen: az oldal fájljai a tieid, a domain a te
-nevedben marad. Ha bármikor úgy döntesz, hogy mással viszed tovább, bárki
-folytatni tudja. Pont azt a helyzetet nem akarom újratermelni, amiből most
-jössz.
+    Púderes szemöldök | 65 000 Ft
+
+A fájl ott lesz, ahol maga az oldal is lakik — egy GitHub nevű, ingyenes
+tárhelyen. Csinálsz ott egy fiókot, én megadom neked a hozzáférést, és
+onnantól a böngésződből nyitod meg a fájlt, átírod a számot, rákattintasz
+a mentésre. Pár perc, és az oldalon már az új ár látszik. Nem kell hozzá
+program, nem kell hozzá fejlesztő, és nem kell megvárnod, hogy valaki
+ráérjen. Átadáskor egyszer végigcsináljuk együtt, utána megy magától.
+
+És legyek őszinte egy dologban: karbantartást nem vállalok. Pont ezért
+építem így. Nem akarom, hogy fél év múlva megint ott legyél, hogy egy szám
+nem jó az oldaladon, és várhatsz valakire.
+
+Ugyanez igaz az egészre: az oldal fájljai a tieid, a domain a te nevedben
+marad. Ha bármikor úgy döntesz, hogy mással viszed tovább, bárki folytatni
+tudja.
 
 Mi kerülne az oldalra
 
 Kezelések. Szemöldök, szemhéj, ajak — külön-külön pár sorban, hogy aki
 keres, lássa, jó helyen jár.
 
-Árak. Jól olvashatóan, magán az oldalon. Nem PDF-ben, nem fényképezett
-árlistán — az a kettő az, amit mobilon senki nem tud elolvasni.
+Árak. Jól olvashatóan, magán az oldalon — abból a fájlból, amit fentebb
+írtam. Nem PDF-ben, nem fényképezett árlistán: az a kettő az, amit mobilon
+senki nem tud elolvasni.
 
 Előtte-utána képek. Sminktetoválásnál ez ad el, nem a szöveg. Egy jó
 galéria többet ér, mint bármi, amit én meg tudok fogalmazni, úgyhogy ez a
@@ -59,10 +73,9 @@ Tatabánya" keresésnél ez számít.
 
 Az ár
 
-90 000 Ft. Egyszeri összeg, nincs havi díj. Nincs mögötte rendszer, amit
-frissítgetni kellene, és a tárhely ingyenes. Az egyetlen visszatérő
-költség a .hu domain éves díja — néhány ezer forint, közvetlenül a
-szolgáltatónál.
+90 000 Ft. Egyszeri összeg, nincs havi díj, és nincs karbantartási díj
+sem. A tárhely ingyenes. Az egyetlen visszatérő költség a .hu domain éves
+díja — néhány ezer forint, közvetlenül a szolgáltatónál.
 
 Az oldalaim 60 és 120 ezer között mozognak aszerint, mennyi van rajtuk; a
 tiéd a fentiekkel 90 ezerre jön ki. Ha menet közben kiderül, hogy kell még
