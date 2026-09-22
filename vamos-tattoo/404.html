@@ -14,6 +14,13 @@
   .e h1 { font-size: clamp(28px, 5vw, 42px); color: var(--on-ink); }
   .e p { margin: 20px 0 0; color: var(--on-ink-2); font-size: 18px; }
   .e .cta-row { justify-content: center; }
+  .e-by {
+    position: absolute; bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+    left: 0; right: 0; text-align: center; margin: 0;
+    font-family: var(--f-d); font-size: 11px; font-weight: 500;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--on-ink-2);
+  }
+  .e-by a { color: var(--on-ink); }
 </style>
 </head>
 <body>
@@ -29,5 +36,9 @@
       <a class="btn btn-l btn-o" href="/#jelentkezes">Időpontot kérek</a>
     </p>
   </main>
+  <p class="e-by">
+    Fejlesztette:
+    <a href="https://axiomaweb.hu" target="_blank" rel="noopener">Axióma Webfejlesztés</a>
+  </p>
 </body>
 </html>

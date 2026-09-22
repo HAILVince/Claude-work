@@ -90,6 +90,24 @@ Az űrlap logikája: a „korrekciót jelzek" jelölőnégyzet átírja a kérd�
 („Mit javítanál rajta?"), a fotót kötelezővé teszi, és elengedi a méretet —
 egy korrekcióhoz nincs értelme cm-t kérni.
 
+Elkészült az **adatkezelési tájékoztató** (`adatkezeles.html`), a lábléc
+alsó sorából érhető el, mellette a „Fejlesztette: Axióma Webfejlesztés"
+kredit axiomaweb.hu hivatkozással (a 404-es oldalon is).
+
+**A tájékoztató nem teljes, és ezt ki is írja magáról.** Egy keretes doboz
+jelzi a tetején, hogy a szögletes zárójeles helyekre a hivatalos adatok
+kerülnek. Ami hiányzik:
+
+- a vállalkozás **hivatalos neve, székhelye, nyilvántartási száma / adószáma**
+- a **tárhelyszolgáltató neve és címe** (ez az élesítés után derül ki)
+- a megőrzési idők megerősítése (1 év érdeklődésre, 2 év elkészült
+  tetoválásra — ez javaslat)
+
+Ami viszont igaz és ellenőrzött: az oldal **nem használ sütiket** és nem mér
+látogatottságot, tehát süti-felugró sem kell. A tájékoztató kitér arra is,
+hogy az űrlap szándékosan nem kérdez egészségügyi adatot, és hogy a
+galériába kerülő vendégfotókhoz külön hozzájárulás kell.
+
 ## Amit a szövege miatt meg kell építeni
 
 - Az űrlapnak **fájlfeltöltést** kell tudnia (inspirációs képek, illetve a
