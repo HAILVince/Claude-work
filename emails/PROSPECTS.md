@@ -17,7 +17,7 @@ base64 through the mail or Drive tools is not workable.
 |---|---|---|---|---|
 | **Sminktetoválás Tatabánya** | Fogarasi Viki | fogvik@gmail.com | **Ajánlat — no attachment needed, send as is** | ✅ in Gmail |
 | **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
-| **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Resend with the images attached** | ✅ in Gmail |
+| **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Megbízva** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
 | Heit Torma | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + quote (attach PNGs) | ✅ in Gmail |
 | A+A Építész Stúdió | Hegedüs-Jankovits Anett | a2epiteszinfo@gmail.com | Marketing — declined, offered technical SEO | ✅ in Gmail |
