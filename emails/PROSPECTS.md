@@ -15,6 +15,7 @@ base64 through the mail or Drive tools is not workable.
 
 | Business | Contact | Email | Owed | Draft |
 |---|---|---|---|---|
+| **Sminktetoválás Tatabánya** | Fogarasi Viki | fogvik@gmail.com | **Ajánlat — no attachment needed, send as is** | ✅ in Gmail |
 | **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
 | **Vamos Tattoo** | Vámos Norbert | tattoo.vamos@gmail.com | **Resend with the images attached** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
@@ -137,6 +138,33 @@ Two things the reply deliberately admits rather than papers over:
 The draft also asks which spelling is official — their Facebook uses both
 **Gazdi-Ker** and **Gazdi-ker** — and whether the PB-gázpalack swap really runs,
 since the page gives it its own block.
+
+### Sminktetoválás Tatabánya — the offer, and why it leads with the price list
+
+**Fogarasi Viki** (`fogvik@gmail.com`), permanent makeup — szemöldök, szemhéj,
+ajak. Replied 22 Sept 06:45, informally (tegező, as the outreach was). Her own
+words: *"Aki készítette nekem nem frissített rá az árjegyzékre, ezt csak évente
+egyszer kellene megtenni, úgyhogy nem nagyon tudok vele sajnos együttműködni.
+Illetve az oldal sem tetszik már annyira."* She asked for a rough price.
+
+She is not leaving her old site because of the design. She is leaving because
+**she could not get her own price list changed once a year.** So the offer leads
+with that, not with features: price-list updates are free for the life of the
+site, the files are hers, and the domain stays in her name so anyone can take
+over. Repeating the dependency that burned her — with a friendlier developer —
+is the one way to lose this one.
+
+**Quoted 80 000 Ft**, the standard figure, with the 60–120k range named so the
+number has a context. No demo built yet: `sminktetovalastatabanya.hu` is dead
+and her Facebook is blocked from here, so there is no material to build from.
+The reply asks for the price list, her own before/after photos and the address,
+and offers the free demo once they arrive.
+
+**Flagged to her as possibly urgent:** whether the domain merely lost its
+hosting or actually expired. It could not be checked from here — the egress
+proxy blocks the lookup — so the letter asks rather than asserts.
+`sminktetovalastatabanya.hu` is the exact search phrase people type, which makes
+it worth real money; if it lapsed, the recovery window is finite.
 
 ## 🚨 The list is sending people other companies' websites
 

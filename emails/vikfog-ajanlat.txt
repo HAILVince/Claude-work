@@ -1,86 +1,101 @@
-Címzett: [Vik Fog — a cím a Gmail-szálban van, lásd lent]
-Tárgy:   Re: [az eredeti tárgy]
-Állapot: NINCS Gmail draft — a Gmail-kapcsolat lejárt, kézzel kell bemásolni
+Címzett: fogvik@gmail.com (Fogarasi Viktória — "Viki")
+Tárgy:   Re: Weboldal frissítés lehetőség
+Válasz erre az üzenetre: 1a0c7dd70d7bc113 (Fogarasi Viki, 2026-09-22 06:45)
+Szál:    1a0bc8928f56f80b
+Csatolmány: nincs — demó még nem készült, az ő anyagaira vár
 ---------------------------------------------------------------
-Amit nem tudtam ellenőrizni, mert a Gmail nem válaszol:
-  - a megszólított neve és az e-mail-cím
-  - mit kértek pontosan (csak árat? demót is? SEO-t is?)
-  - van-e már oldaluk, és mi a hivatalos névalak ("Vik Fog" vagy "Vik-Fog")
-  - hogy egyáltalán fogászat-e, vagy fogtechnikai labor — a szöveg
-    rendelőre van írva, laborra más hangsúlyokkal kellene
-A szögletes zárójeles részeket küldés előtt cseréld ki.
+Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
+A sminktetovalastatabanya.hu jelenleg nem üzemel — ezt ő is, Vince is
+írta. Hogy a domain járt-e le vagy csak a tárhely állt le, innen nem
+eldönthető (a kimenő forgalmat a proxy blokkolja), ezért a levél
+kérdésként teszi fel, nem állításként.
+Tegező — az eredeti megkeresés is az volt, és ő is így válaszolt.
 ---------------------------------------------------------------
 
-Kedves [Név]!
+Szia Viki,
 
-Köszönöm a visszajelzést. Leírom, mit javaslok és mibe kerül, hogy legyen
-mihez viszonyítania.
+köszönöm a visszajelzést! Két dolgot írtál, és szerintem a második a
+fontosabb.
 
-Egy fogászati rendelő oldalán három kérdésre keresnek választ, jellemzően
-ebben a sorrendben: mivel foglalkoznak, mennyibe kerül, és hogyan jutok
-időponthoz. Az oldal erre a háromra épülne.
+Az egyik, hogy az oldal nem üzemel. A másik, hogy az árjegyzéket nem
+tudtad frissíttetni — évi egyszer kellett volna, és még az sem ment. Ez
+nem apróság: ha egy oldalt nem tudsz karbantartani, előbb-utóbb rossz árak
+vannak kint, az pedig rosszabb, mintha semmi nem lenne.
 
-Kezelések. Nem katalógus, hanem néhány sor arról, mit csinálnak és mit nem
-— ez szűri ki azokat is, akik olyasmivel keresnék meg, amit Önök nem
-vállalnak.
+Ezért az ajánlatomban ez az első pont.
 
-Árak. A legtöbb rendelő itt veszít érdeklődőt: ha semmilyen szám nincs az
-oldalon, sokan el sem küldik a kérdést. Nem kell tételes árlista, elég egy
-tájékoztató "-tól" ár a gyakori kezelésekre, azzal a mondattal, hogy a
-pontos összeg vizsgálat után derül ki.
+Az árlista a tiéd. Ha változik egy ár, írsz egy e-mailt, és aznap vagy
+másnap fent van. Nem extra, nem óradíjas, benne van — ameddig az oldal él.
+Évi egy frissítés tíz perc, azért pénzt kérni nevetséges lenne.
 
-Időpontkérés. Egy rövid űrlap, aminek az üzenete egyenesen az Önök
-e-mail-címére érkezik. Nincs admin felület, nincs rendszer, amibe be kellene
-lépni — úgy jön, mint bármelyik másik levél. Az űrlap szándékosan nem
-kérdez rá panaszra, leletre vagy bármilyen egészségügyi részletre: az ilyen
-adatnak e-mailben nincs helye, és fölösleges felelősség. Név, elérhetőség és
-hogy mikorra szeretne időpontot — ennyi elég ahhoz, hogy visszahívják.
+És hogy ne csak ígéret legyen: az oldal fájljai a tieid, a domain a te
+nevedben marad. Ha bármikor úgy döntesz, hogy mással viszed tovább, bárki
+folytatni tudja. Pont azt a helyzetet nem akarom újratermelni, amiből most
+jössz.
 
-Hogy megtalálják. A cím, a nyitvatartás és a telefonszám gépi formában is
-rákerül az oldalra, ezt olvassa ki a Google a találatok alá. Ez az, ami a
-"fogorvos [település]" típusú keresésnél számít.
+Mi kerülne az oldalra
+
+Kezelések. Szemöldök, szemhéj, ajak — külön-külön pár sorban, hogy aki
+keres, lássa, jó helyen jár.
+
+Árak. Jól olvashatóan, magán az oldalon. Nem PDF-ben, nem fényképezett
+árlistán — az a kettő az, amit mobilon senki nem tud elolvasni.
+
+Előtte-utána képek. Sminktetoválásnál ez ad el, nem a szöveg. Egy jó
+galéria többet ér, mint bármi, amit én meg tudok fogalmazni, úgyhogy ez a
+lényeg lenne az oldalon, nem dísz.
+
+Időpontkérés. Rövid űrlap: név, elérhetőség, melyik kezelés érdekli,
+mikorra szeretné. Az üzenet egyenesen a te e-mail-címedre jön, úgy, mint
+bármelyik másik levél. Nincs rendszer, amibe be kellene lépned.
+
+Mire számíts. Gyógyulás, utókezelés, korrekció, és hogy kinek nem
+ajánlott. Ez elveszi a munkád egy részét: azokat a kérdéseket, amiket most
+minden egyes érdeklődőnek külön megválaszolsz.
+
+Hogy megtaláljanak. A cím, a nyitvatartás és az elérhetőség gépi formában
+is rákerül, ezt olvassa ki a Google a találatok alá. A "sminktetoválás
+Tatabánya" keresésnél ez számít.
 
 Az ár
 
-Egy ilyen oldal 80 000 Ft. Egyszeri összeg, nincs havi díj. Az oldal
-statikus: nincs mögötte rendszer vagy adatbázis, nincs mit frissítgetni és
-nincs mit feltörni, évekig elvan magától. A tárhely ingyenes. Az egyetlen
-visszatérő költség a .hu domain éves díja, néhány ezer forint, közvetlenül a
-szolgáltatónál fizetendő — a bekötést és az élesítést én intézem.
+80 000 Ft. Egyszeri összeg, nincs havi díj. Nincs mögötte rendszer, amit
+frissítgetni kellene, és a tárhely ingyenes. Az egyetlen visszatérő
+költség a .hu domain éves díja — néhány ezer forint, közvetlenül a
+szolgáltatónál.
 
-Két dolog van, ami ezt feljebb viszi, és jobb, ha előre tudja:
+Az oldalaim 60 és 120 ezer között mozognak aszerint, mennyi van rajtuk; a
+tiéd a fentiekkel 80 körül jön ki. Ha menet közben kiderül, hogy kell még
+valami, amitől ez változna, előre szólok. Utólagos meglepetés nincs.
 
-Online foglalónaptár. Ha azt szeretné, hogy a beteg maga válasszon szabad
-időpontot egy naptárból, az már nem ez a kategória: az egy rendszer, ami
-összeköttetésben áll az Önök napirendjével, és külön árazandó. Az e-mailes
-időpontkérés ezzel szemben benne van a fenti összegben.
+Egy dolog, ami sürgős lehet
 
-Idegen nyelvű változat. Ha kell angol vagy német verzió, az nagyjából a
-munka másfélszerese.
+Kívülről nem tudom megállapítani, hogy a régi oldalnál csak a tárhely
+állt-e le, vagy a domain járt le. Ez viszont nem mindegy: a
+sminktetovalastatabanya.hu pont az, amire az emberek rákeresnek, és egy
+ilyen domainnév sokat ér. Ha lejárt, egy ideig még visszaszerezhető, utána
+bárki megveheti. Érdemes most megnézned.
 
-Amihez a segítségét kérem
+Amit kérnék tőled
 
-1. Van már domainjük, vagy nézzek utána, mi szabad?
-2. Melyik kezeléseket soroljuk fel, és kitehetünk-e hozzájuk tájékoztató
-   árakat?
-3. Van saját fotójuk a rendelőről és a csapatról? Idegen, vásárolt képeket
-   nem teszek egy olyan oldalra, ami Önökről szól — egy fogászatnál pedig
-   pont az a tét, hogy a beteg lássa, hová megy.
-4. Használnak most valamilyen foglaló- vagy betegnyilvántartó rendszert,
-   amivel az oldalnak együtt kellene működnie?
-5. Kell idegen nyelvű változat?
+1. Megvan még a sminktetovalastatabanya.hu? A te nevedben van, és tudod,
+   mikor jár le?
+2. Hozzáférsz a régi oldal szövegeihez és képeihez, vagy nulláról
+   indulunk?
+3. Az aktuális árlista.
+4. Képek a munkáidról, lehetőleg előtte-utána párban. Csak sajátot teszek
+   ki — vásárolt fotó egy ilyen oldalon értelmetlen, mert pont a te
+   munkádat kellene mutatnia. Ha felismerhető arc van rajta, kérdezd meg a
+   vendéget; nem akarok olyan képet kitenni, amire nincs rábólintás.
+5. Hol dolgozol pontosan — cím, hogyan lehet odatalálni, van-e parkolás.
+6. Most hogyan kérnek tőled időpontot? Messengeren, telefonon?
 
-Ha szeretné, mielőtt bármiben megállapodnánk, összerakok egy mintát a saját
-rendelőjükre szabva — ahogy a többi ügyfelemnek is szoktam. Ingyenes, és
-nem kötelezi semmire: úgy egyszerűbb eldönteni, hogy tetszik-e, mint
-leírásból.
+Ha ezek megvannak, összerakok egy demót a te anyagaiddal, és úgy döntöd
+el, tetszik-e. Az ingyenes, és nem kötelez semmire — így legalább nem
+leírásból kell elképzelned.
 
-Telefonon nehezen vagyok elérhető, e-mailben viszont gyorsan válaszolok —
-ezért is kérdeztem meg mindent egyszerre, hogy ne legyen ebből tíz levél.
+Várom a visszajelzésed!
 
-Várom a visszajelzését!
-
-Üdvözlettel:
+Üdv,
 Nagy-Toma Vince
-Axióma Webfejlesztés
 axiomaweb.hu
