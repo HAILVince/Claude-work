@@ -5,10 +5,10 @@ Szál:    1a0bc8928f56f80b
 Csatolmány: nincs — demó még nem készült, az ő anyagaira vár
 ---------------------------------------------------------------
 Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
-A sminktetovalastatabanya.hu jelenleg nem üzemel — ezt ő is, Vince is
-írta. Hogy a domain járt-e le vagy csak a tárhely állt le, innen nem
-eldönthető (a kimenő forgalmat a proxy blokkolja), ezért a levél
-kérdésként teszi fel, nem állításként.
+A sminktetovalastatabanya.hu azért nem üzemel, mert a tárhely állt le —
+a domain megvan (Vince erősítette meg). A levél ezért csak a domain
+kezelőfelületéhez való hozzáférést kérdezi, lejáratot nem.
+Ár: 90 000 Ft (Vince döntése, a szokásos 80 helyett).
 Tegező — az eredeti megkeresés is az volt, és ő is így válaszolt.
 ---------------------------------------------------------------
 
@@ -59,27 +59,20 @@ Tatabánya" keresésnél ez számít.
 
 Az ár
 
-80 000 Ft. Egyszeri összeg, nincs havi díj. Nincs mögötte rendszer, amit
+90 000 Ft. Egyszeri összeg, nincs havi díj. Nincs mögötte rendszer, amit
 frissítgetni kellene, és a tárhely ingyenes. Az egyetlen visszatérő
 költség a .hu domain éves díja — néhány ezer forint, közvetlenül a
 szolgáltatónál.
 
 Az oldalaim 60 és 120 ezer között mozognak aszerint, mennyi van rajtuk; a
-tiéd a fentiekkel 80 körül jön ki. Ha menet közben kiderül, hogy kell még
+tiéd a fentiekkel 90 ezerre jön ki. Ha menet közben kiderül, hogy kell még
 valami, amitől ez változna, előre szólok. Utólagos meglepetés nincs.
-
-Egy dolog, ami sürgős lehet
-
-Kívülről nem tudom megállapítani, hogy a régi oldalnál csak a tárhely
-állt-e le, vagy a domain járt le. Ez viszont nem mindegy: a
-sminktetovalastatabanya.hu pont az, amire az emberek rákeresnek, és egy
-ilyen domainnév sokat ér. Ha lejárt, egy ideig még visszaszerezhető, utána
-bárki megveheti. Érdemes most megnézned.
 
 Amit kérnék tőled
 
-1. Megvan még a sminktetovalastatabanya.hu? A te nevedben van, és tudod,
-   mikor jár le?
+1. A sminktetovalastatabanya.hu domainhez hozzáférsz — vagy tudod, kinél
+   van a kezelőfelülete? Az új oldalt oda kötném be, jó lenne megtartani:
+   pont az a kifejezés, amire az emberek rákeresnek.
 2. Hozzáférsz a régi oldal szövegeihez és képeihez, vagy nulláról
    indulunk?
 3. Az aktuális árlista.

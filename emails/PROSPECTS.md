@@ -154,17 +154,16 @@ site, the files are hers, and the domain stays in her name so anyone can take
 over. Repeating the dependency that burned her — with a friendlier developer —
 is the one way to lose this one.
 
-**Quoted 80 000 Ft**, the standard figure, with the 60–120k range named so the
-number has a context. No demo built yet: `sminktetovalastatabanya.hu` is dead
-and her Facebook is blocked from here, so there is no material to build from.
-The reply asks for the price list, her own before/after photos and the address,
-and offers the free demo once they arrive.
+**Quoted 90 000 Ft** — Vince's call, above the usual 80k — with the 60–120k
+range named so the number has a context. No demo built yet:
+`sminktetovalastatabanya.hu` is down and her Facebook is blocked from here, so
+there is no material to build from. The reply asks for the price list, her own
+before/after photos and the address, and offers the free demo once they arrive.
 
-**Flagged to her as possibly urgent:** whether the domain merely lost its
-hosting or actually expired. It could not be checked from here — the egress
-proxy blocks the lookup — so the letter asks rather than asserts.
-`sminktetovalastatabanya.hu` is the exact search phrase people type, which makes
-it worth real money; if it lapsed, the recovery window is finite.
+**The domain did not lapse — only the hosting stopped** (confirmed by Vince).
+The letter therefore asks only who holds the domain's control panel, so the new
+site can be pointed at it. Worth keeping either way:
+`sminktetovalastatabanya.hu` is the exact phrase people type into search.
 
 ## 🚨 The list is sending people other companies' websites
 
