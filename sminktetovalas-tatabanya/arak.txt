@@ -1,0 +1,32 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Kezelés neve | 68 000 Ft
+#   Csoportcím:     ## Szemöldök
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Szemöldök
+Púderes szemöldök | 68 000 Ft
+Hajszálvékony szálazás | 68 000 Ft
+Kombinált szemöldök | 78 000 Ft
+> Az árban benne van a konzultáció és a 4-6 héttel későbbi korrekció.
+
+## Szemhéj
+Felső tusvonal | 45 000 Ft
+Alsó tusvonal | 38 000 Ft
+Felső és alsó együtt | 72 000 Ft
+
+## Ajak
+Ajakkontúr árnyékolással | 85 000 Ft
+Teljes ajakfeltöltés | 95 000 Ft
+> Ajaknál herpeszre hajlamos bőr esetén a kezelés előtti megelőző
+> kúráról az időpont-egyeztetéskor beszélünk.
+
+## Frissítés
+Frissítés 1 éven belül | 38 000 Ft
+Frissítés 1-2 év között | 48 000 Ft
+Korrekció az első kezelés után | az árban

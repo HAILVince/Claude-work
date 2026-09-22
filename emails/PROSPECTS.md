@@ -21,7 +21,7 @@ base64 through the mail or Drive tools is not workable.
 
 | Business | Contact | Email | Owed | Draft |
 |---|---|---|---|---|
-| **Sminktetoválás Tatabánya** | Fogarasi Viki | fogvik@gmail.com | **Ajánlat — no attachment needed, send as is** | ✅ in Gmail |
+| **Sminktetoválás Tatabánya** | Fogarasi Viki | fogvik@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
 | **Gazdi-Ker Kft.**, Kisléta | Szilágyi Imre | sziminet@gmail.com | **Demo + ár — send with the two PNGs attached** | ✅ in Gmail |
 | Integra Diagnosztika és gyermekfejlesztés | Kántor Piroska | integra.diagnosztika@gmail.com | Quote — asked 19 Sept, 2 days stale | ✅ in Gmail |
 | Heit Torma | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + quote (attach PNGs) | ✅ in Gmail |
@@ -161,10 +161,21 @@ domain, anyone can take over. See ARAK.txt, which now carries this as the
 standing rule for every quote.
 
 **Quoted 90 000 Ft** — Vince's call, above the usual 80k — with the 60–120k
-range named so the number has a context. No demo built yet:
-`sminktetovalastatabanya.hu` is down and her Facebook is blocked from here, so
-there is no material to build from. The reply asks for the price list, her own
-before/after photos and the address, and offers the free demo once they arrive.
+range named so the number has a context.
+
+**The demo is built** (`sminktetovalas-tatabanya/`), and it is the first one
+where the price list is a file the client edits herself: `arak.txt` on GitHub,
+loaded by the page, with the same numbers baked into the HTML as a fallback so
+the page survives both a broken file and JavaScript being off. Six ways of
+mangling the file are covered by tests.
+
+**It was built on four facts** — the town, her name, the three treatments in
+her old page title, and her e-mail. Her site is down and Facebook is blocked
+from here, so every price, treatment description, healing note and
+contraindication on the page is a guess. The reply says that outright and asks
+her to correct them, flagging the aftercare and "when I won't do it" sections
+as the ones to read hardest, since they go out under her name. No photos, no
+address, no hours — the reply asks for all three.
 
 **The domain did not lapse — only the hosting stopped** (confirmed by Vince).
 The letter therefore asks only who holds the domain's control panel, so the new

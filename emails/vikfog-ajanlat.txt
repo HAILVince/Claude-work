@@ -2,104 +2,105 @@ Címzett: fogvik@gmail.com (Fogarasi Viktória — "Viki")
 Tárgy:   Re: Weboldal frissítés lehetőség
 Válasz erre az üzenetre: 1a0c7dd70d7bc113 (Fogarasi Viki, 2026-09-22 06:45)
 Szál:    1a0bc8928f56f80b
-Csatolmány: nincs — demó még nem készült, az ő anyagaira vár
+Csatolmány: desktop-full.png, mobile-full.png  <<< KÜLDÉS ELŐTT CSATOLD
 ---------------------------------------------------------------
 Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
 A sminktetovalastatabanya.hu azért nem üzemel, mert a tárhely állt le —
 a domain megvan (Vince erősítette meg).
 Ár: 90 000 Ft (Vince döntése, a szokásos 80 helyett).
-KARBANTARTÁST NEM VÁLLALUNK. Az árlista egy külön szöveges fájl, amit
-a megrendelő maga szerkeszt a GitHub webes felületén; az oldal onnan
-tölti be. Ez a levél fő ígérete — nem az, hogy Vince frissítget.
+KARBANTARTÁST NEM VÁLLALUNK. Az árlista külön szöveges fájl, amit ő
+maga szerkeszt a GitHub webes felületén; az oldal onnan tölti be.
+Írásos leírást kap hozzá, oktatást nem.
+A demóban minden ár, kezelésleírás és szakmai szöveg találgatás —
+a levél ezt nyíltan kimondja és javítást kér.
 Tegező — az eredeti megkeresés is az volt, és ő is így válaszolt.
 ---------------------------------------------------------------
 
 Szia Viki,
 
-köszönöm a visszajelzést! Két dolgot írtál, és szerintem a második a
-fontosabb.
+köszönöm a visszajelzést! Nekiálltam, és készítettem egy mintát — két
+képet csatoltam, az egyik az oldal számítógépen, a másik mobilon. (A
+mobilos kép két hasábba van tördelve, hogy elférjen egyetlen képen;
+élesben ez egy folyamatos oldal.)
 
-Az egyik, hogy az oldal nem üzemel. A másik, hogy az árjegyzéket nem
-tudtad frissíttetni — évi egyszer kellett volna, és még az sem ment. Ez
-nem apróság: ha egy oldalt nem tudsz karbantartani, előbb-utóbb rossz árak
-vannak kint, az pedig rosszabb, mintha semmi nem lenne.
+Két dolgot írtál, és a második a fontosabb: hogy az árjegyzéket nem
+tudtad frissíttetni. Évi egyszer kellett volna, és még az sem ment. Ezzel
+kezdem, mert az oldalt is e köré építettem.
 
-Ezért az ajánlatom ezzel kezdődik.
+Az árakat magad írod át. Az árlista nem az oldal kódjában van elrejtve,
+hanem egy külön, egyszerű szöveges fájlban. Egy sora így néz ki:
 
-Az árakat magad írod át. Az árlista nem az oldal kódjában lesz elrejtve,
-hanem egy külön, egyszerű szöveges fájlban. Egy sora nagyjából így néz ki:
-
-    Púderes szemöldök | 65 000 Ft
+    Púderes szemöldök | 68 000 Ft
 
 A fájl ott lesz, ahol maga az oldal is lakik — egy GitHub nevű, ingyenes
 tárhelyen. Csinálsz ott egy fiókot, én megadom neked a hozzáférést, és
 onnantól a böngésződből nyitod meg a fájlt, átírod a számot, rákattintasz
 a mentésre. Pár perc, és az oldalon már az új ár látszik. Nem kell hozzá
-program, nem kell hozzá fejlesztő, és nem kell megvárnod, hogy valaki
-ráérjen. Átadáskor kapsz hozzá egy rövid, lépésről lépésre leírást —
-négy-öt kattintás az egész.
+program, nem kell fejlesztő, és nem kell megvárnod, hogy valaki ráérjen.
+Átadáskor kapsz hozzá egy rövid, lépésről lépésre leírást — négy-öt
+kattintás az egész.
 
 És legyek őszinte egy dologban: karbantartást nem vállalok. Pont ezért
-építem így. Nem akarom, hogy fél év múlva megint ott legyél, hogy egy szám
-nem jó az oldaladon, és várhatsz valakire.
+építem így. Nem akarom, hogy fél év múlva megint ott legyél, hogy egy
+szám nem jó az oldaladon, és várhatsz valakire.
 
 Ugyanez igaz az egészre: az oldal fájljai a tieid, a domain a te nevedben
-marad. Ha bármikor úgy döntesz, hogy mással viszed tovább, bárki folytatni
-tudja.
+marad. Ha bármikor úgy döntesz, hogy mással viszed tovább, bárki
+folytatni tudja.
 
-Mi kerülne az oldalra
+Amit a képeken látsz
 
-Kezelések. Szemöldök, szemhéj, ajak — külön-külön pár sorban, hogy aki
-keres, lássa, jó helyen jár.
+Az árak elöl vannak. Nem egy "kérj ajánlatot" gomb mögött. Ez az első
+kérdés, amire mindenki választ keres, és aki nem találja meg, továbbmegy.
 
-Árak. Jól olvashatóan, magán az oldalon — abból a fájlból, amit fentebb
-írtam. Nem PDF-ben, nem fényképezett árlistán: az a kettő az, amit mobilon
-senki nem tud elolvasni.
+Előtte-utána galéria. Ebben a szakmában a képek döntenek, nem a szöveg.
+Most üres keretek vannak a helyükön — erről lentebb írok.
 
-Előtte-utána képek. Sminktetoválásnál ez ad el, nem a szöveg. Egy jó
-galéria többet ér, mint bármi, amit én meg tudok fogalmazni, úgyhogy ez a
-lényeg lenne az oldalon, nem dísz.
+Mire számíts. Végigvezet a kezelés menetén: mi történik az első három
+napon, miért tűnik el a szín a második héten, és mikor jön a korrekció.
+Ez leveszi rólad azokat a kérdéseket, amiket most minden érdeklődőnek
+külön megválaszolsz — és azt a telefont is, hogy "eltűnt az egész".
 
-Időpontkérés. Rövid űrlap: név, elérhetőség, melyik kezelés érdekli,
-mikorra szeretné. Az üzenet egyenesen a te e-mail-címedre jön, úgy, mint
-bármelyik másik levél. Nincs rendszer, amibe be kellene lépned.
+Időpontkérés. Rövid űrlap, az üzenet egyenesen a fogvik@gmail.com címre
+érkezik. Nincs rendszer, amibe be kellene lépned.
 
-Mire számíts. Gyógyulás, utókezelés, korrekció, és hogy kinek nem
-ajánlott. Ez elveszi a munkád egy részét: azokat a kérdéseket, amiket most
-minden egyes érdeklődőnek külön megválaszolsz.
+Amit ki kell javítanod benne
 
-Hogy megtaláljanak. A cím, a nyitvatartás és az elérhetőség gépi formában
-is rákerül, ezt olvassa ki a Google a találatok alá. A "sminktetoválás
-Tatabánya" keresésnél ez számít.
+Itt kérem a segítséged, és ez nem formaság. A régi oldalad nem elérhető,
+a Facebookodat pedig nem tudtam megnyitni, úgyhogy a konkrétumokat nem
+tudtam honnan venni:
+
+1. Az összes ár kitalált szám. Elképzelésnek szántam, nem ajánlatnak.
+   Írd át őket a sajátodra — és mondd meg, ha más a bontás, vagy ha
+   olyan kezelésed is van, ami kimaradt.
+2. A kezelésleírások (púderes, szálazott, tusvonal, ajak) az én
+   megfogalmazásaim. Ha nem úgy dolgozol, ahogy leírtam, húzd át.
+3. A gyógyulás menete, a kezelés előtti tudnivalók és az, hogy mikor nem
+   vállalod a munkát — ezek a legfontosabbak, és ezek is az én
+   javaslataim. Ezeken kérlek menj végig alaposan: a te neved lesz
+   alattuk.
+4. Nincs egyetlen fotó sem az oldalon. Szándékosan: nem teszek vásárolt
+   képeket egy olyan oldalra, ami rólad szól — pláne nem egy olyan
+   szakmában, ahol pont a saját munkád a bizonyíték. Ha küldesz
+   előtte-utána képeket, a helyükre teszem őket.
+5. A cím és a nyitvatartás nincs rajta, mert nem tudom. Írd meg, hogy
+   hol dolgozol, hogyan lehet odatalálni, és van-e parkolás.
+6. A sminktetovalastatabanya.hu domainhez hozzáférsz, vagy tudod, kinél
+   van a kezelőfelülete? Az oldalt oda kötném be. Jó lenne megtartani:
+   pont az a kifejezés, amire az emberek rákeresnek.
 
 Az ár
 
 90 000 Ft. Egyszeri összeg, nincs havi díj, és nincs karbantartási díj
-sem. A tárhely ingyenes. Az egyetlen visszatérő költség a .hu domain éves
-díja — néhány ezer forint, közvetlenül a szolgáltatónál.
+sem. A tárhely ingyenes. Az egyetlen visszatérő költség a .hu domain
+éves díja — néhány ezer forint, közvetlenül a szolgáltatónál.
 
-Az oldalaim 60 és 120 ezer között mozognak aszerint, mennyi van rajtuk; a
-tiéd a fentiekkel 90 ezerre jön ki. Ha menet közben kiderül, hogy kell még
+Az oldalaim 60 és 120 ezer között mozognak aszerint, mennyi van rajtuk;
+ez a fentiekkel 90 ezerre jön ki. Ha menet közben kiderül, hogy kell még
 valami, amitől ez változna, előre szólok. Utólagos meglepetés nincs.
 
-Amit kérnék tőled
-
-1. A sminktetovalastatabanya.hu domainhez hozzáférsz — vagy tudod, kinél
-   van a kezelőfelülete? Az új oldalt oda kötném be, jó lenne megtartani:
-   pont az a kifejezés, amire az emberek rákeresnek.
-2. Hozzáférsz a régi oldal szövegeihez és képeihez, vagy nulláról
-   indulunk?
-3. Az aktuális árlista.
-4. Képek a munkáidról, lehetőleg előtte-utána párban. Csak sajátot teszek
-   ki — vásárolt fotó egy ilyen oldalon értelmetlen, mert pont a te
-   munkádat kellene mutatnia. Ha felismerhető arc van rajta, kérdezd meg a
-   vendéget; nem akarok olyan képet kitenni, amire nincs rábólintás.
-5. Hol dolgozol pontosan — cím, hogyan lehet odatalálni, van-e parkolás.
-6. Most hogyan kérnek tőled időpontot? Messengeren, telefonon?
-
-Ha ezek megvannak, összerakok egy demót a te anyagaiddal, és úgy döntöd
-el, tetszik-e. Az ingyenes, és nem kötelez semmire — így legalább nem
-leírásból kell elképzelned.
+Ha valami nem tetszik benne, azt is mondd meg nyugodtan — pont azért
+demó, hogy alakítsuk. Nem kötelez semmire.
 
 Várom a visszajelzésed!
 
