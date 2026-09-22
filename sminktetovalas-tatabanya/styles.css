@@ -203,6 +203,7 @@ h1 { font-size: clamp(42px, 7.2vw, 78px); font-weight: 500; }
 
 .ar { display: grid; gap: 22px; grid-template-columns: repeat(2, 1fr); }
 .ar-g {
+  min-width: 0;
   background: var(--paper); border: 1px solid var(--line);
   border-radius: var(--r); padding: 28px 30px 30px;
 }
@@ -219,6 +220,9 @@ h1 { font-size: clamp(42px, 7.2vw, 78px); font-weight: 500; }
 .ar-n { flex: 0 1 auto; }
 .ar-dot { flex: 1 1 auto; border-bottom: 1px dotted #CDBDB0; transform: translateY(-4px); }
 .ar-p { flex: 0 0 auto; font-weight: 500; white-space: nowrap; }
+/* A value can be a sentence rather than a number; nowrap would then push
+   the whole grid wider than the screen. */
+.ar-p.wrap { flex: 0 1 auto; white-space: normal; text-align: right; }
 .ar-note {
   margin: 16px 0 0; font-size: 14.5px; color: var(--ink-2);
   border-left: 2px solid var(--rose); padding-left: 14px;

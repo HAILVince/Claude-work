@@ -2,7 +2,7 @@
    most of this is about what happens when that file is wrong. */
 import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
 
-const URL = 'http://127.0.0.1:8188/index.html';
+const URL = 'http://127.0.0.1:8189/index.html';
 const br = await chromium.launch();
 let bad = 0;
 const is = (name, got, want) => {
@@ -30,18 +30,18 @@ const rows = page => page.$$eval('.ar-l li', ls => ls.map(l => [
 {
   const { ctx, page } = await open();
   const r = await rows(page);
-  is('rows rendered from arak.txt', r.length, 11);
-  is('first row', r[0], 'Púderes szemöldök = 68 000 Ft');
-  is('non-numeric price survives', r.includes('Korrekció az első kezelés után = az árban'), true);
+  is('rows rendered from arak.txt', r.length, 9);
+  is('first row', r[0], 'Állapotfelmérő első konzultáció (50 perc) = 15 000 Ft');
+  is('non-numeric price survives', r.includes('Bankkártya = nem áll módunkban elfogadni'), true);
   is('group headings', (await page.$$('.ar-g h3')).length, 4);
   await ctx.close();
 }
 
 /* 2. an edit shows up */
 {
-  const { ctx, page } = await open('## Szemöldök\nPúderes szemöldök | 71 000 Ft\n');
+  const { ctx, page } = await open('## Addiktológiai konzultáció\nÁllapotfelmérő első konzultáció (50 perc) | 17 000 Ft\n');
   const r = await rows(page);
-  is('edited price replaces the baked one', r[0], 'Púderes szemöldök = 71 000 Ft');
+  is('edited price replaces the baked one', r[0], 'Állapotfelmérő első konzultáció (50 perc) = 17 000 Ft');
   is('only the edited file is shown', r.length, 1);
   await ctx.close();
 }
@@ -51,21 +51,21 @@ for (const [name, body] of [
   ['file missing (404)', null],
   ['file emptied', ''],
   ['only comments left', '# minden kikommentelve\n# nincs ár\n'],
-  ['pipes deleted', '## Szemöldök\nPúderes szemöldök 68 000 Ft\n'],
-  ['heading with no items', '## Szemöldök\n\n## Ajak\n'],
-  ['random paste', 'kedves viki\nitt vannak az arak\n'],
+  ['pipes deleted', '## Családterápia\nTerápiás alkalom 30 000 Ft\n'],
+  ['heading with no items', '## Családterápia\n\n## Párterápia\n'],
+  ['random paste', 'kedves sandor\nitt vannak az arak\n'],
 ]) {
   const { ctx, page } = await open(body);
   const r = await rows(page);
-  is(`falls back: ${name}`, r.length, 11);
+  is(`falls back: ${name}`, r.length, 9);
   await ctx.close();
 }
 
 /* 4. partial damage keeps what still parses */
 {
   const { ctx, page } = await open(
-    '## Szemöldök\nPúderes szemöldök | 68 000 Ft\nelrontott sor pipe nélkül\n' +
-    '| 40 000 Ft\nHajszálvékony szálazás | 68 000 Ft\n## Üres csoport\n');
+    '## Családterápia\nElső konzultáció | 20 000 Ft\nelrontott sor pipe nélkül\n' +
+    '| 40 000 Ft\nTerápiás alkalom | 30 000 Ft\n## Üres csoport\n');
   const r = await rows(page);
   is('bad lines skipped, good ones kept', r.length, 2);
   is('empty group dropped', (await page.$$('.ar-g')).length, 1);
@@ -75,12 +75,13 @@ for (const [name, body] of [
 /* 4b. a sentence in the price column must not blow the layout out */
 {
   const { ctx, page } = await open(
-    '## Frissítés\nKorrekció | az első kezelés árában benne van, nem külön tétel\n');
+    '## Fizetés\nBankkártya | sajnos nem áll módunkban elfogadni, csak készpénz\n');
+  const ctx2 = ctx;
   await page.setViewportSize({ width: 360, height: 900 });
   await page.waitForTimeout(150);
   const w = await page.evaluate(() => document.documentElement.scrollWidth);
   is('long textual price does not overflow at 360', w <= 360, true);
-  await ctx.close();
+  await ctx2.close();
 }
 
 /* 5. no markup injection from the file */
@@ -95,11 +96,12 @@ for (const [name, body] of [
 {
   const { ctx, page } = await open();
   await page.click('#f button[type=submit]');
-  is('empty submit flags three fields', (await page.$$('.fld.bad')).length, 3);
+  is('empty submit flags four fields', (await page.$$('.fld.bad')).length, 4);
 
   await page.fill('#f-nev', 'Teszt Anna');
   await page.fill('#f-el', 'abc');
-  await page.selectOption('#f-kez', 'Szemöldök');
+  await page.selectOption('#f-ugy', 'Családterápia');
+  await page.selectOption('#f-mod', 'Online');
   await page.click('#f button[type=submit]');
   is('garbage contact rejected', (await page.$$('.fld.bad')).length, 1);
 
@@ -111,7 +113,8 @@ for (const [name, body] of [
 
   await page.fill('#f-nev', 'Teszt Anna');
   await page.fill('#f-el', 'anna@example.com');
-  await page.selectOption('#f-kez', 'Ajak');
+  await page.selectOption('#f-ugy', 'Párterápia');
+  await page.selectOption('#f-mod', 'Online');
   await page.click('#f button[type=submit]');
   is('email accepted', (await page.$$('.fld.bad')).length, 0);
   await ctx.close();

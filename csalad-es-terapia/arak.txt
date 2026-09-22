@@ -1,0 +1,29 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor át lehet írni.
+#
+#   Egy tétel:      Szolgáltatás neve | 15 000 Ft
+#   Csoportcím:     ## Addiktológia
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak
+# Önöknek szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Addiktológiai konzultáció
+Állapotfelmérő első konzultáció (50 perc) | 15 000 Ft
+További konzultációs alkalom (50 perc) | 15 000 Ft
+
+## Családterápia
+Első, tájékozódó konzultáció | 20 000 Ft
+Terápiás alkalom (90 perc, két terapeutával) | 30 000 Ft
+
+## Párterápia
+Első, tájékozódó konzultáció | 20 000 Ft
+Terápiás alkalom (90 perc) | 28 000 Ft
+> Online párterápia és konzultáció akkor lehetséges, ha egyik félnek
+> sincs pszichiátriai diagnózisa.
+
+## Fizetés és lemondás
+Fizetés | alkalmanként, készpénzben vagy átutalással
+Bankkártya | nem áll módunkban elfogadni
+Lemondás, időpont-módosítás | legkésőbb 24 órával előtte

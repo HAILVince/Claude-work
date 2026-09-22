@@ -11,27 +11,42 @@ you are at the top.
   invoice needed. He is collecting text and images; asked you to say if
   anything is needed from him so you can keep moving.
 
-## Waiting on you right now
+## Waiting on you right now — 14 drafts are in Gmail
 
-| Business | Contact | Email | What they want |
+All of these are written and sitting on their own threads. **Only the first
+one needs attachments.**
+
+| Business | Contact | Draft says | Attach |
 |---|---|---|---|
-| **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | kertigephatvan@gmail.com | **Webshop + saját mobilalkalmazás** — two separate quotes |
-| **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | info@csaladesterapia.hu | Demo + **mi az éves üzemeltetés ára, és mennyire szerkeszthető** |
-| **Matyisák Pincészet** | — | matyisakvizkelet@gmail.com | Demo — de a megegyezést **személyesen** szeretné |
-| **Kozák Ádám E.V.** (háztartásigép-javítás) | Kozák Ádám | mindentmegjavitok2025@gmail.com | *"Kérnék egy ingyenes demót!"* |
-| **Derékmentő**, Écsed | Sebestyén Tamás | derekmentoecsed@gmail.com | Demo + milyen tartalommal |
-| **Heit Torma**, Létavértes / Pocsaj | Heit Lóránd Levente | heit.lorand@gmail.com | Demo + ár — 21 Sept óta vár |
-| **Hobby Kutyasuli**, Lajosmizse | Gattyán Gábor | hobbykutyasulilajosmizse@gmail.com | Demo + ár |
-| **Varázshegy TSMT**, Szeged | — | tsmtszeged@gmail.com | Demo |
-| **Ungarn Einwanderung** | — | infokincses60@gmail.com | Oldal + **előfizetéses tananyag-rendszer** videókkal |
-| **Kati Szépség és Egészségszalon**, Makó | Széll Kati | katiszalonmako@gmail.com | Egy szó az egész: *"Mennyiért"* |
-| **RABER Tire Shop**, Nyírbátor | — | raberbt@gmail.com | Ár függvényében érdekli; maga viszi a webshopot |
-| **Balogh-Víz Kft.** | Balogh Ferenc | baloghvizkft@gmail.com | Fejlesztene — **telefonhívást kér** (06 30 533 3409) |
-| **Pizza Eater**, Tatabánya | — | csakpizza2020@gmail.com | Webshop saját bankszámlára, rendeléskezeléssel |
-| **Integra Diagnosztika** | Kántor Piroska | integra.diagnosztika@gmail.com | Ár — 19 Sept óta áll |
-| **A+A Építész Stúdió** | Hegedüs-Jankovits Anett | a2epiteszinfo@gmail.com | Marketing — megválaszolva, az ő döntésük |
-| **Völgyesi Tanya** | Völgyesiné Mózes Melinda | volgyesitanya@gmail.com | Hívást kér, szűkös keret — megválaszolva |
-| **Zen szalon**, **Tetőmosás**, **Péter Úr Redőnység** | — | — | Telefonszámot kértek — megválaszolva |
+| **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | **Demo + 90 000 Ft**, plus his two questions answered | **2 PNG** |
+| **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop igen, 400k-tól · **natív app nem** · 7 kérdés | — |
+| **Matyisák Pincészet** | — | Előbb demó, utána üljünk le · 6 kérdés | — |
+| **Kozák Ádám E.V.** | Kozák Ádám | Megcsinálom · 7 kérdés a demóhoz | — |
+| **Derékmentő**, Écsed | Sebestyén Tamás | Mi kerülne az oldalra · 5 kérdés | — |
+| **Heit Torma** | Heit Lóránd Levente | **Webshop vagy bemutatkozó?** — ez dönti el az árat | — |
+| **Kati Szalon**, Makó | Széll Kati | 60–120k, tipikusan 80k · demó felajánlva | — |
+| **RABER Tire Shop** | Csoba László | Bocsánat a sablonos megszólításért · árak · 1 kérdés | — |
+| **Balogh-Víz Kft.** | Balogh Ferenc | Telefon helyett e-mail · 7 kérdés · 60–120k | — |
+| **Ungarn Einwanderung** | Kincses Éva | **A „nem továbbküldhető" videó nem megoldható** · 650k-tól | — |
+| **Pizza Eater**, Tatabánya | — | Hogyan jut a pénz a saját számlájukra · 400k-tól | — |
+| **Martin&Olivér Barber Shop** | — | Bocsánatkérés, nulla értékesítés | — |
+| **Pintér Farm** | Pintér Imre | Bocsánatkérés | — |
+| **Egressy Béni iskola** | Ollári Judit | Bocsánatkérés | — |
+
+Still open, no draft written: **Hobby Kutyasuli** (demo + ár),
+**Varázshegy TSMT** (demo), **Integra Diagnosztika** (ár, 19 Sept óta áll).
+Already answered, ball in their court: **A+A Építész**, **Völgyesi Tanya**,
+**Zen szalon**, **Tetőmosás**, **Péter Úr Redőnység**.
+
+### Two drafts to read before sending
+
+- **Matyisák Pincészet** asked whether a face-to-face meeting is possible
+  before agreeing. The draft says yes but proposes the demo first. Their
+  address is Vizkelet — if that is over the border and you do not want to
+  travel, that sentence needs changing before it goes.
+- **Kertigép** is told plainly that you do not build native mobile apps, and
+  offered an installable mobile webshop instead. The 400 000 Ft floor is the
+  Culinary Institute precedent applied — change it if that is not your number.
 
 **No phone numbers anywhere.** Every draft routes people to e-mail with a plain
 reason, and compensates by asking for everything in one go.

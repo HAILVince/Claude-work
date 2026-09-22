@@ -1,0 +1,111 @@
+Címzett: info@csaladesterapia.hu (Mráz Sándor Zoltán)
+Tárgy:   Re: Weboldal frissítés Ibrányban
+Válasz erre az üzenetre: 1a0c86bd2acbb0c5 (2026-09-22 09:21)
+Szál:    1a0c86bd2acbb0c5
+Csatolmány: desktop-full.png, mobile-full.png  <<< KÜLDÉS ELŐTT CSATOLD
+---------------------------------------------------------------
+Családterápia, párterápia, addiktológiai konzultáció — Ibrány.
+Két kérdése volt: mennyibe kerül egy év üzemeltetés, és mennyire
+szerkeszthető az oldal. A levél ezzel a kettővel kezd.
+Ár: 90 000 Ft. KARBANTARTÁST NEM VÁLLALUNK.
+Magázó — ő is így írt.
+Amit a levél nyíltan beismer: egyetlen árat tudtunk biztosan (addiktológiai
+állapotfelmérés 50 perc / 15 000 Ft), a többi becslés; a kollégája adatlapja
+üres, mert a nevét nem találtuk; a szakmai szövegek javaslatok.
+A demón van egy krízis-sáv (116-123, illetve 112) — a levél rákérdez, hogy
+maradhat-e.
+---------------------------------------------------------------
+
+Kedves Mráz Sándor Zoltán!
+
+Köszönöm a visszajelzést — elkészítettem a demót, két képet csatoltam
+hozzá: az egyik az oldal számítógépen, a másik mobilon. (A mobilos kép
+két hasábba van tördelve, hogy elférjen egyetlen képen; élesben ez egy
+folyamatos oldal.)
+
+Előbb a két kérdésére válaszolok, mert azok a fontosabbak.
+
+Mennyibe kerül egy év üzemeltetés?
+
+A tárhely ingyenes, és ez nem akciós bevezető ár: az oldal statikus,
+nincs mögötte adatbázis vagy rendszer, így olyan szolgáltatón is elfut,
+ami az ilyesmit ingyen adja. Az egyetlen visszatérő költség a domain éves
+díja, néhány ezer forint, amit közvetlenül a szolgáltatónál fizetnek.
+Havi díjat én nem számítok fel.
+
+Mennyire szerkeszthető?
+
+Amit rendszeresen frissíteni kell — jelen esetben az árakat — nem az oldal
+kódjába építem bele, hanem egy külön, egyszerű szöveges fájlba. Egy sora
+így néz ki:
+
+    Állapotfelmérő első konzultáció (50 perc) | 15 000 Ft
+
+Ezt a fájlt egy böngészőből meg tudja nyitni, átírja a számot, rámegy a
+mentésre, és pár percen belül az oldalon is az új ár látszik. Nem kell
+hozzá program, nem kell hozzá fejlesztő, és nem kell megvárnia, hogy
+valaki ráérjen. Átadáskor kap hozzá egy rövid, lépésről lépésre leírást.
+
+Őszinte leszek egy dologban: karbantartást nem vállalok. Pont ezért
+építem így — nem szeretném, hogy fél év múlva egy elavult ár miatt
+kelljen valakit keresniük.
+
+Amit az oldalon látni fog
+
+Az első alkalom menete. A legtöbben azért halogatják a jelentkezést, mert
+nem tudják, mibe mennek bele. Az oldal végigvezeti: üzenet, tájékozódó
+konzultáció, közös döntés a folytatásról, utána a saját ritmusuk.
+
+Az árak kint vannak. Senkinek ne az legyen az első lépése, hogy egy kínos
+kérdést kell feltennie.
+
+Gyakori kérdések. Bizalmas-e, mindenkinek el kell-e jönnie, mi van, ha a
+másik fél nem akar, hány alkalom lesz, lemondható-e. Ezek azok, amiket
+most valószínűleg minden érdeklődőnek külön megválaszolnak.
+
+Két dolog, amit szándékosan tettem bele
+
+A jelentkezési űrlap kifejezetten kéri, hogy ne írjanak bele részleteket:
+se diagnózist, se leletet, se azt, hogy pontosan mi történt. Az e-mail nem
+bizalmas csatorna, és nem szerencsés, ha egy űrlap arra biztat valakit,
+hogy ott öntse ki a lelkét. Név, elérhetőség, milyen ügyben keres — ennyi
+elég ahhoz, hogy vissza tudjanak jelezni.
+
+Az oldal alján van egy külön sáv arról, hogy ez az oldal nem
+krízisellátás, és hogy aki most van bajban, hívja a Lelki Elsősegély
+Telefonszolgálatot a 116-123 számon, közvetlen életveszély esetén pedig a
+112-t. Ha ezt nem tartja helyénvalónak, természetesen kiveszem — de egy
+olyan oldalon, ami szenvedélybetegségről és családi krízisekről szól,
+szerintem ott a helye.
+
+Amit ki kell javítani benne
+
+A régi oldaluk innen nem volt elérhető, így a tartalom jó részét a
+keresőben fellelhető információkból raktam össze. Ezeket kérem, nézze át:
+
+1. Az árak közül egyedül az addiktológiai állapotfelmérés (50 perc,
+   15 000 Ft) az, amit biztosan tudtam. A többi az én becslésem — írja át
+   őket.
+2. A kollégája adatlapja üres: a nevét, végzettségét és pár mondatot róla
+   nem találtam meg. Ha elküldi, beteszem.
+3. A szövegek — a kezelések leírása, a folyamat menete, a gyakori
+   kérdésekre adott válaszok — az én javaslataim. Ezeken kérem menjen
+   végig alaposan, mert az Önök neve lesz alattuk.
+4. Nincs rajta cím és rendelési idő, mert nem tudom. Írja meg, hogy
+   pontosan hol fogadnak, és hogyan lehet odatalálni.
+5. Jól gondolom, hogy a "több mint tíz éve dolgozunk együtt"
+   megfogalmazás még aktuális?
+
+Az ár
+
+Ez az oldal, ahogy a képeken látja, 90 000 Ft. Egyszeri összeg, nincs havi
+díj, és nincs karbantartási díj sem.
+
+Ha valami nem tetszik benne, azt is mondja meg nyugodtan — pont azért
+demó, hogy alakítsuk. Nem kötelezi semmire.
+
+Várom a visszajelzését!
+
+Üdvözlettel:
+Nagy-Toma Vince
+Axióma Webfejlesztés — axiomaweb.hu

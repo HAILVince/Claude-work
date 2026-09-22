@@ -119,21 +119,28 @@ function clear(input) {
 
 form.addEventListener('submit', e => {
   e.preventDefault();
-  const nev = form.nev, el = form.elerhetoseg, kez = form.kezeles;
-  [nev, el, kez].forEach(clear);
+  const nev = form.nev, el = form.elerhetoseg, ugy = form.ugy, mod = form.mod;
+  [nev, el, ugy, mod].forEach(clear);
   ok.hidden = true;
   let bad = null;
 
-  if (!nev.value.trim()) { fail(nev, 'Írd be a neved, hogy tudjam, kihez szóljak.'); bad ||= nev; }
+  if (!nev.value.trim()) {
+    fail(nev, 'Kérjük, írja be a nevét, hogy tudjuk, kihez szóljunk.');
+    bad ||= nev;
+  }
 
   const v = el.value.trim();
   const digits = (v.match(/\d/g) || []).length;
-  if (!v) { fail(el, 'Kérlek adj meg egy e-mail-címet vagy telefonszámot.'); bad ||= el; }
-  else if (!EMAIL.test(v) && digits < 7) {
-    fail(el, 'Ez így nem tűnik e-mail-címnek vagy telefonszámnak.'); bad ||= el;
+  if (!v) {
+    fail(el, 'Kérjük, adjon meg egy e-mail-címet vagy telefonszámot.');
+    bad ||= el;
+  } else if (!EMAIL.test(v) && digits < 7) {
+    fail(el, 'Ez így nem tűnik e-mail-címnek vagy telefonszámnak.');
+    bad ||= el;
   }
 
-  if (!kez.value) { fail(kez, 'Válassz egy kezelést, vagy hogy még kérdeznél.'); bad ||= kez; }
+  if (!ugy.value) { fail(ugy, 'Válasszon egyet, vagy azt, hogy még kérdezne.'); bad ||= ugy; }
+  if (!mod.value) { fail(mod, 'Jelölje be, személyesen vagy online lenne jobb.'); bad ||= mod; }
 
   if (bad) { bad.focus(); return; }
 
@@ -143,6 +150,9 @@ form.addEventListener('submit', e => {
 
 [...form.querySelectorAll('input, select')].forEach(f =>
   f.addEventListener('input', () => clear(f))
+);
+[...form.querySelectorAll('select')].forEach(f =>
+  f.addEventListener('change', () => clear(f))
 );
 
 loadPrices();
