@@ -4,12 +4,27 @@ Status is by **last message in the thread**, not by who replied. Twelve new
 replies have landed since the 21 Sept sweep; the ones that need something from
 you are at the top.
 
-## 🎉 Won
+## 🎉 Won — and now in build
 
-- **Vamos Tattoo** (Vámos Norbert, tattoo.vamos@gmail.com) — **megbízva**,
-  21 Sept 15:51: *"Tetszik az ar szoval elkezdhetjuk a kozos munkat."* No
-  invoice needed. He is collecting text and images; asked you to say if
-  anything is needed from him so you can keep moving.
+**Vamos Tattoo** (Vámos Norbert, tattoo.vamos@gmail.com), Szolnok —
+**90 000 Ft**, megbízva 21 Sept. No invoice needed, he said so himself.
+
+The material arrived on 22 Sept and it is good: his complete website copy
+(introduction, style, what he will not tattoo, age limit, booking and
+payment, cancellation, preparation, aftercare, correction), four logo files
+and seven work photos. All of it is in `vamos-tattoo/content/` and
+`vamos-tattoo/assets/`; the brief is `vamos-tattoo/content/BRIEF.md`.
+
+**A draft is in Gmail** telling him payment is **45 000 Ft now, 45 000 Ft at
+launch**, giving the account number, and asking for the one thing that
+blocks the start: a (new) Gmail address to build the access on. It also asks
+for his studio photo, the Inkness logo, the Google reviews link, which
+gallery image should be the featured one, and confirmation of how the
+correction checkbox should work.
+
+**Two things in his copy need more than the previous demos had:** the form
+must take **file uploads** (inspiration images, and a sharp photo for a
+correction request), and size in **cm** is a required field.
 
 ## Waiting on you right now — 14 drafts are in Gmail
 
