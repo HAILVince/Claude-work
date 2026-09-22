@@ -1,0 +1,86 @@
+Címzett: [Vik Fog — a cím a Gmail-szálban van, lásd lent]
+Tárgy:   Re: [az eredeti tárgy]
+Állapot: NINCS Gmail draft — a Gmail-kapcsolat lejárt, kézzel kell bemásolni
+---------------------------------------------------------------
+Amit nem tudtam ellenőrizni, mert a Gmail nem válaszol:
+  - a megszólított neve és az e-mail-cím
+  - mit kértek pontosan (csak árat? demót is? SEO-t is?)
+  - van-e már oldaluk, és mi a hivatalos névalak ("Vik Fog" vagy "Vik-Fog")
+  - hogy egyáltalán fogászat-e, vagy fogtechnikai labor — a szöveg
+    rendelőre van írva, laborra más hangsúlyokkal kellene
+A szögletes zárójeles részeket küldés előtt cseréld ki.
+---------------------------------------------------------------
+
+Kedves [Név]!
+
+Köszönöm a visszajelzést. Leírom, mit javaslok és mibe kerül, hogy legyen
+mihez viszonyítania.
+
+Egy fogászati rendelő oldalán három kérdésre keresnek választ, jellemzően
+ebben a sorrendben: mivel foglalkoznak, mennyibe kerül, és hogyan jutok
+időponthoz. Az oldal erre a háromra épülne.
+
+Kezelések. Nem katalógus, hanem néhány sor arról, mit csinálnak és mit nem
+— ez szűri ki azokat is, akik olyasmivel keresnék meg, amit Önök nem
+vállalnak.
+
+Árak. A legtöbb rendelő itt veszít érdeklődőt: ha semmilyen szám nincs az
+oldalon, sokan el sem küldik a kérdést. Nem kell tételes árlista, elég egy
+tájékoztató "-tól" ár a gyakori kezelésekre, azzal a mondattal, hogy a
+pontos összeg vizsgálat után derül ki.
+
+Időpontkérés. Egy rövid űrlap, aminek az üzenete egyenesen az Önök
+e-mail-címére érkezik. Nincs admin felület, nincs rendszer, amibe be kellene
+lépni — úgy jön, mint bármelyik másik levél. Az űrlap szándékosan nem
+kérdez rá panaszra, leletre vagy bármilyen egészségügyi részletre: az ilyen
+adatnak e-mailben nincs helye, és fölösleges felelősség. Név, elérhetőség és
+hogy mikorra szeretne időpontot — ennyi elég ahhoz, hogy visszahívják.
+
+Hogy megtalálják. A cím, a nyitvatartás és a telefonszám gépi formában is
+rákerül az oldalra, ezt olvassa ki a Google a találatok alá. Ez az, ami a
+"fogorvos [település]" típusú keresésnél számít.
+
+Az ár
+
+Egy ilyen oldal 80 000 Ft. Egyszeri összeg, nincs havi díj. Az oldal
+statikus: nincs mögötte rendszer vagy adatbázis, nincs mit frissítgetni és
+nincs mit feltörni, évekig elvan magától. A tárhely ingyenes. Az egyetlen
+visszatérő költség a .hu domain éves díja, néhány ezer forint, közvetlenül a
+szolgáltatónál fizetendő — a bekötést és az élesítést én intézem.
+
+Két dolog van, ami ezt feljebb viszi, és jobb, ha előre tudja:
+
+Online foglalónaptár. Ha azt szeretné, hogy a beteg maga válasszon szabad
+időpontot egy naptárból, az már nem ez a kategória: az egy rendszer, ami
+összeköttetésben áll az Önök napirendjével, és külön árazandó. Az e-mailes
+időpontkérés ezzel szemben benne van a fenti összegben.
+
+Idegen nyelvű változat. Ha kell angol vagy német verzió, az nagyjából a
+munka másfélszerese.
+
+Amihez a segítségét kérem
+
+1. Van már domainjük, vagy nézzek utána, mi szabad?
+2. Melyik kezeléseket soroljuk fel, és kitehetünk-e hozzájuk tájékoztató
+   árakat?
+3. Van saját fotójuk a rendelőről és a csapatról? Idegen, vásárolt képeket
+   nem teszek egy olyan oldalra, ami Önökről szól — egy fogászatnál pedig
+   pont az a tét, hogy a beteg lássa, hová megy.
+4. Használnak most valamilyen foglaló- vagy betegnyilvántartó rendszert,
+   amivel az oldalnak együtt kellene működnie?
+5. Kell idegen nyelvű változat?
+
+Ha szeretné, mielőtt bármiben megállapodnánk, összerakok egy mintát a saját
+rendelőjükre szabva — ahogy a többi ügyfelemnek is szoktam. Ingyenes, és
+nem kötelezi semmire: úgy egyszerűbb eldönteni, hogy tetszik-e, mint
+leírásból.
+
+Telefonon nehezen vagyok elérhető, e-mailben viszont gyorsan válaszolok —
+ezért is kérdeztem meg mindent egyszerre, hogy ne legyen ebből tíz levél.
+
+Várom a visszajelzését!
+
+Üdvözlettel:
+Nagy-Toma Vince
+Axióma Webfejlesztés
+axiomaweb.hu
