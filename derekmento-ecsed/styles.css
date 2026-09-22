@@ -100,6 +100,10 @@ a { color: inherit; }
 }
 .nav a:not(.btn):hover { border-bottom-color: var(--accent); }
 .nav-cta { border-bottom: 0 !important; }
+/* `.nav a` outranks `.btn-p`, so the CTA needs its colour restated here
+   or it renders dark-on-dark. */
+.nav a.btn-p { color: #fff; }
+.nav a.btn-p:hover { color: #fff; }
 
 .burger {
   display: none; width: 42px; height: 38px; padding: 9px 8px;

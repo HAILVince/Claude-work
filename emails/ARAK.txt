@@ -50,3 +50,23 @@ Amit tudni kell róla, mielőtt ígéred:
 - az oldalnak GitHubon kell laknia (ez egyben az ingyenes tárhely is)
 - ha elrontja a fájl formátumát, az oldal ne omoljon össze: a betöltő
   kódnak hibatűrőnek kell lennie
+
+
+SZEMÉLYES EGYEZTETÉST NEM VÁLLALUNK
+===================================
+
+Kizárólag e-mail. Ne ígérj személyes találkozót, helyszíni bejárást vagy
+telefonos egyeztetést — akkor se, ha ők kérik.
+
+Ahogy elmondható anélkül, hogy elutasításnak hangozzon:
+
+    Én kizárólag e-mailben dolgozom, személyes megbeszélést nem vállalok.
+    Nem udvariatlanságból — egyedül dolgozom, és így tudom tartani azt az
+    árat, amit adok. Van viszont két előnye is: minden le van írva, tehát
+    később vissza lehet keresni, miben maradtunk, és nem kell
+    összehangolnunk két naptárat ahhoz, hogy haladjunk.
+
+Ezt mindig kösd össze azzal, hogy egyszerre kérdezel meg mindent, és hogy
+a demó ingyenes — így a levél nem korlátot közöl, hanem egy gyorsabb utat
+kínál.
+

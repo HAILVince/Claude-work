@@ -1,24 +1,26 @@
-/* Család és Terápia — családterápia, párterápia, addiktológia
-   Quiet and unhurried: soft warm greys, one grounded green, generous
-   leading. Nothing on this page should feel like it is selling. */
+/* Mindent megjavítok — háztartásigép-szerviz, Debrecen
+   Workshop signage: cool paper, near-black navy structure, one amber for
+   the things worth stopping at. Someone lands here with a dead washing
+   machine, on a phone, in a hurry — so nothing is decorative and every
+   section answers one question. */
 
 :root {
-  --shell:  #F4F3EF;
+  --shell:  #F2F3F5;
   --paper:  #FFFFFF;
-  --sage:   #E6EBE4;
-  --ink:    #1D2320;
-  --ink-2:  #59615C;
-  --deep:   #23372F;
-  --pale:   #BFD0C4;
-  --accent: #3F6B57;   /* 5.48:1 on shell, 6.08:1 under white */
-  --accent-d: #2F5443;
-  --line:   #DEDCD3;
-  --line-d: #3C5348;
-  --amber:  #F6EFE2;
-  --amber-t:#8A5A1E;
+  --sage:   #E6E9EC;   /* banded sections */
+  --ink:    #151A20;
+  --ink-2:  #545C66;
+  --deep:   #17232F;
+  --pale:   #AFBECB;
+  --accent: #17232F;   /* buttons: near-black navy, 14.35:1 on shell */
+  --accent-d: #27394B;
+  --line:   #DBDEE2;
+  --line-d: #2E4054;
+  --amber:  #E3A81C;   /* the band itself — ink sits on it at 8.2:1 */
+  --amber-t:#151A20;
 
-  --f-d: 'Lora', Georgia, 'Times New Roman', serif;
-  --f-b: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --f-d: 'Archivo', system-ui, 'Segoe UI', Arial, sans-serif;
+  --f-b: 'Lato', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
 
   --wrap: 1100px;
   --r: 6px;
@@ -70,7 +72,7 @@ a { color: inherit; }
 }
 .btn-p { background: var(--accent); color: #fff; }
 .btn-p:hover { background: var(--accent-d); }
-.btn-g { border-color: #C6C9C0; color: var(--ink); background: var(--paper); }
+.btn-g { border-color: #BFC5CC; color: var(--ink); background: var(--paper); }
 .btn-g:hover { border-color: var(--ink); }
 .btn-l { padding: 14px 26px; }
 .btn-full { width: 100%; font-family: var(--f-b); }
@@ -122,9 +124,9 @@ a { color: inherit; }
 
 .eyebrow {
   font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase;
-  color: var(--accent-d); font-weight: 600; margin: 0 0 20px;
+  color: #34506B; font-weight: 700; margin: 0 0 20px;
 }
-.sec-dark .eyebrow { color: var(--pale); }
+.sec-dark .eyebrow { color: var(--amber); }
 
 h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 
@@ -144,7 +146,7 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 /* ---------- section frame ---------- */
 
 .sec { padding: 94px 0; }
-.sec-alt { background: var(--sage); border-block: 1px solid var(--line); }
+.sec-band { background: var(--sage); border-block: 1px solid var(--line); }
 .sec-dark { background: var(--deep); color: var(--shell); }
 .sec-dark .sec-l { color: var(--pale); }
 
@@ -154,21 +156,23 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 
 /* ---------- cards ---------- */
 
-.cards { display: grid; gap: 20px; grid-template-columns: repeat(2, 1fr); }
+.cards { display: grid; gap: 18px; grid-template-columns: repeat(4, 1fr); }
 .card {
   background: var(--paper); border: 1px solid var(--line);
-  border-radius: var(--r); padding: 30px 30px 32px;
+  border-radius: var(--r); padding: 24px 24px 26px;
 }
-.card h3 { font-size: 24px; margin-bottom: 12px; }
-.card p { color: var(--ink-2); font-size: 16px; margin: 0; }
+.card h3 { font-size: 20px; margin-bottom: 10px; }
+.card p { color: var(--ink-2); font-size: 15px; margin: 0; }
 
 /* ---------- steps ---------- */
 
 .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; grid-template-columns: repeat(4, 1fr); }
-.step { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 26px 24px 28px; }
+.step { background: #1E2D3C; border: 1px solid var(--line-d); border-radius: var(--r); padding: 26px 24px 28px; }
+.sec-dark .step h3 { color: #fff; }
+.sec-dark .step p { color: var(--pale); }
 .step-k {
   width: 32px; height: 32px; border-radius: 50%;
-  background: var(--sage); color: var(--accent-d);
+  background: var(--amber); color: var(--ink);
   font-family: var(--f-d); font-weight: 600; font-size: 16px;
   display: grid; place-items: center; margin: 0 0 16px;
 }
@@ -189,12 +193,12 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 /* A value can be a sentence rather than a number; nowrap would then push
    the whole grid wider than the screen. */
 .ar-p.wrap { flex: 0 1 auto; white-space: normal; text-align: right; }
-.ar-note { margin: 15px 0 0; font-size: 15px; color: var(--ink-2); border-left: 2px solid var(--accent); padding-left: 14px; }
+.ar-note { margin: 15px 0 0; font-size: 15px; color: var(--ink-2); border-left: 3px solid var(--amber); padding-left: 14px; }
 .ar-foot { margin: 28px 0 0; font-size: 16px; color: var(--ink-2); max-width: 64ch; }
 
 /* ---------- about ---------- */
 
-.rolunk { display: grid; gap: 44px; grid-template-columns: 1fr 1fr; align-items: start; }
+.UNUSED-rolunk { display: grid; gap: 44px; grid-template-columns: 1fr 1fr; align-items: start; }
 .rol-t h2 { font-size: clamp(28px, 3.8vw, 38px); margin-bottom: 20px; }
 .rol-t p { color: var(--ink-2); }
 .rol-c { display: grid; gap: 20px; }
@@ -207,8 +211,42 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 
 .qa { display: grid; gap: 1px; grid-template-columns: repeat(3, 1fr); background: var(--line-d); border: 1px solid var(--line-d); border-radius: var(--r); overflow: hidden; }
 .q { background: var(--deep); padding: 28px 26px 30px; }
-.q h3 { font-size: 19px; margin-bottom: 10px; }
-.q p { color: var(--pale); font-size: 15.5px; margin: 0; }
+.q h3 { font-size: 20px; margin-bottom: 12px; }
+.q p { color: var(--pale); font-size: 15.5px; }
+.q ul { margin: 0; padding-left: 18px; }
+.q li { color: var(--pale); font-size: 15.5px; margin-bottom: 8px; }
+.q li:last-child { margin-bottom: 0; }
+/* The red-flag panel has to read as the exception, not as one item of three. */
+.q-red { background: #2E2220; }
+.q-red h3 { color: #F0A99A; }
+.q-red li { color: #E3CBC5; }
+
+/* plain FAQ grid */
+.faq { display: grid; gap: 20px; grid-template-columns: repeat(3, 1fr); }
+.f { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 24px 26px 26px; }
+.f h3 { font-size: 19px; margin-bottom: 9px; }
+.f p { color: var(--ink-2); font-size: 15.5px; margin: 0; }
+
+/* what to expect afterwards */
+.callout {
+  margin: 30px 0 0; padding: 24px 28px;
+  background: var(--amber); border-radius: var(--r);
+}
+.callout-h { font-family: var(--f-d); font-weight: 700; font-size: 20px; color: var(--ink); margin-bottom: 6px; }
+.callout p { color: #3A2E10; font-size: 16px; }
+
+/* boiler block */
+.bojler { display: grid; gap: 44px; grid-template-columns: 1fr 1fr; align-items: start; }
+.boj-t h2 { font-size: clamp(27px, 3.6vw, 36px); margin-bottom: 18px; }
+.boj-t p { color: var(--ink-2); }
+.boj-c { display: grid; gap: 20px; }
+.boj-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 24px 26px 26px; }
+.boj-card h3 { font-size: 20px; margin-bottom: 10px; }
+.boj-card p { color: var(--ink-2); font-size: 15.5px; margin: 0; }
+
+/* the "not on the list" tile reads as an invitation, not a service */
+.card-more { background: var(--amber); border-color: #C9901000; }
+.card-more p { color: #3A2E10; }
 
 /* ---------- crisis ---------- */
 
@@ -224,9 +262,12 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 .form-in { display: grid; gap: 48px; grid-template-columns: 1fr 1fr; align-items: start; }
 .form-l h2 { font-size: clamp(28px, 3.8vw, 38px); }
 
-.pull { margin-top: 28px; padding: 22px 24px; background: var(--paper); border: 1px solid var(--line); border-left: 2px solid var(--accent); border-radius: var(--r); }
+.pull { margin-top: 28px; padding: 22px 24px; background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--amber); border-radius: var(--r); }
 .pull-h { font-family: var(--f-d); font-size: 18px; font-weight: 600; margin-bottom: 8px; }
 .pull p { font-size: 15.5px; color: var(--ink-2); }
+.pull ul { margin: 0; padding-left: 18px; }
+.pull li { font-size: 15.5px; color: var(--ink-2); margin-bottom: 7px; }
+.pull li:last-child { margin-bottom: 0; }
 
 .form { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 30px; }
 .fld { margin-bottom: 18px; }
@@ -255,6 +296,8 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 .ftr-nav a { font-size: 15px; color: #CFDACF; text-decoration: none; }
 .ftr-nav a:hover { color: #fff; }
 .ftr-m { margin: 0; font-size: 15.5px; color: var(--pale); }
+.ftr-d { margin: 26px 0 0; padding-top: 20px; border-top: 1px solid var(--line-d);
+         font-size: 13.5px; color: #93A3AE; max-width: 70ch; }
 
 /* ---------- reveal ---------- */
 
@@ -266,8 +309,11 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
 
 @media (max-width: 1000px) {
   .steps { grid-template-columns: repeat(2, 1fr); }
+  .cards { grid-template-columns: repeat(2, 1fr); }
+  .bojler { grid-template-columns: 1fr; gap: 30px; }
   .qa { grid-template-columns: repeat(2, 1fr); }
-  .rolunk { grid-template-columns: 1fr; gap: 32px; }
+  .faq { grid-template-columns: repeat(2, 1fr); }
+  .UNUSED-rolunk { grid-template-columns: 1fr; gap: 32px; }
   .form-in { grid-template-columns: 1fr; gap: 32px; }
 }
 
@@ -298,6 +344,7 @@ h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.12; }
   .wrap { width: calc(100% - 32px); }
   .steps { grid-template-columns: 1fr; }
   .qa { grid-template-columns: 1fr; }
+  .faq { grid-template-columns: 1fr; }
   .cta-row .btn { width: 100%; text-align: center; }
   .form { padding: 24px 20px; }
   .ftr-in { flex-direction: column; align-items: flex-start; }

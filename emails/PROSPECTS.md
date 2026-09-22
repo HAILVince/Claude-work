@@ -13,15 +13,16 @@ you are at the top.
 
 ## Waiting on you right now — 14 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Two need
-attachments** (both demos): Család és Terápia and DerékMentő.
+All of these are written and sitting on their own threads. **Three need
+attachments** (the demos): Család és Terápia, DerékMentő and Mindent
+megjavítok.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
 | **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | **Demo + 90 000 Ft**, plus his two questions answered | **2 PNG** |
-| **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop igen, 400k-tól · **natív app nem** · 7 kérdés | — |
-| **Matyisák Pincészet** | — | Előbb demó, utána üljünk le · 6 kérdés | — |
-| **Kozák Ádám E.V.** | Kozák Ádám | Megcsinálom · 7 kérdés a demóhoz | — |
+| **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop **450 000 Ft + áfa** · **mit értenek app alatt?** · 7 kérdés | — |
+| **Matyisák Pincészet** | — | **Csak e-mail, személyes egyeztetés nincs** · 6 kérdés | — |
+| **Mindent megjavítok**, Debrecen | Kozák Ádám | **Demo + 90 000 Ft**, 6 dolgot kér javítani | **2 PNG** |
 | **DerékMentő**, Ecséd | Sebestyén Tamás | **Demo + 90 000 Ft**, 7 dolgot kér javítani | **2 PNG** |
 | **Heit Torma** | Heit Lóránd Levente | **Webshop vagy bemutatkozó?** — ez dönti el az árat | — |
 | **Kati Szalon**, Makó | Széll Kati | 60–120k, tipikusan 80k · demó felajánlva | — |
@@ -58,15 +59,15 @@ No phone number on the page, because none is known. The reply asks for it and
 says the call button is the first thing to add: for someone in pain on a
 phone it will outperform the form.
 
-### Two drafts to read before sending
+### Kertigép — the quote and the question back
 
-- **Matyisák Pincészet** asked whether a face-to-face meeting is possible
-  before agreeing. The draft says yes but proposes the demo first. Their
-  address is Vizkelet — if that is over the border and you do not want to
-  travel, that sentence needs changing before it goes.
-- **Kertigép** is told plainly that you do not build native mobile apps, and
-  offered an installable mobile webshop instead. The 400 000 Ft floor is the
-  Culinary Institute precedent applied — change it if that is not your number.
+The webshop is quoted at **450 000 Ft + áfa** as an indicative figure. Before
+anything is said about the app, the draft asks what they actually mean by it,
+because three different things get called the same word: a real downloadable
+iOS/Android app (which you do not build, and the draft says so), a webshop
+that installs to the phone's home screen and behaves like an app (included in
+the price), or an internal tool for your own order and parts handling. It also
+asks whether it should look the same as the webshop or do something else.
 
 **No phone numbers anywhere.** Every draft routes people to e-mail with a plain
 reason, and compensates by asking for everything in one go.
@@ -184,6 +185,16 @@ new conversation. Delete and re-create with `replyToMessageId`.
 file the client edits themselves on GitHub, and the page loads from it. Full
 wording and caveats in ARAK.txt; the first working example is
 `sminktetovalas-tatabanya/`.
+
+**Never offer a face-to-face meeting.** E-mail only, even when they ask for
+one. ARAK.txt has the wording that does not read as a brush-off: working alone
+is what holds the price, everything stays written down, and no two calendars
+have to be lined up. Pair it with asking everything in one go.
+
+**Check the header button.** `.nav a` outranks `.btn-p`, so the call to action
+in the header rendered dark text on its own dark fill on every site built
+before 22 Sept. Fixed in all four stylesheets; the two mails already sent
+(Gazdi-Ker, Sminktetoválás) went out with it.
 
 **Watch the typos.** The Tisztítlak reply went out with "Kedves Tisztillak",
 "ugényelt" and "adatvédlem". At 200 mails a day, a typo in the greeting is the

@@ -1,0 +1,32 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Tétel neve | 8 000 Ft
+#   Csoportcím:     ## Kiszállás
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Kiszállás és bevizsgálás
+Kiszállás Debrecenben | 4 000 Ft
+Kiszállás Debrecenen kívül | 4 000 Ft + 120 Ft/km
+Hibafeltárás, bevizsgálás | 6 000 Ft
+> Ha a javítást nálam rendeled meg, a bevizsgálás díja beleszámít a
+> munkadíjba.
+
+## Munkadíj
+Javítás munkadíja | 9 000 Ft/óra
+Gép elszállítása és visszaszállítása | 6 000 Ft
+> Az alkatrész ára ezen felül értendő. A beépítendő alkatrész árát a
+> munka megkezdése előtt megmondom.
+
+## Bojler
+Villanybojler vízkőtelenítése | 18 000 Ft-tól
+Villanybojler beszerelése | 20 000 Ft-tól
+Ariston garanciális javítás | garancia esetén díjmentes
+
+## Fizetés
+Fizetés | készpénzben vagy átutalással
+Számla | minden munkáról adok
