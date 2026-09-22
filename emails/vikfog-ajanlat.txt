@@ -3,6 +3,8 @@ Tárgy:   Re: Weboldal frissítés lehetőség
 Válasz erre az üzenetre: 1a0c7dd70d7bc113 (Fogarasi Viki, 2026-09-22 06:45)
 Szál:    1a0bc8928f56f80b
 Csatolmány: desktop-full.png, mobile-full.png  <<< KÜLDÉS ELŐTT CSATOLD
+Formátum: a Gmail-draft HTML törzzsel készült, hogy az e-mail-cím és a
+domain sima szövegként jelenjen meg, ne kattintható linkként.
 ---------------------------------------------------------------
 Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
 A sminktetovalastatabanya.hu azért nem üzemel, mert a tárhely állt le —
@@ -106,4 +108,4 @@ Várom a visszajelzésed!
 
 Üdv,
 Nagy-Toma Vince
-axiomaweb.hu
+Axióma Webfejlesztés — axiomaweb.hu
