@@ -1,0 +1,58 @@
+# Szabad időpontok
+#
+# FIGYELEM: az alábbi dátumok MIND kitaláltak, csak azért vannak itt, hogy
+# lásd, hogy működik. Mielőtt az oldal élesedne, ezt a listát a saját
+# naptárad alapján kell átírni.
+#
+# Ezt a fájlt te szerkeszted, nem a fejlesztő. Megnyitod a böngészőben,
+# átírod, mented, és pár percen belül él az oldalon. Nem kell hozzá se
+# program, se telefonhívás.
+#
+# Egy hónap így néz ki:
+#
+#   ## 2027. május
+#   május 8. | szabad
+#   május 15. | foglalt
+#   > Ide jöhet egy megjegyzés az egész hónaphoz.
+#
+# A „| szabad" és a „| foglalt" a lényeg. Amit nem ismerek fel foglaltként,
+# azt szabadnak mutatom — inkább kapj egy levelet, amit visszautasítasz,
+# mint hogy egy eladható dátum ne látszódjon.
+#
+# A # jellel kezdődő sorok megjegyzések, azok nem kerülnek ki az oldalra.
+# Ha egy hónap már nem aktuális, töröld az egész blokkot.
+
+## 2027. május
+május 1. | foglalt
+május 8. | szabad
+május 15. | szabad
+május 22. | foglalt
+május 29. | szabad
+> A május a legkeresettebb hónap, ezek fogynak elsőként.
+
+## 2027. június
+június 5. | szabad
+június 12. | foglalt
+június 19. | szabad
+június 26. | szabad
+
+## 2027. július
+július 3. | szabad
+július 10. | szabad
+július 17. | szabad
+július 24. | foglalt
+július 31. | szabad
+
+## 2027. augusztus
+augusztus 7. | szabad
+augusztus 14. | szabad
+augusztus 21. | foglalt
+augusztus 28. | szabad
+> Hétköznapi és péntek délutáni időpontokra is van lehetőség, azokat
+> egyeztetés után veszem fel ide.
+
+## 2027. szeptember
+szeptember 4. | szabad
+szeptember 11. | szabad
+szeptember 18. | szabad
+szeptember 25. | szabad
