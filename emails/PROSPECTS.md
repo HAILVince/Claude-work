@@ -32,14 +32,15 @@ mark**, so the browser-tab icon needs deriving from the "v".
 must take **file uploads** (inspiration images, and a sharp photo for a
 correction request), and size in **cm** is a required field.
 
-## Waiting on you right now — 15 drafts are in Gmail
+## Waiting on you right now — 16 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Four need
-attachments** (the demos): Nagy Dániel, Család és Terápia, DerékMentő and
-Mindent megjavítok.
+All of these are written and sitting on their own threads. **Five need
+attachments** (the demos): ST Design Decor, Nagy Dániel, Család és Terápia,
+DerékMentő and Mindent megjavítok.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
+| **ST Design Decor**, dekorfestés | Stipkovits Tímea | **Demo + 80 000 Ft** · **fotókat kér** · Oroszlány vagy Tatabánya? · karbantartás nincs | **2 PNG** |
 | **Nagy Dániel**, ceremóniamester | Nagy Dániel | **Demo + 80 000 Ft** · mit tartalmaz · **üzemeltetést nem vállalok** · 2027 eleje rendben | **2 PNG** |
 | **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | **Demo + 90 000 Ft**, plus his two questions answered | **2 PNG** |
 | **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop **450 000 Ft + áfa** · **mit értenek app alatt?** · 7 kérdés | — |

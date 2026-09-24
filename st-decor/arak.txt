@@ -1,0 +1,39 @@
+# ST Design Decor — árak
+#
+# FIGYELEM: az itt lévő számok a saját weboldaladról származó
+# 8 000 – 30 000 Ft/m² sávból vannak szétbontva technikánként. A sáv a tiéd,
+# a felosztás az én becslésem — mielőtt az oldal élesedne, írd felül.
+#
+# Ezt a fájlt te szerkeszted, nem a fejlesztő. Megnyitod a böngészőben,
+# átírod a számot, mented, és pár percen belül él az oldalon. Nem kell
+# hozzá se program, se telefonhívás, se az, hogy engem elérj.
+#
+# Egy csoport így néz ki:
+#
+#   ## Csoport neve
+#   Tétel neve | 12 000 Ft/m²-től
+#   > Megjegyzés az egész csoporthoz.
+#
+# A # jellel kezdődő sorok megjegyzések, azok nem kerülnek ki az oldalra.
+# Ha egy egész technikát kivennél, töröld a blokkját.
+
+## Dekor falfestés
+Strukturált festés — márvány- és betonhatás | 12 000 Ft/m²-től
+Ombre festés | 8 000 Ft/m²-től
+Sablontechnika, egyedi minta | 10 000 Ft/m²-től
+Velencei stukkó | 18 000 Ft/m²-től
+> Az ár a fal felületének bonyolultságától és a felhasznált anyagoktól függ.
+> A felmérés és az árajánlat díjmentes, és minden esetben előre megkapod
+> írásban, mielőtt bármi elkezdődne.
+
+## Amit az ár tartalmaz
+Helyszíni felmérés és árajánlat | díjmentes
+Színpróba mintadarabon | díjmentes
+Takarás, előkészítés, takarítás | benne van
+> Külön költség csak akkor merül fel, ha a fal alapfelületét előbb helyre
+> kell állítani — ezt a felmérésen látom, és előre jelzem.
+
+## Workshop
+Kiscsoportos workshop | kérésre
+Privát workshop | kérésre
+> Írd be ide az aktuális árakat és a csoportlétszámot, amint eldöntötted.
