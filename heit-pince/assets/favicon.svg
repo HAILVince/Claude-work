@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Heit Pince</title>
+  <rect width="32" height="32" fill="#1E1A15"/>
+  <!-- H betű, a szókép rövidítése -->
+  <path fill="#F4F0E6" d="M8.6 7.4h2.9v6.1h9V7.4h2.9v17.2h-2.9v-8.4h-9v8.4H8.6V7.4Z"/>
+  <!-- szőlőinda a H alatt -->
+  <path fill="none" stroke="#93A67E" stroke-width="1.6" stroke-linecap="round" d="M9.5 27.6h13"/>
+</svg>

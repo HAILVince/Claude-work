@@ -1,3 +1,17 @@
+
+# NE KÜLDD EL — rossz céghez készült
+
+2026. szeptember 22-én Heit Lóránd Levente maga tisztázta:
+
+> „A Heit Pincének vagy a Heit Zenekarnak lenne a demo. A torma weboldal
+> rendben van."
+
+Ez a demó tehát tárgytalan. A tormás oldalukkal elégedettek. A pincészet
+demója a `heit-pince/` mappában van, az megy ki.
+
+A mappa azért marad meg, mert a kutatás és a felépítés újrahasznosítható, ha
+valaha mégis szóba kerül a torma — de küldeni nem szabad.
+
 # Heit Torma — landing page prototype
 
 Demo for **Heit Lóránd Levente** (Heit Torma, Létavértes / Pocsaj —

@@ -1,0 +1,37 @@
+# Heit Pince — borlap
+#
+# FIGYELEM: az évjáratok és a stílusjelzések alább BECSLÉSEK. A fajtákat a
+# saját oldalukról vettem (Királyleányka, Ottonel Muskotály, Zöld Veltlini,
+# Kadarka, Bakator), de hogy melyik évjárat van most a pincében és melyik
+# milyen, azt csak Ön tudja. Mielőtt az oldal élesedne, írja felül.
+#
+# Ezt a fájlt Ön szerkeszti, nem a fejlesztő. Megnyitja a böngészőben,
+# átírja, menti, és pár percen belül él az oldalon. Évjáratváltáskor ez
+# öt perc, és nem kell hozzá senkit elérni.
+#
+# Egy sor felépítése:
+#
+#   Bor neve | évjárat | stílus | bármi más
+#
+# Az első rész a bor neve, ami utána jön, az mellé kerül kisebb betűvel.
+# Annyi mezőt írhat, amennyit szeretne, és el is hagyhatja mindet.
+# A > jellel kezdődő sor az egész csoporthoz tartozó megjegyzés.
+# A # jellel kezdődő sorok megjegyzések, azok nem kerülnek ki az oldalra.
+#
+# Ha egy bor elfogy, elég a sorát törölni.
+
+## Fehérborok
+Királyleányka | 2024 | száraz
+Ottonel Muskotály | 2024 | félszáraz
+Zöld Veltlini | 2023 | száraz
+> Az Érmellék klasszikus fehérei. A Királyleányka és a Zöld Veltlini
+> ételhez, az Ottonel Muskotály önmagában is megáll.
+
+## Bakator
+Bakator | 2023 | száraz
+> A borvidék egykori fő fajtája, amit 2013 májusában hoztunk haza az
+> Érmellékre. Lassan érik, de jó évjáratban legendás borokat ad.
+
+## Vörösbor
+Kadarka | 2023 | száraz
+> Könnyű, illatos vörös — az a fajta, amit hűtve is érdemes megkóstolni.

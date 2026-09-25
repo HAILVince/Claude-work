@@ -32,11 +32,11 @@ mark**, so the browser-tab icon needs deriving from the "v".
 must take **file uploads** (inspiration images, and a sharp photo for a
 correction request), and size in **cm** is a required field.
 
-## Waiting on you right now — 16 drafts are in Gmail
+## Waiting on you right now — 17 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Five need
-attachments** (the demos): ST Design Decor, Nagy Dániel, Család és Terápia,
-DerékMentő and Mindent megjavítok.
+All of these are written and sitting on their own threads. **Six need
+attachments** (the demos): Heit Pince, ST Design Decor, Nagy Dániel, Család és
+Terápia, DerékMentő and Mindent megjavítok.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
@@ -47,7 +47,7 @@ DerékMentő and Mindent megjavítok.
 | **Matyisák Pincészet** | — | **Csak e-mail, személyes egyeztetés nincs** · 6 kérdés | — |
 | **Mindent megjavítok**, Debrecen | Kozák Ádám | **Demo + 90 000 Ft**, 6 dolgot kér javítani | **2 PNG** |
 | **DerékMentő**, Ecséd | Sebestyén Tamás | **Demo + 90 000 Ft**, 7 dolgot kér javítani | **2 PNG** |
-| **Heit Torma** | Heit Lóránd Levente | **Webshop vagy bemutatkozó?** — ez dönti el az árat | — |
+| **Heit Pince**, Bihardiószeg | Heit Lóránd Levente | **Demo + 80 000 Ft** · Bakator a fókuszban · 3 nyelv külön · 5 kérdés · a Zenekar is felajánlva | **2 PNG** |
 | **Kati Szalon**, Makó | Széll Kati | 60–120k, tipikusan 80k · demó felajánlva | — |
 | **RABER Tire Shop** | Csoba László | Bocsánat a sablonos megszólításért · árak · 1 kérdés | — |
 | **Balogh-Víz Kft.** | Balogh Ferenc | Telefon helyett e-mail · 7 kérdés · 60–120k | — |

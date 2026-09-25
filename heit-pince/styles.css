@@ -1,0 +1,308 @@
+/* Heit Pince — Bihardiószeg, Érmelléki borvidék
+   demó · Axióma Webfejlesztés
+
+   A borászati oldalak fele bordó háttéren aranybetű. Ez a pince nem az: három
+   és fél hektár, fehérfajták, egy visszahozott régi szőlő és egy pincesor,
+   ami maga a látvány. Ezért pergamen alap, mély pinceszín és egyetlen
+   szőlőzöld — a bor színét majd a fotók hozzák, ha megérkeznek.
+
+   Egy témája van szándékosan: ez egy vállalkozás arca, ugyanúgy kell
+   kinéznie mindenkinek, bármire van állítva a telefonja. */
+
+:root {
+  --paper:  #F8F4EA;   /* pergamen */
+  --card:   #FFFDF8;
+  --band:   #EFE8D9;
+  --ink:    #1E1A15;   /* pinceszín */
+  --ink-2:  #564E42;
+  --ink-3:  #8D8373;
+  --vine:   #4A5A3C;   /* az egyetlen akcentus */
+  --vine-d: #38452D;
+  --line:   #DFD6C2;
+  --line-w: rgba(255, 255, 255, .16);
+  --on-ink: #F4F0E6;
+  --on-ink-2: #A9A08D;
+
+  --f-d: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --f-b: 'Inter', system-ui, 'Segoe UI', Arial, sans-serif;
+
+  --wrap: 1140px;
+  --gut: clamp(16px, 4vw, 40px);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-b);
+  font-size: 17px;
+  line-height: 1.68;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { margin: 0; font-family: var(--f-d); font-weight: 600; line-height: 1.12; text-wrap: balance; }
+h1 em, h2 em { font-style: italic; font-weight: 400; color: var(--vine); }
+p { margin: 0 0 1.05em; }
+p:last-child { margin-bottom: 0; }
+a { color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+
+.wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gut); }
+
+.skip { position: absolute; left: -999px; top: 0; z-index: 99; background: var(--ink); color: #fff; padding: 10px 16px; }
+.skip:focus { left: 8px; top: 8px; }
+:focus-visible { outline: 2px solid var(--vine); outline-offset: 3px; }
+.form-sec :focus-visible, .sec-dark :focus-visible, .hero :focus-visible { outline-color: var(--on-ink); }
+
+.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--vine); margin: 0 0 16px; }
+.eyebrow-w { color: var(--on-ink-2); }
+.h-w { color: var(--on-ink); }
+
+/* A képek helye. Nem szürke doboz: keret, ami megmondja, mi kerül bele. */
+.slot {
+  font-size: 10.5px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ink-3); text-align: center; line-height: 2.1; padding: 12px;
+}
+.slot i { font-style: normal; letter-spacing: .04em; text-transform: none; font-weight: 400; }
+.hero .slot { color: var(--on-ink-2); }
+
+/* ---------- gombok ---------- */
+
+.btn {
+  display: inline-block; text-decoration: none; cursor: pointer;
+  font-family: var(--f-b); font-size: 13px; font-weight: 600; letter-spacing: .05em;
+  padding: 12px 20px; border: 1px solid var(--ink); background: var(--ink); color: var(--on-ink);
+  transition: background .18s ease, color .18s ease, border-color .18s ease;
+}
+.btn:hover { background: transparent; color: var(--ink); }
+.btn-l { padding: 15px 28px; font-size: 14px; }
+.btn-p { background: var(--vine); border-color: var(--vine); color: #fff; }
+.btn-p:hover { background: var(--vine-d); border-color: var(--vine-d); color: #fff; }
+.btn-o { background: transparent; border-color: var(--line); color: var(--ink); }
+.btn-o:hover { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.btn-w { background: var(--on-ink); border-color: var(--on-ink); color: var(--ink); }
+.btn-w:hover { background: transparent; color: var(--on-ink); }
+.btn-full { width: 100%; }
+
+/* ---------- fejléc ---------- */
+
+.hdr {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40;
+  background: rgba(248, 244, 234, .93); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.hdr-in { display: flex; align-items: center; gap: 20px; min-height: 70px; }
+.brand { margin-right: auto; text-decoration: none; display: grid; gap: 1px; }
+.brand-n { font-family: var(--f-d); font-size: 21px; font-weight: 600; letter-spacing: .01em; }
+.brand-r { font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3); }
+
+.nav { display: flex; align-items: center; gap: 18px; }
+.nav a {
+  font-size: 13.5px; font-weight: 500; text-decoration: none; color: var(--ink-2);
+  padding-block: 4px; border-bottom: 1px solid transparent;
+}
+.nav a:not(.btn):hover { color: var(--ink); border-bottom-color: var(--vine); }
+/* `.nav a` erősebb, mint `.btn`, ezért a fejléc gombjának a színét itt is
+   ki kell mondani, különben sötét szöveg ül a sötét gombon. */
+.nav a.btn { border-bottom: 0; }
+.nav a.nav-cta { color: #fff; }
+.nav a.nav-cta:hover { color: #fff; }
+
+.burger { display: none; width: 42px; height: 38px; padding: 9px 8px; background: none; border: 1px solid var(--line); cursor: pointer; }
+.burger span { display: block; height: 1.5px; background: var(--ink); transition: transform .2s ease, opacity .2s ease; }
+.burger span + span { margin-top: 5px; }
+.burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+/* ---------- hero ---------- */
+
+.hero { background: var(--ink); color: var(--on-ink); padding-block: clamp(48px, 7vw, 88px); }
+.hero-in { display: grid; gap: clamp(30px, 5vw, 56px); grid-template-columns: 1.05fr .95fr; align-items: center; }
+.hero h1 { font-size: clamp(38px, 6vw, 64px); letter-spacing: -.01em; max-width: 14ch; color: var(--on-ink); }
+.hero h1 em { color: #93A67E; }
+.hero-lede { margin: 24px 0 0; font-size: clamp(16.5px, 1.8vw, 19px); color: var(--on-ink-2); max-width: 46ch; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 32px 0 0; }
+.hero .btn-o { border-color: var(--line-w); color: var(--on-ink); }
+.hero .btn-o:hover { background: var(--on-ink); border-color: var(--on-ink); color: var(--ink); }
+.hero-meta {
+  margin: 28px 0 0; font-size: 13.5px; color: var(--on-ink-2);
+  display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline;
+  letter-spacing: .04em;
+}
+.hero-p { margin: 0; aspect-ratio: 4 / 3; border: 1px solid var(--line-w); display: grid; place-items: center; }
+
+/* ---------- szakaszkeret ---------- */
+
+.sec { padding-block: clamp(54px, 8vw, 96px); }
+.sec-band { background: var(--band); border-block: 1px solid var(--line); }
+.sec-dark { background: var(--ink); color: var(--on-ink); }
+.sec-h { max-width: 50ch; margin: 0 0 clamp(30px, 4.5vw, 50px); }
+.sec-h h2 { font-size: clamp(28px, 4.2vw, 44px); }
+.sec-l { color: var(--ink-2); margin: 18px 0 0; }
+.sec-dark .sec-l { color: var(--on-ink-2); }
+
+.two { display: grid; gap: clamp(28px, 5vw, 60px); grid-template-columns: .82fr 1.18fr; align-items: start; }
+.two-l h2 { font-size: clamp(30px, 4.4vw, 46px); }
+.two-sub { margin: 12px 0 0; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--on-ink-2); }
+.two-p { margin: clamp(26px, 3vw, 36px) 0 0; aspect-ratio: 4 / 5; max-width: 300px; border: 1px solid var(--line); background: var(--card); display: grid; place-items: center; }
+.two-cta { margin-top: 26px; }
+.prose { max-width: 60ch; color: var(--ink-2); }
+.prose strong { color: var(--ink); font-weight: 600; }
+.prose .lead { font-family: var(--f-d); font-size: clamp(20px, 2.3vw, 26px); line-height: 1.4; color: var(--ink); font-weight: 500; }
+.prose-w { color: var(--on-ink-2); }
+.prose-w strong { color: var(--on-ink); }
+.lead-w { color: var(--on-ink) !important; }
+
+/* ---------- borlap ---------- */
+
+.bl { display: grid; gap: clamp(22px, 2.8vw, 32px); grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.bl-g { background: var(--card); border: 1px solid var(--line); padding: clamp(22px, 2.6vw, 30px); }
+.bl-g h3 { font-size: 22px; margin-bottom: 18px; }
+.bl-l { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.bl-l li { border-top: 1px solid var(--line); padding-top: 13px; }
+.bl-l li:first-child { border-top: 0; padding-top: 0; }
+.bl-n { font-family: var(--f-d); font-size: 19px; font-weight: 600; margin: 0; }
+.bl-f { margin: 3px 0 0; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+.bl-note { margin: 18px 0 0; font-size: 14.5px; color: var(--ink-2); line-height: 1.6; }
+
+/* ---------- gazdálkodás ---------- */
+
+.no-list { display: grid; gap: 1px; grid-template-columns: repeat(4, 1fr); background: var(--line); border: 1px solid var(--line); }
+.no-c { background: var(--band); padding: clamp(20px, 2.4vw, 28px); }
+.no-k { font-family: var(--f-d); font-size: 19px; font-weight: 600; margin-bottom: 8px; }
+.no-c p:not(.no-k) { color: var(--ink-2); font-size: 15.5px; }
+/* A negyedik doboz az egyetlen állítás a három tagadás után. */
+.no-yes { background: var(--card); box-shadow: inset 3px 0 0 var(--vine); }
+.no-yes strong { color: var(--vine); font-weight: 600; }
+
+.note { margin-top: clamp(22px, 3vw, 34px); padding: 20px 24px; border: 1px solid var(--line); background: var(--card); }
+.note p { font-size: 16px; color: var(--ink-2); }
+.note strong { color: var(--ink); }
+
+/* ---------- hol kapható ---------- */
+
+.hol-slot { border: 1px dashed var(--line); background: var(--card); padding: clamp(24px, 3.5vw, 40px); max-width: 64ch; }
+.hol-k { font-family: var(--f-d); font-size: 20px; font-weight: 600; margin-bottom: 12px; }
+.hol-slot p:not(.hol-k) { color: var(--ink-2); font-size: 16px; }
+
+/* ---------- űrlap ---------- */
+
+.form-sec { background: var(--ink); color: var(--on-ink); padding-block: clamp(54px, 8vw, 96px); }
+.form-in { display: grid; gap: clamp(32px, 5vw, 60px); grid-template-columns: .9fr 1.1fr; align-items: start; }
+.form-l h2 { font-size: clamp(28px, 4vw, 42px); }
+.form-lede { margin: 20px 0 0; color: var(--on-ink); font-size: 18px; max-width: 34ch; }
+.form-note-l { margin: 20px 0 0; color: var(--on-ink-2); font-size: 15px; max-width: 38ch; }
+
+.form { display: grid; gap: 17px; }
+.fld { display: grid; gap: 7px; }
+.fld label { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--on-ink); }
+.req, .opt { color: var(--on-ink-2); font-weight: 400; text-transform: none; letter-spacing: .02em; }
+.row { display: grid; gap: 17px; grid-template-columns: 1fr 1fr; }
+
+.form input[type="text"], .form textarea, .form select {
+  width: 100%; font: inherit; font-size: 16px; color: var(--on-ink);
+  background: #292420; border: 1px solid var(--line-w); padding: 12px 14px;
+}
+.form select { appearance: none; cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, var(--on-ink-2) 50%),
+                    linear-gradient(135deg, var(--on-ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 19px) calc(50% + 1px), calc(100% - 14px) calc(50% + 1px);
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; padding-right: 38px; }
+.form option { background: #292420; color: var(--on-ink); }
+.form textarea { resize: vertical; min-height: 106px; }
+.form input::placeholder, .form textarea::placeholder { color: #7E7568; }
+.form input[type="text"]:focus, .form textarea:focus, .form select:focus { border-color: var(--on-ink); }
+
+.err { display: none; margin: 0; font-size: 13.5px; color: #E0A79A; }
+.fld.bad .err { display: block; }
+.fld.bad input[type="text"], .fld.bad textarea { border-color: #E0A79A; }
+.form-ok { margin: 0; padding: 14px 16px; font-size: 16px; background: #292420; border: 1px solid var(--line-w); color: var(--on-ink); }
+.form-note { margin: 0; font-size: 13.5px; color: var(--on-ink-2); }
+.form-note a { color: var(--on-ink); }
+
+/* ---------- lábléc ---------- */
+
+.ftr { background: var(--ink); color: var(--on-ink); border-top: 1px solid var(--line-w); padding-block: 44px; }
+.ftr-in { display: flex; flex-wrap: wrap; gap: 26px 44px; align-items: flex-start; }
+.ftr-n { font-family: var(--f-d); font-size: 23px; font-weight: 600; margin: 0; }
+.ftr-r { margin: 3px 0 0; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--on-ink-2); }
+.ftr-nav { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-inline: auto; max-width: 40ch; }
+.ftr-nav a { font-size: 13.5px; color: var(--on-ink-2); text-decoration: none; }
+.ftr-nav a:hover { color: var(--on-ink); }
+.ftr-m { margin: 0; font-size: 14.5px; color: var(--on-ink-2); line-height: 1.8; }
+.ftr-m a { color: var(--on-ink); text-decoration: none; border-bottom: 1px solid var(--line-w); }
+
+.ftr-l { display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: baseline;
+         margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line-w); }
+.ftr-l p { margin: 0; font-size: 12px; color: var(--on-ink-2); }
+.ftr-age { font-weight: 600; letter-spacing: .02em; }
+.ftr-by { margin-left: auto !important; }
+.ftr-l a { color: var(--on-ink); text-decoration: none; border-bottom: 1px solid var(--line-w); }
+.ftr-l a:hover { border-bottom-color: var(--on-ink); }
+
+/* ---------- jogi oldal ---------- */
+
+.legal { max-width: 740px; }
+.legal-h { margin-bottom: clamp(28px, 4vw, 44px); }
+.legal-h h1 { font-family: var(--f-d); font-size: clamp(28px, 4vw, 42px); font-weight: 600; line-height: 1.12; }
+.legal-d { margin: 20px 0 0; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-3); }
+.todo { margin-bottom: clamp(28px, 4vw, 40px); padding: 20px 24px; background: var(--card); border: 1px solid var(--ink); }
+.todo-h { font-size: 11px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 8px; }
+.todo p:last-child { font-size: 15.5px; color: var(--ink-2); }
+.legal-b > article + article { margin-top: clamp(30px, 4vw, 46px); padding-top: clamp(24px, 3vw, 36px); border-top: 1px solid var(--line); }
+.legal-b h3 { font-family: var(--f-d); font-size: clamp(22px, 2.6vw, 28px); margin-bottom: 16px; }
+.legal-b p, .legal-b li { font-size: 16px; color: var(--ink-2); }
+.legal-b ul { margin: 0 0 1em; padding-left: 20px; }
+.legal-b li { margin-bottom: 6px; }
+.legal-b strong { color: var(--ink); }
+.nav-legal a { border-bottom: 1px solid transparent; }
+
+/* ---------- 404 ---------- */
+
+.nf { min-height: 60vh; display: grid; place-items: center; text-align: center; padding-block: 80px; }
+.nf h1 { font-size: clamp(34px, 5.5vw, 56px); margin-bottom: 18px; }
+.nf p { color: var(--ink-2); max-width: 46ch; margin-inline: auto; }
+.nf .cta-row { justify-content: center; }
+
+/* ---------- töréspontok ---------- */
+
+@media (max-width: 1000px) {
+  .hero-in { grid-template-columns: 1fr; }
+  .hero-p { aspect-ratio: 16 / 10; }
+  .two { grid-template-columns: 1fr; }
+  .two-p { max-width: 260px; }
+  .form-in { grid-template-columns: 1fr; }
+  .no-list { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 820px) {
+  .burger { display: block; }
+  .nav {
+    position: absolute; left: 0; right: 0; top: 100%;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--paper); border-bottom: 1px solid var(--line);
+    padding: 4px var(--gut) 20px; display: none;
+  }
+  .nav.open { display: flex; }
+  .nav a { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .nav a.nav-cta { margin-top: 16px; text-align: center; border-bottom: 0; }
+  .hdr-in { position: relative; }
+}
+
+@media (max-width: 620px) {
+  body { font-size: 16.5px; }
+  .cta-row .btn { flex: 1 1 100%; text-align: center; }
+  .row { grid-template-columns: 1fr; }
+  .no-list { grid-template-columns: 1fr; }
+  .no-yes { box-shadow: inset 0 3px 0 var(--vine); }
+  .ftr-in { flex-direction: column; }
+  .ftr-nav { margin-inline: 0; }
+  .ftr-by { margin-left: 0 !important; }
+}
