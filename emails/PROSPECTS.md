@@ -34,14 +34,12 @@ correction request), and size in **cm** is a required field.
 
 ## Waiting on you right now — 16 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Five need
-attachments** (the demos): ST Design Decor, Nagy Dániel, Család és
+All of these are written and sitting on their own threads. **Three need
+attachments** (the demos): Család és
 Terápia, DerékMentő and Mindent megjavítok.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
-| **ST Design Decor**, dekorfestés | Stipkovits Tímea | **Demo + 90 000 Ft** · **fotókat kér** · Oroszlány vagy Tatabánya? · karbantartás nincs | **2 PNG** |
-| **Nagy Dániel**, ceremóniamester | Nagy Dániel | **Demo + 90 000 Ft** · mit tartalmaz · **üzemeltetést nem vállalok** · 2027 eleje rendben | **2 PNG** |
 | **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | **Demo + 90 000 Ft**, plus his two questions answered | **2 PNG** |
 | **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop **450 000 Ft + áfa** · **mit értenek app alatt?** · 7 kérdés | — |
 | **Matyisák Pincészet** | — | **Csak e-mail, személyes egyeztetés nincs** · 6 kérdés | — |
@@ -121,6 +119,10 @@ edits in the browser. **Do not promise maintenance** — see ARAK.txt.
 
 ## Already sent — no action
 
+- **ST Design Decor** (Stipkovits Tímea) — demo + **80 000 Ft** (old rate),
+  **elküldve 24 Sept 10:28**, képekkel
+- **Nagy Dániel**, ceremóniamester — demo + **80 000 Ft** (old rate),
+  **elküldve 24 Sept 09:57**, képekkel
 - **Heit Pince**, Bihardiószeg (Heit Lóránd Levente) — demo + 90 000 Ft,
   **elküldve 25 Sept 22:03**, képekkel · 3 nyelv +30–40k · a Zenekar felajánlva
 - **Sminktetoválás Tatabánya** (Fogarasi Viki) — demo + 90 000 Ft,
