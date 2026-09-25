@@ -50,7 +50,7 @@ with `heittorma.hu` — the **horseradish** business. Same family, two companies
 This demo is built for Heit Torma. Do not mention the winery.
 
 **2. `heittorma.hu` has `/termek/` product pages.** If it has a working cart,
-this is not an 80k presentation site. The demo includes an **order enquiry
+this is not a 90k presentation site. The demo includes an **order enquiry
 form**, not a shop. Quote the 60–120k range explicitly for a presentation site
 and ask separately whether online ordering is needed — if it is, price it like
 the Culinary Institute job.

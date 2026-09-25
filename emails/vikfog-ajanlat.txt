@@ -9,7 +9,7 @@ domain sima szövegként jelenjen meg, ne kattintható linkként.
 Sminktetoválás Tatabánya (szemöldök, szemhéj, ajak).
 A sminktetovalastatabanya.hu azért nem üzemel, mert a tárhely állt le —
 a domain megvan (Vince erősítette meg).
-Ár: 90 000 Ft (Vince döntése, a szokásos 80 helyett).
+Ár: 90 000 Ft (Vince fix ára).
 KARBANTARTÁST NEM VÁLLALUNK. Az árlista külön szöveges fájl, amit ő
 maga szerkeszt a GitHub webes felületén; az oldal onnan tölti be.
 Írásos leírást kap hozzá, oktatást nem.
