@@ -1,0 +1,38 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+# Az alábbi árak a mostani oldaladról valók (Információk > Árak).
+#
+#   Egy tétel:      Szolgáltatás neve | 12 000 Ft
+#   Csoportcím:     ## Beszéd és hallás
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Beszéd és hallás
+GOH-GMP vizsgálat | 12 000 Ft
+AIT/FST otthoni tréning | 80 000 Ft
+> A GOH-GMP vizsgálat díja beszámít az AIT/FST otthoni tréning árába,
+> ha a tréninget is igénybe veszed.
+
+## Iskolaelőkészítő NILD
+Vizsgálat | 10 000 Ft
+Tanulást segítő tréning (60 perc) | 4 500 Ft / alkalom
+
+## Mozgásterápia a tanulási nehézségek oldására
+Egyéni felmérés szülőkonzultációval | 20 000 Ft
+Egyéni gyakorlatsor összeállítása és betanítása | 10 000 Ft
+Kontroll és új gyakorlatsor betanítása | 8 000 Ft
+
+## SSP-mentorálás
+Egyéni felmérés szülőkonzultációval | 20 000 Ft
+Egyéni gyakorlatsor összeállítása és betanítása | 10 000 Ft
+Kontroll és új gyakorlatsor betanítása | 8 000 Ft
+
+## Lemondás
+Díjmentes lemondás | előző nap 8 óráig
+Később lemondott vagy le nem mondott alkalom | 5 000 Ft
+> Ez rendelkezésre állási díj: arra az időre szól, amit a gyermekednek
+> tartottam fenn.

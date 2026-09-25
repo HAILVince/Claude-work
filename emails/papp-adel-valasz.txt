@@ -1,0 +1,128 @@
+Címzett: pappadel.debrecen@gmail.com (Papp Adél)
+Tárgy:   Re: Együttműködési lehetőség - Weboldal készítés
+Válasz erre az üzenetre: 1a0c950b5d845055 (2026-09-22 13:31)
+Szál:    1a0c38296d6cb254
+Csatolmány: papp-adel-kineziologus/screenshots/desktop-full.png
+            papp-adel-kineziologus/screenshots/mobile-full.png
+            <<< KÜLDÉS ELŐTT CSATOLD, és nézd meg, hogy tényleg az övéi
+---------------------------------------------------------------
+Kineziológus, Debrecen, Kassai u. 83. Mostani oldala: pappadel.com.
+Két kérdése volt: hogyan működne az időpontfoglaló (ez neki „sarkalatos”),
+és havi vagy egyszeri a díj. A levél ezzel a kettővel kezd.
+Ár: 90 000 Ft, egyszeri. KARBANTARTÁST NEM VÁLLALUNK.
+Magázó, ő is így írt. Az oldal maga tegező, mert az ő oldala is az.
+A foglalóról: most LeadConnector (GoHighLevel) naptárat használ, fizetős
+rendszer. Két utat kínálunk (megtartja, vagy ingyenesre vált), és
+megkérdezzük, most mennyit fizet. Emlékeztető e-mailt és más fizetős
+funkciót NEM ígérünk.
+A mostani főoldalán angol sablonvélemények maradtak (John Doe, CEO, ABC
+Company; „LifeVista” coaching). A levél megemlíti.
+---------------------------------------------------------------
+
+Kedves Papp Adél!
+
+Köszönöm a válaszát! Elkészítettem a demót, két képet csatoltam hozzá: az
+egyik az oldal számítógépen, a másik mobilon. (A mobilos kép két hasábba
+van tördelve, hogy elférjen egyetlen képen; élesben ez egy folyamatos
+oldal.)
+
+Előbb a két kérdésére válaszolok, mert azok a fontosabbak.
+
+Hogyan működne az időpontfoglalás?
+
+A látogató három lépésben foglal, regisztráció nélkül: kiválasztja, mire
+jön (One Brain oldás, oldás gyereknek, Brain Gym vagy családállítás),
+aztán a szabad napok és órák közül egyet, végül megadja a nevét és az
+e-mail-címét. A foglalás azonnal bekerül az Ön naptárába, a lefoglalt
+időpont pedig eltűnik a listából, így ugyanarra az órára két ember nem
+tud foglalni.
+
+A képen látható foglaló a lépéseket mutatja, kitalált időpontokkal.
+Élesben a szabad időpontok az Ön naptárából jönnek, és ehhez két út van:
+
+1. Megtartjuk a mostani foglalóját. Az új oldalba be tudom építeni azt a
+   naptárat, amit most is használ, így minden ugyanúgy működik tovább,
+   ahogy most. Semmit nem kell újratanulnia.
+
+2. Ingyenes foglalóra vált. A mostani foglalója egy fizetős rendszerben
+   fut (LeadConnector). Ha ezért havidíjat fizet, és szeretne tőle
+   megszabadulni, egy ingyenes foglalónaptár is elvégzi a lényeget: mutatja
+   a szabad időpontokat, a foglalás bekerül az Ön naptárába, és a vendég
+   visszaigazolást kap.
+
+Hogy melyik éri meg jobban, az attól függ, most mennyit fizet érte. Ezért
+lent erre is rákérdezek.
+
+Havi költség lenne, vagy egyszeri?
+
+Egyszeri. Az oldal ára 90 000 Ft, ezen felül nekem nem fizet havidíjat. A
+tárhely ingyenes, mert az oldal statikus, nincs mögötte adatbázis vagy
+fizetős rendszer. Az egyetlen visszatérő költség a domain (pappadel.com)
+éves díja, néhány ezer forint, amit közvetlenül a domain-szolgáltatónak
+fizet. Ha a mostani foglalót tartja meg, annak a díja is marad, de az az
+Ön és a szolgáltató között van, nem nálam.
+
+Az árakat Ön írja
+
+Az árlista nem az oldal kódjában van, hanem egy külön, egyszerű szöveges
+fájlban. Egy sora így néz ki:
+
+    One Brain oldás, felnőtteknek (kb. 90 perc) | 16 000 Ft
+
+A fájlt a böngészőben megnyitja, átírja a számot, menti, és pár percen
+belül az oldalon is az új ár látszik. Nem kell hozzá program, és nem kell
+hozzám fordulnia. Átadáskor kap hozzá egy rövid, lépésről lépésre
+leírást. Karbantartást ugyanis nem vállalok, pont ezért építem így.
+
+Egy dolog a mostani oldaláról
+
+Ezt akkor is jelezném, ha nem velem dolgozik tovább, mert a látogatók is
+látják: a főoldalon, a „Happy Clients” részben sablonszövegek maradtak.
+Angolul vannak, John Doe (CEO, ABC Company), Jane Smith és Mike Johnson
+nevével, és kettő közülük egy „LifeVista” nevű coachingcéget dicsér. Aki
+odáig görget, azt látja, hogy az oldal nincs befejezve. Ezt a részt
+érdemes mielőbb levenni, vagy valódi véleményekre cserélni.
+
+Amit az oldalon látni fog
+
+Az Ön szavait. A mottó, a módszerek rövid leírása és a gyakori kérdésekre
+adott válaszok a mostani oldaláról valók, csak rövidebbre fogtam őket. A
+„Miben segít” kártyák szövegei az én javaslataim, a GYIK-je alapján.
+
+Mi történik egy oldáson. Aki még nem járt kineziológusnál, azt ez tartja
+vissza a legjobban. Négy lépésben leírtam: beszélgetés, izomteszt, a
+gyökér megkeresése, stresszoldás, és azt is, hogy két alkalom között
+legalább két hétnek el kell telnie.
+
+Külön rész a gyerekeknek: 6-7 éves kortól, és hogy amit a gyerek elmond,
+az titok marad. Egy szülőnek ez az első kérdése.
+
+Az árak kint vannak, a lemondási szabállyal, a fizetéssel és a
+parkolással együtt, hogy ezekért senkinek ne kelljen írnia.
+
+Amit ki kell javítani benne
+
+1. Minden ár és időtartam kitalált. Kérem, írja meg a valódiakat.
+2. A mostani főoldalán szerepel a neurofeedback, de mögötte a
+   kineziológia oldala nyílik meg. Foglalkozik neurofeedbackkel? Ha igen,
+   pár mondat róla (kinek, hány alkalom), ha nem, kiveszem.
+3. Tart csoportos családállítást? Ha igen, milyen gyakran és hol?
+4. Van fotója, amit felhasználhatok? Vásárolt képet nem teszek olyan
+   oldalra, ami Önről szól.
+5. A főoldalán 15+ év szerepel, a Rólam oldalon „több mint két évtizede”.
+   Melyiket írjam?
+6. Fizet most havidíjat az oldaláért vagy a foglalóért? Ha igen, nagyjából
+   mennyit? Ebből látszik, melyik foglaló éri meg jobban.
+
+Én kizárólag e-mailben dolgozom, ezért kérdeztem meg most egyszerre
+mindent. Ha valamire nincs ideje válaszolni, az sem baj: azt úgy hagyom,
+ahogy most van, és később átírjuk.
+
+Ha valami nem tetszik benne, azt is mondja meg nyugodtan, pont azért
+demó, hogy alakítsuk. Nem kötelezi semmire.
+
+Várom a visszajelzését!
+
+Üdvözlettel:
+Nagy-Toma Vince
+Axióma Webfejlesztés — axiomaweb.hu
