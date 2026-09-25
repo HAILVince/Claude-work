@@ -81,7 +81,7 @@ node tools/deliver.mjs   # the two renders that go in the e-mail
 
 ## What the covering letter commits to
 
-- 60–120 000 Ft depending on scope, this one around **80 000 Ft**, one-off.
+- **90 000 Ft**, one-off (Vince's fixed rate).
   She did not ask; it is one short paragraph at the end so the next round
   trip is not spent on it.
 - **No maintenance** — `arak.txt` is the answer to changing prices, not a

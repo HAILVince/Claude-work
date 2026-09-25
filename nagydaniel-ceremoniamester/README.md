@@ -112,7 +112,7 @@ node tools/deliver.mjs   # the two renders that go in the e-mail
 
 ## What the covering letter commits to
 
-- **80 000 Ft** for this scope, one-off.
+- **90 000 Ft** for this scope, one-off.
 - Hosting free on GitHub Pages; the only recurring cost is his own domain,
   wherever he keeps it.
 - **No maintenance, stated plainly** — the dates file is the answer to his

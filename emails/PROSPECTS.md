@@ -32,23 +32,22 @@ mark**, so the browser-tab icon needs deriving from the "v".
 must take **file uploads** (inspiration images, and a sharp photo for a
 correction request), and size in **cm** is a required field.
 
-## Waiting on you right now — 17 drafts are in Gmail
+## Waiting on you right now — 16 drafts are in Gmail
 
-All of these are written and sitting on their own threads. **Six need
-attachments** (the demos): Heit Pince, ST Design Decor, Nagy Dániel, Család és
+All of these are written and sitting on their own threads. **Five need
+attachments** (the demos): ST Design Decor, Nagy Dániel, Család és
 Terápia, DerékMentő and Mindent megjavítok.
 
 | Business | Contact | Draft says | Attach |
 |---|---|---|---|
-| **ST Design Decor**, dekorfestés | Stipkovits Tímea | **Demo + 80 000 Ft** · **fotókat kér** · Oroszlány vagy Tatabánya? · karbantartás nincs | **2 PNG** |
-| **Nagy Dániel**, ceremóniamester | Nagy Dániel | **Demo + 80 000 Ft** · mit tartalmaz · **üzemeltetést nem vállalok** · 2027 eleje rendben | **2 PNG** |
+| **ST Design Decor**, dekorfestés | Stipkovits Tímea | **Demo + 90 000 Ft** · **fotókat kér** · Oroszlány vagy Tatabánya? · karbantartás nincs | **2 PNG** |
+| **Nagy Dániel**, ceremóniamester | Nagy Dániel | **Demo + 90 000 Ft** · mit tartalmaz · **üzemeltetést nem vállalok** · 2027 eleje rendben | **2 PNG** |
 | **Család és Terápia**, Ibrány | Mráz Sándor Zoltán | **Demo + 90 000 Ft**, plus his two questions answered | **2 PNG** |
 | **Bátor Kertigép-Centrum**, Hatvan | Bátorné Calo Angelika | Webshop **450 000 Ft + áfa** · **mit értenek app alatt?** · 7 kérdés | — |
 | **Matyisák Pincészet** | — | **Csak e-mail, személyes egyeztetés nincs** · 6 kérdés | — |
 | **Mindent megjavítok**, Debrecen | Kozák Ádám | **Demo + 90 000 Ft**, 6 dolgot kér javítani | **2 PNG** |
 | **DerékMentő**, Ecséd | Sebestyén Tamás | **Demo + 90 000 Ft**, 7 dolgot kér javítani | **2 PNG** |
-| **Heit Pince**, Bihardiószeg | Heit Lóránd Levente | **Demo + 80 000 Ft** · Bakator a fókuszban · 3 nyelv külön · 5 kérdés · a Zenekar is felajánlva | **2 PNG** |
-| **Kati Szalon**, Makó | Széll Kati | 60–120k, tipikusan 80k · demó felajánlva | — |
+| **Kati Szalon**, Makó | Széll Kati | 90 000 Ft · demó felajánlva | — |
 | **RABER Tire Shop** | Csoba László | Bocsánat a sablonos megszólításért · árak · 1 kérdés | — |
 | **Balogh-Víz Kft.** | Balogh Ferenc | Telefon helyett e-mail · 7 kérdés · 60–120k | — |
 | **Ungarn Einwanderung** | Kincses Éva | **A „nem továbbküldhető" videó nem megoldható** · 650k-tól | — |
@@ -95,7 +94,7 @@ asks whether it should look the same as the webshop or do something else.
 **No phone numbers anywhere.** Every draft routes people to e-mail with a plain
 reason, and compensates by asking for everything in one go.
 
-### The three that are not 80k jobs
+### The three that are not 90k jobs
 
 Quote these apart from the landing-page rate, the way the Culinary Institute
 thread was quoted (400k / 650k / 900k):
@@ -122,9 +121,11 @@ edits in the browser. **Do not promise maintenance** — see ARAK.txt.
 
 ## Already sent — no action
 
+- **Heit Pince**, Bihardiószeg (Heit Lóránd Levente) — demo + 90 000 Ft,
+  **elküldve 25 Sept 22:03**, képekkel · 3 nyelv +30–40k · a Zenekar felajánlva
 - **Sminktetoválás Tatabánya** (Fogarasi Viki) — demo + 90 000 Ft,
   **elküldve 22 Sept 10:46**, képekkel
-- **Gazdi-Ker Kft.**, Kisléta (Szilágyi Imre) — demo + 80 000 Ft,
+- **Gazdi-Ker Kft.**, Kisléta (Szilágyi Imre) — demo + 80 000 Ft (még a régi ár),
   **elküldve 21 Sept 15:10**, képekkel
 - **Dr. Nagy Levente Ákos**, ügyvéd — demo + ár + SEO, elküldve 21 Sept 14:33.
   Válaszolt: *"Átgondolom a megoldási javaslatait… Ahogyan Ön gondolkodik az
@@ -225,6 +226,6 @@ one people notice.
 
 ## Pricing
 
-Small static site: 60–120k Ft, typically ~80k. Quote only when asked.
+Small static site: always **90 000 Ft**, one-off (Vince, 25 Sept). Quote only when asked.
 Hourly for extras: 10 000 Ft. Larger builds (shop, app, membership) quoted
 separately — see the Culinary Institute thread for the 400k/650k/900k tiers.

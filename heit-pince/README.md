@@ -103,7 +103,7 @@ node tools/deliver.mjs   # the two renders that go in the e-mail
 
 ## Price in the letter
 
-80 000 Ft for the Hungarian single-language page as shown, one-off, hosting
+90 000 Ft for the Hungarian single-language page as shown, one-off, hosting
 free, only the domain recurring. The three-language version is quoted
 separately as a range rather than a number, because it depends on whether he
 has the German and Romanian text already.
