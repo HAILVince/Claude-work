@@ -1,0 +1,31 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+# FIGYELEM: az összegek és az időtartamok kitaláltak, csak azért vannak
+# itt, hogy lásd, hogyan működik. Élesítés előtt írd át a sajátjaidra.
+# A lemondás és a fizetés sora a mostani oldaladról való.
+#
+#   Egy tétel:      Kezelés neve | 15 000 Ft
+#   Csoportcím:     ## Kineziológia
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Kineziológia
+One Brain oldás, felnőtteknek (kb. 90 perc) | 16 000 Ft
+One Brain oldás, gyerekeknek 6-7 éves kortól (kb. 60 perc) | 12 000 Ft
+Brain Gym alkalom tanulási nehézségre (kb. 60 perc) | 12 000 Ft
+> Két oldás között legalább két hétnek el kell telnie, hogy a
+> változás le tudjon ülepedni.
+
+## Családállítás
+Egyéni családállítás (kb. 90 perc) | 20 000 Ft
+Csoportos családállítás, saját állítással | 18 000 Ft
+Csoportos családállítás, képviselőként | 5 000 Ft
+
+## Tudnivalók
+Lemondás, átütemezés | 24 órával előtte díjmentes
+Fizetés | elsősorban készpénzben
+Parkolás | a környező utcákban ingyenes

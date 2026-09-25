@@ -1,0 +1,49 @@
+Címzett: integra.diagnosztika@gmail.com (Kántor Piroska)
+Tárgy:   Re: Együttműködési lehetőség - Weboldal készítés
+Válasz erre az üzenetre: 1a0da32101c06c43 (a te ajánlatod, 2026-09-25 20:11)
+Szál:    1a0b7b8aa4a91473
+Csatolmány: integra-diagnosztika/screenshots/desktop-full.png
+            integra-diagnosztika/screenshots/mobile-full.png
+            <<< KÜLDÉS ELŐTT CSATOLD, és nézd meg, hogy tényleg az övéi
+---------------------------------------------------------------
+TARTSD VISSZA, amíg nem válaszol az ajánlatra (vagy 2-3 napig). Az ajánlat
+megígérte a demót: „ha ezekre most nincs ideje … elkészítem a demót a
+mostani oldala alapján". Ha közben válaszol az öt kérdésre, előbb a demót
+kell igazítani, és a levél 5. pontját kivenni.
+Ár: az ajánlat 80 000 Ft-tal ment ki. Ez a levél az árat NEM ismétli.
+Magázó, ahogy az ajánlat is. Az oldal maga tegező, mert az ő oldala is az.
+---------------------------------------------------------------
+
+Kedves Kántor Piroska!
+
+Ahogy ígértem, elkészítettem a demót a mostani oldala alapján. Két képet csatoltam hozzá: az egyik az oldal számítógépen, a másik mobilon. (A mobilos kép két hasábba van tördelve, hogy elférjen egyetlen képen; élesben ez egy folyamatos oldal.)
+
+A szövegek nagy része az Öné: a mottó, a bemutatkozás, a módszerek leírása, a kezdés három lépése és az árak mind a mostani oldaláról valók, csak rövidebbre fogtam őket.
+
+Amit a képeken lát, és miért úgy
+
+A három terület adja az oldal gerincét. A menüje már most is így épül fel: beszéd, figyelem és hallás; mozgás; tanulás. Egy szülő otthon ezt a hármat látja, nem a módszerek nevét, ezért a GMP/GOH, az AIT/FST vagy a Stephens–Sarlós Program ezek alatt szerepel, egy-egy érthető mondattal. Fölöttük az Ön gondolata áll arról, hogy a gyermek fejlődése egy összekapcsolt rendszer.
+
+A telefon az első. Az oldalon mindenhol a kötetlen telefonos egyeztetés a fő gomb, és mobilon egy érintéssel hívható. Az űrlap annak való, aki épp nem tud beszélni. Rákérdez a gyermek életkorára, és a mostanihoz hasonlóan arra is, hogy kérdése van vagy időpontot kér.
+
+Az árak kint vannak, a lemondási feltétellel együtt, ahogy most is. Egy szöveges fájlban vannak, amit Ön ír át a böngészőben, ahogy az előző levelemben írtam.
+
+A két helyszín külön kártyát kapott, hogy a budapesti és a Szeged környéki szülő is azonnal lássa, hozzá közel van-e.
+
+Az oldal alján nincs más cég reklámja. A mostani oldala alján a Mozello hirdeti magát, ez az újról eltűnik.
+
+Amit ki kell javítani benne
+
+1. A „Mikor érdemes szólni” rész hat jelzése az én szövegem. Kérem, írja át vagy cserélje le őket; a Beszédfejlődési checklistje és a „Kinek ajánlott az AIT/FST tréning?” oldala valószínűleg jobb alapot ad.
+2. Az árlistán az SSP-mentorálás három sora pontosan ugyanaz, mint a mozgásterápiáé. Ez így helyes, vagy csak másolásnál maradt így?
+3. Melyik napokon van Budapesten, és melyiken Sándorfalván? Most az áll az oldalon, hogy ezt a telefonos egyeztetéskor beszélik meg.
+4. A módszerek részletes leírásai (a Bérard-protokoll, a GMP/GOH vizsgálathoz szóló tájékoztató, a checklist) a mostani oldalán jók. Ezeket külön aloldalakra hoznám át, hogy a főoldal rövid maradjon.
+5. A múltkori kérdéseimből kettő még kell: van-e fotója, amit felhasználhatok, és mi a lefoglalt domain neve.
+
+Ha valami nem tetszik benne, azt is mondja meg nyugodtan, pont azért demó, hogy alakítsuk. Nem kötelezi semmire.
+
+Várom a visszajelzését!
+
+Üdvözlettel:
+Nagy-Toma Vince
+Axióma Webfejlesztés — axiomaweb.hu
