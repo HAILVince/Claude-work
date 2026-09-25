@@ -1,0 +1,34 @@
+# A Völgyesi Tanya termékei. Ezt a fájlt bármikor átírhatja.
+#
+# FIGYELEM: a termékek és az árak most PÉLDÁK. A Facebookon látott
+# termékekből raktam össze őket, hogy látszódjon, hogyan működik.
+# Élesítés előtt írja át a valódiakra.
+#
+#   Egy termék:       Termék neve | 4 800 Ft/kg
+#   Csoportcím:       ## Érlelt sajtok
+#   Megjegyzés:       > Ez a mondat a csoport alá kerül
+#
+# Ha valami épp elfogyott, ne törölje ki: írja az ár helyére, hogy
+# „elfogyott”. Az oldalon áthúzva marad, és ha újra van, csak
+# visszaírja az árat.
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Sajtok
+Sajtcsiga, natúr | 4 800 Ft/kg
+Sajtcsiga, füstölt | 5 200 Ft/kg
+Töltött sajtrolád | 5 400 Ft/kg
+Érlelt sajt, viaszban | elfogyott
+> Az érlelt sajtokból kevés készül, érdemes előre szólni.
+
+## Friss sajtok és krémek
+Friss sajt, natúr | 3 600 Ft/kg
+Friss sajt, zöldfűszeres vagy paprikás | 3 900 Ft/kg
+Sajtkrém, többféle ízben | 1 200 Ft/doboz
+Túró | 2 400 Ft/kg
+
+## Tej és joghurt
+Joghurt, natúr | 900 Ft / 0,5 l
+Gyümölcsjoghurt | 1 000 Ft / 0,5 l
+Tejföl | 1 200 Ft / 0,5 l

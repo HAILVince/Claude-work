@@ -1,0 +1,61 @@
+Címzett: volgyesitanya@gmail.com (Völgyesiné Mózes Melinda)
+Tárgy:   Re: Web oldal
+Válasz erre az üzenetre: 1a0da45c23c7c8d7 (az ő válasza, 2026-09-25 22:33)
+Szál:    1a0c300672c2bbb6
+Csatolmány: volgyesi-tanya/screenshots/desktop-full.png
+            volgyesi-tanya/screenshots/mobile-full.png
+            <<< KÜLDÉS ELŐTT CSATOLD, és nézd meg, hogy tényleg az övéi
+---------------------------------------------------------------
+Kézműves sajt és tejtermék, Szentmártonkáta (a pult tábláján lévő
+kistermelői adatokból). Weboldaluk nincs. A fotók a Facebookjukról valók,
+ő engedte meg, hogy használjuk őket.
+Ár: 90 000 Ft, egyszeri. DE: neki szept. 21-én 60–120 ezret írtál, „a
+legtöbb oldal 80 ezer körül”, és ő azt írta, szűkös a keret. Ha lejjebb
+mennél, a „Mennyibe kerül?” részt írd át küldés előtt.
+KARBANTARTÁST NEM VÁLLALUNK. Magázó, ahogy eddig. Az oldal is magázó.
+---------------------------------------------------------------
+
+Kedves Melinda!
+
+Köszönöm a választ, és hogy használhatom a Facebook-oldaluk képeit! Elkészítettem a demót, két képet csatoltam hozzá: az egyik az oldal számítógépen, a másik mobilon. (A mobilos kép két hasábba van tördelve, hogy elférjen egyetlen képen; élesben ez egy folyamatos oldal.)
+
+Amit a képeken lát
+
+Az oldal a hűtőpultjuk fotójával kezd, és rögtön utána a kínálat jön. Aki a piacon találkozott Önökkel, vagy sajttálat keres egy ünnepre, azt akarja tudni, mi van most a pulton, mennyibe kerül, és hogyan jut hozzá.
+
+A vevő előre szólhat. Telefonon vagy egy rövid űrlapon megírja, mit és mennyit kér, és hol, mikor venné át. A telefonszám mobilon egy érintéssel hívható.
+
+A sajttálak külön kiemelést kaptak, mert a fotókon sok van belőlük, és ezeket jellemzően előre rendelik.
+
+A fotók mind az Önök Facebook-oldaláról valók: a pult, a kockás abroszos asztal, a sajtok és a kecskék.
+
+A kínálatot Ön írja
+
+A termékek és az árak nem az oldal kódjában vannak, hanem egy külön, egyszerű szöveges fájlban. Egy sora így néz ki:
+
+    Sajtcsiga, füstölt | 5 200 Ft/kg
+
+Ha valami elfogy, nem kell kitörölni: az ár helyére beírja, hogy „elfogyott”, és az oldalon áthúzva marad. Amikor újra van, csak visszaírja az árat. A fájlt a böngészőben nyitja meg, átírja, menti, és pár percen belül az oldalon is látszik. Nem kell hozzá program, és nem kell hozzám fordulnia. Átadáskor kap hozzá egy rövid, lépésről lépésre leírást. Karbantartást ugyanis nem vállalok, pont ezért építem így.
+
+Mennyibe kerül?
+
+Az oldal ára 90 000 Ft, egyszeri összeg. Benne van minden, amit a képeken lát: a kínálat, amit Ön ír át, a rendelési űrlap és a mobilos változat. Ezen felül nekem nem fizet havidíjat. A tárhely ingyenes, mert az oldal statikus, nincs mögötte adatbázis vagy fizetős rendszer. Az egyetlen visszatérő költség a domain (például volgyesitanya.hu) éves díja, néhány ezer forint, amit közvetlenül a domain-szolgáltatónak fizet.
+
+Amit ki kell javítani benne
+
+1. Minden termék és ár kitalált. A Facebookon látott termékekből raktam össze a listát, hogy látszódjon, hogyan működik. Elég, ha lefotózza a pulton lévő árlistát, és elküldi.
+2. Néhány dolgot a fotók alapján írtam le. Kérem, nézze meg, stimmel-e: tehén- és kecsketejből dolgoznak (a logón tehén és kecske van), kártyával is lehet fizetni (a pulton láttam a matricát), sajttálat rendelésre is készítenek, és ha a vevő előre szól, félreteszik neki, amit kér.
+3. Melyik piacokon, melyik napokon árulnak? És pár mondat a tanyáról: mióta készül ott sajt, kik dolgoznak rajta. Ez a „Rólunk” részbe kerül, most egy szaggatott keret jelzi a helyét.
+4. A pulton láttam egy oklevelet. Mire kapták? Szívesen kitenném az oldalra.
+5. Az oldal alján a pult tábláján lévő kistermelői adatok szerepelnek: név, cím, regisztrációs szám. Maradhat így?
+6. El tudná küldeni a logót és néhány fotót eredeti méretben? A Facebookról csak kis méretben tudtam letölteni őket.
+
+Én kizárólag e-mailben dolgozom, ezért kérdeztem meg most egyszerre mindent. Ha valamire nincs ideje válaszolni, az sem baj: azt úgy hagyom, ahogy most van, és később átírjuk.
+
+Ha valami nem tetszik benne, azt is mondja meg nyugodtan, pont azért demó, hogy alakítsuk. Nem kötelezi semmire.
+
+Várom a visszajelzését!
+
+Üdvözlettel,
+Nagy-Toma Vince
+Axióma Webfejlesztés — axiomaweb.hu
