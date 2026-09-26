@@ -1,0 +1,44 @@
+Szia Zsanett!
+
+Köszönöm a visszajelzést! Elkészítettem a prototípust, két képet csatoltam hozzá: az egyik az oldal számítógépen, a másik mobilon. (A mobilos kép két hasábba van tördelve, hogy elférjen egyetlen képen; élesben ez egy folyamatos oldal.)
+
+Amit a képeken látsz
+
+Az oldal azzal kezd, amit egy új érdeklődő először keres: kinek szól, milyen órák vannak, mikor és mennyiért. A „Kinek szól” rész hat helyzetet sorol fel (derékfájás, ülőmunka, sérülés vagy műtét után, szülés után, idősebb kor, sportolók), mert a legtöbben nem „pilatest” keresnek, hanem megoldást arra, ami fáj.
+
+Van egy „Mire számíts az első alkalmon” rész is. Aki még sosem volt pilatesen, annak ez veszi le a kezdeti bizonytalanságot, és neked is kevesebb kérdésre kell külön válaszolnod.
+
+A jelentkezés egy rövid űrlap: név, elérhetőség, melyik óra érdekli. Az üzenet egyenesen az e-mail-címedre érkezik, nincs rendszer, amibe be kellene lépned. A telefonszám mobilon egy érintéssel hívható.
+
+Az árakat te írod át
+
+Az árlista nem az oldal kódjában van, hanem egy külön, egyszerű szöveges fájlban. Egy sora így néz ki:
+
+10 alkalmas bérlet | 32 000 Ft
+
+A fájlt a böngészőben nyitod meg, átírod, mented, és pár percen belül az oldalon is az új ár látszik. Nem kell hozzá program, és nem kell hozzám fordulnod. Átadáskor kapsz hozzá egy rövid, lépésről lépésre leírást. Karbantartást ugyanis nem vállalok, pont ezért építem így.
+
+Amit ki kell javítani benne
+
+A régi oldalatokat innen nem tudtam rendesen megnyitni, ezért a tartalom nagy része az én javaslatom:
+
+1. Minden ár, az órarend és az óratípusok kitaláltak. Küldd el a mostani árlistát és órarendet, és kicserélem.
+2. Van gépes (reformer) órátok, vagy csak matracos? Hány fős egy csoport?
+3. A „Kinek szól” lista és a „Mikor kérdezd meg előbb az orvosodat” rész az én megfogalmazásom. Kérlek, nézd át alaposan, mert a ti nevetek lesz alatta.
+4. Pár mondat rólad (és ha többen tanítotok, a többiekről): képzések, mióta tanítasz, miért épp orvosi szemlélettel. Most egy szaggatott keret jelzi a helyét.
+5. A címet az aláírásodból vettem (Váradi u. 10.), de egy katalógusban a Mátyás király u. 23. szerepel. Hol vannak az órák, és van-e parkolás?
+6. Tudsz küldeni néhány saját fotót a stúdióról és az órákról? Vásárolt képet nem teszek olyan oldalra, ami egy valódi helyről szól.
+
+Mennyibe kerül?
+
+Az oldal ára 90 000 Ft, egyszeri összeg. Benne van minden, amit a képeken látsz: az árlista, amit te írsz át, az órarend, a jelentkezési űrlap és a mobilos változat. Havidíj nincs, a tárhely ingyenes. Az egyetlen visszatérő költség a domain éves díja, néhány ezer forint, amit közvetlenül a szolgáltatónak fizetsz; a pilatescenter.hu maradhat.
+
+Én kizárólag e-mailben dolgozom, ezért kérdeztem meg most egyszerre mindent. Ha valamire nincs időd válaszolni, az sem baj, azt úgy hagyom, és később átírjuk.
+
+Ha valami nem tetszik benne, azt is mondd meg nyugodtan, pont azért prototípus, hogy alakítsuk. Nem kötelez semmire.
+
+Várom a visszajelzésed!
+
+Üdv,
+Nagy-Toma Vince
+Axióma Webfejlesztés
