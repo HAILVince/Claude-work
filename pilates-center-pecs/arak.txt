@@ -1,0 +1,28 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Óra neve | 3 500 Ft
+#   Csoportcím:     ## Csoportos órák
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Csoportos órák
+Próbaóra (első alkalom) | 2 500 Ft
+Egy alkalom | 3 800 Ft
+5 alkalmas bérlet | 17 500 Ft
+10 alkalmas bérlet | 32 000 Ft
+> A bérlet a váltástól számított két hónapig használható fel.
+
+## Egyéni órák
+Egyéni óra (55 perc) | 11 000 Ft
+Páros óra (55 perc, két fő) | 14 000 Ft
+5 alkalmas egyéni bérlet | 50 000 Ft
+> Az első egyéni óra állapotfelméréssel kezdődik: megnézzük, hogyan
+> mozogsz, és mi az, ami fáj vagy korlátoz.
+
+## Tudnivalók
+Lemondás | legkésőbb 12 órával előtte
+Fizetés | készpénzzel vagy kártyával

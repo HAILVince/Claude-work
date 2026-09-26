@@ -1,0 +1,16 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Kezelés neve | 15 000 Ft
+#   Csoportcím:     ## Kezelések
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+
+## Kezelések
+Állapotfelmérés | 5 000 Ft
+Ízületi manipuláció | 25 000 Ft
+Egyénre szabott masszázs | 15 000 Ft
+Dinamikus köpölyözés | 8 000 Ft
+Kinesio tape felrakás | 5 000 Ft
+> Időpont telefonon egyeztetve.
