@@ -16,5 +16,6 @@ Valós adat: árlista (webnode Árlista oldal), öt terület (térd, derék, nya
 „minden ember más” elv, időpont telefonon egyeztetve.
 Saját javaslat: a területek egysoros leírásai, a Lojer-ágy második mondata, a „Ne várd meg” zárás.
 
-**Fotók még hiányoznak**: a 6 csatolmányt a Gmail-eszköz nem tudja letölteni. Ha Vince elmenti őket a
-projektmappába, a szaggatott keretek helyére kerülnek (hero, Lojer-ágy, portré), és újra kell fotózni.
+**Fotók (2026-09-27):** Róbert saját képei, `assets/img/`-ben optimalizálva: hero = hüvelykujj a Lojer-ágynál,
+Lojer szekció = álló kép az ággyal + a Manuthera Lojer 242 promó grafika, portré = szelfi a képesítés-fal előtt.
+A ZEN logó-bannert (röntgen-Buddha) és a négyzetes promót nem használtuk; a jelmondatát („Ne élj együtt a fájdalommal”) igen.
