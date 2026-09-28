@@ -1,0 +1,31 @@
+# Az oldalon megjelenő árak és csomagok. Ezt a fájlt bármikor átírhatják.
+#
+#   Egy tétel:      Tétel neve | 12 000 Ft-tól
+#   Csoportcím:     ## Esküvő
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: az alábbi összegek és csomagok PÉLDÁK, a demóhoz írtuk be őket.
+
+## Esküvő a kúriában
+Esküvői vacsora, négyfogásos menü, saját borokkal | 18 900 Ft / fő-tól
+Pincevacsora a 100 méteres pincében | 21 900 Ft / fő-tól
+Nászszoba az ifjú párnak, reggelivel | ajándék
+> Kisebb, meghitt esküvőre és nagyobb vendégseregre is készítünk ajánlatot.
+> A végleges ár a létszámtól, a menütől és az időponttól függ.
+
+## Családi ünnep, rendezvény
+Keresztelő, születésnap, évforduló, menü | 9 900 Ft / fő-tól
+Céges vacsora, borkóstolóval | 14 900 Ft / fő-tól
+
+## Pároknak
+Romantikus hétvége: 2 éj, reggeli, borkóstoló, dézsafürdő | 89 000 Ft / 2 fő-tól
+Kétágyas szoba, 1 éj | 26 000 Ft-tól
+Reggeli | 3 000 Ft / fő
+> Az idegenforgalmi adó 380 Ft / fő / éj (18 év felett).
+
+## Borkóstoló
+Pincelátogatás és kóstoló, hideg és meleg falatokkal | 6 500 Ft / fő-tól
+> Legalább 8 fővel, előzetes egyeztetéssel.
