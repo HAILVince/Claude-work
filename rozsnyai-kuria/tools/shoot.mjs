@@ -2,7 +2,7 @@ import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
 import { mkdirSync } from 'node:fs';
 
 const BASE = process.env.BASE_URL || 'http://127.0.0.1:8195/index.html';
-const OUT = 'screenshots';
+const OUT = process.env.OUT || 'screenshots';
 mkdirSync(OUT, { recursive: true });
 
 const shots = [

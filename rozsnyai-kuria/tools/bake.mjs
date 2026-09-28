@@ -15,14 +15,14 @@ if (!groups.length) throw new Error('arak.txt parsed to nothing — refusing to 
 
 const html = [`      <div class="ar">`];
 for (const g of groups) {
-  html.push(`        <div class="ar-g reveal">`);
+  html.push(`        <div class="ar-g">`);
   html.push(`          <h3>${esc(g.title)}</h3>`);
   html.push(`          <ul class="ar-l">`);
   for (const it of g.items) {
     html.push(
       `            <li><span class="ar-n">${esc(it.name)}</span>` +
       `<span class="ar-dot" aria-hidden="true"></span>` +
-      `<span class="${it.price.length > 14 ? 'ar-p wrap' : 'ar-p'}">${esc(it.price)}</span></li>`
+      `<span class="ar-p">${esc(it.price)}</span></li>`
     );
   }
   html.push(`          </ul>`);

@@ -6,7 +6,7 @@ import { parsePrices, joinNotes } from './assets/price-parse.js';
    only replaces that block when arak.txt loads AND parses into something
    usable; on any failure the baked-in list simply stays. */
 
-const priceSlot = document.querySelector('#arak .wrap');
+const priceSlot = document.querySelector('#arak .menu');
 
 function renderPrices(groups) {
   const grid = document.createElement('div');
@@ -14,7 +14,7 @@ function renderPrices(groups) {
 
   for (const g of groups) {
     const box = document.createElement('div');
-    box.className = 'ar-g reveal';
+    box.className = 'ar-g';
 
     const h = document.createElement('h3');
     h.textContent = g.title;
@@ -31,7 +31,7 @@ function renderPrices(groups) {
       d.className = 'ar-dot';
       d.setAttribute('aria-hidden', 'true');
       const p = document.createElement('span');
-      p.className = it.price.length > 14 ? 'ar-p wrap' : 'ar-p';
+      p.className = 'ar-p';
       p.textContent = it.price;
       li.append(n, d, p);
       ul.append(li);
@@ -57,49 +57,29 @@ async function loadPrices() {
     if (!res.ok) return;
     groups = parsePrices(await res.text());
   } catch {
-    return;                                   // offline, blocked, whatever — keep the baked list
+    return;                                   // offline, blocked: keep the baked list
   }
-  if (!groups.length) return;                 // file emptied or mangled — keep the baked list
+  if (!groups.length) return;                 // file emptied or mangled: keep the baked list
 
   const old = priceSlot.querySelector('.ar');
   const fresh = renderPrices(groups);
   if (old) old.replaceWith(fresh);
   else priceSlot.querySelector('.ar-foot').before(fresh);
-  observe(fresh.querySelectorAll('.reveal'));
 }
 
-/* ---------- menu ---------- */
+/* ---------- menu (phones only; on wide screens the nav is always shown) ---------- */
 
-const burger = document.querySelector('.burger');
+const btn = document.querySelector('.menu-btn');
 const nav = document.querySelector('.nav');
 
 function setMenu(open) {
   nav.classList.toggle('open', open);
-  burger.setAttribute('aria-expanded', String(open));
+  btn.setAttribute('aria-expanded', String(open));
 }
-burger.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+btn.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
 nav.addEventListener('click', e => { if (e.target.tagName === 'A') setMenu(false); });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); burger.focus(); }
+  if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); btn.focus(); }
 });
-
-/* ---------- reveal ---------- */
-
-const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const io = still ? null : new IntersectionObserver((entries, obs) => {
-  for (const e of entries) {
-    if (!e.isIntersecting) continue;
-    e.target.classList.add('in');
-    obs.unobserve(e.target);
-  }
-}, { rootMargin: '0px 0px -8% 0px' });
-
-function observe(nodes) {
-  for (const el of nodes) {
-    if (io) io.observe(el);
-    else el.classList.add('in');
-  }
-}
-observe(document.querySelectorAll('.reveal'));
 
 loadPrices();

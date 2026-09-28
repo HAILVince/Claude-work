@@ -10,7 +10,7 @@ mkdirSync('screenshots', { recursive: true });
 writeFileSync('screenshots/_sheet.html',
   '<!DOCTYPE html><meta charset="utf-8"><style>html,body{margin:0;background:#fff}' +
   'body{padding:26px;display:flex;gap:30px;align-items:flex-start}' +
-  'img{width:390px;display:block;border:1px solid #E4D9CC}</style>' +
+  'img{width:390px;display:block;border:1px solid #CDBFAE}</style>' +
   '<img src="_c1.png"><img src="_c2.png">');
 
 const br = await chromium.launch();
@@ -28,7 +28,7 @@ const open = async (w, h, d, m) => {
 // --- desktop: one continuous full-length image ---
 {
   const { c, p } = await open(1440, 900, 0.9, false);
-  await p.screenshot({ path:'screenshots/desktop-full.png', fullPage:true });
+  await p.screenshot({ path:'screenshots/rozsnyai-kuria-desktop.png', fullPage:true });
   await c.close();
 }
 
@@ -51,7 +51,7 @@ let half;
   const p = await c.newPage();
   await p.goto(ROOT + 'screenshots/_sheet.html', { waitUntil:'networkidle' });
   await p.waitForTimeout(300);
-  await p.screenshot({ path:'screenshots/mobile-full.png', fullPage:true });
+  await p.screenshot({ path:'screenshots/rozsnyai-kuria-mobile.png', fullPage:true });
   await c.close();
 }
 ['_c1.png','_c2.png','_sheet.html'].forEach(f => unlinkSync('screenshots/' + f));
