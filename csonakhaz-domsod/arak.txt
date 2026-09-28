@@ -1,0 +1,28 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 5 000 Ft
+#   Csoportcím:     ## Szállás
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: az 5 000 Ft/fő/éj egy szálláskereső oldalról származik (nem
+# tudjuk, mennyire friss). A többi tétel összegét Önöktől kell megkérdezni.
+
+## Szállás
+Szállás, fő / éjszaka | 5 000 Ft-tól
+Az egész ház egy csoportnak | egyedi ajánlat
+> Elsősorban 25 fő feletti csoportokat fogadunk. Január 10. és december 21. között legalább 2 éjszakára.
+> Ágyneműhuzatot kérjük, hozzanak magukkal.
+
+## Amit mellé kérhetnek
+Étkezés, akár teljes ellátás | kérésre
+Csónak bérlése | kérésre
+Tornacsarnok bérlése (1 km-re) | kérésre
+Idegenforgalmi adó | a helyszínen
+
+## Fizetés
+Készpénz vagy átutalás | igen
+SZÉP-kártya | nem
+Lemondási díj | nincs
