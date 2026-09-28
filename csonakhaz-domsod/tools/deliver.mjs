@@ -28,7 +28,7 @@ const open = async (w, h, d, m) => {
 // --- desktop: one continuous full-length image ---
 {
   const { c, p } = await open(1440, 900, 0.9, false);
-  await p.screenshot({ path:'screenshots/desktop-full.png', fullPage:true });
+  await p.screenshot({ path:'screenshots/csonakhaz-domsod-desktop.png', fullPage:true });
   await c.close();
 }
 
@@ -51,7 +51,7 @@ let half;
   const p = await c.newPage();
   await p.goto(ROOT + 'screenshots/_sheet.html', { waitUntil:'networkidle' });
   await p.waitForTimeout(300);
-  await p.screenshot({ path:'screenshots/mobile-full.png', fullPage:true });
+  await p.screenshot({ path:'screenshots/csonakhaz-domsod-mobile.png', fullPage:true });
   await c.close();
 }
 ['_c1.png','_c2.png','_sheet.html'].forEach(f => unlinkSync('screenshots/' + f));
