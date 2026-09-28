@@ -27,7 +27,7 @@ nagyban, egy koppintásra; a „Felmérést kérek” űrlap a levelezőt nyitja
 | Márkák | Erkado, Borovi, Full, Standardoor, CPL (beltéri); HiSec (biztonsági); Erkado (bejárati); Hörmann, CDC, Eurodoor (garázskapu). Partnerlogók: ALDA Holding, Grewin Kömmerling, Premium, Borovi, HBZ Nagyker, HiSec | daibau.hu, rolunk | Ablakok és ajtók, Garázskapuk |
 | Garázskapuk | szekcionált (40 mm PU hab, 0,5 mm acél, mennyezet alá nyílik), billenő (motorizálható), kétszárnyas, redőnykapu (tokba tekeredik) | [garázskapuk](https://szolnok-ajto-ablak.hu/garazskapuk/) | Garázskapuk |
 | Árnyékolás | redőny (alu, motoros, műanyag), szúnyogháló, napellenző | daibau.hu | Ablakok és ajtók |
-| Beépítés menete | felmérés, gyártás, kezdés 3–6 héten belül, bútor letakarása, bontás + beépítés + falkáva helyreállítása, hátralék a beépítés után, régi ablak elszállítása megbeszélés szerint; szobánként vagy egyszerre; ház 1–2 nap, egy ablak max. 2 óra; „télen nem lehet ablakot cserélni – tévhit” | [beszerelés és helyreállítás](https://szolnok-ajto-ablak.hu/beszereles-helyreallitas/) | Tények sáv, Így megy egy ablakcsere, Kérdések |
+| Beépítés menete | felmérés, gyártás, kezdés 3–6 héten belül, bútor letakarása, bontás + beépítés + falkáva helyreállítása, hátralék a beépítés után, régi ablak elszállítása megbeszélés szerint; szobánként vagy egyszerre; ház 1–2 nap, egy ablak max. 2 óra; „télen nem lehet ablakot cserélni – tévhit” | [beszerelés és helyreállítás](https://szolnok-ajto-ablak.hu/beszereles-helyreallitas/) | Így megy egy ablakcsere, Kérdések |
 | Szlogen | „Nem mindegy, milyen ajtón lépsz be!” | főoldal | nem használtuk |
 
 Nem sikerült megnyitni: a „nyílászárók jellemzői” aloldalt (profil- és üvegadatok) és a Facebookot.
@@ -48,9 +48,9 @@ Vélemény / referencia nem található (a daibau.hu-n 0 értékelés).
 
 ## Helyőrzők
 
-- **Fotók:** nyitókép (beépített ablak), bukó-nyíló ablak, bejárati ajtó, szekcionált garázskapu,
-  5 kép a Munkáink szakaszban. Vékony keretes „Fotó: …” téglalap, nincs stock fotó.
-- **Térkép:** keret + Google Térkép link a címre. Beágyazott térképet (külső kérés, süti) nem tettünk be.
+- **Fotók:** 5 kép a Munkáink szakaszban, kék színmezők „Fotó: …” felirattal. A nyitóképet, a
+  termékeket és a garázskapukat SVG-rajzok mutatják. Nincs stock fotó.
+- **Térkép:** csak Google Térkép link a címre. Beágyazott térképet (külső kérés, süti) nem tettünk be.
 - **Űrlap:** szerver nélkül a látogató levelezőjét nyitja meg (`mailto:`), kitöltött tárggyal és
   szöveggel. Élesben érdemes valódi űrlapküldésre (pl. PHP mail vagy Formspree) cserélni.
 
@@ -71,20 +71,25 @@ közé (`node tools/bake.mjs`), így JavaScript nélkül is működik. Hibás f�
 
 ## Dizájn
 
-A `DESIGN.md` alapján. Úgy néz ki, mint egy ablakgyártó termékadatlapja és megrendelőlapja:
-fehér alap, grafit tinta (`#1C2226`), halványabb tinta (`#545D63`), PVC-profil szürke a panelekhez
-(`#EEF0F1`), 1px vonalak. Egyetlen kiemelőszín, acélkék (`#1B4A7A`), csak gombokon és linkeken.
-Egy betűcsalád: **IBM Plex Sans** 400 és 600, saját tárhelyen (`assets/fonts.css`, az
-ugyved-nagy-levente demóból). Minden sarok szögletes, a gombok 2px-esek.
+Második kör (Vince: „több személyiség, ne krémszínű sablon”). Úgy néz ki, mint egy ablakgyártó
+műszaki rajza: mély kék alap (`#0E2238`, sötétebb sávok `#0A1A2C`), fehér vonal és szöveg,
+halványkék másodlagos szöveg (`#AFC2D6`), 1px vonalak (`#3A5878`). Egyetlen kiemelőszín, jelzősárga
+(`#FFC629`), csak gombokon és linkeken (a nagy telefonszámok is linkek). Az árlap az egyetlen fehér sáv,
+mint egy termékadatlap.
 
-Szerkezet: nyitó blokk két nagy, vonalazott telefonszámmal (mint egy űrlap sorai), alatta egy
-szürke tények sáv (felmérés, gyártási idő, beépítési idő, fizetés), utána bal oldalt cím, jobb
-oldalt tartalom: termék-táblázat, garázskapu-típusok definíciós listában, az ablakcsere menete
-számozott listában, árak táblázatban, felmérés-kérő űrlap, kérdések, munkák, kapcsolat. Nincs
-szemöldök-felirat, kártyasor, ikon, díszítés, animáció.
+Betűk, saját tárhelyen (`assets/fonts.css`): **Schibsted Grotesk** (címek 800, szöveg 400) és
+**JetBrains Mono** 500 a telefonszámokhoz, árakhoz, méretfeliratokhoz. Minden sarok szögletes, a gomb 2px.
 
-Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; egy betűcsalád; nincs dőlt vagy
-színes kiemelés a címekben; 320, 360, 768, 1024 és 1440 px szélességen nincs vízszintes görgetés.
+Az egy nagy ötlet: a nyitó blokk jobb oldalán egy többkamrás műanyag ablak alsó részének SVG-metszete
+(tok, szárny, háromrétegű üveg, acél merevítés, tömítés, párkányok, méretvonalak). Szándékosan nincs
+rajta mm-szám, mert nem tudjuk, melyik Kömmerling-profilt használják; ha megírják, a „beépítési
+mélység” mellé beírható. Utána: az ablakcsere menete méretláncként (3–6 hét, 1–2 nap), ablak- és
+ajtótípusok azonos léptékű nézetrajzai nyitásjelekkel, a négy garázskapu-típus nézetrajza közös
+talajvonalon, fehér árlap óriás „Árak” címmel, űrlap panelen a kérdések mellett, a munkák fotóhelyei
+kék színmezők mozaikban, a kapcsolatnál nagy „9–16”.
+
+Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; két betűcsalád; nincs dőlt vagy színes
+kiemelés a címekben; 360 és 1440 px szélességen nincs vízszintes görgetés.
 
 ## Fájlok
 
@@ -93,7 +98,7 @@ index.html            egyoldalas oldal; az árak az arak:start/end jelölők kö
 arak.txt              árlista (PÉLDA árak!)
 styles.css            tokenek, elrendezés, töréspontok
 script.js             árbetöltő (arak.txt) + felmérés-kérő űrlap (mailto)
-assets/               fonts.css + fonts/, favicon.svg, price-parse.js
+assets/               fonts.css + fonts/ (Schibsted Grotesk, JetBrains Mono), favicon.svg, price-parse.js
 tools/bake.mjs        arak.txt beégetése az index.html-be
 tools/shoot.mjs       munkaképek ellenőrzéshez (BASE_URL), nem kerülnek a repóba
 tools/deliver.mjs     átadási képek: screenshots/erze-nyilaszaro-{desktop,mobile}.png;

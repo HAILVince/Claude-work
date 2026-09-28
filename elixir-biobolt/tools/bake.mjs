@@ -5,6 +5,7 @@
    markup (keep in step with script.js). Re-run after editing arak.txt. */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { parsePrices, joinNotes, priceValue, unitPrice } from '../assets/price-parse.js';
+import { packSvg } from '../assets/packs.js';
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const groups = parsePrices(readFileSync('arak.txt', 'utf8'));
@@ -17,12 +18,14 @@ for (const g of groups) {
     const v = priceValue(it.price);
     const u = unitPrice(it.name, it.price);
     html.push(`        <li class="tag"${v ? ` data-price="${v}"` : ''}>`);
-    html.push(`          <p class="tag-shelf">${esc(g.title)}</p>`);
-    html.push(`          <div class="ph ph-prod"><span>Fotó: a termék</span></div>`);
-    html.push(`          <h3 class="tag-name">${esc(it.name)}</h3>`);
-    html.push(`          <p class="tag-price">${esc(it.price)}</p>`);
-    if (u) html.push(`          <p class="tag-unit">Egységár: ${u}</p>`);
-    html.push(`          <button class="btn tag-btn" type="button">Kosárba</button>`);
+    html.push(`          <div class="tag-pic" aria-hidden="true">${packSvg(it.name)}</div>`);
+    html.push(`          <div class="tag-label">`);
+    html.push(`            <p class="tag-shelf">${esc(g.title)}</p>`);
+    html.push(`            <h3 class="tag-name">${esc(it.name)}</h3>`);
+    html.push(`            <p class="tag-price">${esc(it.price)}</p>`);
+    if (u) html.push(`            <p class="tag-unit">Egységár: ${u}</p>`);
+    html.push(`            <button class="btn tag-btn" type="button">Kosárba</button>`);
+    html.push(`          </div>`);
     html.push(`        </li>`);
   }
   if (g.notes.length) notes.push(joinNotes(g.notes));

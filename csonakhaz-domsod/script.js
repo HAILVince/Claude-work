@@ -56,3 +56,11 @@ async function loadPrices() {
 }
 
 loadPrices();
+
+/* ---------- map strip ----------------------------------------------------
+   On narrow screens the river sketch scrolls sideways inside its own box;
+   start it with the house (x = 646 of 1440) in view. */
+const mapBox = document.querySelector('.map-scroll');
+if (mapBox && mapBox.scrollWidth > mapBox.clientWidth) {
+  mapBox.scrollLeft = mapBox.scrollWidth * (646 / 1440) - mapBox.clientWidth / 2;
+}

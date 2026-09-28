@@ -82,23 +82,25 @@ Hibás fájlnál a beégetett lista marad.
 
 ## Dizájn
 
-A `DESIGN.md` alapján újratervezve. Úgy néz ki, mint egy csónakházban kitett tájékoztató
-lap: papírszínű háttér (`#F5F3EE`), sötét tinta (`#1F2A2B`), halványabb tinta a
-mellékszövegekhez (`#566163`), egy második papírtónus a fotóhelyekhez és a kapcsolat
-blokkhoz (`#EAE7DF`). Egyetlen kiemelőszín, a folyó-kékeszöld (`#1D5C66`), csak gombokon és
-linkeken. Egy betűcsalád: **Barlow** 400 és 600, saját tárhelyen (`assets/fonts.css`, a
-gj-tetofedo demóból átvett fájlok). Minden sarok szögletes, a gombok 2px-esek.
+Második kör (szept. 28. este, a „több személyiség, ne krémszínű sablon” kérés után).
+Evezősklub-hangulat: telt folyókék alap (`#0B4F96`), mély sötétkék sávok (`#07213D`), egy-egy
+hajótest-fehér szakasz (`#FFFFFF`, sötétkék szöveggel). Egyetlen kiemelőszín a mentőmellény-narancs
+(`#FF5B14`), csak gombokon és a linkek aláhúzásán. Betűk: **Big Shoulders Stencil Display** 800
+(címek, nagy számok, mint a hajókra festett rajtszámok) és **Archivo** 400/600 a szövegekhez, saját
+tárhelyen (`assets/fonts.css`).
 
-Szerkezet: minden szakasz egy 1px-es vonallal kezdődik, asztalon bal oldalt a cím, jobb
-oldalt a tartalom. Az árak, a szobák, a házirend és a távolságok sima táblázatok, a
-felszereltség vonalazott lista, ikonok nélkül. Nincs szemöldök-felirat, kártyasor, hullám,
-díszítés, görgetésre induló animáció. A címek a dolgot nevezik meg: Szobák, A ház és az
-udvar, Árak, Házirend, A környék, Kérdések, Képek, Kapcsolat. A telefonszám a ragadós
-fejlécben mindig egy koppintásra van. Fotóhelyek: sima téglalap vékony kerettel és rövid
-felirattal („Fotó: a ház a stégről”).
+- Nyitókép: óriási stencil „Dömsödi Csónakház” felirat, mellette a valódi számok (8 szoba, kb. 50
+  férőhely, 200 m a strandig), alul SVG kenu oldalnézetből, az oldalán a 13-as házszám.
+- Utána teljes szélességű SVG térképvázlat a Ráckevei-Dunáról (Csepel-sziget, a ház a stéggel,
+  strand, Petőfi Emlékmúzeum); mobilon oldalra görgethető, a ház látszik elsőre. Nem méretarányos.
+- Szobák: „csónaktároló” sorok, nagy ágyszámokkal. Árak: sötétkék tábla, az 5 000 Ft kiemelve.
+  Házirend: az érkezés/távozás ideje nagy számokkal. Környék: távolságtábla stencil számokkal.
+  Kapcsolat: a telefonszám óriási, koppintható.
+- Fotóhelyek: színes (kék, sötétkék, fehér) panelek felirattal, a kajakos helyen SVG kajaktároló.
+  Nincs szürke doboz, stock vagy AI-kép.
 
-Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; egy betűcsalád; nincs
-dőlt vagy színes kiemelés a címekben; 320–1440 px között nincs vízszintes görgetés.
+Ellenőrizve: `border-radius` csak `0` és `2px`; két betűcsalád; nincs színes vagy dőlt kiemelés a
+címekben; 360–1440 px között nincs vízszintes görgetés.
 
 ## Fájlok
 
@@ -107,7 +109,7 @@ index.html            egyoldalas oldal; az árak az arak:start/end jelölők kö
 arak.txt              árlista (részben PÉLDA!)
 styles.css            tokenek, elrendezés, töréspontok
 script.js             árbetöltő (arak.txt)
-assets/               fonts.css + fonts/, favicon.svg, price-parse.js
+assets/               fonts.css + fonts/ (Big Shoulders Stencil, Archivo), favicon.svg, price-parse.js
 tools/bake.mjs        arak.txt beégetése az index.html-be
 tools/shoot.mjs       munkaképek ellenőrzéshez (BASE_URL), nem kerülnek a repóba
 tools/deliver.mjs     átadási képek: screenshots/csonakhaz-domsod-{desktop,mobile}.png;

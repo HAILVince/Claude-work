@@ -58,17 +58,19 @@ sima `mailto` űrlap. Élesben ide jöhet egy egyszerű űrlapkezelő, később 
 
 ## Dizájn
 
-A `DESIGN.md` alapján: munkalap / alkatrészpult-lista. Betonszürke papír (`#EDECE8`),
-fekete tinta (`#17191B`), halványabb tinta (`#4F5358`), második papírtónus (`#E0DED8`)
-a fotóhelyekhez, űrlaphoz, kapcsolat-blokkhoz. Egy kiemelőszín, égetett narancs (`#A83A0C`),
-csak gombokon és linkeken (fehér rajta 6,1:1, papíron 5,3:1). Két betűcsalád, saját
-tárhelyen: **Barlow Condensed** 700 nagybetűs címekhez (műhelytábla-hatás), **Barlow**
-400/600 a szöveghez (a gj-tetofedo demóból átvett fájlok). Minden sarok szögletes,
-gomb 2px. Szakaszok előtt 3px-es fekete vonal, árak és alkatrészek táblázatban, a menet
-definíciós lista. Nincs szemöldök-felirat, kártyasor, ikon, animáció.
+2026. szept. 28., második kör (Vince: „több személyiség, ne krémszínű sablon”). Hangos műhely:
+olajsötét alap (`#15191B`), egy acélszürke tónus az ártáblához, panelekhez és űrlaphoz (`#1F2528`),
+világos tinta (`#EEF0EE`), halványabb tinta (`#A7AEB0`). Egy kiemelőszín, veszélyjelző narancs
+(`#FF7F11`), csak gombokon (sötét felirattal, 7:1) és linkeken (6,6:1). Két betűcsalád, saját
+tárhelyen: **Saira Extra Condensed** 800 (óriás, nagybetűs címek és árak) és **Chivo Mono**
+(szöveg, táblázatok, űrlap; munkalap-hatás).
 
-Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; nincs dőlt vagy színes
-kiemelés címben; 320–1440 px között nincs vízszintes görgetés.
+A nyitókép egy kézzel rajzolt SVG motor, szervizkönyv-szerű jelölővonalakkal (gumi, lánc, fék,
+olaj, karburátor, akku, lámpa); mobilon a feliratok nélkül, nagyobbra vágva. Az árak teljes
+szélességű acéltáblán, nagy számokkal; az alkatrész-lista raktárkönyv (dupla vonalas fejléc,
+oszlopvonal). A fotóhelyek nem szürke dobozok: hézagmérő és féktárcsa vonalrajza, felirattal
+(„Ide jön a saját fotó: …”), egymásra csúsztatva. Minden sarok szögletes, gomb 2px; nincs
+szemöldök-felirat, számozott kártya, ikon, átmenet, animáció.
 
 ## Fájlok
 
@@ -84,5 +86,5 @@ tools/deliver.mjs     átadási képek: screenshots/riders-garage-{desktop,mobil
                       (asztali 1440 px, mobil 360 px két hasábra hajtva)
 ```
 
-Futtatás: `python3 -m http.server 8231 -d riders-garage`, majd a mappában
+Futtatás: `python3 -m http.server 8431 -d riders-garage`, majd a mappában
 `node tools/deliver.mjs`.

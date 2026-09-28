@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dömsödi Csónakház — csoportszállás a Ráckevei-Duna partján</title>
 <meta name="description" content="Vízparti csoportszállás Dömsödön, a Ráckevei-Duna partján: 8 szoba, kb. 50 férőhely, saját stég, zárt udvar, közösségi terem, konyha. Edzőtáborok, osztálykirándulások, csapatépítők. Tel.: +36 70 526 6167.">
-<meta name="theme-color" content="#F5F3EE">
+<meta name="theme-color" content="#07213D">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/bigshoulders-stencil-800-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
@@ -49,7 +50,6 @@
       <a href="#hazirend">Házirend</a>
       <a href="#kornyek">Környék</a>
       <a href="#kerdesek">Kérdések</a>
-      <a href="#kapcsolat">Kapcsolat</a>
     </nav>
     <a class="btn hdr-tel" href="tel:+36705266167">+36 70 526 6167</a>
   </div>
@@ -57,53 +57,96 @@
 
 <main id="fo">
 
-  <section class="top">
-    <div class="wrap top-in">
-      <div class="top-txt">
-        <h1>Dömsödi Csónakház</h1>
-        <p class="lede">Csoportszállás a Ráckevei-Duna partján, saját stéggel és zárt udvarral.</p>
-        <p>8 szoba két szinten, körülbelül 50 férőhely. Edzőtáboroknak, osztálykirándulásoknak, baráti és céges csoportoknak, egész évben. A ház a dömsödi kajak-kenusok bázisa is. Budapesttől 50 km.</p>
-        <p class="btns">
-          <a class="btn" href="tel:+36705266167">Hívás: +36 70 526 6167</a>
-          <a class="btn btn-line" href="mailto:domsodicsonakhaz@gmail.com?subject=Foglal%C3%A1si%20%C3%A9rdekl%C5%91d%C3%A9s&amp;body=Id%C5%91pont%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ACsoport%20(pl.%20edz%C5%91t%C3%A1bor%2C%20oszt%C3%A1ly)%3A%20%0A">Érdeklődés e-mailben</a>
-        </p>
-        <p class="addr">2344 Dömsöd, Középső-Dunapart 13.</p>
-      </div>
-      <figure class="ph ph-top"><figcaption>Fotó: a ház a stégről, a víz felől</figcaption></figure>
-    </div>
-    <nav class="toc wrap" aria-label="Tartalom">
-      <a href="#szobak">Szobák</a>
-      <a href="#haz">A ház</a>
-      <a href="#arak">Árak</a>
-      <a href="#hazirend">Házirend</a>
-      <a href="#kornyek">Környék</a>
-      <a href="#kerdesek">Kérdések</a>
-      <a href="#kapcsolat">Kapcsolat</a>
-    </nav>
-  </section>
-
-  <section id="szobak" class="sec">
-    <div class="wrap row">
-      <h2>Szobák</h2>
-      <div class="body">
-        <p>Nyolc nemdohányzó szoba két szinten, szobánként legfeljebb 8 ággyal. A fürdők közösek, a férfi és a női zuhanyzó külön van. A ház fűtött kőépület, 2019-ben szigetelték, 2020-ban felújították, így ősszel és télen is lehet jönni.</p>
-        <table class="tbl">
-          <thead><tr><th scope="col">Szoba</th><th scope="col">Ágy</th><th scope="col">Kinek jó</th></tr></thead>
-          <tbody>
-            <tr><td>Kisebb szobák</td><td>2–4</td><td>edzőknek, kísérő tanároknak, családoknak</td></tr>
-            <tr><td>Közepes szobák</td><td>6</td><td>kisebb társaságnak, egy csapatrésznek</td></tr>
-            <tr><td>Nagy szobák</td><td>legfeljebb 8</td><td>diákcsoportnak, edzőtábornak</td></tr>
-          </tbody>
-        </table>
-        <p class="small">A pontos beosztást a létszám alapján együtt állítjuk össze.</p>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <p class="where">Középső-Dunapart 13., Dömsöd, a Ráckevei-Duna partján</p>
+      <h1>Dömsödi Csónakház</h1>
+      <div class="hero-grid">
+        <div class="hero-txt">
+          <p class="lede">Csoportszállás a víz mellett, saját stéggel és zárt udvarral. A dömsödi kajak-kenusok bázisa.</p>
+          <p>Edzőtáboroknak, osztálykirándulásoknak, baráti és céges csoportoknak, egész évben. Budapesttől 50 km.</p>
+          <p class="btns">
+            <a class="btn btn-big" href="tel:+36705266167">Hívás: +36 70 526 6167</a>
+            <a class="lnk" href="mailto:domsodicsonakhaz@gmail.com?subject=Foglal%C3%A1si%20%C3%A9rdekl%C5%91d%C3%A9s&amp;body=Id%C5%91pont%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ACsoport%20(pl.%20edz%C5%91t%C3%A1bor%2C%20oszt%C3%A1ly)%3A%20%0A">Érdeklődés e-mailben</a>
+          </p>
+        </div>
+        <dl class="nums">
+          <div class="num"><dt>szoba, két szinten</dt><dd>8</dd></div>
+          <div class="num"><dt>férőhely, körülbelül</dt><dd>50</dd></div>
+          <div class="num"><dt>méter a strandig</dt><dd>200</dd></div>
+        </dl>
       </div>
     </div>
+
+    <svg class="hull" viewBox="0 0 1440 170" preserveAspectRatio="xMidYMax meet" role="img" aria-label="Rajz: kenu oldalnézetből, az oldalán a 13-as házszám">
+      <path d="M40 70 C 260 58, 560 54, 720 54 C 900 54, 1180 58, 1400 70 C 1310 112, 1120 132, 720 134 C 330 132, 130 112, 40 70 Z" fill="#FFFFFF"/>
+      <path d="M40 70 C 260 58, 560 54, 720 54 C 900 54, 1180 58, 1400 70" fill="none" stroke="#07213D" stroke-width="6"/>
+      <path d="M120 104 C 360 124, 1080 124, 1320 104" fill="none" stroke="#0B4F96" stroke-width="8"/>
+      <rect x="620" y="40" width="200" height="16" fill="#07213D"/>
+      <text x="250" y="100" class="hull-t" fill="#07213D">DUSE</text>
+      <text x="1040" y="108" class="hull-n" fill="#07213D">13</text>
+      <path d="M500 4 L600 150" stroke="#07213D" stroke-width="7"/>
+      <path d="M584 124 L622 170 L600 170 L570 132 Z" fill="#07213D"/>
+      <rect x="0" y="134" width="1440" height="36" fill="#07213D"/>
+    </svg>
   </section>
 
-  <section id="haz" class="sec">
-    <div class="wrap row">
-      <h2>A ház és az udvar</h2>
-      <div class="body">
+  <section class="map" aria-labelledby="map-h">
+    <div class="wrap map-head">
+      <h2 id="map-h">Hol van a ház</h2>
+      <p>Vázlat, nem méretarányos. Északra Ráckeve és Budapest, délre a tassi zsilip.</p>
+    </div>
+    <div class="map-scroll">
+      <svg class="map-svg" viewBox="0 0 1440 360" role="img" aria-label="Vázlatos térkép: a Ráckevei-Duna Dömsödnél. A víz túloldalán a Csepel-sziget. A ház a keleti parton, a Középső-Dunapart 13. szám alatt, saját stéggel; tőle 200 méterre a szabadstrand, kb. 500 méterre a Petőfi Emlékmúzeum.">
+        <rect width="1440" height="360" fill="#07213D"/>
+        <path d="M0 96 C 220 80, 420 128, 640 112 C 860 96, 1080 70, 1440 92 L1440 228 C 1100 214, 880 246, 640 250 C 420 254, 220 214, 0 232 Z" fill="#0B4F96"/>
+        <g fill="none" stroke="#5E9BDA" stroke-width="2">
+          <path d="M60 150 H 260"/><path d="M340 176 H 560"/><path d="M820 150 H 1000"/><path d="M1100 186 H 1320"/>
+          <path d="M180 204 H 300"/><path d="M700 196 H 800"/>
+        </g>
+        <text x="40" y="52" class="m-l">Csepel-sziget</text>
+        <text x="40" y="170" class="m-w">Ráckevei-Duna</text>
+        <text x="40" y="330" class="m-l">Ráckeve 10 km, Budapest 50 km, észak felé</text>
+        <text x="1400" y="330" class="m-l" text-anchor="end">Tassi zsilip, dél felé</text>
+        <!-- house + jetty -->
+        <path d="M646 252 V 214" stroke="#FFFFFF" stroke-width="8"/>
+        <rect x="606" y="252" width="80" height="54" fill="#FFFFFF"/>
+        <text x="646" y="294" class="m-n" text-anchor="middle">13</text>
+        <text x="702" y="276" class="m-l">Csónakház</text>
+        <text x="702" y="298" class="m-s">stég, udvar, parkoló</text>
+        <!-- beach -->
+        <path d="M900 244 H 1010" stroke="#FFFFFF" stroke-width="8"/>
+        <text x="900" y="276" class="m-l">Strand, 200 m</text>
+        <!-- museum -->
+        <rect x="250" y="264" width="16" height="16" fill="#FFFFFF"/>
+        <text x="276" y="278" class="m-s">Petőfi Emlékmúzeum, kb. 500 m</text>
+        <text x="1180" y="282" class="m-s">Dömsöd</text>
+      </svg>
+    </div>
+  </section>
+
+  <section id="szobak" class="sec sec-blue">
+    <div class="wrap rooms">
+      <div class="rooms-head">
+        <h2>Szobák</h2>
+        <p>Nyolc nemdohányzó szoba két szinten, szobánként legfeljebb 8 ággyal. A fürdők közösek, a férfi és a női zuhanyzó külön van. A ház fűtött kőépület, 2019-ben szigetelték, 2020-ban felújították, ezért ősszel és télen is lehet jönni.</p>
+      </div>
+      <table class="rack">
+        <caption>A pontos beosztást a létszám alapján együtt állítjuk össze.</caption>
+        <thead><tr><th scope="col">Ágy</th><th scope="col">Szoba</th><th scope="col">Kinek jó</th></tr></thead>
+        <tbody>
+          <tr><td class="rack-n">2–4</td><th scope="row">Kisebb szobák</th><td>edzőknek, kísérő tanároknak, családoknak</td></tr>
+          <tr><td class="rack-n">6</td><th scope="row">Közepes szobák</th><td>kisebb társaságnak, egy csapatrésznek</td></tr>
+          <tr><td class="rack-n">8</td><th scope="row">Nagy szobák</th><td>diákcsoportnak, edzőtábornak</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="haz" class="sec sec-white">
+    <div class="wrap house">
+      <div class="house-txt">
+        <h2>A ház és az udvar</h2>
         <p>A ház saját vízparti telken áll. Az udvar zárt, az autók és a buszok a kerítésen belül, ingyen parkolnak. A közös terem és a konyha a csoporté, a stég a telekhez tartozik.</p>
         <ul class="list">
           <li>Saját stég a Ráckevei-Dunán</li>
@@ -115,16 +158,15 @@
           <li>Fedett és nyitott parkoló az udvaron</li>
           <li>Wi-Fi és fűtés az egész házban</li>
         </ul>
-        <div class="ph-pair">
-          <figure class="ph"><figcaption>Fotó: a közösségi terem</figcaption></figure>
-          <figure class="ph"><figcaption>Fotó: az udvar és a tűzrakó</figcaption></figure>
-        </div>
       </div>
+      <figure class="ph ph-a"><figcaption>Fotó jön ide: a ház a stégről, a víz felől</figcaption></figure>
+      <figure class="ph ph-b"><figcaption>Fotó: a közösségi terem</figcaption></figure>
+      <figure class="ph ph-c"><figcaption>Fotó: az udvar és a tűzrakó</figcaption></figure>
     </div>
   </section>
 
-  <section id="arak" class="sec">
-    <div class="wrap row">
+  <section id="arak" class="sec sec-navy">
+    <div class="wrap prices">
       <h2>Árak</h2>
       <div class="body">
       <!-- arak:start -->
@@ -162,72 +204,72 @@
         </div>
       </div>
       <!-- arak:end -->
-      <p class="ar-foot">Pontos ajánlatot a létszám és az időpont alapján küldünk: <a href="tel:+36705266167">+36 70 526 6167</a></p>
+      <p class="ar-foot">Pontos ajánlatot a létszám és az időpont alapján küldünk. <a href="tel:+36705266167">+36 70 526 6167</a></p>
       </div>
     </div>
   </section>
 
-  <section id="hazirend" class="sec">
-    <div class="wrap row">
+  <section id="hazirend" class="sec sec-blue">
+    <div class="wrap rules-wrap">
       <h2>Házirend</h2>
-      <div class="body">
-        <dl class="rules">
-          <div><dt>Érkezés</dt><dd>14:00 és 19:00 között</dd></div>
-          <div><dt>Távozás</dt><dd>11:00 óráig</dd></div>
-          <div><dt>Legkevesebb</dt><dd>2 éjszaka (január 10. és december 21. között)</dd></div>
-          <div><dt>Ágynemű</dt><dd>Az ágyneműhuzatot kérjük, hozzák magukkal</dd></div>
-          <div><dt>Háziállat</dt><dd>Nem hozható</dd></div>
-          <div><dt>Dohányzás</dt><dd>A szobákban tilos, az udvaron kijelölt helyen</dd></div>
-          <div><dt>Ellátás</dt><dd>Önellátó, a konyha használható. Étkezés kérésre</dd></div>
-          <div><dt>Recepció</dt><dd>Nincs; érkezéskor személyesen fogadjuk Önöket</dd></div>
-          <div><dt>NTAK</dt><dd>EG20018781, ifjúsági szálláshely</dd></div>
-        </dl>
-      </div>
+      <dl class="times">
+        <div><dt>Érkezés</dt><dd>14:00–19:00</dd></div>
+        <div><dt>Távozás</dt><dd>11:00-ig</dd></div>
+      </dl>
+      <dl class="rules">
+        <div><dt>Legkevesebb</dt><dd>2 éjszaka (január 10. és december 21. között)</dd></div>
+        <div><dt>Ágynemű</dt><dd>Az ágyneműhuzatot kérjük, hozzák magukkal</dd></div>
+        <div><dt>Háziállat</dt><dd>Nem hozható</dd></div>
+        <div><dt>Dohányzás</dt><dd>A szobákban tilos, az udvaron kijelölt helyen</dd></div>
+        <div><dt>Ellátás</dt><dd>Önellátó, a konyha használható, étkezés kérésre</dd></div>
+        <div><dt>Recepció</dt><dd>Nincs, érkezéskor személyesen fogadjuk Önöket</dd></div>
+        <div><dt>NTAK</dt><dd>EG20018781, ifjúsági szálláshely</dd></div>
+      </dl>
     </div>
   </section>
 
-  <section id="kornyek" class="sec">
-    <div class="wrap row">
-      <h2>A környék</h2>
-      <div class="body">
+  <section id="kornyek" class="sec sec-white">
+    <div class="wrap near">
+      <div class="near-head">
+        <h2>A környék</h2>
         <p>Dömsöd a Ráckevei-Duna egyik csendes partszakasza. A strand, a vendéglő és a faluközpont gyalog is közel van.</p>
-        <table class="tbl dist">
-          <tbody>
-            <tr><td>200 m</td><td>Szabadstrand a Duna-parton</td></tr>
-            <tr><td>3 perc</td><td>Kék-Duna vendéglő</td></tr>
-            <tr><td>5 perc</td><td>Faluközpont, boltok</td></tr>
-            <tr><td>kb. 500 m</td><td>Petőfi Sándor Emlékmúzeum</td></tr>
-            <tr><td>1 km</td><td>Tornacsarnok (bérelhető) és fitneszpark</td></tr>
-            <tr><td>10 km</td><td>Tassi zsilip és Ráckeve</td></tr>
-            <tr><td>15 km</td><td>Ráckevei Aqualand, fürdő és wellness</td></tr>
-            <tr><td>50 km</td><td>Budapest</td></tr>
-          </tbody>
-        </table>
-        <div class="notes">
-          <div>
-            <h3>Kajak, kenu, csónak</h3>
-            <p>A csónakház a dömsödi kajak-kenusok bázisa. A stégről indulva, a csendes vízen a kezdők is bátran evezhetnek.</p>
-          </div>
-          <div>
-            <h3>Edzőtábor</h3>
-            <p>Kézilabda, kosárlabda, foci: a tornacsarnok egy kilométerre van, a futókör a Duna-part.</p>
-          </div>
-          <div>
-            <h3>Horgászat</h3>
-            <p>A Ráckevei-Duna kedvelt horgászvíz. Horgászjegyet a helyi árusítóhelyeken lehet váltani.</p>
-          </div>
+      </div>
+      <table class="dist">
+        <tbody>
+          <tr><td>200 m</td><td>Szabadstrand a Duna-parton</td></tr>
+          <tr><td>3 perc</td><td>Kék-Duna vendéglő</td></tr>
+          <tr><td>5 perc</td><td>Faluközpont, boltok</td></tr>
+          <tr><td>500 m</td><td>Petőfi Sándor Emlékmúzeum, körülbelül</td></tr>
+          <tr><td>1 km</td><td>Tornacsarnok (bérelhető) és fitneszpark</td></tr>
+          <tr><td>10 km</td><td>Tassi zsilip és Ráckeve</td></tr>
+          <tr><td>15 km</td><td>Ráckevei Aqualand, fürdő és wellness</td></tr>
+          <tr><td>50 km</td><td>Budapest</td></tr>
+        </tbody>
+      </table>
+      <div class="notes">
+        <div class="note note-kayak">
+          <h3>Kajak, kenu, csónak</h3>
+          <p>A csónakház a dömsödi kajak-kenusok bázisa. A stégről indulva, a csendes vízen a kezdők is bátran evezhetnek.</p>
+        </div>
+        <div class="note">
+          <h3>Edzőtábor</h3>
+          <p>Kézilabda, kosárlabda, foci: a tornacsarnok egy kilométerre van, a futókör a Duna-part.</p>
+        </div>
+        <div class="note">
+          <h3>Horgászat</h3>
+          <p>A Ráckevei-Duna kedvelt horgászvíz. Horgászjegyet a helyi árusítóhelyeken lehet váltani.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="kerdesek" class="sec">
-    <div class="wrap row">
+  <section id="kerdesek" class="sec sec-navy">
+    <div class="wrap faq-wrap">
       <h2>Kérdések</h2>
-      <div class="body faq">
+      <div class="faq">
         <details>
           <summary>Kisebb társaságot is fogadnak?</summary>
-          <p>Elsősorban 25 fő feletti csoportokra rendezkedtünk be. Ha kevesebben jönnének, hívjon fel bátran, és megnézzük, mit tudunk ajánlani.</p>
+          <p>Elsősorban 25 fő feletti csoportokra rendezkedtünk be. Ha kevesebben jönnének, hívjon, és megnézzük, mit tudunk ajánlani.</p>
         </details>
         <details>
           <summary>Hogyan tudok foglalni?</summary>
@@ -253,35 +295,42 @@
     </div>
   </section>
 
-  <section id="kepek" class="sec">
-    <div class="wrap row">
+  <section id="kepek" class="sec sec-blue">
+    <div class="wrap">
       <h2>Képek</h2>
-      <div class="body gal">
-        <figure class="ph g-wide"><figcaption>Fotó: naplemente a stégről</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: a ház kívülről</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: egy nagy szoba</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: a konyha</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: kajakok a parton</figcaption></figure>
+      <div class="gal">
+        <figure class="ph ph-navy g-wide"><figcaption>Fotó: naplemente a stégről</figcaption></figure>
+        <figure class="ph ph-white"><figcaption>Fotó: a ház kívülről</figcaption></figure>
+        <figure class="ph ph-navy"><figcaption>Fotó: egy nagy szoba</figcaption></figure>
+        <figure class="ph ph-white"><figcaption>Fotó: a konyha</figcaption></figure>
+        <figure class="ph ph-rack g-tall">
+          <svg viewBox="0 0 300 300" aria-hidden="true" focusable="false">
+            <path d="M40 40 V 280 M260 40 V 280" stroke="#FFFFFF" stroke-width="10"/>
+            <path d="M20 90 C 90 76, 210 76, 280 90 C 210 104, 90 104, 20 90 Z" fill="#FFFFFF"/>
+            <path d="M20 160 C 90 146, 210 146, 280 160 C 210 174, 90 174, 20 160 Z" fill="#FFFFFF"/>
+            <path d="M20 230 C 90 216, 210 216, 280 230 C 210 244, 90 244, 20 230 Z" fill="#FFFFFF"/>
+          </svg>
+          <figcaption>Fotó: kajakok a parton</figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
-  <section id="kapcsolat" class="sec sec-contact">
-    <div class="wrap row">
+  <section id="kapcsolat" class="contact">
+    <div class="wrap contact-in">
       <h2>Kapcsolat</h2>
-      <div class="body contact">
+      <p class="phone"><a href="tel:+36705266167">+36 70 526 6167</a></p>
+      <div class="contact-grid">
         <div>
-          <p>Hívjon, vagy írjon. Ha megírja az időpontot és a létszámot, hamar válaszolunk.</p>
-          <p class="phone"><a href="tel:+36705266167">+36 70 526 6167</a></p>
+          <p>Hívjon vagy írjon. Ha megírja az időpontot és a létszámot, hamar válaszolunk.</p>
           <p>Ambruska Péterné, szálláshely-vezető</p>
-          <dl class="rules">
-            <div><dt>E-mail</dt><dd><a href="mailto:domsodicsonakhaz@gmail.com">domsodicsonakhaz@gmail.com</a></dd></div>
-            <div><dt>Cím</dt><dd>2344 Dömsöd, Középső-Dunapart 13.</dd></div>
-            <div><dt>Facebook</dt><dd><a href="https://www.facebook.com/csonakhaz.domsodi.1/" rel="noopener">Csónakház Dömsödi</a></dd></div>
-          </dl>
           <p class="btns"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=47.090332,19.010732" rel="noopener">Útvonal térképen</a></p>
         </div>
-        <figure class="ph ph-map"><figcaption>Térkép: Középső-Dunapart 13.</figcaption></figure>
+        <dl class="rules">
+          <div><dt>E-mail</dt><dd><a href="mailto:domsodicsonakhaz@gmail.com">domsodicsonakhaz@gmail.com</a></dd></div>
+          <div><dt>Cím</dt><dd>2344 Dömsöd, Középső-Dunapart 13.</dd></div>
+          <div><dt>Facebook</dt><dd><a href="https://www.facebook.com/csonakhaz.domsodi.1/" rel="noopener">Csónakház Dömsödi</a></dd></div>
+        </dl>
       </div>
     </div>
   </section>

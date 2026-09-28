@@ -54,10 +54,28 @@ business. It should not look like a template or like something an AI generated.
 - **Mobile first.** It must look right at 360px wide, with no horizontal scroll,
   and the phone number must be one tap away.
 
+## Personality (Vince, 28 Sept evening)
+
+The first round of DESIGN.md demos came out as quiet cream-paper templates, and Vince rejected them:
+"more personality, not a template basic bad looking creme".
+
+- **No cream, beige, off-white or "paper" backgrounds.** Pick a bold, saturated or dark ground that
+  belongs to the trade (a cellar, a workshop, a river, a shop sign) and commit to it.
+- **One strong idea per demo**, visible in the first screen: a huge headline, a full-bleed colour
+  field, a drawn object from the trade (SVG window profile, wine label, river map, parts diagram).
+- **Big type with character.** A distinctive display face at a large size; not the same safe sans
+  or bookish serif on every demo.
+- **Photo placeholders must not be grey boxes.** Use strong colour blocks, SVG drawings of the real
+  thing, or type-driven panels until the customer's own photos arrive.
+- **Every demo must look different from the others.** If two demos could swap logos, redo one.
+- The hard rules above still hold: square corners, one font and one colour per piece of text,
+  one accent colour for buttons and links, no gradients or glows, no AI patterns.
+
 ## Before you send a demo, check
 
 - [ ] `grep -n "border-radius" styles.css` shows only `0` or ≤ `2px`.
 - [ ] No heading or paragraph contains a second font, italic accent or coloured span.
 - [ ] At most two font families are loaded.
 - [ ] None of the "AI-made" patterns above appear.
+- [ ] No cream/beige/paper background, no grey-box photo placeholders, and the first screen has one strong idea.
 - [ ] Screenshots read at desktop and 360px mobile, with nothing overflowing.

@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rozsnyai Kúria, Szerencs: esküvő, pincevacsora, szállás</title>
 <meta name="description" content="Családi pincészet, étterem és panzió Szerencsen, Tokaj-Hegyalján. Esküvők és családi ünnepek, vacsora a 100 méteres borospincében, kétágyas szobák, dézsafürdő, szauna.">
-<meta name="theme-color" content="#F7F2EA">
+<meta name="theme-color" content="#1A0F16">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="assets/fonts/spectral-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bodonimoda-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/archivonarrow-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
@@ -39,58 +40,112 @@
     <a class="btn hdr-tel" href="tel:+36309351285">Hívás</a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menü</button>
     <nav id="menu" class="nav" aria-label="Fő menü">
-      <a href="#rendezvenyek">Esküvők, rendezvények</a>
+      <a href="#rendezvenyek">Rendezvények</a>
+      <a href="#pince">A pince</a>
       <a href="#arak">Árak</a>
       <a href="#szallas">Szállás</a>
       <a href="#kerdesek">Kérdések</a>
       <a href="#kapcsolat">Kapcsolat</a>
-      <a class="nav-tel" href="tel:+36309351285">+36 30 935 1285</a>
+      <a class="btn nav-tel" href="tel:+36309351285">+36 30 935 1285</a>
     </nav>
   </div>
 </header>
 
 <main id="fo">
 
-  <section class="intro">
-    <div class="wrap intro-in">
-      <div class="intro-txt">
-        <h1>Rozsnyai Kúria</h1>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <h1>Rozsnyai Kúria</h1>
+      <div class="hero-txt">
         <p class="lede">Családi pincészet, étterem és panzió Szerencsen, az Alsópincesoron.</p>
-        <p>Esküvőt, keresztelőt, évfordulót és céges vacsorát rendezünk, a 100 méteres borospincénkben akár 100 vendéggel. A konyhán magyar ételek készülnek hazai alapanyagból, a borokat a saját szőlőnkből érleljük. Aki marad, a panzió szobáiban alszik.</p>
+        <p>Esküvőt, keresztelőt, évfordulót és céges vacsorát rendezünk, a 100 méteres borospincénkben akár 100 vendéggel. Magyar konyha hazai alapanyagból, saját termésű borok, és szoba annak, aki marad.</p>
         <p class="actions">
-          <a class="btn" href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Ajánlatot kérek e-mailben</a>
+          <a class="btn" href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Ajánlatot kérek</a>
           <a class="tel-link" href="tel:+36309351285">+36 30 935 1285</a>
         </p>
       </div>
-      <figure class="ph ph-intro"><figcaption>Fotó: a kúria a pincesor felől</figcaption></figure>
-    </div>
-  </section>
-
-  <section id="rendezvenyek" class="sec">
-    <div class="wrap two">
-      <div class="col-head">
-        <h2>Esküvők és rendezvények</h2>
-        <p>Kisebb, meghitt ünnepre és nagy vendégseregre is készítünk ajánlatot. A menüt, a borokat és a program részleteit Önökkel együtt állítjuk össze.</p>
-        <p><a class="btn btn-line" href="mailto:rozsnyaikuria@gmail.com?subject=Rendezv%C3%A9ny%20aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Rendezvényre kérek ajánlatot</a></p>
+      <div class="bottle-wrap">
+      <svg class="bottle" viewBox="0 0 240 1000" role="img" aria-labelledby="bottle-t">
+        <title id="bottle-t">Rajz: tokaji palack a Rozsnyai Kúria címkéjével</title>
+        <path class="b-glass" d="M102 44H138V300C138 360 200 400 200 470V948Q200 972 176 972H64Q40 972 40 948V470C40 400 102 360 102 300Z"/>
+        <path class="b-hair" d="M58 492V936M102 150H138M102 158H138"/>
+        <rect class="b-glass" x="95" y="16" width="50" height="28"/>
+        <rect class="b-label" x="52" y="560" width="136" height="268"/>
+        <path class="b-hair" d="M60 568H180V820H60Z"/>
+        <text class="b-big" x="120" y="620" text-anchor="middle">ROZSNYAI</text>
+        <text class="b-big" x="120" y="650" text-anchor="middle">KÚRIA</text>
+        <path class="b-hair" d="M84 672H156"/>
+        <text class="b-small" x="120" y="700" text-anchor="middle">TOKAJ-HEGYALJA</text>
+        <text class="b-mid" x="120" y="738" text-anchor="middle">Szerencs</text>
+        <text class="b-small" x="120" y="760" text-anchor="middle">Alsópincesor 4.</text>
+        <text class="b-small" x="120" y="800" text-anchor="middle">SAJÁT TERMÉS</text>
+      </svg>
       </div>
-      <dl class="list">
-        <div><dt>Esküvő</dt><dd>Vacsora a teraszon vagy a pincében, saját borokkal. Az ifjú pár és a vendégek a kúrián is megszállhatnak.</dd></div>
-        <div><dt>Pincevacsora</dt><dd>A mintegy 100 méter hosszú borospincében akár 100 vendég ülhet asztalhoz. Hideg és meleg fogások, kóstolóval.</dd></div>
-        <div><dt>Családi ünnep</dt><dd>Keresztelő, születésnap, évforduló. Kérésre bográcsozunk vagy grillezünk a szabadban.</dd></div>
-        <div><dt>Céges vacsora</dt><dd>Vacsora borkóstolóval. Kérésre kisbuszos transzfert is intézünk.</dd></div>
-        <div><dt>Programok</dt><dd>Kirándulást, túrát és kulturális programot is szervezünk a környéken.</dd></div>
-      </dl>
-    </div>
-    <div class="wrap photos-2">
-      <figure class="ph"><figcaption>Fotó: terített asztal a pincében</figcaption></figure>
-      <figure class="ph"><figcaption>Fotó: esküvői vacsora a teraszon</figcaption></figure>
+      <p class="hero-addr">3900 Szerencs, Alsópincesor u. 4.</p>
     </div>
   </section>
 
-  <section id="arak" class="sec sec-paper">
+  <section id="rendezvenyek" class="events">
+    <div class="wrap">
+      <div class="events-head">
+        <h2>Esküvők és rendezvények</h2>
+        <p>Kis, meghitt ünnepre és nagy vendégseregre is adunk ajánlatot. A menüt, a borokat és a programot Önökkel együtt állítjuk össze.</p>
+      </div>
+      <dl class="occ">
+        <div><dt>Esküvő</dt><dd>Vacsora a teraszon vagy a pincében, saját borokkal. Az ifjú pár és a vendégek a kúrián is megszállhatnak.</dd></div>
+        <div><dt>Pincevacsora</dt><dd>A mintegy 100 méter hosszú borospincében akár 100 vendég ül asztalhoz. Hideg és meleg fogások, kóstolóval.</dd></div>
+        <div><dt>Családi ünnep</dt><dd>Keresztelő, születésnap, évforduló. Kérésre bográcsozunk vagy grillezünk a szabadban.</dd></div>
+        <div><dt>Céges vacsora</dt><dd>Vacsora borkóstolóval. Kisbuszos transzfert is intézünk.</dd></div>
+        <div><dt>Programok</dt><dd>Kirándulás, túra és kulturális program a környéken.</dd></div>
+      </dl>
+      <p class="events-cta"><a class="btn" href="mailto:rozsnyaikuria@gmail.com?subject=Rendezv%C3%A9ny%20aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Rendezvényre kérek ajánlatot</a></p>
+    </div>
+  </section>
+
+  <section id="pince" class="cellar">
+    <div class="wrap">
+      <div class="cellar-top">
+        <h2>A pince</h2>
+        <p>A kúria alatt mintegy 100 méter hosszú borospince húzódik. Itt érleljük a saját termésű tokaji borainkat, és itt terítünk a pincevacsorákhoz. Borkóstolót legalább 8 fős társaságnak tartunk, előre egyeztetett időpontban, hideg és meleg falatokkal.</p>
+      </div>
+      <svg class="cellar-svg" viewBox="0 0 600 168" role="img" aria-labelledby="cellar-t">
+      <title id="cellar-t">Vázlat: a mintegy 100 méteres pince hordókkal és hosszú asztallal, méterskálával</title>
+      <g class="c-line"><path d="M0 18H600M0 112H600"/></g>
+      <g class="c-barrel">
+      <path d="M8 81Q28 75 48 81V109Q28 115 8 109Z"/>
+      <path d="M17 79V111M39 79V111"/>
+      <path d="M54 81Q74 75 94 81V109Q74 115 54 109Z"/>
+      <path d="M63 79V111M85 79V111"/>
+      <path d="M100 81Q120 75 140 81V109Q120 115 100 109Z"/>
+      <path d="M109 79V111M131 79V111"/>
+      <path d="M146 81Q166 75 186 81V109Q166 115 146 109Z"/>
+      <path d="M155 79V111M177 79V111"/>
+      <path d="M192 81Q212 75 232 81V109Q212 115 192 109Z"/>
+      <path d="M201 79V111M223 79V111"/>
+      <path d="M238 81Q258 75 278 81V109Q258 115 238 109Z"/>
+      <path d="M247 79V111M269 79V111"/>
+      <path d="M284 81Q304 75 324 81V109Q304 115 284 109Z"/>
+      <path d="M293 79V111M315 79V111"/>
+      <path d="M330 81Q350 75 370 81V109Q350 115 330 109Z"/>
+      <path d="M339 79V111M361 79V111"/>
+      </g>
+      <g class="c-table"><path d="M392 88H592M392 91H592M400 91V112M584 91V112M488 91V112"/>
+      <path d="M398 100H586M406 100V112M578 100V112"/></g>
+      <g class="c-rule"><path d="M0 128H600M0 128V140M6 128V132M12 128V132M18 128V132M24 128V132M30 128V132M36 128V132M42 128V132M48 128V132M54 128V132M60 128V136M66 128V132M72 128V132M78 128V132M84 128V132M90 128V132M96 128V132M102 128V132M108 128V132M114 128V132M120 128V136M126 128V132M132 128V132M138 128V132M144 128V132M150 128V132M156 128V132M162 128V132M168 128V132M174 128V132M180 128V136M186 128V132M192 128V132M198 128V132M204 128V132M210 128V132M216 128V132M222 128V132M228 128V132M234 128V132M240 128V136M246 128V132M252 128V132M258 128V132M264 128V132M270 128V132M276 128V132M282 128V132M288 128V132M294 128V132M300 128V140M306 128V132M312 128V132M318 128V132M324 128V132M330 128V132M336 128V132M342 128V132M348 128V132M354 128V132M360 128V136M366 128V132M372 128V132M378 128V132M384 128V132M390 128V132M396 128V132M402 128V132M408 128V132M414 128V132M420 128V136M426 128V132M432 128V132M438 128V132M444 128V132M450 128V132M456 128V132M462 128V132M468 128V132M474 128V132M480 128V136M486 128V132M492 128V132M498 128V132M504 128V132M510 128V132M516 128V132M522 128V132M528 128V132M534 128V132M540 128V136M546 128V132M552 128V132M558 128V132M564 128V132M570 128V132M576 128V132M582 128V132M588 128V132M594 128V132M599.5 128V140"/></g>
+      <g class="c-lab"><text x="0" y="160">0</text><text x="300" y="160" text-anchor="middle">50 m</text><text x="600" y="160" text-anchor="end">100 m</text></g>
+      </svg>
+      <blockquote class="motto">
+        <p>„Csak a bor ital, csak a tokaji bor.”</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="arak" class="prices">
     <div class="wrap menu">
-      <h2>Árak</h2>
-      <p class="menu-lede">Minden esemény más, a pontos árat ajánlatban küldjük. A „-tól” árak kiindulópontnak szólnak.</p>
+      <div class="prices-head">
+        <h2>Árak</h2>
+        <p>Minden esemény más, a pontos árat ajánlatban küldjük. A „-tól” árak kiindulópontok.</p>
+      </div>
       <!-- arak:start -->
       <div class="ar">
         <div class="ar-g">
@@ -127,77 +182,71 @@
         </div>
       </div>
       <!-- arak:end -->
-      <p class="ar-foot">Ajánlatkérés: <a href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s">rozsnyaikuria@gmail.com</a> vagy <a href="tel:+36309351285">+36 30 935 1285</a></p>
+      <p class="ar-foot">Ajánlatkérés: <a href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s">rozsnyaikuria@gmail.com</a> vagy <a class="nw" href="tel:+36309351285">+36 30 935 1285</a></p>
     </div>
   </section>
 
-  <section id="pince" class="sec">
-    <div class="wrap two two-rev">
-      <figure class="ph ph-tall"><figcaption>Fotó: a pince boltívei, hordók</figcaption></figure>
-      <div>
-        <h2>A pince</h2>
-        <p>A kúria alatt mintegy 100 méter hosszú borospince húzódik. Itt érleljük a saját termésű tokaji borainkat, és itt terítünk a pincevacsorákhoz. Borkóstolót legalább 8 fős társaságnak tartunk, előre egyeztetett időpontban, hideg és meleg falatokkal.</p>
-        <blockquote class="motto">„Csak a bor ital, csak a tokaji bor.”</blockquote>
-      </div>
-    </div>
-  </section>
-
-  <section id="szallas" class="sec sec-rule">
-    <div class="wrap two">
-      <div class="col-head">
+  <section id="szallas" class="stay">
+    <div class="wrap stay-in">
+      <div class="panel panel-room"><p>Fotó: kétágyas szoba, tölgyparketta</p></div>
+      <div class="stay-txt">
         <h2>Szállás</h2>
-        <p>Kétágyas szobák saját fürdőszobával, hagyományos tölgyparkettával, ami allergiásoknak is jó. Kérésre svédasztalos reggelit adunk.</p>
-        <figure class="ph ph-room"><figcaption>Fotó: kétágyas szoba</figcaption></figure>
+        <p>Kétágyas szobák saját fürdőszobával és hagyományos tölgyparkettával, ami allergiásoknak is jó. Kérésre svédasztalos reggelit adunk.</p>
+        <table class="facts">
+          <caption class="sr">A szállás adatai</caption>
+          <tbody>
+            <tr><th scope="row">A szobában</th><td>fürdőszoba zuhanyzóval, Wi-Fi, televízió, minibár, hűtő, íróasztal</td></tr>
+            <tr><th scope="row">Wellness</th><td>hordószauna, infraszauna, jakuzzi, egész évben használható fa dézsa</td></tr>
+            <tr><th scope="row">Az udvaron</th><td>terasz, zárt parkoló, kerékpártároló, bográcsozó és grillező hely</td></tr>
+            <tr><th scope="row">Szolgáltatás</th><td>portás- és sofőrszolgálat, kisbuszos transzfer</td></tr>
+            <tr><th scope="row">Fizetés</th><td>készpénz, bankkártya, SZÉP-kártya (MKB, K&amp;H, OTP)</td></tr>
+            <tr><th scope="row">Idegenforgalmi adó</th><td>380 Ft / fő / éj, 18 év felett</td></tr>
+          </tbody>
+        </table>
       </div>
-      <table class="facts">
-        <caption class="sr">A szállás adatai</caption>
-        <tbody>
-          <tr><th scope="row">A szobában</th><td>fürdőszoba zuhanyzóval, Wi-Fi, televízió, minibár, hűtő, íróasztal</td></tr>
-          <tr><th scope="row">Wellness</th><td>hordószauna, infraszauna, jakuzzi, egész évben használható fa dézsa</td></tr>
-          <tr><th scope="row">Az udvaron</th><td>terasz, zárt parkoló, kerékpártároló, bográcsozó és grillező hely</td></tr>
-          <tr><th scope="row">Szolgáltatás</th><td>portás- és sofőrszolgálat, kisbuszos transzfer</td></tr>
-          <tr><th scope="row">Érkezés</th><td>14:00 és 22:00 között</td></tr>
-          <tr><th scope="row">Távozás</th><td>11:00-ig</td></tr>
-          <tr><th scope="row">Fesztiválok idején</th><td>legalább 3 éjszaka</td></tr>
-          <tr><th scope="row">Idegenforgalmi adó</th><td>380 Ft / fő / éj, 18 év felett</td></tr>
-          <tr><th scope="row">Fizetés</th><td>készpénz, bankkártya, SZÉP-kártya (MKB, K&amp;H, OTP)</td></tr>
-        </tbody>
-      </table>
+    </div>
+    <div class="wrap">
+      <dl class="times">
+        <div><dt>Érkezés</dt><dd>14–22 óra</dd></div>
+        <div><dt>Távozás</dt><dd>11 óráig</dd></div>
+        <div><dt>Fesztiválok idején</dt><dd>min. 3 éj</dd></div>
+      </dl>
     </div>
   </section>
 
-  <section id="fotok" class="sec sec-rule">
+  <section id="fotok" class="photos">
     <div class="wrap">
       <h2>Fotók</h2>
       <div class="gallery">
-        <figure class="ph"><figcaption>Fotó: dézsafürdő este</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: borok a vinotékában</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: szőlő és pincesor ősszel</figcaption></figure>
+        <div class="panel p1"><p>Fotó: a kúria a pincesor felől</p></div>
+        <div class="panel p2"><p>Fotó: terített asztal a pincében</p></div>
+        <div class="panel p3"><p>Fotó: esküvői vacsora a teraszon</p></div>
+        <div class="panel p4"><p>Fotó: dézsafürdő este</p></div>
+        <div class="panel p5"><svg class="rack" viewBox="0 0 300 120" aria-hidden="true" focusable="false"><circle cx="15" cy="15" r="11"/><circle cx="45" cy="15" r="11"/><circle cx="75" cy="15" r="11"/><circle cx="105" cy="15" r="11"/><circle cx="135" cy="15" r="11"/><circle cx="165" cy="15" r="11"/><circle cx="195" cy="15" r="11"/><circle cx="225" cy="15" r="11"/><circle cx="255" cy="15" r="11"/><circle cx="285" cy="15" r="11"/><circle cx="15" cy="45" r="11"/><circle cx="45" cy="45" r="11"/><circle cx="75" cy="45" r="11"/><circle cx="105" cy="45" r="11"/><circle cx="135" cy="45" r="11"/><circle cx="165" cy="45" r="11"/><circle cx="195" cy="45" r="11"/><circle cx="225" cy="45" r="11"/><circle cx="255" cy="45" r="11"/><circle cx="285" cy="45" r="11"/><circle cx="15" cy="75" r="11"/><circle cx="45" cy="75" r="11"/><circle cx="75" cy="75" r="11"/><circle cx="105" cy="75" r="11"/><circle cx="135" cy="75" r="11"/><circle cx="165" cy="75" r="11"/><circle cx="195" cy="75" r="11"/><circle cx="225" cy="75" r="11"/><circle cx="255" cy="75" r="11"/><circle cx="285" cy="75" r="11"/><circle cx="15" cy="105" r="11"/><circle cx="45" cy="105" r="11"/><circle cx="75" cy="105" r="11"/><circle cx="105" cy="105" r="11"/><circle cx="135" cy="105" r="11"/><circle cx="165" cy="105" r="11"/><circle cx="195" cy="105" r="11"/><circle cx="225" cy="105" r="11"/><circle cx="255" cy="105" r="11"/><circle cx="285" cy="105" r="11"/></svg><p>Fotó: borok a vinotékában</p></div>
+        <div class="panel p6"><svg class="vines" viewBox="0 0 600 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 18L600 12M0 34L600 28M0 50L600 44M0 66L600 60M0 82L600 76M0 12V92M40 12V92M80 12V92M120 12V92M160 12V92M200 12V92M240 12V92M280 12V92M320 12V92M360 12V92M400 12V92M440 12V92M480 12V92M520 12V92M560 12V92M600 12V92"/></svg><p>Fotó: szőlő és pincesor ősszel</p></div>
       </div>
     </div>
   </section>
 
-  <section id="kerdesek" class="sec sec-rule">
-    <div class="wrap two">
-      <div class="col-head">
-        <h2>Gyakori kérdések</h2>
-      </div>
+  <section id="kerdesek" class="faq-sec">
+    <div class="wrap faq-in">
+      <h2>Gyakori kérdések</h2>
       <div class="faq">
         <details>
           <summary>Hány vendéggel tarthatunk rendezvényt?</summary>
-          <p>A borospincében akár 100 vendég is asztalhoz ülhet. Kisebb ünnepre is szívesen készülünk, írják meg a várható létszámot.</p>
+          <p>A borospincében akár 100 vendég ülhet asztalhoz. Kisebb ünnepre is szívesen készülünk, írják meg a várható létszámot.</p>
         </details>
         <details>
           <summary>Megszállhatnak nálunk a vendégek is?</summary>
-          <p>Igen, a panzió kétágyas szobáiban. Nagyobb esküvőnél érdemes a szobákat már az ajánlatkéréskor jelezni.</p>
+          <p>Igen, a panzió kétágyas szobáiban. Nagyobb esküvőnél a szobákat érdemes már az ajánlatkéréskor jelezni.</p>
         </details>
         <details>
           <summary>Hozhatunk saját bort vagy tortát?</summary>
-          <p>A saját borainkat ajánljuk, a tortáról és egyéb kérésekről az ajánlatkéréskor egyeztetünk.</p>
+          <p>A saját borainkat ajánljuk. A tortáról és más kérésekről az ajánlatkéréskor egyeztetünk.</p>
         </details>
         <details>
           <summary>Mikor érdemes foglalni?</summary>
-          <p>Esküvőre legalább fél évvel előtte, a nyári és őszi hétvégékre még korábban. A városi fesztiválok idején szállást legalább 3 éjszakára lehet foglalni.</p>
+          <p>Esküvőre legalább fél évvel előtte, a nyári és őszi hétvégékre még korábban. A városi fesztiválok idején legalább 3 éjszakára lehet szállást foglalni.</p>
         </details>
         <details>
           <summary>Tartanak borkóstolót kisebb társaságnak?</summary>
@@ -211,21 +260,17 @@
     </div>
   </section>
 
-  <section id="kapcsolat" class="sec sec-paper">
-    <div class="wrap two">
-      <div class="col-head">
-        <h2>Kapcsolat</h2>
-        <p>Írják meg az alkalmat, a dátumot és a létszámot, és elküldjük az ajánlatot.</p>
-        <p><a class="btn" href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Ajánlatot kérek e-mailben</a></p>
+  <section id="kapcsolat" class="contact">
+    <div class="wrap">
+      <h2>Kapcsolat</h2>
+      <p class="contact-lede">Írják meg az alkalmat, a dátumot és a létszámot, és elküldjük az ajánlatot.</p>
+      <p class="big-tel"><a href="tel:+36309351285">+36 30 935 1285</a></p>
+      <div class="contact-grid">
+        <p><span class="k">Másik szám</span><a href="tel:+36303191071">+36 30 319 1071</a></p>
+        <p><span class="k">E-mail</span><a href="mailto:rozsnyaikuria@gmail.com">rozsnyaikuria@gmail.com</a></p>
+        <p><span class="k">Cím</span>3900 Szerencs, Alsópincesor u. 4.<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Szerencs%2C%20Als%C3%B3pincesor%20u.%204." rel="noopener">Megnyitás a térképen</a></p>
       </div>
-      <table class="facts">
-        <caption class="sr">Elérhetőségek</caption>
-        <tbody>
-          <tr><th scope="row">Telefon</th><td><a href="tel:+36309351285">+36 30 935 1285</a><br><a href="tel:+36303191071">+36 30 319 1071</a></td></tr>
-          <tr><th scope="row">E-mail</th><td><a href="mailto:rozsnyaikuria@gmail.com">rozsnyaikuria@gmail.com</a></td></tr>
-          <tr><th scope="row">Cím</th><td>3900 Szerencs, Alsópincesor u. 4.<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Szerencs%2C%20Als%C3%B3pincesor%20u.%204." rel="noopener">Megnyitás a térképen</a></td></tr>
-        </tbody>
-      </table>
+      <p><a class="btn" href="mailto:rozsnyaikuria@gmail.com?subject=Aj%C3%A1nlatk%C3%A9r%C3%A9s&amp;body=Alkalom%3A%20%0AD%C3%A1tum%3A%20%0AL%C3%A9tsz%C3%A1m%3A%20%0ASz%C3%A1ll%C3%A1s%20kell%3F%20%0A">Ajánlatot kérek e-mailben</a></p>
     </div>
   </section>
 

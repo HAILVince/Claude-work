@@ -40,10 +40,10 @@ Az elixirbiobolt.hu-t (Bemutatkozunk, Csapat oldalak) nem tudtuk megnyitni (http
 
 ## Helyőrzők
 
-- **Fotók:** bolt bejárata, gluténmentes polc, gyógyteák, 6 termékfotó. Vékony keretes
-  „Fotó: …” téglalapok, nincs stock fotó.
-- **Térkép:** keret + Google Térkép link a GPS-koordinátával; beágyazott térkép (külső kérés,
-  süti) szándékosan nincs.
+- **Fotók:** bolt polcai (most rajz), gluténmentes polc (sárga színmező), 6 termékfotó
+  (most csomag-rajzok). Nincs stock fotó.
+- **Térkép:** házszámtábla + Google Térkép link a GPS-koordinátával; beágyazott térkép (külső
+  kérés, süti) szándékosan nincs.
 
 ## Tőlük kell
 
@@ -64,15 +64,22 @@ Ft/l). Ugyanez be van égetve az `index.html`-be a `termekek:start/end` jelölő
 
 ## Dizájn
 
-A `DESIGN.md` alapján. A bolt tárgyaiból: az ajtóra kitett nyitvatartás-kártya (fehér lap,
-2px fekete keret, a mai nap félkövér), a polcok listája táblázatban, és a webáruház
-termékei polccímke-árcédulák: fehér címke, vékony fekete keret, felül a polc neve, nagy ár,
-alatta az egységár, ahogy a boltban kötelező. Papírszínű háttér (`#F3F1EB`), tinta
-(`#1D1F1C`), halványabb tinta (`#565B53`), második papírtónus (`#E6E2D7`). Egy kiemelőszín,
-a patikaüveg barna (`#7A3B10`), csak gombokon és linkeken. Nem zöld levél, nem öko-sablon.
-Egy betűcsalád: **Archivo** (változtatható, saját tárhelyen, a tisztitlak demóból).
-Minden sarok szögletes, a gombok 2px-esek. Nincs szemöldök-felirat, számozott kártya,
-ikon, átmenet, animáció.
+Második változat (szept. 28. este), a „krémszínű sablon” helyett cégtábla-hangulat.
+Mustársárga alap (`#F0B323`), mint egy zománcozott bolti cégtábla, fekete tinta (`#141414`),
+fehér a polccímkékhez, az ajtókártyához és a kapcsolat-sávhoz. Egy kiemelőszín, ökörvér-piros
+(`#971D12`), csak gombokon és linkeken. Egy betűcsalád: **Bricolage Grotesque** (változtatható,
+saját tárhelyen), a címek keskeny, extra vastag vágásban.
+
+- Első képernyő: óriási „Elixír Biobolt” felirat, mellette az ajtóra akasztott nyitvatartás-kártya
+  (fehér lap, vastag keret, kicsit ferdén, a mai nap fekete sávban), alatta a teljes szélességű
+  polc rajza befőttesüvegekkel, üvegekkel, teásdobozokkal, zacskókkal.
+- Polcok: fekete sáv, minden kategória egy „polcdeszka” (vastag fehér vonal) fölött.
+- „Ha valami nincs a polcon”: fehér cetli, ami átlóg a fekete sávból a sárgába.
+- Webáruház: minden termék egy rajzolt csomag a fekete polcon, alatta a polcra akasztott fehér
+  árcédula, nagy árral és egységárral. A rajzot a termék nevéből választja az `assets/packs.js`
+  (liszt → papírzacskó, tea → doboz, ital → dobozos, zsír/eritrit → üveg, egyéb → tasak).
+- Kapcsolat: nagy, piros telefonszám, és a cím házszámtábla-szerű fekete táblán.
+- Fotók helyén nincs szürke doboz: sárga színmező felirattal, illetve a csomag-rajzok.
 
 Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; egy betűcsalád; nincs dőlt
 vagy színes kiemelés a címekben; 320–1440 px között nincs vízszintes görgetés.
@@ -84,7 +91,7 @@ index.html            egyoldalas oldal; a termékek a termekek:start/end jelöl�
 arak.txt              webáruház-minta termékei (PÉLDA!)
 styles.css            tokenek, elrendezés, töréspontok
 script.js             termékbetöltő, minta-kosár, mai nap kiemelése
-assets/               fonts.css + fonts/, favicon.svg, price-parse.js
+assets/               fonts.css + fonts/, favicon.svg, price-parse.js, packs.js (csomag-rajzok)
 tools/bake.mjs        arak.txt beégetése az index.html-be
 tools/shoot.mjs       munkaképek ellenőrzéshez (BASE_URL), nem kerülnek a repóba
 tools/deliver.mjs     átadási képek: screenshots/elixir-biobolt-{desktop,mobile}.png;

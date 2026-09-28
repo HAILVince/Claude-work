@@ -53,9 +53,9 @@ hálózat nem engedte), így ebből nem dolgoztunk.
 ## Helyőrzők
 
 - **Fotók:** az épület a park felől (nyitókép), egy lakosztály, a park, és a Képek
-  szakaszban a kert, a kápolna, az étkező, egy foglalkozás, a bejárat. Mind vékony keretes
-  „Fotó: …” téglalap, nincs stock fotó.
-- **Térkép:** keret; mellette Google Térkép link a címre. Beágyazott térkép nincs.
+  szakaszban a kert, a kápolna, az étkező, egy foglalkozás, a bejárat. A nyitóképen SVG-rajz,
+  a többi zöld/barna színmező „Fotó: …” felirattal, nincs stock fotó.
+- **Térkép:** nincs keret, csak Google Térkép gomb a címre. Beágyazott térkép nincs.
 
 ## Tőlük kell
 
@@ -77,22 +77,23 @@ Hibás fájlnál a beégetett lista marad.
 
 ## Dizájn
 
-A `DESIGN.md` alapján. Úgy néz ki, mint egy otthon nyomtatott tájékoztatója vagy egy
-plébániai hirdetmény: meleg papírszín (`#F7F5F0`), sötét tinta (`#1E1C1A`), halványabb
-tinta (`#4C4843`), második papírtónus a hívódobozhoz, fotóhelyekhez, kapcsolathoz
-(`#ECE8DF`). Egyetlen kiemelőszín a ferences csuha barnája (`#6A3F1F`, 9:1 kontraszt),
-csak gombokon és linkeken. Két betűcsalád, saját tárhelyen: **Newsreader** 500 a címekhez,
-**Lato** 400/700 a szöveghez. Az alap betűméret 19 px, 1.65 sorköz, az idősebb olvasók miatt.
-Vallási díszítés, ikon, szemöldök-felirat, kártyasor, animáció nincs. Minden sarok
-szögletes, a gombok 2 px-esek.
+A `DESIGN.md` alapján (a „Personality” résszel), 2026. szept. 28-án újrarajzolva; a krém
+papírszínű első változatot Vince elvetette. Ötlet: **a ház a parkban.** A nyitó blokk teljes
+szélességű kertzöld (`#1D3A2A`) mező, rajta hatalmas címmel az otthon neve, mellette a két
+telefonszám nagy betűvel, alatta egy fehér vonalas SVG-rajz: a hosszú kétszintes ház
+kápolnaszárnnyal, sövénnyel, két nagy fával és egy paddal (kereszt és clip-art nélkül).
+A rajz a saját fotó megérkezéséig marad.
 
-Szerkezet: nyitó blokk egy „Helyet keres egy hozzátartozójának?” hívódobozzal (két nagy
-telefonszám), majd Az otthon (szobatáblázat), Ellátás, Felvétel (sima számozott lista),
-Térítési díj, Látogatás, A nővérek és az otthon (évszámos táblázat), Kérdések, Képek,
-Kapcsolat. A telefonszám a ragadós fejlécben mindig egy koppintásra van.
+Színek: kertzöld és ferences barna (`#4B2E1D`) teljes szélességű sávok fehérrel váltakozva,
+tinta (`#15201A`). Egyetlen kiemelőszín, a hársvirág-sárga (`#F2C230`), csak gombokon és a
+linkek aláhúzásán. Betűk, saját tárhelyen: **DM Serif Display** 400 a címekhez és a nagy
+számokhoz, **Atkinson Hyperlegible** 400/700 a szöveghez (gyengénlátóknak tervezett betű),
+19–20 px alapméret. Nagy számok csak ott, ahol valósak: 46 hely, 80% (a jövedelemből
+fizethető legnagyobb rész), évszámok. A fotóhelyek zöld/barna/tinta színmezők felirattal.
+Aszimmetrikus rácsok, ragadó bal oldali oszlop (46, Felvétel, 80%), egymásba lógó fotómezők.
 
 Ellenőrizve: `grep border-radius styles.css` csak `0` és `2px`; két betűcsalád; nincs dőlt
-vagy színes kiemelés a címekben; 320–1440 px között nincs vízszintes görgetés.
+vagy színes kiemelés a címekben; 360 és 1440 px-en nincs vízszintes görgetés.
 
 ## Fájlok
 

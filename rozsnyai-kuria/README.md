@@ -62,8 +62,8 @@ Ellentmondások:
 ## Helyőrzők
 
 - **Fotók:** a kúria a pincesor felől, terített asztal a pincében, esküvői vacsora a teraszon,
-  a pince boltívei, kétágyas szoba, dézsafürdő, borok a vinotékában, szőlő és pincesor ősszel.
-  Mind sima, szögletes, vékony keretes téglalap rövid felirattal („Fotó: …”).
+  kétágyas szoba, dézsafürdő, borok a vinotékában, szőlő és pincesor ősszel.
+  Színes, szögletes panelek rövid felirattal („Fotó: …”).
   Nincs stock fotó, nincs külső kép.
 - **Térkép:** csak cím, Google Maps keresőlinkkel; beágyazott térkép nincs.
 
@@ -85,15 +85,19 @@ Hibás fájlnál a beégetett lista marad.
 
 ## Dizájn
 
-A `DESIGN.md` szerint, úgy szedve, mint egy nyomtatott borlap vagy étlap. Egyetlen betűcsalád:
-Spectral (400 szöveg, 600 címek), saját tárhelyen (`assets/fonts.css`, az ugyved-nagy-levente
-demóból átvéve). Színek: papír (`#F7F2EA`), második papírtónus az árlapnak és a kapcsolatnak
-(`#EEE6D8`), tinta (`#2B2022`), halvány tinta (`#5E5250`), hajszálvonal (`#CDBFAE`), és egyetlen
-kiemelőszín, a borvörös (`#7A2130`), csak gombokon és linkeken. Szögletes sarkok (gomb 2px),
-nincs árnyék, átmenet, dísz, animáció. Az árlista borlap-szedésű: csoportcím alatt tintavonal,
-tétel, pontozott vezetővonal, ár jobbra (telefonon a vezetővonal elmarad). A rendezvények
-kifejezés–leírás listában, a szállás és a kapcsolat kétoszlopos táblázatban állnak, 1px vonalakkal.
-Mobilon a fejlécben „Hívás” gomb van, a telefonszám egy koppintás.
+Éjszakai pince. Mély padlizsánszínű alap (`#1A0F16`), mészkőszínű szöveg (`#E9E2D6`, halványan
+`#BCAFB6`), egy világosabb padlizsán sáv (`#3A1A30`) a pincének, a fotóhelyeknek és a kapcsolatnak,
+hajszálvonal `#5E4256`. Egyetlen kiemelőszín, az aszú borostyánja (`#E6A93A`), csak gombokon és
+linkeken. Két betűcsalád, saját tárhelyen (`assets/fonts.css`): Bodoni Moda (változó, címek és árak,
+plakátméretben) és Archivo Narrow (szöveg, menü, gombok).
+
+Az első képernyőn óriási „Rozsnyai Kúria” felirat és egy megrajzolt tokaji palack (SVG) a kúria
+címkéjével; telefonon a palack fekszik, ahogy a pincében. A pince részben egy 100 méteres
+méterskálás metszetrajz (hordók, hosszú asztal) és a jelmondat nagy betűvel. A rendezvények nagy
+szedésű listában, az árak borlapként (csoportcím vastag vonallal, ár Bodoniban jobbra), a szállásnál
+az érkezés/távozás nagy számokkal. Fotók helyén színes, szögletes panelek felirattal (a vinotékánál
+palackfenék-rács, a szőlőnél sorok rajza). Szögletes sarkok (gomb 2px), nincs árnyék, átmenet,
+animáció. Mobilon fejléc-„Hívás” gomb, a kapcsolatnál óriási, koppintható telefonszám.
 
 ## Fájlok
 

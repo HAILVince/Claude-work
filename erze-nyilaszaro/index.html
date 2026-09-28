@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ERZÉ Nyílászáró Kft. — műanyag ablak, ajtó, garázskapu Szolnokon</title>
 <meta name="description" content="Műanyag ablakok és ajtók Kömmerling profilból, garázskapuk, bejárati és beltéri ajtók Szolnokon és környékén. Ingyenes felmérés, beépítés, káva helyreállítása. Tel.: +36 20 557 7031.">
-<meta name="theme-color" content="#FFFFFF">
+<meta name="theme-color" content="#0E2238">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/schibsted-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
@@ -38,9 +39,9 @@
   <div class="wrap hdr-in">
     <a class="brand" href="#top">ERZÉ Nyílászáró</a>
     <nav class="nav" aria-label="Fő menü">
+      <a href="#csere">Ablakcsere</a>
       <a href="#ablakok">Ablakok, ajtók</a>
       <a href="#garazskapuk">Garázskapuk</a>
-      <a href="#csere">Ablakcsere</a>
       <a href="#arak">Árak</a>
       <a href="#felmeres">Felmérés</a>
       <a href="#kapcsolat">Kapcsolat</a>
@@ -51,93 +52,243 @@
 
 <main id="fo">
 
-  <section class="top">
-    <div class="wrap top-in">
-      <div class="top-txt">
-        <h1>Műanyag ablak, ajtó és garázskapu Szolnokon</h1>
-        <p class="lede">Felmérjük, legyártatjuk, beépítjük, és a kávát is rendbe tesszük utána.</p>
-        <p>Családi vállalkozás, 25 éve dolgozunk nyílászárókkal. Kömmerling profilú műanyag ablakok, bejárati és beltéri ajtók, biztonsági ajtók, szekcionált és billenő garázskapuk. Szolnokon és a vármegyében, de távolabbra is elmegyünk.</p>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-txt">
+        <h1>Műanyag ablak, ajtó, garázskapu Szolnokon</h1>
+        <p class="lede">Felmérjük, legyártatjuk, beépítjük, és a falkávát is helyreállítjuk. Kömmerling profil, 25 éves családi vállalkozás.</p>
         <div class="calls">
           <a class="call" href="tel:+36205577031">06 20 557 7031</a>
           <a class="call" href="tel:+36301175770">06 30 117 5770</a>
         </div>
-        <p class="who">Farkas Zoltán · hétköznap 9 és 16 óra között</p>
-        <p class="btns"><a class="btn btn-line" href="#felmeres">Felmérést kérek</a></p>
+        <p class="who">Farkas Zoltán, hétfőtől péntekig 9 és 16 óra között.</p>
+        <p class="btns"><a class="btn" href="#felmeres">Felmérést kérek</a></p>
       </div>
-      <figure class="ph ph-top"><figcaption>Fotó: frissen beépített ablak egy szolnoki családi házon</figcaption></figure>
+
+      <figure class="hero-fig">
+        <svg class="profile" viewBox="0 0 600 800" role="img" aria-labelledby="prof-t">
+          <title id="prof-t">Műanyag ablak metszete: tok, szárny, háromrétegű üvegezés, acél merevítés, tömítések, párkányok</title>
+          <defs>
+            <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+              <line x1="0" y1="0" x2="0" y2="14" class="hl"/>
+            </pattern>
+          </defs>
+
+          <!-- wall below the window -->
+          <rect x="112" y="668" width="306" height="56" fill="url(#hatch)" class="wall"/>
+          <!-- sills -->
+          <path class="o" d="M160 652 L52 676 V686 L160 664 Z"/>
+          <rect class="o" x="388" y="640" width="150" height="18"/>
+
+          <!-- glass: three panes, running off the top -->
+          <rect class="gl" x="206" y="-4" width="8" height="326"/>
+          <rect class="gl" x="252" y="-4" width="8" height="326"/>
+          <rect class="gl" x="298" y="-4" width="8" height="326"/>
+          <rect class="t" x="214" y="288" width="38" height="30"/>
+          <rect class="t" x="260" y="288" width="38" height="30"/>
+          <rect class="solid" x="204" y="322" width="104" height="8"/>
+
+          <!-- sash (szárny) -->
+          <path class="o" d="M184 262 H200 V330 H396 V500 H306 V476 H206 V436 H184 Z"/>
+          <rect class="t" x="210" y="340" width="54" height="128"/>
+          <rect class="t" x="272" y="340" width="28" height="128"/>
+          <path class="st" d="M277 350 V458 H295 V350"/>
+          <rect class="t" x="308" y="340" width="80" height="64"/>
+          <rect class="t" x="308" y="412" width="80" height="80"/>
+
+          <!-- glazing bead + gaskets -->
+          <path class="o" d="M310 262 H338 L352 280 V330 H310 Z"/>
+          <rect class="solid" x="200" y="262" width="6" height="16"/>
+          <rect class="solid" x="306" y="262" width="4" height="16"/>
+          <rect class="solid" x="190" y="436" width="10" height="6"/>
+          <rect class="solid" x="380" y="500" width="10" height="6"/>
+
+          <!-- frame (tok) -->
+          <path class="o" d="M160 652 H388 V506 H302 V482 H200 V442 H160 Z"/>
+          <rect class="t" x="168" y="450" width="24" height="194"/>
+          <rect class="t" x="208" y="490" width="50" height="104"/>
+          <rect class="t" x="208" y="602" width="50" height="42"/>
+          <rect class="t" x="266" y="514" width="62" height="130"/>
+          <path class="st" d="M273 522 V636 H321 V522"/>
+          <rect class="t" x="336" y="514" width="44" height="130"/>
+
+          <!-- dimension: glazing -->
+          <path class="d" d="M206 236 H306 M206 226 V246 M306 226 V246 M206 236 H190"/>
+          <text class="lbl" x="184" y="242" text-anchor="end">üvegezés</text>
+          <!-- dimension: frame depth -->
+          <path class="d" d="M160 664 V752 M388 664 V752 M160 744 H388 M154 750 L166 738 M382 750 L394 738"/>
+          <text class="lbl lbl-bg" x="274" y="784" text-anchor="middle">beépítési mélység</text>
+
+          <!-- leaders -->
+          <path class="d" d="M346 300 L420 300"/><text class="lbl" x="428" y="306">üvegléc</text>
+          <path class="d" d="M390 372 L420 372"/><text class="lbl" x="428" y="378">szárny</text>
+          <path class="d" d="M296 440 L420 440"/><text class="lbl" x="428" y="446">acél merevítés</text>
+          <path class="d" d="M388 504 L420 520"/><text class="lbl" x="428" y="526">tömítés</text>
+          <path class="d" d="M388 580 L420 580"/><text class="lbl" x="428" y="586">tok</text>
+          <path class="d" d="M500 658 L500 682"/><text class="lbl" x="428" y="704">belső párkány</text>
+          <path class="d" d="M90 670 L90 684"/><text class="lbl" x="24" y="704">külső</text><text class="lbl" x="24" y="726">párkány</text>
+          <path class="d" d="M210 120 L130 120"/><text class="lbl" x="122" y="126" text-anchor="end">üveg</text>
+
+          <text class="side" x="30" y="60">kint</text>
+          <text class="side" x="570" y="60" text-anchor="end">bent</text>
+        </svg>
+        <figcaption>Egy bukó-nyíló ablak alsó része metszetben</figcaption>
+      </figure>
     </div>
   </section>
 
-  <section class="facts" aria-label="Röviden">
+  <section id="csere" class="sec chain-sec">
     <div class="wrap">
-      <dl class="facts-in">
-        <div><dt>Felmérés</dt><dd>díjtalan, a helyszínen</dd></div>
-        <div><dt>Gyártás</dt><dd>3–6 hét a megrendeléstől</dd></div>
-        <div><dt>Beépítés</dt><dd>egy ablak legfeljebb 2 óra, egy ház 1–2 nap</dd></div>
-        <div><dt>Fizetés</dt><dd>a hátralék a beépítés után</dd></div>
-      </dl>
-    </div>
-  </section>
-
-  <section id="ablakok" class="sec">
-    <div class="wrap row">
-      <h2>Ablakok és ajtók</h2>
-      <div class="body">
-        <p>Műanyag ablakaink és ajtóink Kömmerling profilból készülnek. Ha fa vagy alumínium kell, azt is intézzük.</p>
-        <table class="tbl prod">
-          <thead><tr><th scope="col">Termék</th><th scope="col">Amit kínálunk</th></tr></thead>
-          <tbody>
-            <tr><th scope="row">Műanyag ablak</th><td>bukó-nyíló, fix, tetszőleges osztással, fehér vagy fóliázott</td></tr>
-            <tr><th scope="row">Erkélyajtó</th><td>nyíló, bukó-toló és emelő-toló kivitelben</td></tr>
-            <tr><th scope="row">Bejárati ajtó</th><td>műanyag ajtó PVC vagy HPL panellel (Bravotherm), Erkado ajtók</td></tr>
-            <tr><th scope="row">Fa és alumínium</th><td>fa nyílászárók, alumínium ajtó és ablak családi házba, lépcsőházba</td></tr>
-            <tr><th scope="row">Tetőtéri ablak</th><td>csere és új beépítés</td></tr>
-            <tr><th scope="row">Biztonsági acélajtó</th><td>HiSec ajtók lakásba, családi házba</td></tr>
-            <tr><th scope="row">Beltéri ajtó</th><td>Erkado, Borovi, Standardoor, CPL ajtók</td></tr>
-            <tr><th scope="row">Árnyékolás</th><td>redőny (műanyag, alumínium, motoros), szúnyogháló, pergola</td></tr>
-          </tbody>
-        </table>
-        <div class="ph-pair">
-          <figure class="ph"><figcaption>Fotó: bukó-nyíló ablak belülről</figcaption></figure>
-          <figure class="ph"><figcaption>Fotó: beépített bejárati ajtó</figcaption></figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="garazskapuk" class="sec">
-    <div class="wrap row">
-      <h2>Garázskapuk</h2>
-      <div class="body">
-        <p>Hörmann, CDC és Eurodoor garázskapuk, kézi vagy motoros nyitással. Megnézzük a garázst, és megmondjuk, melyik fér be és melyik éri meg.</p>
-        <dl class="rules kinds">
-          <div><dt>Szekcionált</dt><dd>Függőlegesen nyílik, és a mennyezet alatt áll meg, így a kapu előtt és a garázsban sem vesz el helyet. A panelek 40 mm poliuretán hőszigeteléssel, 0,5 mm acél burkolattal készülnek.</dd></div>
-          <div><dt>Billenő</dt><dd>Egyszerű, olcsóbb megoldás, utólag motorizálható.</dd></div>
-          <div><dt>Kétszárnyas</dt><dd>Kifelé nyíló szárnyak, ahol nincs hely a mennyezet alatt.</dd></div>
-          <div><dt>Redőnykapu</dt><dd>A lamellák a kapu fölötti tokba tekerednek fel, ezért alacsony, szűk garázsba is jó.</dd></div>
-        </dl>
-        <figure class="ph ph-wide"><figcaption>Fotó: szekcionált garázskapu családi háznál</figcaption></figure>
-      </div>
-    </div>
-  </section>
-
-  <section id="csere" class="sec">
-    <div class="wrap row">
       <h2>Így megy egy ablakcsere</h2>
-      <div class="body">
-        <ol class="steps">
-          <li><h3>Felmérés</h3><p>Kimegyünk, lemérjük a pontos gyártási méreteket, és megbeszéljük, mi legyen.</p></li>
-          <li><h3>Ajánlat és gyártás</h3><p>Ha elfogadja az ajánlatot, indul a gyártás. A beépítés 3–6 héten belül kezdődhet.</p></li>
-          <li><h3>Előkészítés</h3><p>A bútorokat érdemes letakarni, a padlót kartonnal leteríteni.</p></li>
-          <li><h3>Bontás és beépítés</h3><p>Kibontjuk a régit, beépítjük az újat, és helyreállítjuk a falkávát.</p></li>
-          <li><h3>Fizetés, elszállítás</h3><p>A hátralékot a munka után kell kifizetni. A régi ablakokat megbeszélés szerint elvisszük.</p></li>
-        </ol>
-        <p class="small">Mehet szobánként is, vagy egyszerre az egész ház. Télen is cserélünk ablakot: egy nyílás legfeljebb két órán át van nyitva.</p>
+      <ol class="chain">
+        <li>
+          <span class="dim">egy kiszállás</span>
+          <h3>Felmérés</h3>
+          <p>Kimegyünk, lemérjük a gyártási méreteket, megbeszéljük, mi legyen.</p>
+        </li>
+        <li>
+          <span class="dim">3–6 hét</span>
+          <h3>Ajánlat, gyártás</h3>
+          <p>Ha elfogadja az ajánlatot, indul a gyártás. A beépítés a megrendeléstől 3–6 héten belül kezdődhet.</p>
+        </li>
+        <li>
+          <span class="dim">1–2 nap egy ház</span>
+          <h3>Bontás, beépítés</h3>
+          <p>Kibontjuk a régit, beépítjük az újat, helyreállítjuk a falkávát. Egy ablak legfeljebb 2 óra.</p>
+        </li>
+        <li>
+          <span class="dim">a végén</span>
+          <h3>Fizetés</h3>
+          <p>A hátralékot a beépítés után kell kifizetni. A régi ablakot megbeszélés szerint elvisszük.</p>
+        </li>
+      </ol>
+      <p class="chain-note">Előtte érdemes a bútorokat letakarni. Mehet szobánként vagy egyszerre az egész ház. Télen is cserélünk: egyszerre csak egy nyílás van nyitva, legfeljebb két órán át.</p>
+    </div>
+  </section>
+
+  <section id="ablakok" class="sec prod-sec">
+    <div class="wrap prod">
+      <div class="prod-head">
+        <h2>Ablakok és ajtók</h2>
+        <p>A műanyag ablakok és ajtók Kömmerling profilból készülnek. Ha fa vagy alumínium kell, azt is intézzük.</p>
+      </div>
+
+      <div class="elev" aria-label="Nézetrajzok azonos léptékben">
+        <figure style="--cw:90;--ch:120">
+          <svg viewBox="0 0 90 120" role="img" aria-label="Bukó-nyíló ablak nézetben">
+            <rect class="o" x="1" y="1" width="88" height="118"/>
+            <rect class="o" x="7" y="7" width="76" height="106"/>
+            <path class="dash" d="M83 7 L7 60 L83 113 M7 7 L45 113 L83 7"/>
+          </svg>
+          <figcaption>Bukó-nyíló ablak</figcaption>
+        </figure>
+        <figure style="--cw:90;--ch:210">
+          <svg viewBox="0 0 90 210" role="img" aria-label="Erkélyajtó nézetben">
+            <rect class="o" x="1" y="1" width="88" height="208"/>
+            <rect class="o" x="7" y="7" width="76" height="196"/>
+            <path class="dash" d="M83 7 L7 105 L83 203 M7 7 L45 203 L83 7"/>
+          </svg>
+          <figcaption>Erkélyajtó</figcaption>
+        </figure>
+        <figure style="--cw:100;--ch:210">
+          <svg viewBox="0 0 100 210" role="img" aria-label="Bejárati ajtó nézetben">
+            <rect class="o" x="1" y="1" width="98" height="208"/>
+            <rect class="o" x="8" y="8" width="84" height="201"/>
+            <rect class="o" x="22" y="26" width="56" height="70"/>
+            <path class="o" d="M80 112 H70"/>
+            <path class="dash" d="M92 8 L8 108 L92 209"/>
+          </svg>
+          <figcaption>Bejárati ajtó</figcaption>
+        </figure>
+        <figure style="--cw:300;--ch:210">
+          <svg viewBox="0 0 300 210" role="img" aria-label="Emelő-toló erkélyajtó nézetben">
+            <rect class="o" x="1" y="1" width="298" height="208"/>
+            <rect class="o" x="7" y="7" width="143" height="196"/>
+            <rect class="o" x="150" y="7" width="143" height="196"/>
+            <path class="o" d="M80 105 H40 M40 105 L50 99 M40 105 L50 111"/>
+          </svg>
+          <figcaption>Emelő-toló erkélyajtó</figcaption>
+        </figure>
+      </div>
+
+      <table class="tbl prod-t">
+        <caption class="vh">Termékek</caption>
+        <tbody>
+          <tr><th scope="row">Műanyag ablak</th><td>bukó-nyíló, fix, tetszőleges osztással, fehér vagy fóliázott</td></tr>
+          <tr><th scope="row">Erkélyajtó</th><td>nyíló, bukó-toló és emelő-toló</td></tr>
+          <tr><th scope="row">Bejárati ajtó</th><td>műanyag, PVC vagy HPL panellel (Bravotherm), Erkado ajtók</td></tr>
+          <tr><th scope="row">Fa és alumínium</th><td>fa nyílászárók, alumínium ajtó és ablak családi házba, lépcsőházba</td></tr>
+          <tr><th scope="row">Tetőtéri ablak</th><td>csere és új beépítés</td></tr>
+          <tr><th scope="row">Biztonsági acélajtó</th><td>HiSec ajtók lakásba, családi házba</td></tr>
+          <tr><th scope="row">Beltéri ajtó</th><td>Erkado, Borovi, Standardoor, CPL</td></tr>
+          <tr><th scope="row">Árnyékolás</th><td>redőny (műanyag, alumínium, motoros), szúnyogháló, pergola</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="garazskapuk" class="sec gar-sec">
+    <div class="wrap">
+      <div class="gar-head">
+        <h2>Garázskapuk</h2>
+        <p>Hörmann, CDC és Eurodoor kapuk, kézi vagy motoros nyitással. Megnézzük a garázst, és megmondjuk, melyik fér be és melyik éri meg.</p>
+      </div>
+      <div class="gar">
+        <figure>
+          <svg viewBox="0 0 280 230" role="img" aria-label="Szekcionált garázskapu nézetben, a mennyezet alá nyíló sínnel">
+            <path class="dash" d="M40 30 V14 H270"/>
+            <rect class="o" x="40" y="30" width="200" height="170"/>
+            <path class="o" d="M40 72 H240 M40 115 H240 M40 157 H240"/>
+            <path class="t" d="M40 51 H240 M40 94 H240 M40 136 H240 M40 179 H240"/>
+            <path class="g" d="M0 200 H280"/>
+          </svg>
+          <figcaption>
+            <h3>Szekcionált</h3>
+            <p>Felfelé nyílik, és a mennyezet alatt áll meg, így sem a kapu előtt, sem a garázsban nem vesz el helyet. 40 mm poliuretán hőszigetelés, 0,5 mm acél burkolat.</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 280 230" role="img" aria-label="Billenő garázskapu nézetben">
+            <rect class="o" x="40" y="30" width="200" height="170"/>
+            <rect class="o" x="48" y="38" width="184" height="162"/>
+            <path class="t" d="M71 38 V200 M94 38 V200 M117 38 V200 M140 38 V200 M163 38 V200 M186 38 V200 M209 38 V200"/>
+            <path class="dash" d="M48 200 L140 38 L232 200"/>
+            <path class="g" d="M0 200 H280"/>
+          </svg>
+          <figcaption>
+            <h3>Billenő</h3>
+            <p>Egyszerű, olcsóbb megoldás, utólag motorizálható.</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 280 230" role="img" aria-label="Kétszárnyas garázskapu nézetben">
+            <rect class="o" x="40" y="30" width="200" height="170"/>
+            <path class="o" d="M140 30 V200"/>
+            <path class="dash" d="M140 30 L40 115 L140 200 M140 30 L240 115 L140 200"/>
+            <path class="g" d="M0 200 H280"/>
+          </svg>
+          <figcaption>
+            <h3>Kétszárnyas</h3>
+            <p>Kifelé nyíló szárnyak, ahol nincs hely a mennyezet alatt.</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 280 230" role="img" aria-label="Redőnykapu nézetben, fölötte a tokkal">
+            <rect class="o" x="34" y="10" width="212" height="26"/>
+            <rect class="o" x="40" y="36" width="200" height="164"/>
+            <path class="t" d="M40 46 H240 M40 56 H240 M40 66 H240 M40 76 H240 M40 86 H240 M40 96 H240 M40 106 H240 M40 116 H240 M40 126 H240 M40 136 H240 M40 146 H240 M40 156 H240 M40 166 H240 M40 176 H240 M40 186 H240"/>
+            <path class="g" d="M0 200 H280"/>
+          </svg>
+          <figcaption>
+            <h3>Redőnykapu</h3>
+            <p>A lamellák a kapu fölötti tokba tekerednek fel, ezért alacsony, szűk garázsba is jó.</p>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </section>
 
-  <section id="arak" class="sec">
+  <section id="arak" class="sec sheet">
     <div class="wrap row">
       <h2>Árak</h2>
       <div class="body">
@@ -177,24 +328,29 @@
         </div>
       </div>
       <!-- arak:end -->
-      <p class="ar-foot">A pontos ár a méretektől, az üvegtől és a színtől függ. Hívjon, és a felmérés után írásban küldjük: <a href="tel:+36205577031">06 20 557 7031</a></p>
+      <div class="ar-foot">
+        <p>A pontos ár a méretektől, az üvegtől és a színtől függ. A felmérés után írásban küldjük.</p>
+        <a class="btn" href="tel:+36205577031">Hívás: 06 20 557 7031</a>
+      </div>
       </div>
     </div>
   </section>
 
-  <section id="felmeres" class="sec sec-form">
-    <div class="wrap row">
-      <h2>Felmérést kérek</h2>
-      <div class="body">
-        <p>Írja meg, hol és mit kellene cserélni, és visszahívjuk időpontot egyeztetni. Gyorsabb, ha telefonál: <a href="tel:+36205577031">06 20 557 7031</a>.</p>
+  <section id="felmeres" class="sec ask-sec">
+    <div class="wrap ask">
+      <div class="ask-form">
+        <h2>Felmérést kérek</h2>
+        <p>Írja meg, hol és mit kellene cserélni, és visszahívjuk időpontot egyeztetni. Telefonon gyorsabb: <a href="tel:+36205577031">06 20 557 7031</a>.</p>
         <form class="form" id="kerdes" action="mailto:erzekft@gmail.com" method="post" enctype="text/plain">
-          <div class="f-row">
-            <label for="f-nev">Név</label>
-            <input id="f-nev" name="nev" type="text" autocomplete="name" required>
-          </div>
-          <div class="f-row">
-            <label for="f-tel">Telefonszám</label>
-            <input id="f-tel" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required>
+          <div class="f-2">
+            <div class="f-row">
+              <label for="f-nev">Név</label>
+              <input id="f-nev" name="nev" type="text" autocomplete="name" required>
+            </div>
+            <div class="f-row">
+              <label for="f-tel">Telefonszám</label>
+              <input id="f-tel" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required>
+            </div>
           </div>
           <div class="f-row">
             <label for="f-hely">Település</label>
@@ -202,39 +358,37 @@
           </div>
           <fieldset class="f-row">
             <legend>Mire kér ajánlatot?</legend>
-            <label class="chk"><input type="checkbox" name="mit" value="ablak"> Ablak</label>
-            <label class="chk"><input type="checkbox" name="mit" value="bejárati ajtó"> Bejárati ajtó</label>
-            <label class="chk"><input type="checkbox" name="mit" value="erkélyajtó"> Erkélyajtó</label>
-            <label class="chk"><input type="checkbox" name="mit" value="garázskapu"> Garázskapu</label>
-            <label class="chk"><input type="checkbox" name="mit" value="beltéri ajtó"> Beltéri ajtó</label>
-            <label class="chk"><input type="checkbox" name="mit" value="redőny, szúnyogháló"> Redőny, szúnyogháló</label>
+            <div class="chks">
+              <label class="chk"><input type="checkbox" name="mit" value="ablak"> Ablak</label>
+              <label class="chk"><input type="checkbox" name="mit" value="bejárati ajtó"> Bejárati ajtó</label>
+              <label class="chk"><input type="checkbox" name="mit" value="erkélyajtó"> Erkélyajtó</label>
+              <label class="chk"><input type="checkbox" name="mit" value="garázskapu"> Garázskapu</label>
+              <label class="chk"><input type="checkbox" name="mit" value="beltéri ajtó"> Beltéri ajtó</label>
+              <label class="chk"><input type="checkbox" name="mit" value="redőny, szúnyogháló"> Redőny, szúnyogháló</label>
+            </div>
           </fieldset>
           <div class="f-row">
             <label for="f-msg">Megjegyzés</label>
             <textarea id="f-msg" name="uzenet" rows="4" placeholder="pl. 6 ablak és egy erkélyajtó, régi fa ablakok helyére"></textarea>
           </div>
           <p class="btns"><button class="btn" type="submit">Felmérést kérek</button></p>
-          <p class="small form-note">A gomb megnyitja a levelezőjét a kitöltött üzenettel, amit az erzekft@gmail.com címre küld el.</p>
+          <p class="small">A gomb megnyitja a levelezőjét a kitöltött üzenettel, amit az erzekft@gmail.com címre küld el.</p>
         </form>
       </div>
-    </div>
-  </section>
 
-  <section id="kerdesek" class="sec">
-    <div class="wrap row">
-      <h2>Kérdések</h2>
-      <div class="body faq">
+      <div class="faq">
+        <h2>Kérdések</h2>
         <details>
           <summary>Télen is lehet ablakot cserélni?</summary>
           <p>Igen, ez tévhit. Egy ablak cseréje legfeljebb két óra, közben csak az az egy nyílás van nyitva. Szobánként haladunk, a többi helyiség fűtve marad.</p>
         </details>
         <details>
           <summary>Mennyibe kerül a felmérés?</summary>
-          <p>Szolnokon és a környéken díjtalan. Távolabbi településre is elmegyünk, ezt telefonon egyeztetjük.</p>
+          <p>Szolnokon és környékén díjtalan. Távolabbi településre is elmegyünk, ezt telefonon egyeztetjük.</p>
         </details>
         <details>
           <summary>Mennyi idő, amíg kész?</summary>
-          <p>A megrendeléstől számítva 3–6 hét a gyártás. Maga a beépítés egy családi háznál 1–2 nap.</p>
+          <p>A megrendeléstől 3–6 hét a gyártás. A beépítés egy családi háznál 1–2 nap.</p>
         </details>
         <details>
           <summary>Mi lesz a fallal az ablak körül?</summary>
@@ -242,7 +396,7 @@
         </details>
         <details>
           <summary>Mikor kell fizetni?</summary>
-          <p>A hátralékot a beépítés befejezése után. Az előleg összegét az ajánlatban írjuk meg.</p>
+          <p>A hátralékot a beépítés után. Az előleg összegét az ajánlatban írjuk meg.</p>
         </details>
         <details>
           <summary>Honnan fogadnak megrendelést?</summary>
@@ -252,35 +406,35 @@
     </div>
   </section>
 
-  <section id="munkak" class="sec">
-    <div class="wrap row">
+  <section id="munkak" class="sec work-sec">
+    <div class="wrap">
       <h2>Munkáink</h2>
-      <div class="body gal">
-        <figure class="ph g-wide"><figcaption>Fotó: teljes ablakcsere egy családi házon, előtte és utána</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: fóliázott ablak</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: emelő-toló erkélyajtó</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: helyreállított káva</figcaption></figure>
-        <figure class="ph"><figcaption>Fotó: garázskapu motorral</figcaption></figure>
+      <div class="gal">
+        <figure class="ph ph-a"><figcaption>Fotó: teljes ablakcsere egy családi házon, előtte és utána</figcaption></figure>
+        <figure class="ph ph-b"><figcaption>Fotó: fóliázott ablak</figcaption></figure>
+        <figure class="ph ph-c"><figcaption>Fotó: emelő-toló erkélyajtó</figcaption></figure>
+        <figure class="ph ph-d"><figcaption>Fotó: helyreállított káva</figcaption></figure>
+        <figure class="ph ph-e"><figcaption>Fotó: garázskapu motorral</figcaption></figure>
       </div>
     </div>
   </section>
 
-  <section id="kapcsolat" class="sec sec-contact">
-    <div class="wrap row">
+  <section id="kapcsolat" class="sec contact-sec">
+    <div class="wrap contact">
       <h2>Kapcsolat</h2>
-      <div class="body contact">
-        <div>
-          <p class="phone"><a href="tel:+36205577031">06 20 557 7031</a></p>
-          <p class="phone"><a href="tel:+36301175770">06 30 117 5770</a></p>
-          <p>Farkas Zoltán</p>
-          <dl class="rules">
-            <div><dt>E-mail</dt><dd><a href="mailto:erzekft@gmail.com">erzekft@gmail.com</a></dd></div>
-            <div><dt>Iroda</dt><dd>5000 Szolnok, Baross utca 45. mfsz. 22.</dd></div>
-            <div><dt>Nyitva</dt><dd>hétfő–péntek 9:00–16:00</dd></div>
-          </dl>
-          <p class="btns"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Szolnok%2C%20Baross%20utca%2045" rel="noopener">Útvonal térképen</a></p>
-        </div>
-        <figure class="ph ph-map"><figcaption>Térkép: Szolnok, Baross utca 45.</figcaption></figure>
+      <div class="c-tel">
+        <a class="call" href="tel:+36205577031">06 20 557 7031</a>
+        <a class="call" href="tel:+36301175770">06 30 117 5770</a>
+        <p>Farkas Zoltán</p>
+        <p><a href="mailto:erzekft@gmail.com">erzekft@gmail.com</a></p>
+      </div>
+      <div class="c-hours">
+        <p class="big">9–16</p>
+        <p>hétfőtől péntekig, hétvégén zárva</p>
+      </div>
+      <div class="c-addr">
+        <p>Iroda: 5000 Szolnok, Baross utca 45. mfsz. 22.</p>
+        <p class="btns"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=Szolnok%2C%20Baross%20utca%2045" rel="noopener">Útvonal térképen</a></p>
       </div>
     </div>
   </section>

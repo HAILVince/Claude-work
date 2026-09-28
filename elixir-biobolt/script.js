@@ -1,4 +1,5 @@
 import { parsePrices, joinNotes, priceValue, unitPrice, formatFt } from './assets/price-parse.js';
+import { packSvg } from './assets/packs.js';
 
 /* ---------- sample products ------------------------------------------
    index.html ships with the product grid already in it (tools/bake.mjs),
@@ -23,14 +24,17 @@ function renderShop(groups) {
       const li = el('li', 'tag');
       const v = priceValue(it.price);
       if (v) li.dataset.price = String(v);
-      const ph = el('div', 'ph ph-prod');
-      ph.append(el('span', null, 'Fotó: a termék'));
-      li.append(el('p', 'tag-shelf', g.title), ph, el('h3', 'tag-name', it.name), el('p', 'tag-price', it.price));
+      const pic = el('div', 'tag-pic');
+      pic.setAttribute('aria-hidden', 'true');
+      pic.innerHTML = packSvg(it.name); // drawn from fixed shapes, no user text inside
+      const lab = el('div', 'tag-label');
+      lab.append(el('p', 'tag-shelf', g.title), el('h3', 'tag-name', it.name), el('p', 'tag-price', it.price));
       const u = unitPrice(it.name, it.price);
-      if (u) li.append(el('p', 'tag-unit', `Egységár: ${u}`));
+      if (u) lab.append(el('p', 'tag-unit', `Egységár: ${u}`));
       const b = el('button', 'btn tag-btn', 'Kosárba');
       b.type = 'button';
-      li.append(b);
+      lab.append(b);
+      li.append(pic, lab);
       list.append(li);
     }
     if (g.notes.length) notes.push(el('p', 'shop-note', joinNotes(g.notes)));
