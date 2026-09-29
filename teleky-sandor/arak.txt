@@ -1,0 +1,23 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 12 000 Ft
+#   Csoportcím:     ## Kezelések
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: EZEK PÉLDA ÁRAK. Egyetlen összeg sem Teleky Sándortól származik,
+# a telekysandor.hu-n talált adatok között nincs árlista. Élesítés előtt
+# mindet ki kell cserélni a valós árakra.
+
+## Kezelés a Szirom utcai rendelőben
+Első alkalom: átnézés, kezelés, tanácsok | 16 000 Ft
+Visszatérő kezelés | 13 000 Ft
+Állkapocs, harapás kezelése | 16 000 Ft
+Gyermek (14 éves korig) | 10 000 Ft
+> Egy kezelés nagyjából 30–45 perc. Fizetni készpénzzel lehet, a helyszínen.
+
+## Bejelentkezés
+Időpont telefonon | díjtalan
+Lemondás legalább egy nappal előtte | díjtalan

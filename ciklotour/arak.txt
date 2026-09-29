@@ -1,0 +1,31 @@
+# Az oldalon megjelenő szervizárak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 4 500 Ft
+#   Csoportcím:     ## Karbantartás
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+#
+# FIGYELEM: MINDEN ÖSSZEG PÉLDA. A mintaoldalhoz becsültük őket,
+# a valódi munkadíjakat Önöktől kell megkapnunk.
+
+## Karbantartás
+Kis átvizsgálás (fék, váltó beállítása, kenés) | 6 500 Ft
+Nagy szerviz (szétszedés, tisztítás, csapágyak) | 18 000 Ft-tól
+Elektromos kerékpár átvizsgálása | 12 000 Ft-tól
+Tavaszi felkészítés | 8 500 Ft
+> A szerviz előtt megnézzük a kerékpárt, és megmondjuk, mi kell rá és mennyiért.
+
+## Javítás
+Defektjavítás, belsőcsere kerekenként | 2 500 Ft
+Kerékcentrírozás | 3 500 Ft-tól
+Küllőcsere, darabonként | 1 500 Ft
+Lánc cseréje | 2 500 Ft
+Fékbetét cseréje, fékenként | 2 000 Ft
+Bowden és bowdenház cseréje | 2 500 Ft
+Váltó beállítása | 3 000 Ft
+> Az árak munkadíjak, az alkatrész külön van. Az alkatrész nagy része a boltban raktáron van.
+
+## Összerakás
+Új kerékpár összerakása, beállítása | 9 000 Ft
+Máshol vett kerékpár átvizsgálása | 6 500 Ft
