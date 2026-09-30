@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rendelés: Csak Pizza, Tatabánya</title>
+<meta name="description" content="Pizza rendelése a Csak Pizzától, Tatabánya: kosár, kiszállítás vagy elvitel, fizetés kártyával online, SZÉP-kártyával vagy átvételkor.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#CF3A1E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/titanone-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#fo">Ugrás a tartalomra</a>
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="index.html">Csak Pizza</a>
+    <nav class="nav" aria-label="Fő menü">
+      <a href="index.html#etlap">Étlap</a>
+      <a href="index.html#kiszallitas">Kiszállítás</a>
+      <a href="index.html#nyitva">Nyitvatartás</a>
+    </nav>
+    <a class="hdr-tel" href="tel:+36308617969"><span class="t-long">+36 30 861 7969</span><span class="t-short">Hívás</span></a>
+    <a class="btn" href="#kosar">Kosár <span id="hdr-n">(0)</span></a>
+  </div>
+</header>
+
+<main id="fo">
+
+  <section class="ord-top">
+    <div class="wrap">
+      <h1>Rendelés</h1>
+      <p>Válasszon az étlapról, adja meg a címet, és fizessen, ahogy Önnek kényelmes. A rendelés azonnal megjelenik nálunk a konyhán. Ez mintaoldal: nem rendel meg semmit, és nem terhel kártyát.</p>
+    </div>
+  </section>
+
+  <div class="wrap ord">
+
+    <section class="pick" aria-labelledby="pick-h">
+      <div class="tabs" role="tablist" aria-label="Étlap részei" id="tabs"></div>
+      <h2 id="pick-h">Étlap</h2>
+      <p class="pick-note" id="pick-note">Koppintson a méretre, és a pizza a kosárba kerül.</p>
+      <ul class="pick-list" id="pick-list">
+        <li class="pick-row"><noscript>A rendeléshez JavaScript kell. Telefonon is rendelhet: +36 30 861 7969.</noscript></li>
+      </ul>
+    </section>
+
+    <aside class="side" id="kosar" aria-label="Kosár és rendelés">
+      <form id="order" novalidate>
+        <div class="box">
+          <h2>Kosár</h2>
+          <ul class="cart" id="cart"></ul>
+          <p class="empty" id="empty" hidden>A kosár üres.</p>
+          <table class="sum">
+            <tbody>
+              <tr><th scope="row">Étel, ital</th><td id="s-sub">0 Ft</td></tr>
+              <tr><th scope="row">Csomagolás</th><td id="s-pack">100 Ft</td></tr>
+              <tr id="r-del"><th scope="row">Kiszállítás</th><td id="s-del">0 Ft</td></tr>
+              <tr class="tot"><th scope="row">Összesen</th><td id="s-tot">0 Ft</td></tr>
+            </tbody>
+          </table>
+          <p class="warn" id="warn" hidden></p>
+        </div>
+
+        <div class="box">
+          <fieldset>
+            <legend>Hogyan kapja meg?</legend>
+            <div class="seg">
+              <label><input type="radio" name="mode" value="kiszallitas" checked> Kiszállítás</label>
+              <label><input type="radio" name="mode" value="elvitel"> Elvitel</label>
+            </div>
+            <p class="hint" id="mode-hint">Kiszállítás 50–85 perc alatt.</p>
+          </fieldset>
+
+          <label class="fld"><span>Név</span><input name="nev" autocomplete="name" value="Minta Péter"></label>
+          <label class="fld"><span>Telefonszám</span><input name="tel" type="tel" autocomplete="tel" value="+36 20 000 0000"></label>
+
+          <div id="addr">
+            <label class="fld"><span>Település</span>
+              <select name="zona" id="zona">
+                <option value="tatabanya" data-fee="300" selected>Tatabánya</option>
+                <option value="vertesszolos" data-fee="600" data-far>Vértesszőlős</option>
+                <option value="kornye" data-fee="700" data-far>Környe</option>
+                <option value="tarjan" data-fee="900" data-far>Tarján</option>
+                <option value="tata" data-fee="900" data-far>Tata</option>
+              </select>
+            </label>
+            <p class="hint hint-z">Minta: a körzeteket és a díjakat a pizzériától kérjük.</p>
+            <div class="fld-2">
+              <label class="fld"><span>Utca, házszám</span><input name="utca" autocomplete="street-address" value="Minta utca 12."></label>
+              <label class="fld"><span>Emelet, ajtó, kapucsengő</span><input name="ajto" value="3. em. 8., csengő: 38"></label>
+            </div>
+          </div>
+          <label class="fld"><span>Megjegyzés a konyhának vagy a futárnak</span><textarea name="megj" rows="2">A pizzát szeletelve kérem.</textarea></label>
+
+          <fieldset class="pay">
+            <legend>Fizetés</legend>
+            <label><input type="radio" name="fiz" value="online"><span>Bankkártyával most, online<small>Apple Pay és Google Pay is. A pénz egyenesen a pizzéria számlájára megy.</small></span></label>
+            <label><input type="radio" name="fiz" value="szep"><span>SZÉP-kártyával most, online<small>OTP és K&amp;H SZÉP-kártya.</small></span></label>
+            <label><input type="radio" name="fiz" value="kp" checked><span>Készpénzzel átvételkor</span></label>
+            <label><input type="radio" name="fiz" value="kartya"><span>Bankkártyával átvételkor<small>A futárnál is van terminál.</small></span></label>
+          </fieldset>
+
+          <button class="btn send" type="submit" id="send">Megrendelem</button>
+          <p class="done" id="done" role="status" hidden></p>
+        </div>
+      </form>
+    </aside>
+  </div>
+
+  <section class="shop" aria-labelledby="shop-h">
+    <div class="wrap shop-in">
+      <div class="shop-txt">
+        <h2 id="shop-h">Ez érkezik a konyhára</h2>
+        <p>Ezt a részt a vendég nem látja, csak a pizzéria. Minden rendelés ilyen cetliként jelenik meg a konyhai gépen vagy tableten. Egy gombnyomással kinyomtatják, a futár ezzel indul: rajta a cím, a telefonszám, és hogy ki van-e már fizetve.</p>
+        <h3>Értesítés</h3>
+        <p>Új rendelésnél hangjelzés szól a konyhán, és e-mail megy a csakpizza2020@gmail.com címre. A vendég SMS-t vagy e-mailt kap, hogy a rendelés beérkezett.</p>
+        <h3>A pénz a pizzéria számlájára megy</h3>
+        <p>Az online kártyás és SZÉP-kártyás fizetés egy hazai fizetési szolgáltatón keresztül közvetlenül a pizzéria bankszámlájára érkezik. Rendelésenként nincs jutalék, csak a kártyás fizetés szokásos díja.</p>
+        <p class="btns"><button class="btn" type="button" id="print">Cetli nyomtatása</button></p>
+      </div>
+      <div class="ticket" id="ticket" aria-label="Konyhai cetli, minta"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <p>Csak Pizza · Falánk City Kft. · 2800 Tatabánya, Erkel Ferenc utca 4. · adószám 14804371-2-11</p>
+    <p><a href="index.html">Vissza a főoldalra</a></p>
+  </div>
+</footer>
+
+<script type="module" src="order.js"></script>
+</body>
+</html>
