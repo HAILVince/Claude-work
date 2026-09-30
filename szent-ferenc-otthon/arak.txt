@@ -1,0 +1,30 @@
+# Az oldalon megjelenő térítési díjak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 150 000 Ft
+#   Csoportcím:     ## Havi díj
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: az összegeket szándékosan nem töltöttük ki. Egy régebbi
+# adatbázis (nyugdijasotthon.hu) 114 000 Ft havi díjat és 900 000 Ft
+# belépési hozzájárulást ír, de nem tudjuk, mennyire friss.
+# A "[kérjük megadni]" helyére írják be a mostani összeget.
+
+## Havi térítési díj
+Intézményi térítési díj, egy hónapra | [kérjük megadni]
+Intézményi térítési díj, egy napra | [kérjük megadni]
+Amit a lakó fizet | legfeljebb a jövedelme 80%-a
+> A lakó által fizetendő személyi térítési díjat a jövedelme alapján állapítjuk meg, és nem lehet több a rendszeres havi jövedelme 80%-ánál. A napi díj a havi díj harmincad része.
+
+## Emelt szintű lakosztály
+Belépési hozzájárulás (egyszeri) | [kérjük megadni]
+Havi térítési díj | mint fent
+> 28 hely emelt szintű, 18 hely normál szintű. Normál szintű helyre belépési hozzájárulás nélkül, csak a havi díjjal lehet beköltözni.
+
+## Amit a díj tartalmaz
+Szállás, fűtés, mosás | benne van
+Napi négyszeri étkezés, diéta | benne van
+Ápolás, orvosi felügyelet | benne van
+Gyógyszerek | [kérjük megadni]

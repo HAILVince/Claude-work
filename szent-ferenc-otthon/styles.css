@@ -1,0 +1,251 @@
+/* Szent Ferenc Szeretetotthon — the house in the park.
+   Garden green and habit brown bands alternate with white. One accent,
+   linden-flower yellow, for buttons and link underlines only.
+   Body text 20px for older readers. Square corners; buttons 2px. */
+
+:root {
+  --green: #1D3A2A;      /* garden ground */
+  --green-2: #2B4F3A;    /* tree and panel fill */
+  --green-line: #52775F;
+  --green-soft: #D5E4D9; /* secondary text on green, 9.6:1 */
+  --brown: #4B2E1D;      /* Franciscan habit */
+  --brown-line: #80593F;
+  --brown-soft: #EBDCCF; /* secondary text on brown, 10:1 */
+  --ink: #15201A;
+  --ink-2: #3E4A43;      /* secondary text on white, 9:1 */
+  --line: #C3CCC6;
+  --white: #FFFFFF;
+  --accent: #F2C230;     /* buttons, link underlines */
+
+  --serif: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --sans: 'Atkinson Hyperlegible', Verdana, Arial, sans-serif;
+  --pad: 16px;
+}
+
+*, *::before, *::after { box-sizing: border-box; border-radius: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 84px; }
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--ink);
+  font: 400 1.1875rem/1.6 var(--sans); /* 19px on phones */
+  overflow-x: hidden;
+}
+@media (min-width: 760px) { body { font-size: 1.25rem; } } /* 20px */
+
+h1, h2, h3 { font-family: var(--serif); font-weight: 400; margin: 0; line-height: 1.05; letter-spacing: -0.01em; }
+h2 { font-size: clamp(2.6rem, 8vw, 4.75rem); margin-bottom: 0.4em; }
+h3 { font-size: clamp(1.5rem, 3vw, 1.9rem); line-height: 1.15; }
+p { margin: 0 0 1em; max-width: 64ch; }
+img, svg { display: block; max-width: 100%; }
+figure { margin: 0; }
+
+a { color: inherit; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+a:hover { background: var(--accent); color: var(--ink); }
+.band-green a:not(.btn), .band-brown a:not(.btn), .ftr a { text-decoration-color: var(--accent); text-decoration-thickness: 3px; }
+.band-green a:not(.btn):hover, .band-brown a:not(.btn):hover, .ftr a:hover { color: var(--ink); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.band-white :focus-visible { outline-color: var(--ink); }
+
+.wrap { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 var(--pad); }
+@media (min-width: 760px) { :root { --pad: 40px; } }
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 16px; top: 16px; z-index: 10; background: var(--accent); color: var(--ink); padding: 10px 14px; }
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: 2px;
+  padding: 12px 20px;
+  font: 700 1.0625rem/1.2 var(--sans);
+  text-decoration: none;
+}
+.btn:hover { background: var(--white); color: var(--ink); }
+
+/* ---------- bands ---------- */
+.band-green { background: var(--green); color: var(--white); }
+.band-brown { background: var(--brown); color: var(--white); }
+.band-white { background: var(--white); color: var(--ink); }
+section[class^="band"] { padding: 72px 0; }
+@media (min-width: 1000px) { section[class^="band"] { padding: 120px 0; } }
+
+/* ---------- header ---------- */
+.hdr { position: sticky; top: 0; z-index: 5; background: var(--green); color: var(--white); border-bottom: 1px solid var(--green-line); }
+.hdr-in { display: flex; align-items: center; gap: 16px; min-height: 64px; }
+.brand { font: 400 1.35rem/1.1 var(--serif); text-decoration: none; margin-right: auto; }
+.brand:hover { background: none; color: var(--white); }
+.nav { display: none; gap: 26px; font-size: 1.0625rem; }
+.nav a { text-decoration: none; }
+.nav a:hover { color: var(--ink); }
+.hdr-tel { padding: 9px 14px; white-space: nowrap; }
+.hide-s { display: none; }
+@media (max-width: 400px) { .brand { font-size: 1.1rem; } .hdr-tel { font-size: 1rem; padding: 9px 10px; } }
+@media (min-width: 760px) { .hide-s { display: inline; } }
+@media (min-width: 1180px) { .nav { display: flex; } }
+
+/* ---------- hero: the house in the park ---------- */
+section.hero { padding: 48px 0 0; }
+.hero-grid { display: grid; gap: 28px; }
+.hero h1 { font-size: clamp(2.5rem, 13.5vw, 8.25rem); line-height: 0.95; letter-spacing: -0.02em; max-width: 11ch; }
+.lede { color: var(--green-soft); font-size: 1.1875rem; margin: 0; max-width: 38ch; }
+.hero-call p { margin: 0 0 10px; max-width: 30ch; }
+.big-tel {
+  display: block; width: max-content; max-width: 100%;
+  font: 400 clamp(2.4rem, 10.5vw, 4.25rem)/1.1 var(--serif);
+  text-decoration: underline; text-decoration-color: var(--accent);
+  text-decoration-thickness: 4px; text-underline-offset: 0.14em;
+  margin-top: 6px;
+}
+.house { margin-top: 36px; }
+.house svg { width: 100%; height: 190px; }
+.house-cap { background: var(--white); color: var(--ink-2); font-size: 0.9375rem; padding: 10px max(var(--pad), calc((100% - 1280px) / 2 + var(--pad))) 0; }
+@media (min-width: 760px) {
+  .house svg { height: auto; aspect-ratio: 1400 / 320; }
+}
+@media (min-width: 1000px) {
+  section.hero { padding-top: 72px; }
+  .hero-grid { grid-template-columns: 6fr 6fr; column-gap: 56px; row-gap: 40px; align-items: start; }
+  .hero h1 { grid-column: 1 / -1; max-width: none; }
+  .hero-call { border-left: 1px solid var(--green-line); padding-left: 40px; }
+  .lede { padding-top: 6px; font-size: 1.3125rem; }
+  .house { margin-top: 24px; }
+}
+
+/* ---------- Az otthon ---------- */
+#otthon { padding-top: 56px; }
+.otthon { display: grid; gap: 24px; }
+.cap-n { font: 400 clamp(9rem, 44vw, 22rem)/0.8 var(--serif); color: var(--green); margin: 0; letter-spacing: -0.04em; }
+.cap-t { font-size: 1.25rem; color: var(--ink-2); margin-top: 12px; }
+.tbl { width: 100%; border-collapse: collapse; margin: 8px 0 28px; font-size: 1.0625rem; }
+.tbl th, .tbl td { text-align: left; vertical-align: top; padding: 12px 12px 12px 0; border-bottom: 1px solid var(--line); }
+.tbl thead th { font-weight: 700; border-bottom: 2px solid var(--ink); }
+.tbl td:nth-child(2) { white-space: nowrap; }
+.facil { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--line); }
+.facil li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+@media (min-width: 600px) { .facil { grid-template-columns: 1fr 1fr; column-gap: 32px; } }
+@media (min-width: 1000px) {
+  .otthon { grid-template-columns: 5fr 7fr; column-gap: 64px; }
+  .cap { position: sticky; top: 110px; align-self: start; }
+}
+
+/* colour-panel photo placeholders */
+.panel { position: relative; min-height: 220px; display: flex; align-items: flex-end; padding: 18px 20px; color: var(--white); }
+.panel figcaption { font-size: 1.0625rem; max-width: 26ch; }
+.panel-green { background: var(--green-2); }
+.panel-brown { background: var(--brown); }
+.panel-ink { background: var(--ink); }
+.pair { display: grid; gap: 16px; margin-top: 56px; }
+@media (min-width: 760px) {
+  .pair { grid-template-columns: 7fr 5fr; gap: 0; }
+  .p-tall { min-height: 420px; }
+  .p-drop { min-height: 300px; margin-top: 120px; margin-left: -60px; z-index: 1; outline: 16px solid var(--white); }
+}
+
+/* ---------- Ellátás ---------- */
+.head-row { display: grid; gap: 8px; margin-bottom: 40px; }
+.band-brown .head-row p { color: var(--brown-soft); }
+@media (min-width: 1000px) { .head-row { grid-template-columns: 5fr 7fr; column-gap: 64px; align-items: end; } .head-row h2 { margin: 0; } .head-row p { margin: 0; } }
+.care { display: grid; gap: 0; margin: 0; border-top: 1px solid var(--brown-line); }
+.care > div { padding: 22px 0; border-bottom: 1px solid var(--brown-line); }
+.care dt { font: 400 1.875rem/1.1 var(--serif); margin-bottom: 6px; }
+.care dd { margin: 0; color: var(--brown-soft); }
+@media (min-width: 760px) {
+  .care { grid-template-columns: 1fr 1fr 1fr; column-gap: 40px; }
+  .care-wide { grid-column: span 3; }
+  .care-wide dd { max-width: 60ch; }
+}
+.care-foot { margin-top: 32px; font-size: 1.25rem; }
+
+/* ---------- Felvétel ---------- */
+.split { display: grid; gap: 32px; }
+.split-side p { color: var(--ink-2); }
+.steps { margin: 0; padding: 0 0 0 1.4em; font: 400 1.9rem/1 var(--serif); }
+.steps li { padding: 0 0 28px 8px; margin-bottom: 28px; border-bottom: 1px solid var(--line); }
+.steps li::marker { color: var(--green); }
+.steps h3 { margin-bottom: 10px; }
+.steps p { font: 400 1em/1.6 var(--sans); font-size: 1.1875rem; margin: 0; }
+@media (min-width: 760px) { .steps p { font-size: 1.25rem; } }
+.split-foot { color: var(--ink-2); font-size: 1.0625rem; }
+@media (min-width: 1000px) {
+  .split { grid-template-columns: 4fr 8fr; column-gap: 72px; }
+  .split-side { position: sticky; top: 110px; align-self: start; }
+  .split-foot { grid-column: 2; }
+}
+
+/* ---------- Térítési díj ---------- */
+.dijak { display: grid; gap: 40px; }
+.pct-n { font: 400 clamp(7rem, 34vw, 15rem)/0.85 var(--serif); margin: 12px 0 18px; letter-spacing: -0.03em; }
+.pct-t { color: var(--green-soft); max-width: 24ch; font-size: 1.25rem; }
+.ar { display: grid; gap: 36px; }
+.ar-g h3 { margin-bottom: 8px; }
+.band-green .tbl th, .band-green .tbl td { border-bottom-color: var(--green-line); }
+.ar-t th { font-weight: 400; width: 62%; }
+.ar-t td { font-weight: 700; white-space: normal !important; }
+.ar-note { color: var(--green-soft); font-size: 1.0625rem; }
+.ar-foot { margin-top: 16px; font-size: 1.25rem; }
+@media (min-width: 1000px) {
+  .dijak { grid-template-columns: 5fr 7fr; column-gap: 72px; }
+  .pct { position: sticky; top: 110px; align-self: start; }
+}
+
+/* ---------- Látogatás + Kérdések ---------- */
+.two { display: grid; gap: 64px; }
+.two > div > p { color: var(--ink-2); }
+.rules { margin: 0; border-top: 1px solid var(--line); }
+.rules > div { padding: 14px 0; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.rules dt { font-weight: 700; }
+.rules dd { margin: 0; }
+@media (min-width: 600px) { .rules > div { grid-template-columns: 11rem 1fr; gap: 20px; } }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq details:first-of-type { border-top: 1px solid var(--line); }
+.faq summary { cursor: pointer; padding: 16px 36px 16px 0; font-weight: 700; list-style: none; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 4px; top: 12px; font: 400 1.75rem/1 var(--serif); }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { margin: 0 0 18px; color: var(--ink-2); }
+@media (min-width: 1000px) {
+  .two { grid-template-columns: 1fr 1fr; column-gap: 0; }
+  .two > div:first-child { padding-right: 56px; }
+  .faq { border-left: 1px solid var(--line); padding-left: 56px; }
+}
+
+/* ---------- A nővérek ---------- */
+.years { list-style: none; margin: 0 0 36px; padding: 0; display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--brown-line); }
+.years li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--brown-line); align-items: baseline; }
+.y { font: 400 2rem/1 var(--serif); }
+.yt { color: var(--brown-soft); }
+@media (min-width: 760px) {
+  .years { grid-template-columns: repeat(4, 1fr); border-top: 0; column-gap: 28px; }
+  .years li { grid-template-columns: 1fr; gap: 10px; border-bottom: 0; border-top: 1px solid var(--brown-line); padding: 18px 0 28px; }
+  .y { font-size: 3.25rem; }
+}
+@media (min-width: 1180px) { .years { grid-template-columns: repeat(7, 1fr); } .yt { font-size: 1.0625rem; } }
+
+/* ---------- Képek ---------- */
+.gal { display: grid; gap: 12px; }
+@media (min-width: 760px) {
+  .gal { grid-template-columns: repeat(12, 1fr); grid-auto-rows: 150px; gap: 14px; }
+  .g1 { grid-column: 1 / span 7; grid-row: span 3; }
+  .g2 { grid-column: 8 / span 5; grid-row: span 2; }
+  .g3 { grid-column: 8 / span 5; grid-row: span 1; min-height: 0; }
+  .g4 { grid-column: 1 / span 4; grid-row: span 2; }
+  .g5 { grid-column: 5 / span 8; grid-row: span 2; }
+}
+
+/* ---------- Kapcsolat ---------- */
+.contact { display: grid; gap: 48px; }
+.contact p { color: var(--green-soft); }
+.band-green .rules { border-top-color: var(--green-line); }
+.band-green .rules > div { border-bottom-color: var(--green-line); }
+.btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+@media (min-width: 1000px) { .contact { grid-template-columns: 6fr 6fr; column-gap: 72px; align-items: end; } }
+
+/* ---------- footer ---------- */
+.ftr { background: var(--ink); color: var(--white); padding: 32px 0; font-size: 1rem; }
+.ftr-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 32px; }
+.ftr p { margin: 0; }
+
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }

@@ -1,0 +1,26 @@
+# A webáruház-minta termékei. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy termék:     Termék neve, kiszerelés | 1 490 Ft
+#   Polc (címke):   ## Gluténmentes
+#   Megjegyzés:     > Ez a mondat a polc termékei alá kerül
+#
+# Ha a névben szerepel a kiszerelés (500 g, 1 kg, 250 ml, 1 l),
+# az oldal kiszámolja és kiírja az egységárat is (Ft/kg, Ft/l).
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+#
+# FIGYELEM: ezek PÉLDA termékek és PÉLDA árak, nem a bolt kínálata.
+# Az éles webáruházban a termékeket a webáruház-rendszerben kezelik.
+
+## Gluténmentes
+Hajdinaliszt, 1 kg | 1 490 Ft
+Gluténmentes zabpehely, 500 g | 1 290 Ft
+
+## Laktózmentes, vegán
+Zabital, natúr, 1 l | 890 Ft
+Kókuszzsír, szagtalan, 500 ml | 1 690 Ft
+
+## Gyógytea
+Csalánlevél tea, szálas, 50 g | 690 Ft
+
+## Cukormentes
+Eritrit édesítő, 500 g | 1 590 Ft

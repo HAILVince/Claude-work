@@ -1,0 +1,110 @@
+# A Csak Pizza étlapja. Ezt a fájlt bármikor átírhatja, az oldal és a
+# rendelőoldal is ebből olvas.
+#
+#   Csoportcím:           ## Hamburger
+#   Méretek (pizzánál):   = 22 cm | 32 cm | 47 cm
+#   Tétel több mérettel:  Sonkás | sonka, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+#   Tétel egy árral:      Gyros pitában | saláta, csirkehús, tzatziki | 2 050 Ft
+#   Ha egy méret nincs:   írjon kötőjelet az ár helyére:  -
+#   Megjegyzés:           > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+#
+# Forrás: a Faló étlapja a falatozz.hu-n (2026. szeptember 30.).
+# A falatozz.hu 103 pizzát sorol fel, ide 44 került. A 22 és 47 cm-es
+# árat néhány pizzánál a többi alapján írtuk be (2 050 és 5 990 Ft),
+# ezt át kell nézni.
+
+## Pizza, paradicsomos alap
+= 22 cm | 32 cm | 47 cm
+Sonkás | sonka, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Margaréta | paradicsom, fokhagyma, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Szalámis | szalámi, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Hawaii | sonka, ananász, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Sonkás-kukoricás | sonka, kukorica, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Songoku | sonka, gomba, kukorica, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Baconos | bacon, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bomba | sonka, szalámi, kukorica, gomba, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Calzone | sonka, gomba, főtt tojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Betti | sonka, kukorica, tükörtojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Babos | bacon, bab, lilahagyma, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Magyaros | bacon, szalámi, lilahagyma, pepperonipaprika, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Tüzes | sonka, szalámi, csípős pepperonipaprika, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Dry | tarja, szalámi, bazsalikom, főtt tojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bőség | bacon, szalámi, kukorica, lilahagyma, tükörtojás, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Csacsi | sonka, tarja, csirke, bacon, kukorica, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Olasz álom | bacon, csirkemell, lilahagyma, bazsalikom, olívabogyó, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Anulu | sonka, ananász, kukorica, feta, camembert, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Vegetáriánus | zöldborsó, brokkoli, paradicsom, kukorica, gomba, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+
+## Pizza, tejfölös alap
+= 22 cm | 32 cm | 47 cm
+Csirkehúsos | csirkehús, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Téli | sonka, bacon, szalámi, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bingó | sonka, bacon, főtt tojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Éden | sonka, bacon, paradicsom, tükörtojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Falni jó | bacon, csirke, lilahagyma, feta, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Tuti jó | csirkemell, ananász, füstölt sajt, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Boss | csirkemell, pepperonipaprika, camembert, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Roli | tarja, kukorica, csípős pepperonipaprika, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Juh-Ász | tarja, paradicsom, kapor, olívabogyó, juhtúró, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Akropolisz | sonka, tükörtojás, feta, camembert, füstölt sajt, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Betyár | bacon, szalámi, paradicsom, lilahagyma, jalapeño, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Aphrodité | tejfölös alap, csirkemell, paradicsom, kígyóuborka, olívabogyó, feta, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Banderas | tejfölös alap, sonka, bacon, paradicsom, hegyes erős, főtt tojás, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Herkules | tejfölös alap, sonka, tarja, jalapeño, hegyes erős, csípős pepperoni, főtt tojás, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+> Az alap fokhagymás tejföl. Ahol sima tejföl, oda kiírtuk.
+
+## Pizza, más alap
+= 22 cm | 32 cm | 47 cm
+BBQ | BBQ alap, csirke, bacon, kukorica, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Adható | BBQ alap, sonka, csirke, csemegeuborka, kukorica, feta, sajt | 2 050 Ft | 3 190 Ft | 5 990 Ft
+Pikáns | édes-savanyú mártás, tarja, csirke, pepperonipaprika, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bivaly | csípős alap, tarja, szalámi, pepperonipaprika, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bolognais | bolognai ragu, darált hús, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Bud Spencer | bolognai ragu, bacon, bab, kukorica, lilahagyma, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Cowboy | tejfölös-mustáros alap, bacon, szalámi, hagyma, tükörtojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Corfu | sajtkrémes alap, sonka, gomba, mozzarella, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Mézi | sajtkrémes alap, sonka, brokkoli, camembert, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Alföldi | sajtkrémes alap, sonka, csemegeuborka, főtt tojás, camembert, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+Kira | majonézes alap, csirkemell, brokkoli, főtt tojás, sajt | 2 050 Ft | 2 990 Ft | 5 990 Ft
+
+## Gyros
+Gyros pitában | saláta, lilahagyma, paradicsom, kígyóuborka, csirkehús, tzatziki | 2 050 Ft
+MEGA gyros pitában | ugyanez nagy pitában | 3 450 Ft
+GIGA gyros pitában | ugyanez gyroshússal, óriás pitában | 5 450 Ft
+Gyros tál | saláta, lilahagyma, paradicsom, kígyóuborka, csirkehús, tzatziki, pita, hasábburgonya | 2 990 Ft
+
+## Hamburger
+Hamburger menü | húspogácsa, saláta, lilahagyma, paradicsom, uborka, hasábburgonyával | 2 250 Ft
+Sajtburger menü | húspogácsa, sajt, zöldségek, hasábburgonyával | 2 200 Ft
+Csibeburger menü | rántott csirkemell, zöldségek, hasábburgonyával | 2 250 Ft
+Rodeoburger menü | húspogácsa, tarja, sajt, BBQ szósz, hasábburgonyával | 2 100 Ft
+Triplaburger menü | három húspogácsa, sajt, sült bacon, hasábburgonyával | 2 250 Ft
+Vegaburger menü | rántott sajt, zöldségek, hasábburgonyával | 2 250 Ft
+Big burger | dupla hús, rántott sajt, zöldségek | 2 250 Ft
+
+## Tészta
+Bolognai spagetti | bolognai szósz, sajt | 2 590 Ft
+Milánói spagetti | milánói ragu, sajt | 2 590 Ft
+Sajtos-tejfölös-baconos spagetti | tejföl, bacon, sajt | 2 590 Ft
+Thai csirkés spagetti | pirított csirkemell, kukorica, ananász, paradicsom, thai szósz | 2 590 Ft
+Távol-keleti pirított tészta | sült zöldségek, csirkehús, szójaszósz | 2 590 Ft
+
+## Desszert
+Somlói galuska | | 1 290 Ft
+Mákos guba | vaníliaöntettel | 1 490 Ft
+Somlóival töltött palacsinta | csokiöntettel, tejszínhabbal | 1 490 Ft
+Palacsinta, kakaós | 3 darab | 1 290 Ft
+Palacsinta, lekváros | 3 darab | 1 290 Ft
+Palacsinta, mogyorókrémes | 3 darab | 1 290 Ft
+
+## Üdítő és sör
+Coca-Cola | 1,75 l | 990 Ft
+Coca-Cola light | 1,75 l | 990 Ft
+Fanta narancs | 1,75 l | 990 Ft
+Sprite | 1,75 l | 990 Ft
+Nestea barack | 1,5 l | 840 Ft
+NaturAqua ásványvíz | 1,5 l, szénsavas vagy mentes | 640 Ft
+Soproni | 0,5 l | 590 Ft
+Soproni alkoholmentes | 0,4 l | 590 Ft

@@ -1,0 +1,33 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 18 000 Ft
+#   Csoportcím:     ## Szerviz
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: MINDEN ÖSSZEG PÉLDA. A mintaoldalhoz becsültük őket,
+# a valódi munkadíjakat Önöktől kell megkapnunk.
+
+## Szerviz
+Kis szerviz robogóra, egyhengeres motorra | 18 000 Ft-tól
+Kis szerviz két- vagy többhengeres motorra | 28 000 Ft-tól
+Nagy szerviz szelephézag-állítással | 65 000 Ft-tól
+Szezon előtti átvizsgálás | 15 000 Ft
+Műszaki vizsgára felkészítés | 20 000 Ft-tól
+> Olajcsere, szűrők, gyertyák, fékek, lánc, világítás. A kis és a nagy szerviz a gyári előírás szerint készül.
+
+## Javítás
+Lánc és lánckerék csere | 14 000 Ft-tól
+Fékbetét csere, tengelyenként | 8 000 Ft-tól
+Fékfolyadék csere | 10 000 Ft-tól
+Gumiszerelés kerekenként, centírozással | 6 000 Ft-tól
+Karburátor tisztítás, szinkron | 25 000 Ft-tól
+Hibakeresés, egyéb munka | 14 000 Ft / óra
+> Az árak bruttó munkadíjak, az alkatrész ára külön van. Munka előtt mindig megmondjuk, mennyi lesz.
+
+## Alkatrész
+Gyári és utángyártott alkatrész | árajánlat alapján
+Saját alkatrész beszerelése | megbeszélés szerint
+> Márka, típus és évjárat alapján megkeressük, mennyibe kerül és mikorra van itt.

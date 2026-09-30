@@ -1,0 +1,38 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Foglalkozás neve | 9 000 Ft
+#   Csoportcím:     ## Felmérések
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak Önnek
+# szólnak. Az ár helyére szám helyett szöveg is írható.
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: a lenti árak a demóhoz kitalált számok. A régi oldal
+# arak.html aloldalát nem tudtuk elolvasni — kérjük, írja át a valósra.
+
+## Felmérések
+SEED fejlődési skála (0–4 év) | 15 000 Ft
+Iskolaérettségi vizsgálat | 18 000 Ft
+Alapozó terápiás mozgás- és képességfelmérés (5 éves kortól) | 16 000 Ft
+> A felmérés után írásos összefoglalót kap, és megbeszéljük, milyen
+> fejlesztést javaslunk.
+
+## Egyéni foglalkozások
+Komplex beszédfejlesztés, beszédindítás (45 perc) | 9 000 Ft
+Alapozó terápia (45 perc) | 9 000 Ft
+Homloklebeny terápia (45 perc) | 9 000 Ft
+Dévény-módszer (DSGM) | érdeklődjön
+
+## Kiscsoportos foglalkozások (alkalmanként)
+Babatorna (4 hónapos kortól) | 2 500 Ft
+Óvoda-előkészítő | 3 000 Ft
+Iskola-előkészítő | 3 500 Ft
+Színjátszás, drámajáték | 3 000 Ft
+> Az 5 alkalmas bérlet 10% kedvezménnyel váltható.
+
+## Táborok
+Nyári mozgás- és képességfejlesztő tábor (5 nap) | 55 000 Ft
+Tavaszi szüneti tábor (napi) | 12 000 Ft
+> A tábor ára az ebédet és a tízórait is tartalmazza.

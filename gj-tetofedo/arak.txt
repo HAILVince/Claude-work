@@ -1,0 +1,35 @@
+# Az oldalon megjelenő irányárak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Munka neve | 6 500 Ft/m²-től
+#   Csoportcím:     ## Tetőfedés
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható
+# (például: ingyenes, vagy: egyedi ajánlat alapján).
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: az alábbi összegek JAVASLATOK, a bemutató kedvéért írtuk be.
+# Élesítés előtt mindet írd át a saját áraidra, vagy töröld a sort.
+
+## Felmérés és árajánlat
+Helyszíni felmérés | ingyenes
+Írásos, tételes árajánlat | ingyenes
+> A felmérés után pontos, tételes ajánlatot adunk: ebből látszik,
+> mennyi az anyag és mennyi a munkadíj.
+
+## Tetőfedés (munkadíj)
+Régi tető bontása és újrafedése | 7 500 Ft/m²-től
+Cserepeslemez, trapézlemez fedés | 6 500 Ft/m²-től
+Új tetőszerkezet, ácsmunka | egyedi ajánlat alapján
+> Az anyag ára a választott cseréptől vagy lemeztől függ, ezt az
+> ajánlatban külön soron tüntetjük fel.
+
+## Bádogos munkák
+Ereszcsatorna és lefolyó szerelése | 5 500 Ft/fm-től
+Szegélyek, kéménybádogozás | egyedi ajánlat alapján
+
+## Javítás
+Beázás felderítése és javítása | 30 000 Ft-tól
+Tetőtéri ablak beépítése | 45 000 Ft/db-tól

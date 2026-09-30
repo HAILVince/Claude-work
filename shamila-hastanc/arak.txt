@@ -1,0 +1,26 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Tétel neve | 12 000 Ft
+#   Csoportcím:     ## Csoportos órák
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: az alábbi összegek PÉLDÁK, a demóhoz írtuk be őket.
+
+## Csoportos órák
+Havi bérlet, heti 1 óra | 12 000 Ft
+Havi bérlet, heti 2 óra | 20 000 Ft
+Alkalmi jegy | 3 500 Ft
+Próbaóra | 2 500 Ft
+> A bérlet a naptári hónapra szól.
+
+## Magánóra
+Egyéni óra, 60 perc | 10 000 Ft
+Páros óra, 2 fő, 60 perc | 14 000 Ft
+> Időpont egyeztetés szerint.
+
+## Fellépés
+Szóló, duó vagy csoportos műsor | egyedi ajánlat
+> Írd meg a dátumot, a helyszínt és az alkalmat, és küldöm az ajánlatot.

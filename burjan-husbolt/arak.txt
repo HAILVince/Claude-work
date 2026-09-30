@@ -1,0 +1,67 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatod.
+#
+#   Egy tétel:      Termék neve | 1 890 Ft/kg
+#   Csoportcím:     ## Sertés
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg, ezek csak neked
+# szólnak. Az ár helyére szám helyett szöveg is írható (pl. „rendelésre”).
+#
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# A „## Heti akció” csoport nem az árlistába kerül, hanem az oldal tetején
+# lévő táblára. Hetente elég csak ezt a pár sort átírni.
+
+## Heti akció
+Csontos fél fej | 290 Ft/kg
+Hasaalja szalonna | 1 390 Ft/kg
+Kockázott, füstölt hátsó csülök | 1 990 Ft/kg
+> A készlet erejéig.
+
+## Sertés
+Karaj csont nélkül | 1 750 Ft/kg
+Bőrös karaj | 1 890 Ft/kg
+Bőrös császárszalonna | 1 990 Ft/kg
+Kolbászhús (bekevert) | 1 890 Ft/kg
+70/30-as darálthús kolbásznak | 1 390 Ft/kg
+
+## Marha
+Marha lábszár | 4 990 Ft/kg
+Marha lapocka | 5 090 Ft/kg
+Csontos szegy | 3 240 Ft/kg
+Bélszín | 9 500 Ft/kg
+Marha pofa | rendelésre
+
+## Baromfi
+Egész csirke | 1 690 Ft/kg
+Csirkemell filé | 2 990 Ft/kg
+Csirkecomb egész | 1 690 Ft/kg
+Kacsacomb | 3 590 Ft/kg
+Kacsamell | 6 190 Ft/kg
+
+## Füstölt áru
+Füstölt hátsó csülök | 2 990 Ft/kg
+Füstölt kolozsvári szalonna | 4 990 Ft/kg
+Füstölt szívsonka | 4 990 Ft/kg
+Füstölt kolbász, csemege vagy csípős | 3 890 Ft/kg
+Füstölt kolbász, tüzes | 3 990 Ft/kg
+
+## Hurka, felvágott
+Májas vagy véres hurka | 2 690 Ft/kg
+Debreceni, csemege | 3 390 Ft/kg
+Disznósajt | 4 950 Ft/kg
+Königsbergi löncs | 3 940 Ft/kg
+
+## Grillre, saját pácban
+Grillkolbász (5 féle) | 3 200 Ft/kg
+Magyaros tarjaszeletek | 2 790 Ft/kg
+Mézes-mustáros csirkemell | 3 790 Ft/kg
+Csevapcsicsa | 4 300 Ft/kg
+Hamburger húspogácsa | 4 390 Ft/kg
+> A pácolt és töltött húsokat a boltban készítjük.
+
+## Zsír, bél, fűszer
+Házi sertészsír, 1 kg | 1 140 Ft
+Mangalica zsír, 0,5 kg | 1 490 Ft
+Kocabél, 20 m | 1 850 Ft
+Fűszerpaprika, csemege vagy csípős | 4 490 Ft/kg

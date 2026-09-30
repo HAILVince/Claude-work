@@ -1,0 +1,29 @@
+# Az oldalon megjelenő árak. Ezt a fájlt bármikor átírhatja.
+#
+#   Egy tétel:      Tétel neve | 85 000 Ft-tól
+#   Csoportcím:     ## Műanyag ablakok
+#   Megjegyzés:     > Ez a mondat a csoport alá kerül
+#
+# A # jellel kezdődő sorokat az oldal nem jeleníti meg.
+# Mentés után 1-2 percen belül frissül az oldal.
+#
+# FIGYELEM: EZEK PÉLDA ÁRAK. Egyetlen összeg sem az ERZÉ Kft-től származik,
+# a weboldalukon nincs árlista. Élesítés előtt mindet ki kell cserélni
+# a valós "-tól" árakra, vagy a sort "ajánlat szerint"-re írni.
+
+## Felmérés és ajánlat
+Helyszíni felmérés Szolnokon és környékén | díjtalan
+Írásos árajánlat | díjtalan
+Távolabbi település | egyeztetés szerint
+
+## Műanyag nyílászárók (Kömmerling profil)
+Bukó-nyíló ablak, 90 × 120 cm, 3 rétegű üveg | 89 000 Ft-tól
+Erkélyajtó, 90 × 210 cm | 139 000 Ft-tól
+Bejárati ajtó, PVC vagy HPL panellel | 320 000 Ft-tól
+Emelő-toló erkélyajtó | ajánlat szerint
+> Az árak beépítés nélküli, tájékoztató árak. A beépítés, a bontás és a káva helyreállítása a felmérés után kerül az ajánlatba.
+
+## Garázskapuk
+Szekcionált garázskapu, 250 × 200 cm, motorral | 690 000 Ft-tól
+Billenő garázskapu | 290 000 Ft-tól
+Redőnykapu | ajánlat szerint
